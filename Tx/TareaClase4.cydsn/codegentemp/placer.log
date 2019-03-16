@@ -6,7 +6,7 @@
 
 #Build Date:         Dec  5 2017 15:35:27
 
-#File Generated:     Mar 12 2019 19:11:14
+#File Generated:     Mar 16 2019 16:15:51
 
 #Purpose:            
 
@@ -124,7 +124,7 @@ Clock: \ADC_DelSig:DSM\/dec_clock | Frequency: N/A       | Target:   0.1 MHz
 ======================================================================
                      End of Clock Summary
 ######################################################################
-D2088: Phase 7, elapsed time : 1.5 (sec)
+D2088: Phase 7, elapsed time : 2.4 (sec)
 
 Final Design Statistics
     Number of Combinational MCs 	:	11

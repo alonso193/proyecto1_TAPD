@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
+ARM GAS  C:\Users\jespinoz\AppData\Local\Temp\cceZuPId.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
   24:Generated_Source\PSoC5/Col_Tone_PM.c **** *
   25:Generated_Source\PSoC5/Col_Tone_PM.c **** * Summary:
   26:Generated_Source\PSoC5/Col_Tone_PM.c **** *  Stops the component and saves its configuration. Should be called 
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 2
+ARM GAS  C:\Users\jespinoz\AppData\Local\Temp\cceZuPId.s 			page 2
 
 
   27:Generated_Source\PSoC5/Col_Tone_PM.c **** *  just prior to entering sleep.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
   49:Generated_Source\PSoC5/Col_Tone_PM.c **** 	
   50:Generated_Source\PSoC5/Col_Tone_PM.c **** 	Col_Tone_Stop();
   60              		.loc 1 50 0 is_stmt 1 discriminator 4
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 3
+ARM GAS  C:\Users\jespinoz\AppData\Local\Temp\cceZuPId.s 			page 3
 
 
   61 001c FFF7FEFF 		bl	Col_Tone_Stop
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
   87 0000 80B5     		push	{r7, lr}
   88              		.cfi_def_cfa_offset 8
   89              		.cfi_offset 7, -8
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 4
+ARM GAS  C:\Users\jespinoz\AppData\Local\Temp\cceZuPId.s 			page 4
 
 
   90              		.cfi_offset 14, -4
@@ -222,40 +222,40 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
  121 0006 00000000 		.4byte	.Ldebug_abbrev0
  122 000a 04       		.byte	0x4
  123 000b 01       		.uleb128 0x1
- 124 000c D3000000 		.4byte	.LASF19
+ 124 000c 6B000000 		.4byte	.LASF19
  125 0010 0C       		.byte	0xc
- 126 0011 94010000 		.4byte	.LASF20
- 127 0015 27000000 		.4byte	.LASF21
+ 126 0011 7F010000 		.4byte	.LASF20
+ 127 0015 15010000 		.4byte	.LASF21
  128 0019 00000000 		.4byte	.Ldebug_ranges0+0
  129 001d 00000000 		.4byte	0
  130 0021 00000000 		.4byte	.Ldebug_line0
  131 0025 02       		.uleb128 0x2
  132 0026 01       		.byte	0x1
  133 0027 06       		.byte	0x6
- 134 0028 CC010000 		.4byte	.LASF0
+ 134 0028 B7010000 		.4byte	.LASF0
  135 002c 02       		.uleb128 0x2
  136 002d 01       		.byte	0x1
  137 002e 08       		.byte	0x8
- 138 002f 61010000 		.4byte	.LASF1
+ 138 002f F9000000 		.4byte	.LASF1
  139 0033 02       		.uleb128 0x2
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 5
+ARM GAS  C:\Users\jespinoz\AppData\Local\Temp\cceZuPId.s 			page 5
 
 
  140 0034 02       		.byte	0x2
  141 0035 05       		.byte	0x5
- 142 0036 0B020000 		.4byte	.LASF2
+ 142 0036 06020000 		.4byte	.LASF2
  143 003a 02       		.uleb128 0x2
  144 003b 02       		.byte	0x2
  145 003c 07       		.byte	0x7
- 146 003d B9010000 		.4byte	.LASF3
+ 146 003d A4010000 		.4byte	.LASF3
  147 0041 02       		.uleb128 0x2
  148 0042 04       		.byte	0x4
  149 0043 05       		.byte	0x5
- 150 0044 74010000 		.4byte	.LASF4
+ 150 0044 0C010000 		.4byte	.LASF4
  151 0048 02       		.uleb128 0x2
  152 0049 04       		.byte	0x4
  153 004a 07       		.byte	0x7
- 154 004b A4000000 		.4byte	.LASF5
+ 154 004b 3C000000 		.4byte	.LASF5
  155 004f 02       		.uleb128 0x2
  156 0050 08       		.byte	0x8
  157 0051 05       		.byte	0x5
@@ -263,7 +263,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
  159 0056 02       		.uleb128 0x2
  160 0057 08       		.byte	0x8
  161 0058 07       		.byte	0x7
- 162 0059 B6000000 		.4byte	.LASF7
+ 162 0059 4E000000 		.4byte	.LASF7
  163 005d 03       		.uleb128 0x3
  164 005e 04       		.byte	0x4
  165 005f 05       		.byte	0x5
@@ -273,24 +273,24 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
  169 0066 07       		.byte	0x7
  170 0067 1A000000 		.4byte	.LASF8
  171 006b 04       		.uleb128 0x4
- 172 006c 9E000000 		.4byte	.LASF12
+ 172 006c 36000000 		.4byte	.LASF12
  173 0070 02       		.byte	0x2
  174 0071 9201     		.2byte	0x192
  175 0073 2C000000 		.4byte	0x2c
  176 0077 02       		.uleb128 0x2
  177 0078 04       		.byte	0x4
  178 0079 04       		.byte	0x4
- 179 007a CD000000 		.4byte	.LASF9
+ 179 007a 65000000 		.4byte	.LASF9
  180 007e 02       		.uleb128 0x2
  181 007f 08       		.byte	0x8
  182 0080 04       		.byte	0x4
- 183 0081 8D010000 		.4byte	.LASF10
+ 183 0081 78010000 		.4byte	.LASF10
  184 0085 02       		.uleb128 0x2
  185 0086 01       		.byte	0x1
  186 0087 08       		.byte	0x8
- 187 0088 6F010000 		.4byte	.LASF11
+ 187 0088 07010000 		.4byte	.LASF11
  188 008c 04       		.uleb128 0x4
- 189 008d 15020000 		.4byte	.LASF13
+ 189 008d 10020000 		.4byte	.LASF13
  190 0091 02       		.byte	0x2
  191 0092 3C02     		.2byte	0x23c
  192 0094 98000000 		.4byte	0x98
@@ -298,15 +298,15 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
  194 0099 6B000000 		.4byte	0x6b
  195 009d 02       		.uleb128 0x2
  196 009e 08       		.byte	0x8
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 6
+ARM GAS  C:\Users\jespinoz\AppData\Local\Temp\cceZuPId.s 			page 6
 
 
  197 009f 04       		.byte	0x4
- 198 00a0 EF010000 		.4byte	.LASF14
+ 198 00a0 EA010000 		.4byte	.LASF14
  199 00a4 02       		.uleb128 0x2
  200 00a5 04       		.byte	0x4
  201 00a6 07       		.byte	0x7
- 202 00a7 1A020000 		.4byte	.LASF15
+ 202 00a7 15020000 		.4byte	.LASF15
  203 00ab 06       		.uleb128 0x6
  204 00ac 01       		.byte	0x1
  205 00ad 03       		.byte	0x3
@@ -320,12 +320,12 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
  213 00be 00       		.byte	0
  214 00bf 00       		.byte	0
  215 00c0 08       		.uleb128 0x8
- 216 00c1 D8010000 		.4byte	.LASF16
+ 216 00c1 D3010000 		.4byte	.LASF16
  217 00c5 03       		.byte	0x3
  218 00c6 60       		.byte	0x60
  219 00c7 AB000000 		.4byte	0xab
  220 00cb 09       		.uleb128 0x9
- 221 00cc 8F000000 		.4byte	.LASF17
+ 221 00cc 27000000 		.4byte	.LASF17
  222 00d0 01       		.byte	0x1
  223 00d1 2B       		.byte	0x2b
  224 00d2 00000000 		.4byte	.LFB0
@@ -333,7 +333,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
  226 00da 01       		.uleb128 0x1
  227 00db 9C       		.byte	0x9c
  228 00dc 09       		.uleb128 0x9
- 229 00dd FB010000 		.4byte	.LASF18
+ 229 00dd F6010000 		.4byte	.LASF18
  230 00e1 01       		.byte	0x1
  231 00e2 4D       		.byte	0x4d
  232 00e3 00000000 		.4byte	.LFB1
@@ -341,7 +341,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
  234 00eb 01       		.uleb128 0x1
  235 00ec 9C       		.byte	0x9c
  236 00ed 0A       		.uleb128 0xa
- 237 00ee 7D010000 		.4byte	.LASF23
+ 237 00ee C3010000 		.4byte	.LASF23
  238 00f2 01       		.byte	0x1
  239 00f3 12       		.byte	0x12
  240 00f4 C0000000 		.4byte	0xc0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
  251 0004 0E       		.uleb128 0xe
  252 0005 13       		.uleb128 0x13
  253 0006 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 7
+ARM GAS  C:\Users\jespinoz\AppData\Local\Temp\cceZuPId.s 			page 7
 
 
  254 0007 03       		.uleb128 0x3
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
  308 003d 06       		.uleb128 0x6
  309 003e 13       		.uleb128 0x13
  310 003f 01       		.byte	0x1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 8
+ARM GAS  C:\Users\jespinoz\AppData\Local\Temp\cceZuPId.s 			page 8
 
 
  311 0040 0B       		.uleb128 0xb
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
  365 0076 06       		.uleb128 0x6
  366 0077 40       		.uleb128 0x40
  367 0078 18       		.uleb128 0x18
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 9
+ARM GAS  C:\Users\jespinoz\AppData\Local\Temp\cceZuPId.s 			page 9
 
 
  368 0079 9642     		.uleb128 0x2116
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
  415              	.LASF22:
  416 000e 656E6162 		.ascii	"enableState\000"
  416      6C655374 
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 10
+ARM GAS  C:\Users\jespinoz\AppData\Local\Temp\cceZuPId.s 			page 10
 
 
  416      61746500 
@@ -547,125 +547,124 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 1
  418      676E6564 
  418      20696E74 
  418      00
- 419              	.LASF21:
- 420 0027 433A5C55 		.ascii	"C:\\Users\\rcaravac\\Documents\\Personales\\Maestri"
- 420      73657273 
- 420      5C726361 
- 420      72617661 
- 420      635C446F 
- 421 0055 615C5465 		.ascii	"a\\Tecnicas de adquisicion\\Proyecto DTMF\\TareaCla"
- 421      636E6963 
- 421      61732064 
- 421      65206164 
- 421      71756973 
- 422 0085 7365342E 		.ascii	"se4.cydsn\000"
- 422      63796473 
- 422      6E00
- 423              	.LASF17:
- 424 008f 436F6C5F 		.ascii	"Col_Tone_Sleep\000"
- 424      546F6E65 
- 424      5F536C65 
- 424      657000
- 425              	.LASF12:
- 426 009e 75696E74 		.ascii	"uint8\000"
- 426      3800
- 427              	.LASF5:
- 428 00a4 6C6F6E67 		.ascii	"long unsigned int\000"
- 428      20756E73 
- 428      69676E65 
- 428      6420696E 
+ 419              	.LASF17:
+ 420 0027 436F6C5F 		.ascii	"Col_Tone_Sleep\000"
+ 420      546F6E65 
+ 420      5F536C65 
+ 420      657000
+ 421              	.LASF12:
+ 422 0036 75696E74 		.ascii	"uint8\000"
+ 422      3800
+ 423              	.LASF5:
+ 424 003c 6C6F6E67 		.ascii	"long unsigned int\000"
+ 424      20756E73 
+ 424      69676E65 
+ 424      6420696E 
+ 424      7400
+ 425              	.LASF7:
+ 426 004e 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 426      206C6F6E 
+ 426      6720756E 
+ 426      7369676E 
+ 426      65642069 
+ 427              	.LASF9:
+ 428 0065 666C6F61 		.ascii	"float\000"
  428      7400
- 429              	.LASF7:
- 430 00b6 6C6F6E67 		.ascii	"long long unsigned int\000"
- 430      206C6F6E 
- 430      6720756E 
- 430      7369676E 
- 430      65642069 
- 431              	.LASF9:
- 432 00cd 666C6F61 		.ascii	"float\000"
- 432      7400
- 433              	.LASF19:
- 434 00d3 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 434      43313120 
- 434      352E342E 
- 434      31203230 
- 434      31363036 
- 435 0106 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 435      20726576 
- 435      6973696F 
- 435      6E203233 
- 435      37373135 
- 436 0139 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 436      66756E63 
- 436      74696F6E 
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 11
+ 429              	.LASF19:
+ 430 006b 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 430      43313120 
+ 430      352E342E 
+ 430      31203230 
+ 430      31363036 
+ 431 009e 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 431      20726576 
+ 431      6973696F 
+ 431      6E203233 
+ 431      37373135 
+ 432 00d1 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 432      66756E63 
+ 432      74696F6E 
+ 432      2D736563 
+ 432      74696F6E 
+ 433              	.LASF1:
+ 434 00f9 756E7369 		.ascii	"unsigned char\000"
+ 434      676E6564 
+ 434      20636861 
+ 434      7200
+ 435              	.LASF11:
+ 436 0107 63686172 		.ascii	"char\000"
+ 436      00
+ 437              	.LASF4:
+ 438 010c 6C6F6E67 		.ascii	"long int\000"
+ 438      20696E74 
+ 438      00
+ARM GAS  C:\Users\jespinoz\AppData\Local\Temp\cceZuPId.s 			page 11
 
 
- 436      2D736563 
- 436      74696F6E 
- 437              	.LASF1:
- 438 0161 756E7369 		.ascii	"unsigned char\000"
- 438      676E6564 
- 438      20636861 
- 438      7200
- 439              	.LASF11:
- 440 016f 63686172 		.ascii	"char\000"
- 440      00
- 441              	.LASF4:
- 442 0174 6C6F6E67 		.ascii	"long int\000"
- 442      20696E74 
- 442      00
- 443              	.LASF23:
- 444 017d 436F6C5F 		.ascii	"Col_Tone_backup\000"
- 444      546F6E65 
- 444      5F626163 
- 444      6B757000 
- 445              	.LASF10:
- 446 018d 646F7562 		.ascii	"double\000"
- 446      6C6500
- 447              	.LASF20:
- 448 0194 47656E65 		.ascii	"Generated_Source\\PSoC5\\Col_Tone_PM.c\000"
- 448      72617465 
- 448      645F536F 
- 448      75726365 
- 448      5C50536F 
- 449              	.LASF3:
- 450 01b9 73686F72 		.ascii	"short unsigned int\000"
- 450      7420756E 
- 450      7369676E 
- 450      65642069 
- 450      6E7400
- 451              	.LASF0:
- 452 01cc 7369676E 		.ascii	"signed char\000"
- 452      65642063 
- 452      68617200 
+ 439              	.LASF21:
+ 440 0115 433A5C55 		.ascii	"C:\\Users\\jespinoz\\Documents\\personales\\maestri"
+ 440      73657273 
+ 440      5C6A6573 
+ 440      70696E6F 
+ 440      7A5C446F 
+ 441 0143 615C5441 		.ascii	"a\\TAPD\\proyecto1\\proyecto1_TAPD\\Tx\\TareaClase4"
+ 441      50445C70 
+ 441      726F7965 
+ 441      63746F31 
+ 441      5C70726F 
+ 442 0171 2E637964 		.ascii	".cydsn\000"
+ 442      736E00
+ 443              	.LASF10:
+ 444 0178 646F7562 		.ascii	"double\000"
+ 444      6C6500
+ 445              	.LASF20:
+ 446 017f 47656E65 		.ascii	"Generated_Source\\PSoC5\\Col_Tone_PM.c\000"
+ 446      72617465 
+ 446      645F536F 
+ 446      75726365 
+ 446      5C50536F 
+ 447              	.LASF3:
+ 448 01a4 73686F72 		.ascii	"short unsigned int\000"
+ 448      7420756E 
+ 448      7369676E 
+ 448      65642069 
+ 448      6E7400
+ 449              	.LASF0:
+ 450 01b7 7369676E 		.ascii	"signed char\000"
+ 450      65642063 
+ 450      68617200 
+ 451              	.LASF23:
+ 452 01c3 436F6C5F 		.ascii	"Col_Tone_backup\000"
+ 452      546F6E65 
+ 452      5F626163 
+ 452      6B757000 
  453              	.LASF16:
- 454 01d8 436F6C5F 		.ascii	"Col_Tone_BACKUP_STRUCT\000"
+ 454 01d3 436F6C5F 		.ascii	"Col_Tone_BACKUP_STRUCT\000"
  454      546F6E65 
  454      5F424143 
  454      4B55505F 
  454      53545255 
  455              	.LASF14:
- 456 01ef 6C6F6E67 		.ascii	"long double\000"
+ 456 01ea 6C6F6E67 		.ascii	"long double\000"
  456      20646F75 
  456      626C6500 
  457              	.LASF18:
- 458 01fb 436F6C5F 		.ascii	"Col_Tone_Wakeup\000"
+ 458 01f6 436F6C5F 		.ascii	"Col_Tone_Wakeup\000"
  458      546F6E65 
  458      5F57616B 
  458      65757000 
  459              	.LASF2:
- 460 020b 73686F72 		.ascii	"short int\000"
+ 460 0206 73686F72 		.ascii	"short int\000"
  460      7420696E 
  460      7400
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTbqODN.s 			page 12
-
-
  461              	.LASF13:
- 462 0215 72656738 		.ascii	"reg8\000"
+ARM GAS  C:\Users\jespinoz\AppData\Local\Temp\cceZuPId.s 			page 12
+
+
+ 462 0210 72656738 		.ascii	"reg8\000"
  462      00
  463              	.LASF15:
- 464 021a 73697A65 		.ascii	"sizetype\000"
+ 464 0215 73697A65 		.ascii	"sizetype\000"
  464      74797065 
  464      00
  465              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
