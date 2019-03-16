@@ -1,0 +1,7 @@
+C:\Users\rcaravac\Documents\Personales\Maestria\Tecnicas de adquisicion\Proyecto DTMF\TareaClase4.cydsn\TareaClase4.cyprj|512b655f-1045-46a5-b174-f950fbb8cdc0
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|dd155422-9c95-412c-b81e-a6de183c8f99
+C:\Users\rcaravac\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|e36246a6-5a8b-4044-a1c7-c351d73c4afe
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|8138b935-f155-405d-b4db-32c169c536f4
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|3d4164af-8db2-451f-bdfb-e95660896241
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|f54a479c-8b42-4ac7-827d-310749783fae
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|aa37e57c-b2e2-48f2-945f-63ed9d2820d3
