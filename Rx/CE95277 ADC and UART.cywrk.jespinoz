@@ -209,8 +209,6 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\CE95277 ADC and UART.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\CE95277 ADC and UART.cydsn\CE95277 ADC and UART.cydwr" />
-<name v=".\CE95277 ADC and UART.cydsn\main.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -218,7 +216,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="784, 380" SelectedTabbedMdiWindow="33a2d4cb-4128-46a1-8833-9547c2a76253"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e3d20664-39ed-4e7a-a5ac-4d71507196a3" /><DocumentWindow Key="C:\Users\jespinoz\Documents\personales\maestria\TAPD\proyecto1\proyecto1\CE95277 ADC and UART\CE95277 ADC and UART.cydsn\TopDesign\TopDesign.cysch" Guid="33a2d4cb-4128-46a1-8833-9547c2a76253" /><DocumentWindow Key="C:\Users\jespinoz\Documents\personales\maestria\TAPD\proyecto1\proyecto1\CE95277 ADC and UART\CE95277 ADC and UART.cydsn\CE95277 ADC and UART.cydwr" Guid="eb784a21-f7a5-4dbc-beb8-bc9df2693394" /><DocumentWindow Key="C:\Users\jespinoz\Documents\personales\maestria\TAPD\proyecto1\proyecto1\CE95277 ADC and UART\CE95277 ADC and UART.cydsn\main.c" Guid="daadb19b-e7e1-492e-ae87-b1bc331567d6" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="784, 380" SelectedTabbedMdiWindow="5485556c-99df-4bb3-b09f-8a7f515efc7a"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e3d20664-39ed-4e7a-a5ac-4d71507196a3" /><DocumentWindow Key="C:\Users\jespinoz\Documents\personales\maestria\TAPD\proyecto1\proyecto1_TAPD\Rx\CE95277 ADC and UART.cydsn\TopDesign\TopDesign.cysch" Guid="5485556c-99df-4bb3-b09f-8a7f515efc7a" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
