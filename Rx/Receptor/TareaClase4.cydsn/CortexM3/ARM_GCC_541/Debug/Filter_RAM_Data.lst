@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 1
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 1
 
 
    1              		.syntax unified
@@ -37,88 +37,88 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 1
   34 0009 00       		.byte	0
   35 000a 80       		.byte	-128
   36 000b 26       		.byte	38
-  37 000c E0       		.byte	-32
-  38 000d 0E       		.byte	14
+  37 000c 20       		.byte	32
+  38 000d 13       		.byte	19
   39 000e 80       		.byte	-128
   40 000f 26       		.byte	38
   41 0010 C2       		.byte	-62
   42 0011 0C       		.byte	12
   43 0012 80       		.byte	-128
   44 0013 26       		.byte	38
-  45 0014 02       		.byte	2
-  46 0015 00       		.byte	0
+  45 0014 E0       		.byte	-32
+  46 0015 0E       		.byte	14
   47 0016 80       		.byte	-128
-  48 0017 06       		.byte	6
-  49 0018 65       		.byte	101
-  50 0019 87       		.byte	-121
-  51 001a 18       		.byte	24
-  52 001b 6D       		.byte	109
-  53 001c 64       		.byte	100
-  54 001d 09       		.byte	9
-  55 001e 18       		.byte	24
-  56 001f 3E       		.byte	62
-  57 0020 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 2
+  48 0017 26       		.byte	38
+  49 0018 A4       		.byte	-92
+  50 0019 0A       		.byte	10
+  51 001a 80       		.byte	-128
+  52 001b 26       		.byte	38
+  53 001c 63       		.byte	99
+  54 001d 17       		.byte	23
+  55 001e 10       		.byte	16
+  56 001f 06       		.byte	6
+  57 0020 86       		.byte	-122
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 2
 
 
-  58 0021 00       		.byte	0
+  58 0021 08       		.byte	8
   59 0022 80       		.byte	-128
   60 0023 26       		.byte	38
-  61 0024 03       		.byte	3
-  62 0025 20       		.byte	32
+  61 0024 68       		.byte	104
+  62 0025 06       		.byte	6
   63 0026 80       		.byte	-128
-  64 0027 26       		.byte	38
-  65 0028 21       		.byte	33
-  66 0029 02       		.byte	2
-  67 002a 18       		.byte	24
-  68 002b 7F       		.byte	127
-  69 002c 00       		.byte	0
-  70 002d 00       		.byte	0
-  71 002e 00       		.byte	0
-  72 002f 00       		.byte	0
+  64 0027 6D       		.byte	109
+  65 0028 66       		.byte	102
+  66 0029 06       		.byte	6
+  67 002a 80       		.byte	-128
+  68 002b 2F       		.byte	47
+  69 002c 20       		.byte	32
+  70 002d 02       		.byte	2
+  71 002e 10       		.byte	16
+  72 002f 6F       		.byte	111
   73 0030 00       		.byte	0
-  74 0031 00       		.byte	0
-  75 0032 00       		.byte	0
-  76 0033 00       		.byte	0
-  77 0034 00       		.byte	0
-  78 0035 00       		.byte	0
-  79 0036 00       		.byte	0
-  80 0037 00       		.byte	0
+  74 0031 80       		.byte	-128
+  75 0032 80       		.byte	-128
+  76 0033 26       		.byte	38
+  77 0034 20       		.byte	32
+  78 0035 02       		.byte	2
+  79 0036 80       		.byte	-128
+  80 0037 6F       		.byte	111
   81 0038 00       		.byte	0
-  82 0039 00       		.byte	0
-  83 003a 00       		.byte	0
-  84 003b 00       		.byte	0
-  85 003c 00       		.byte	0
-  86 003d 00       		.byte	0
-  87 003e 00       		.byte	0
-  88 003f 00       		.byte	0
-  89 0040 00       		.byte	0
-  90 0041 00       		.byte	0
-  91 0042 00       		.byte	0
-  92 0043 00       		.byte	0
-  93 0044 00       		.byte	0
-  94 0045 00       		.byte	0
-  95 0046 00       		.byte	0
-  96 0047 00       		.byte	0
+  82 0039 80       		.byte	-128
+  83 003a 80       		.byte	-128
+  84 003b 26       		.byte	38
+  85 003c 20       		.byte	32
+  86 003d 02       		.byte	2
+  87 003e 80       		.byte	-128
+  88 003f 6F       		.byte	111
+  89 0040 20       		.byte	32
+  90 0041 02       		.byte	2
+  91 0042 80       		.byte	-128
+  92 0043 6F       		.byte	111
+  93 0044 21       		.byte	33
+  94 0045 1A       		.byte	26
+  95 0046 40       		.byte	64
+  96 0047 FE       		.byte	-2
   97 0048 00       		.byte	0
   98 0049 00       		.byte	0
-  99 004a 00       		.byte	0
- 100 004b 00       		.byte	0
- 101 004c 00       		.byte	0
- 102 004d 00       		.byte	0
- 103 004e 00       		.byte	0
- 104 004f 00       		.byte	0
+  99 004a 86       		.byte	-122
+ 100 004b 26       		.byte	38
+ 101 004c 02       		.byte	2
+ 102 004d 22       		.byte	34
+ 103 004e 10       		.byte	16
+ 104 004f 66       		.byte	102
  105 0050 00       		.byte	0
- 106 0051 00       		.byte	0
- 107 0052 00       		.byte	0
- 108 0053 00       		.byte	0
- 109 0054 00       		.byte	0
- 110 0055 00       		.byte	0
- 111 0056 00       		.byte	0
- 112 0057 00       		.byte	0
+ 106 0051 80       		.byte	-128
+ 107 0052 10       		.byte	16
+ 108 0053 6E       		.byte	110
+ 109 0054 01       		.byte	1
+ 110 0055 82       		.byte	-126
+ 111 0056 80       		.byte	-128
+ 112 0057 26       		.byte	38
  113 0058 00       		.byte	0
  114 0059 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 3
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 3
 
 
  115 005a 00       		.byte	0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 1
  169 0090 00       		.byte	0
  170 0091 00       		.byte	0
  171 0092 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 4
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 4
 
 
  172 0093 00       		.byte	0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 1
  226 00c9 00       		.byte	0
  227 00ca 00       		.byte	0
  228 00cb 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 5
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 5
 
 
  229 00cc 00       		.byte	0
@@ -298,1317 +298,1853 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 1
  283              		.type	Filter_data_a, %object
  284              		.size	Filter_data_a, 512
  285              	Filter_data_a:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 6
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 6
 
 
- 286 0100 00000000 		.space	512
- 286      00000000 
- 286      00000000 
- 286      00000000 
- 286      00000000 
- 287              		.global	Filter_data_b
- 288              		.align	2
- 289              		.type	Filter_data_b, %object
- 290              		.size	Filter_data_b, 512
- 291              	Filter_data_b:
- 292 0300 8D       		.byte	-115
- 293 0301 F6       		.byte	-10
- 294 0302 FF       		.byte	-1
- 295 0303 00       		.byte	0
- 296 0304 6E       		.byte	110
- 297 0305 21       		.byte	33
- 298 0306 00       		.byte	0
- 299 0307 00       		.byte	0
- 300 0308 00       		.byte	0
- 301 0309 00       		.byte	0
- 302 030a 00       		.byte	0
- 303 030b 00       		.byte	0
- 304 030c 02       		.byte	2
- 305 030d BF       		.byte	-65
- 306 030e FE       		.byte	-2
- 307 030f 00       		.byte	0
- 308 0310 F5       		.byte	-11
- 309 0311 B4       		.byte	-76
- 310 0312 04       		.byte	4
- 311 0313 00       		.byte	0
- 312 0314 0B       		.byte	11
- 313 0315 BA       		.byte	-70
- 314 0316 F5       		.byte	-11
- 315 0317 00       		.byte	0
- 316 0318 40       		.byte	64
- 317 0319 C9       		.byte	-55
- 318 031a 0F       		.byte	15
- 319 031b 00       		.byte	0
- 320 031c 5B       		.byte	91
- 321 031d 7E       		.byte	126
- 322 031e 48       		.byte	72
- 323 031f 00       		.byte	0
- 324 0320 40       		.byte	64
- 325 0321 C9       		.byte	-55
- 326 0322 0F       		.byte	15
- 327 0323 00       		.byte	0
- 328 0324 0B       		.byte	11
- 329 0325 BA       		.byte	-70
- 330 0326 F5       		.byte	-11
- 331 0327 00       		.byte	0
- 332 0328 F5       		.byte	-11
- 333 0329 B4       		.byte	-76
- 334 032a 04       		.byte	4
- 335 032b 00       		.byte	0
- 336 032c 02       		.byte	2
- 337 032d BF       		.byte	-65
- 338 032e FE       		.byte	-2
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 7
+ 286 0100 00       		.byte	0
+ 287 0101 00       		.byte	0
+ 288 0102 00       		.byte	0
+ 289 0103 00       		.byte	0
+ 290 0104 00       		.byte	0
+ 291 0105 00       		.byte	0
+ 292 0106 00       		.byte	0
+ 293 0107 00       		.byte	0
+ 294 0108 00       		.byte	0
+ 295 0109 00       		.byte	0
+ 296 010a 00       		.byte	0
+ 297 010b 00       		.byte	0
+ 298 010c 00       		.byte	0
+ 299 010d 00       		.byte	0
+ 300 010e 00       		.byte	0
+ 301 010f 00       		.byte	0
+ 302 0110 00       		.byte	0
+ 303 0111 00       		.byte	0
+ 304 0112 00       		.byte	0
+ 305 0113 00       		.byte	0
+ 306 0114 00       		.byte	0
+ 307 0115 00       		.byte	0
+ 308 0116 00       		.byte	0
+ 309 0117 00       		.byte	0
+ 310 0118 00       		.byte	0
+ 311 0119 00       		.byte	0
+ 312 011a 00       		.byte	0
+ 313 011b 00       		.byte	0
+ 314 011c 00       		.byte	0
+ 315 011d 00       		.byte	0
+ 316 011e 00       		.byte	0
+ 317 011f 00       		.byte	0
+ 318 0120 00       		.byte	0
+ 319 0121 00       		.byte	0
+ 320 0122 00       		.byte	0
+ 321 0123 00       		.byte	0
+ 322 0124 00       		.byte	0
+ 323 0125 00       		.byte	0
+ 324 0126 00       		.byte	0
+ 325 0127 00       		.byte	0
+ 326 0128 00       		.byte	0
+ 327 0129 00       		.byte	0
+ 328 012a 00       		.byte	0
+ 329 012b 00       		.byte	0
+ 330 012c 00       		.byte	0
+ 331 012d 00       		.byte	0
+ 332 012e 00       		.byte	0
+ 333 012f 00       		.byte	0
+ 334 0130 00       		.byte	0
+ 335 0131 00       		.byte	0
+ 336 0132 00       		.byte	0
+ 337 0133 00       		.byte	0
+ 338 0134 00       		.byte	0
+ 339 0135 00       		.byte	0
+ 340 0136 00       		.byte	0
+ 341 0137 00       		.byte	0
+ 342 0138 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 7
 
 
- 339 032f 00       		.byte	0
- 340 0330 00       		.byte	0
- 341 0331 00       		.byte	0
- 342 0332 00       		.byte	0
- 343 0333 00       		.byte	0
- 344 0334 6E       		.byte	110
- 345 0335 21       		.byte	33
- 346 0336 00       		.byte	0
- 347 0337 00       		.byte	0
- 348 0338 8D       		.byte	-115
- 349 0339 F6       		.byte	-10
- 350 033a FF       		.byte	-1
- 351 033b 00       		.byte	0
- 352 033c 00       		.byte	0
- 353 033d 00       		.byte	0
- 354 033e 00       		.byte	0
- 355 033f 00       		.byte	0
- 356 0340 00       		.byte	0
- 357 0341 00       		.byte	0
- 358 0342 00       		.byte	0
- 359 0343 00       		.byte	0
- 360 0344 00       		.byte	0
- 361 0345 00       		.byte	0
- 362 0346 00       		.byte	0
- 363 0347 00       		.byte	0
- 364 0348 00       		.byte	0
- 365 0349 00       		.byte	0
- 366 034a 00       		.byte	0
- 367 034b 00       		.byte	0
- 368 034c 00       		.byte	0
- 369 034d 00       		.byte	0
- 370 034e 00       		.byte	0
- 371 034f 00       		.byte	0
- 372 0350 00       		.byte	0
- 373 0351 00       		.byte	0
- 374 0352 00       		.byte	0
- 375 0353 00       		.byte	0
- 376 0354 00       		.byte	0
- 377 0355 00       		.byte	0
- 378 0356 00       		.byte	0
- 379 0357 00       		.byte	0
- 380 0358 00       		.byte	0
- 381 0359 00       		.byte	0
- 382 035a 00       		.byte	0
- 383 035b 00       		.byte	0
- 384 035c 00       		.byte	0
- 385 035d 00       		.byte	0
- 386 035e 00       		.byte	0
- 387 035f 00       		.byte	0
- 388 0360 00       		.byte	0
- 389 0361 00       		.byte	0
- 390 0362 00       		.byte	0
- 391 0363 00       		.byte	0
- 392 0364 00       		.byte	0
- 393 0365 00       		.byte	0
- 394 0366 00       		.byte	0
- 395 0367 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 8
+ 343 0139 00       		.byte	0
+ 344 013a 00       		.byte	0
+ 345 013b 00       		.byte	0
+ 346 013c 00       		.byte	0
+ 347 013d 00       		.byte	0
+ 348 013e 00       		.byte	0
+ 349 013f 00       		.byte	0
+ 350 0140 00       		.byte	0
+ 351 0141 00       		.byte	0
+ 352 0142 00       		.byte	0
+ 353 0143 00       		.byte	0
+ 354 0144 00       		.byte	0
+ 355 0145 00       		.byte	0
+ 356 0146 00       		.byte	0
+ 357 0147 00       		.byte	0
+ 358 0148 00       		.byte	0
+ 359 0149 00       		.byte	0
+ 360 014a 00       		.byte	0
+ 361 014b 00       		.byte	0
+ 362 014c 00       		.byte	0
+ 363 014d 00       		.byte	0
+ 364 014e 00       		.byte	0
+ 365 014f 00       		.byte	0
+ 366 0150 00       		.byte	0
+ 367 0151 00       		.byte	0
+ 368 0152 00       		.byte	0
+ 369 0153 00       		.byte	0
+ 370 0154 00       		.byte	0
+ 371 0155 00       		.byte	0
+ 372 0156 00       		.byte	0
+ 373 0157 00       		.byte	0
+ 374 0158 00       		.byte	0
+ 375 0159 00       		.byte	0
+ 376 015a 00       		.byte	0
+ 377 015b 00       		.byte	0
+ 378 015c 00       		.byte	0
+ 379 015d 00       		.byte	0
+ 380 015e 00       		.byte	0
+ 381 015f 00       		.byte	0
+ 382 0160 00       		.byte	0
+ 383 0161 00       		.byte	0
+ 384 0162 00       		.byte	0
+ 385 0163 00       		.byte	0
+ 386 0164 00       		.byte	0
+ 387 0165 00       		.byte	0
+ 388 0166 00       		.byte	0
+ 389 0167 00       		.byte	0
+ 390 0168 00       		.byte	0
+ 391 0169 00       		.byte	0
+ 392 016a 00       		.byte	0
+ 393 016b 00       		.byte	0
+ 394 016c 00       		.byte	0
+ 395 016d 00       		.byte	0
+ 396 016e 00       		.byte	0
+ 397 016f 00       		.byte	0
+ 398 0170 00       		.byte	0
+ 399 0171 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 8
 
 
- 396 0368 00       		.byte	0
- 397 0369 00       		.byte	0
- 398 036a 00       		.byte	0
- 399 036b 00       		.byte	0
- 400 036c 00       		.byte	0
- 401 036d 00       		.byte	0
- 402 036e 00       		.byte	0
- 403 036f 00       		.byte	0
- 404 0370 00       		.byte	0
- 405 0371 00       		.byte	0
- 406 0372 00       		.byte	0
- 407 0373 00       		.byte	0
- 408 0374 00       		.byte	0
- 409 0375 00       		.byte	0
- 410 0376 00       		.byte	0
- 411 0377 00       		.byte	0
- 412 0378 00       		.byte	0
- 413 0379 00       		.byte	0
- 414 037a 00       		.byte	0
- 415 037b 00       		.byte	0
- 416 037c 00       		.byte	0
- 417 037d 00       		.byte	0
- 418 037e 00       		.byte	0
- 419 037f 00       		.byte	0
- 420 0380 00       		.byte	0
- 421 0381 00       		.byte	0
- 422 0382 00       		.byte	0
- 423 0383 00       		.byte	0
- 424 0384 00       		.byte	0
- 425 0385 00       		.byte	0
- 426 0386 00       		.byte	0
- 427 0387 00       		.byte	0
- 428 0388 00       		.byte	0
- 429 0389 00       		.byte	0
- 430 038a 00       		.byte	0
- 431 038b 00       		.byte	0
- 432 038c 00       		.byte	0
- 433 038d 00       		.byte	0
- 434 038e 00       		.byte	0
- 435 038f 00       		.byte	0
- 436 0390 00       		.byte	0
- 437 0391 00       		.byte	0
- 438 0392 00       		.byte	0
- 439 0393 00       		.byte	0
- 440 0394 00       		.byte	0
- 441 0395 00       		.byte	0
- 442 0396 00       		.byte	0
- 443 0397 00       		.byte	0
- 444 0398 00       		.byte	0
- 445 0399 00       		.byte	0
- 446 039a 00       		.byte	0
- 447 039b 00       		.byte	0
- 448 039c 00       		.byte	0
- 449 039d 00       		.byte	0
- 450 039e 00       		.byte	0
- 451 039f 00       		.byte	0
- 452 03a0 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 9
+ 400 0172 00       		.byte	0
+ 401 0173 00       		.byte	0
+ 402 0174 00       		.byte	0
+ 403 0175 00       		.byte	0
+ 404 0176 00       		.byte	0
+ 405 0177 00       		.byte	0
+ 406 0178 00       		.byte	0
+ 407 0179 00       		.byte	0
+ 408 017a 00       		.byte	0
+ 409 017b 00       		.byte	0
+ 410 017c 00       		.byte	0
+ 411 017d 00       		.byte	0
+ 412 017e 00       		.byte	0
+ 413 017f 00       		.byte	0
+ 414 0180 00       		.byte	0
+ 415 0181 00       		.byte	0
+ 416 0182 00       		.byte	0
+ 417 0183 00       		.byte	0
+ 418 0184 00       		.byte	0
+ 419 0185 00       		.byte	0
+ 420 0186 00       		.byte	0
+ 421 0187 00       		.byte	0
+ 422 0188 00       		.byte	0
+ 423 0189 00       		.byte	0
+ 424 018a 00       		.byte	0
+ 425 018b 00       		.byte	0
+ 426 018c 00       		.byte	0
+ 427 018d 00       		.byte	0
+ 428 018e 00       		.byte	0
+ 429 018f 00       		.byte	0
+ 430 0190 00       		.byte	0
+ 431 0191 00       		.byte	0
+ 432 0192 00       		.byte	0
+ 433 0193 00       		.byte	0
+ 434 0194 00       		.byte	0
+ 435 0195 00       		.byte	0
+ 436 0196 00       		.byte	0
+ 437 0197 00       		.byte	0
+ 438 0198 00       		.byte	0
+ 439 0199 00       		.byte	0
+ 440 019a 00       		.byte	0
+ 441 019b 00       		.byte	0
+ 442 019c 00       		.byte	0
+ 443 019d 00       		.byte	0
+ 444 019e 00       		.byte	0
+ 445 019f 00       		.byte	0
+ 446 01a0 00       		.byte	0
+ 447 01a1 00       		.byte	0
+ 448 01a2 00       		.byte	0
+ 449 01a3 00       		.byte	0
+ 450 01a4 00       		.byte	0
+ 451 01a5 00       		.byte	0
+ 452 01a6 00       		.byte	0
+ 453 01a7 00       		.byte	0
+ 454 01a8 00       		.byte	0
+ 455 01a9 00       		.byte	0
+ 456 01aa 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 9
 
 
- 453 03a1 00       		.byte	0
- 454 03a2 00       		.byte	0
- 455 03a3 00       		.byte	0
- 456 03a4 00       		.byte	0
- 457 03a5 00       		.byte	0
- 458 03a6 00       		.byte	0
- 459 03a7 00       		.byte	0
- 460 03a8 00       		.byte	0
- 461 03a9 00       		.byte	0
- 462 03aa 00       		.byte	0
- 463 03ab 00       		.byte	0
- 464 03ac 00       		.byte	0
- 465 03ad 00       		.byte	0
- 466 03ae 00       		.byte	0
- 467 03af 00       		.byte	0
- 468 03b0 00       		.byte	0
- 469 03b1 00       		.byte	0
- 470 03b2 00       		.byte	0
- 471 03b3 00       		.byte	0
- 472 03b4 00       		.byte	0
- 473 03b5 00       		.byte	0
- 474 03b6 00       		.byte	0
- 475 03b7 00       		.byte	0
- 476 03b8 00       		.byte	0
- 477 03b9 00       		.byte	0
- 478 03ba 00       		.byte	0
- 479 03bb 00       		.byte	0
- 480 03bc 00       		.byte	0
- 481 03bd 00       		.byte	0
- 482 03be 00       		.byte	0
- 483 03bf 00       		.byte	0
- 484 03c0 00       		.byte	0
- 485 03c1 00       		.byte	0
- 486 03c2 00       		.byte	0
- 487 03c3 00       		.byte	0
- 488 03c4 00       		.byte	0
- 489 03c5 00       		.byte	0
- 490 03c6 00       		.byte	0
- 491 03c7 00       		.byte	0
- 492 03c8 00       		.byte	0
- 493 03c9 00       		.byte	0
- 494 03ca 00       		.byte	0
- 495 03cb 00       		.byte	0
- 496 03cc 00       		.byte	0
- 497 03cd 00       		.byte	0
- 498 03ce 00       		.byte	0
- 499 03cf 00       		.byte	0
- 500 03d0 00       		.byte	0
- 501 03d1 00       		.byte	0
- 502 03d2 00       		.byte	0
- 503 03d3 00       		.byte	0
- 504 03d4 00       		.byte	0
- 505 03d5 00       		.byte	0
- 506 03d6 00       		.byte	0
- 507 03d7 00       		.byte	0
- 508 03d8 00       		.byte	0
- 509 03d9 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 10
+ 457 01ab 00       		.byte	0
+ 458 01ac 00       		.byte	0
+ 459 01ad 00       		.byte	0
+ 460 01ae 00       		.byte	0
+ 461 01af 00       		.byte	0
+ 462 01b0 00       		.byte	0
+ 463 01b1 00       		.byte	0
+ 464 01b2 00       		.byte	0
+ 465 01b3 00       		.byte	0
+ 466 01b4 00       		.byte	0
+ 467 01b5 00       		.byte	0
+ 468 01b6 00       		.byte	0
+ 469 01b7 00       		.byte	0
+ 470 01b8 00       		.byte	0
+ 471 01b9 00       		.byte	0
+ 472 01ba 00       		.byte	0
+ 473 01bb 00       		.byte	0
+ 474 01bc 00       		.byte	0
+ 475 01bd 00       		.byte	0
+ 476 01be 00       		.byte	0
+ 477 01bf 00       		.byte	0
+ 478 01c0 00       		.byte	0
+ 479 01c1 00       		.byte	0
+ 480 01c2 00       		.byte	0
+ 481 01c3 00       		.byte	0
+ 482 01c4 00       		.byte	0
+ 483 01c5 00       		.byte	0
+ 484 01c6 00       		.byte	0
+ 485 01c7 00       		.byte	0
+ 486 01c8 00       		.byte	0
+ 487 01c9 00       		.byte	0
+ 488 01ca 00       		.byte	0
+ 489 01cb 00       		.byte	0
+ 490 01cc 00       		.byte	0
+ 491 01cd 00       		.byte	0
+ 492 01ce 00       		.byte	0
+ 493 01cf 00       		.byte	0
+ 494 01d0 00       		.byte	0
+ 495 01d1 00       		.byte	0
+ 496 01d2 00       		.byte	0
+ 497 01d3 00       		.byte	0
+ 498 01d4 00       		.byte	0
+ 499 01d5 00       		.byte	0
+ 500 01d6 00       		.byte	0
+ 501 01d7 00       		.byte	0
+ 502 01d8 00       		.byte	0
+ 503 01d9 00       		.byte	0
+ 504 01da 00       		.byte	0
+ 505 01db 00       		.byte	0
+ 506 01dc 00       		.byte	0
+ 507 01dd 00       		.byte	0
+ 508 01de 00       		.byte	0
+ 509 01df 00       		.byte	0
+ 510 01e0 00       		.byte	0
+ 511 01e1 00       		.byte	0
+ 512 01e2 00       		.byte	0
+ 513 01e3 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 10
 
 
- 510 03da 00       		.byte	0
- 511 03db 00       		.byte	0
- 512 03dc 00       		.byte	0
- 513 03dd 00       		.byte	0
- 514 03de 00       		.byte	0
- 515 03df 00       		.byte	0
- 516 03e0 00       		.byte	0
- 517 03e1 00       		.byte	0
- 518 03e2 00       		.byte	0
- 519 03e3 00       		.byte	0
- 520 03e4 00       		.byte	0
- 521 03e5 00       		.byte	0
- 522 03e6 00       		.byte	0
- 523 03e7 00       		.byte	0
- 524 03e8 00       		.byte	0
- 525 03e9 00       		.byte	0
- 526 03ea 00       		.byte	0
- 527 03eb 00       		.byte	0
- 528 03ec 00       		.byte	0
- 529 03ed 00       		.byte	0
- 530 03ee 00       		.byte	0
- 531 03ef 00       		.byte	0
- 532 03f0 00       		.byte	0
- 533 03f1 00       		.byte	0
- 534 03f2 00       		.byte	0
- 535 03f3 00       		.byte	0
- 536 03f4 00       		.byte	0
- 537 03f5 00       		.byte	0
- 538 03f6 00       		.byte	0
- 539 03f7 00       		.byte	0
- 540 03f8 00       		.byte	0
- 541 03f9 00       		.byte	0
- 542 03fa 00       		.byte	0
- 543 03fb 00       		.byte	0
- 544 03fc 00       		.byte	0
- 545 03fd 00       		.byte	0
- 546 03fe 00       		.byte	0
- 547 03ff 00       		.byte	0
- 548 0400 00       		.byte	0
- 549 0401 00       		.byte	0
- 550 0402 00       		.byte	0
- 551 0403 00       		.byte	0
- 552 0404 00       		.byte	0
- 553 0405 00       		.byte	0
- 554 0406 00       		.byte	0
- 555 0407 00       		.byte	0
- 556 0408 00       		.byte	0
- 557 0409 00       		.byte	0
- 558 040a 00       		.byte	0
- 559 040b 00       		.byte	0
- 560 040c 00       		.byte	0
- 561 040d 00       		.byte	0
- 562 040e 00       		.byte	0
- 563 040f 00       		.byte	0
- 564 0410 00       		.byte	0
- 565 0411 00       		.byte	0
- 566 0412 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 11
+ 514 01e4 00       		.byte	0
+ 515 01e5 00       		.byte	0
+ 516 01e6 00       		.byte	0
+ 517 01e7 00       		.byte	0
+ 518 01e8 00       		.byte	0
+ 519 01e9 00       		.byte	0
+ 520 01ea 00       		.byte	0
+ 521 01eb 00       		.byte	0
+ 522 01ec 00       		.byte	0
+ 523 01ed 00       		.byte	0
+ 524 01ee 00       		.byte	0
+ 525 01ef 00       		.byte	0
+ 526 01f0 00       		.byte	0
+ 527 01f1 00       		.byte	0
+ 528 01f2 00       		.byte	0
+ 529 01f3 00       		.byte	0
+ 530 01f4 00       		.byte	0
+ 531 01f5 00       		.byte	0
+ 532 01f6 00       		.byte	0
+ 533 01f7 00       		.byte	0
+ 534 01f8 00       		.byte	0
+ 535 01f9 00       		.byte	0
+ 536 01fa 00       		.byte	0
+ 537 01fb 00       		.byte	0
+ 538 01fc 00       		.byte	0
+ 539 01fd 00       		.byte	0
+ 540 01fe 00       		.byte	0
+ 541 01ff 00       		.byte	0
+ 542 0200 00       		.byte	0
+ 543 0201 00       		.byte	0
+ 544 0202 00       		.byte	0
+ 545 0203 00       		.byte	0
+ 546 0204 00       		.byte	0
+ 547 0205 00       		.byte	0
+ 548 0206 00       		.byte	0
+ 549 0207 00       		.byte	0
+ 550 0208 00       		.byte	0
+ 551 0209 00       		.byte	0
+ 552 020a 00       		.byte	0
+ 553 020b 00       		.byte	0
+ 554 020c 00       		.byte	0
+ 555 020d 00       		.byte	0
+ 556 020e 00       		.byte	0
+ 557 020f 00       		.byte	0
+ 558 0210 00       		.byte	0
+ 559 0211 00       		.byte	0
+ 560 0212 00       		.byte	0
+ 561 0213 00       		.byte	0
+ 562 0214 00       		.byte	0
+ 563 0215 00       		.byte	0
+ 564 0216 00       		.byte	0
+ 565 0217 00       		.byte	0
+ 566 0218 00       		.byte	0
+ 567 0219 00       		.byte	0
+ 568 021a 00       		.byte	0
+ 569 021b 00       		.byte	0
+ 570 021c 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 11
 
 
- 567 0413 00       		.byte	0
- 568 0414 00       		.byte	0
- 569 0415 00       		.byte	0
- 570 0416 00       		.byte	0
- 571 0417 00       		.byte	0
- 572 0418 00       		.byte	0
- 573 0419 00       		.byte	0
- 574 041a 00       		.byte	0
- 575 041b 00       		.byte	0
- 576 041c 00       		.byte	0
- 577 041d 00       		.byte	0
- 578 041e 00       		.byte	0
- 579 041f 00       		.byte	0
- 580 0420 00       		.byte	0
- 581 0421 00       		.byte	0
- 582 0422 00       		.byte	0
- 583 0423 00       		.byte	0
- 584 0424 00       		.byte	0
- 585 0425 00       		.byte	0
- 586 0426 00       		.byte	0
- 587 0427 00       		.byte	0
- 588 0428 00       		.byte	0
- 589 0429 00       		.byte	0
- 590 042a 00       		.byte	0
- 591 042b 00       		.byte	0
- 592 042c 00       		.byte	0
- 593 042d 00       		.byte	0
- 594 042e 00       		.byte	0
- 595 042f 00       		.byte	0
- 596 0430 00       		.byte	0
- 597 0431 00       		.byte	0
- 598 0432 00       		.byte	0
- 599 0433 00       		.byte	0
- 600 0434 00       		.byte	0
- 601 0435 00       		.byte	0
- 602 0436 00       		.byte	0
- 603 0437 00       		.byte	0
- 604 0438 00       		.byte	0
- 605 0439 00       		.byte	0
- 606 043a 00       		.byte	0
- 607 043b 00       		.byte	0
- 608 043c 00       		.byte	0
- 609 043d 00       		.byte	0
- 610 043e 00       		.byte	0
- 611 043f 00       		.byte	0
- 612 0440 00       		.byte	0
- 613 0441 00       		.byte	0
- 614 0442 00       		.byte	0
- 615 0443 00       		.byte	0
- 616 0444 00       		.byte	0
- 617 0445 00       		.byte	0
- 618 0446 00       		.byte	0
- 619 0447 00       		.byte	0
- 620 0448 00       		.byte	0
- 621 0449 00       		.byte	0
- 622 044a 00       		.byte	0
- 623 044b 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 12
+ 571 021d 00       		.byte	0
+ 572 021e 00       		.byte	0
+ 573 021f 00       		.byte	0
+ 574 0220 00       		.byte	0
+ 575 0221 00       		.byte	0
+ 576 0222 00       		.byte	0
+ 577 0223 00       		.byte	0
+ 578 0224 00       		.byte	0
+ 579 0225 00       		.byte	0
+ 580 0226 00       		.byte	0
+ 581 0227 00       		.byte	0
+ 582 0228 00       		.byte	0
+ 583 0229 00       		.byte	0
+ 584 022a 00       		.byte	0
+ 585 022b 00       		.byte	0
+ 586 022c 00       		.byte	0
+ 587 022d 00       		.byte	0
+ 588 022e 00       		.byte	0
+ 589 022f 00       		.byte	0
+ 590 0230 00       		.byte	0
+ 591 0231 00       		.byte	0
+ 592 0232 00       		.byte	0
+ 593 0233 00       		.byte	0
+ 594 0234 00       		.byte	0
+ 595 0235 00       		.byte	0
+ 596 0236 00       		.byte	0
+ 597 0237 00       		.byte	0
+ 598 0238 00       		.byte	0
+ 599 0239 00       		.byte	0
+ 600 023a 00       		.byte	0
+ 601 023b 00       		.byte	0
+ 602 023c 00       		.byte	0
+ 603 023d 00       		.byte	0
+ 604 023e 00       		.byte	0
+ 605 023f 00       		.byte	0
+ 606 0240 00       		.byte	0
+ 607 0241 00       		.byte	0
+ 608 0242 00       		.byte	0
+ 609 0243 00       		.byte	0
+ 610 0244 00       		.byte	0
+ 611 0245 00       		.byte	0
+ 612 0246 00       		.byte	0
+ 613 0247 00       		.byte	0
+ 614 0248 00       		.byte	0
+ 615 0249 00       		.byte	0
+ 616 024a 00       		.byte	0
+ 617 024b 00       		.byte	0
+ 618 024c 00       		.byte	0
+ 619 024d 00       		.byte	0
+ 620 024e 00       		.byte	0
+ 621 024f 00       		.byte	0
+ 622 0250 00       		.byte	0
+ 623 0251 00       		.byte	0
+ 624 0252 00       		.byte	0
+ 625 0253 00       		.byte	0
+ 626 0254 00       		.byte	0
+ 627 0255 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 12
 
 
- 624 044c 00       		.byte	0
- 625 044d 00       		.byte	0
- 626 044e 00       		.byte	0
- 627 044f 00       		.byte	0
- 628 0450 00       		.byte	0
- 629 0451 00       		.byte	0
- 630 0452 00       		.byte	0
- 631 0453 00       		.byte	0
- 632 0454 00       		.byte	0
- 633 0455 00       		.byte	0
- 634 0456 00       		.byte	0
- 635 0457 00       		.byte	0
- 636 0458 00       		.byte	0
- 637 0459 00       		.byte	0
- 638 045a 00       		.byte	0
- 639 045b 00       		.byte	0
- 640 045c 00       		.byte	0
- 641 045d 00       		.byte	0
- 642 045e 00       		.byte	0
- 643 045f 00       		.byte	0
- 644 0460 00       		.byte	0
- 645 0461 00       		.byte	0
- 646 0462 00       		.byte	0
- 647 0463 00       		.byte	0
- 648 0464 00       		.byte	0
- 649 0465 00       		.byte	0
- 650 0466 00       		.byte	0
- 651 0467 00       		.byte	0
- 652 0468 00       		.byte	0
- 653 0469 00       		.byte	0
- 654 046a 00       		.byte	0
- 655 046b 00       		.byte	0
- 656 046c 00       		.byte	0
- 657 046d 00       		.byte	0
- 658 046e 00       		.byte	0
- 659 046f 00       		.byte	0
- 660 0470 00       		.byte	0
- 661 0471 00       		.byte	0
- 662 0472 00       		.byte	0
- 663 0473 00       		.byte	0
- 664 0474 00       		.byte	0
- 665 0475 00       		.byte	0
- 666 0476 00       		.byte	0
- 667 0477 00       		.byte	0
- 668 0478 00       		.byte	0
- 669 0479 00       		.byte	0
- 670 047a 00       		.byte	0
- 671 047b 00       		.byte	0
- 672 047c 00       		.byte	0
- 673 047d 00       		.byte	0
- 674 047e 00       		.byte	0
- 675 047f 00       		.byte	0
- 676 0480 00       		.byte	0
- 677 0481 00       		.byte	0
- 678 0482 00       		.byte	0
- 679 0483 00       		.byte	0
- 680 0484 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 13
+ 628 0256 00       		.byte	0
+ 629 0257 00       		.byte	0
+ 630 0258 00       		.byte	0
+ 631 0259 00       		.byte	0
+ 632 025a 00       		.byte	0
+ 633 025b 00       		.byte	0
+ 634 025c 00       		.byte	0
+ 635 025d 00       		.byte	0
+ 636 025e 00       		.byte	0
+ 637 025f 00       		.byte	0
+ 638 0260 00       		.byte	0
+ 639 0261 00       		.byte	0
+ 640 0262 00       		.byte	0
+ 641 0263 00       		.byte	0
+ 642 0264 00       		.byte	0
+ 643 0265 00       		.byte	0
+ 644 0266 00       		.byte	0
+ 645 0267 00       		.byte	0
+ 646 0268 00       		.byte	0
+ 647 0269 00       		.byte	0
+ 648 026a 00       		.byte	0
+ 649 026b 00       		.byte	0
+ 650 026c 00       		.byte	0
+ 651 026d 00       		.byte	0
+ 652 026e 00       		.byte	0
+ 653 026f 00       		.byte	0
+ 654 0270 00       		.byte	0
+ 655 0271 00       		.byte	0
+ 656 0272 00       		.byte	0
+ 657 0273 00       		.byte	0
+ 658 0274 00       		.byte	0
+ 659 0275 00       		.byte	0
+ 660 0276 00       		.byte	0
+ 661 0277 00       		.byte	0
+ 662 0278 00       		.byte	0
+ 663 0279 00       		.byte	0
+ 664 027a 00       		.byte	0
+ 665 027b 00       		.byte	0
+ 666 027c 00       		.byte	0
+ 667 027d 00       		.byte	0
+ 668 027e 00       		.byte	0
+ 669 027f 00       		.byte	0
+ 670 0280 00       		.byte	0
+ 671 0281 00       		.byte	0
+ 672 0282 00       		.byte	0
+ 673 0283 00       		.byte	0
+ 674 0284 00       		.byte	0
+ 675 0285 00       		.byte	0
+ 676 0286 00       		.byte	0
+ 677 0287 00       		.byte	0
+ 678 0288 00       		.byte	0
+ 679 0289 00       		.byte	0
+ 680 028a 00       		.byte	0
+ 681 028b 00       		.byte	0
+ 682 028c 00       		.byte	0
+ 683 028d 00       		.byte	0
+ 684 028e 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 13
 
 
- 681 0485 00       		.byte	0
- 682 0486 00       		.byte	0
- 683 0487 00       		.byte	0
- 684 0488 00       		.byte	0
- 685 0489 00       		.byte	0
- 686 048a 00       		.byte	0
- 687 048b 00       		.byte	0
- 688 048c 00       		.byte	0
- 689 048d 00       		.byte	0
- 690 048e 00       		.byte	0
- 691 048f 00       		.byte	0
- 692 0490 00       		.byte	0
- 693 0491 00       		.byte	0
- 694 0492 00       		.byte	0
- 695 0493 00       		.byte	0
- 696 0494 00       		.byte	0
- 697 0495 00       		.byte	0
- 698 0496 00       		.byte	0
- 699 0497 00       		.byte	0
- 700 0498 00       		.byte	0
- 701 0499 00       		.byte	0
- 702 049a 00       		.byte	0
- 703 049b 00       		.byte	0
- 704 049c 00       		.byte	0
- 705 049d 00       		.byte	0
- 706 049e 00       		.byte	0
- 707 049f 00       		.byte	0
- 708 04a0 00       		.byte	0
- 709 04a1 00       		.byte	0
- 710 04a2 00       		.byte	0
- 711 04a3 00       		.byte	0
- 712 04a4 00       		.byte	0
- 713 04a5 00       		.byte	0
- 714 04a6 00       		.byte	0
- 715 04a7 00       		.byte	0
- 716 04a8 00       		.byte	0
- 717 04a9 00       		.byte	0
- 718 04aa 00       		.byte	0
- 719 04ab 00       		.byte	0
- 720 04ac 00       		.byte	0
- 721 04ad 00       		.byte	0
- 722 04ae 00       		.byte	0
- 723 04af 00       		.byte	0
- 724 04b0 00       		.byte	0
- 725 04b1 00       		.byte	0
- 726 04b2 00       		.byte	0
- 727 04b3 00       		.byte	0
- 728 04b4 00       		.byte	0
- 729 04b5 00       		.byte	0
- 730 04b6 00       		.byte	0
- 731 04b7 00       		.byte	0
- 732 04b8 00       		.byte	0
- 733 04b9 00       		.byte	0
- 734 04ba 00       		.byte	0
- 735 04bb 00       		.byte	0
- 736 04bc 00       		.byte	0
- 737 04bd 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 14
+ 685 028f 00       		.byte	0
+ 686 0290 00       		.byte	0
+ 687 0291 00       		.byte	0
+ 688 0292 00       		.byte	0
+ 689 0293 00       		.byte	0
+ 690 0294 00       		.byte	0
+ 691 0295 00       		.byte	0
+ 692 0296 00       		.byte	0
+ 693 0297 00       		.byte	0
+ 694 0298 00       		.byte	0
+ 695 0299 00       		.byte	0
+ 696 029a 00       		.byte	0
+ 697 029b 00       		.byte	0
+ 698 029c 00       		.byte	0
+ 699 029d 00       		.byte	0
+ 700 029e 00       		.byte	0
+ 701 029f 00       		.byte	0
+ 702 02a0 00       		.byte	0
+ 703 02a1 00       		.byte	0
+ 704 02a2 00       		.byte	0
+ 705 02a3 00       		.byte	0
+ 706 02a4 00       		.byte	0
+ 707 02a5 00       		.byte	0
+ 708 02a6 00       		.byte	0
+ 709 02a7 00       		.byte	0
+ 710 02a8 00       		.byte	0
+ 711 02a9 00       		.byte	0
+ 712 02aa 00       		.byte	0
+ 713 02ab 00       		.byte	0
+ 714 02ac 00       		.byte	0
+ 715 02ad 00       		.byte	0
+ 716 02ae 00       		.byte	0
+ 717 02af 00       		.byte	0
+ 718 02b0 00       		.byte	0
+ 719 02b1 00       		.byte	0
+ 720 02b2 00       		.byte	0
+ 721 02b3 00       		.byte	0
+ 722 02b4 00       		.byte	0
+ 723 02b5 00       		.byte	0
+ 724 02b6 00       		.byte	0
+ 725 02b7 00       		.byte	0
+ 726 02b8 00       		.byte	0
+ 727 02b9 00       		.byte	0
+ 728 02ba 00       		.byte	0
+ 729 02bb 00       		.byte	0
+ 730 02bc 00       		.byte	0
+ 731 02bd 00       		.byte	0
+ 732 02be 00       		.byte	0
+ 733 02bf 00       		.byte	0
+ 734 02c0 00       		.byte	0
+ 735 02c1 00       		.byte	0
+ 736 02c2 00       		.byte	0
+ 737 02c3 00       		.byte	0
+ 738 02c4 00       		.byte	0
+ 739 02c5 00       		.byte	0
+ 740 02c6 00       		.byte	0
+ 741 02c7 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 14
 
 
- 738 04be 00       		.byte	0
- 739 04bf 00       		.byte	0
- 740 04c0 00       		.byte	0
- 741 04c1 00       		.byte	0
- 742 04c2 00       		.byte	0
- 743 04c3 00       		.byte	0
- 744 04c4 00       		.byte	0
- 745 04c5 00       		.byte	0
- 746 04c6 00       		.byte	0
- 747 04c7 00       		.byte	0
- 748 04c8 00       		.byte	0
- 749 04c9 00       		.byte	0
- 750 04ca 00       		.byte	0
- 751 04cb 00       		.byte	0
- 752 04cc 00       		.byte	0
- 753 04cd 00       		.byte	0
- 754 04ce 00       		.byte	0
- 755 04cf 00       		.byte	0
- 756 04d0 00       		.byte	0
- 757 04d1 00       		.byte	0
- 758 04d2 00       		.byte	0
- 759 04d3 00       		.byte	0
- 760 04d4 00       		.byte	0
- 761 04d5 00       		.byte	0
- 762 04d6 00       		.byte	0
- 763 04d7 00       		.byte	0
- 764 04d8 00       		.byte	0
- 765 04d9 00       		.byte	0
- 766 04da 00       		.byte	0
- 767 04db 00       		.byte	0
- 768 04dc 00       		.byte	0
- 769 04dd 00       		.byte	0
- 770 04de 00       		.byte	0
- 771 04df 00       		.byte	0
- 772 04e0 00       		.byte	0
- 773 04e1 00       		.byte	0
- 774 04e2 00       		.byte	0
- 775 04e3 00       		.byte	0
- 776 04e4 00       		.byte	0
- 777 04e5 00       		.byte	0
- 778 04e6 00       		.byte	0
- 779 04e7 00       		.byte	0
- 780 04e8 00       		.byte	0
- 781 04e9 00       		.byte	0
- 782 04ea 00       		.byte	0
- 783 04eb 00       		.byte	0
- 784 04ec 00       		.byte	0
- 785 04ed 00       		.byte	0
- 786 04ee 00       		.byte	0
- 787 04ef 00       		.byte	0
- 788 04f0 00       		.byte	0
- 789 04f1 00       		.byte	0
- 790 04f2 00       		.byte	0
- 791 04f3 00       		.byte	0
- 792 04f4 00       		.byte	0
- 793 04f5 00       		.byte	0
- 794 04f6 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 15
+ 742 02c8 00       		.byte	0
+ 743 02c9 00       		.byte	0
+ 744 02ca 00       		.byte	0
+ 745 02cb 00       		.byte	0
+ 746 02cc 00       		.byte	0
+ 747 02cd 00       		.byte	0
+ 748 02ce 00       		.byte	0
+ 749 02cf 00       		.byte	0
+ 750 02d0 00       		.byte	0
+ 751 02d1 00       		.byte	0
+ 752 02d2 00       		.byte	0
+ 753 02d3 00       		.byte	0
+ 754 02d4 00       		.byte	0
+ 755 02d5 00       		.byte	0
+ 756 02d6 00       		.byte	0
+ 757 02d7 00       		.byte	0
+ 758 02d8 00       		.byte	0
+ 759 02d9 00       		.byte	0
+ 760 02da 00       		.byte	0
+ 761 02db 00       		.byte	0
+ 762 02dc 00       		.byte	0
+ 763 02dd 00       		.byte	0
+ 764 02de 00       		.byte	0
+ 765 02df 00       		.byte	0
+ 766 02e0 00       		.byte	0
+ 767 02e1 00       		.byte	0
+ 768 02e2 00       		.byte	0
+ 769 02e3 00       		.byte	0
+ 770 02e4 00       		.byte	0
+ 771 02e5 00       		.byte	0
+ 772 02e6 00       		.byte	0
+ 773 02e7 00       		.byte	0
+ 774 02e8 00       		.byte	0
+ 775 02e9 00       		.byte	0
+ 776 02ea 00       		.byte	0
+ 777 02eb 00       		.byte	0
+ 778 02ec 00       		.byte	0
+ 779 02ed 00       		.byte	0
+ 780 02ee 00       		.byte	0
+ 781 02ef 00       		.byte	0
+ 782 02f0 00       		.byte	0
+ 783 02f1 00       		.byte	0
+ 784 02f2 00       		.byte	0
+ 785 02f3 00       		.byte	0
+ 786 02f4 00       		.byte	0
+ 787 02f5 00       		.byte	0
+ 788 02f6 00       		.byte	0
+ 789 02f7 00       		.byte	0
+ 790 02f8 00       		.byte	0
+ 791 02f9 00       		.byte	0
+ 792 02fa 00       		.byte	0
+ 793 02fb 00       		.byte	0
+ 794 02fc 00       		.byte	0
+ 795 02fd 08       		.byte	8
+ 796 02fe 00       		.byte	0
+ 797 02ff 00       		.byte	0
+ 798              		.global	Filter_data_b
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 15
 
 
- 795 04f7 00       		.byte	0
- 796 04f8 00       		.byte	0
- 797 04f9 00       		.byte	0
- 798 04fa 00       		.byte	0
- 799 04fb 00       		.byte	0
- 800 04fc 00       		.byte	0
- 801 04fd 00       		.byte	0
- 802 04fe 00       		.byte	0
- 803 04ff 00       		.byte	0
- 804              		.global	Filter_acu
- 805              		.align	2
- 806              		.type	Filter_acu, %object
- 807              		.size	Filter_acu, 64
- 808              	Filter_acu:
- 809 0500 0E       		.byte	14
- 810 0501 07       		.byte	7
- 811 0502 00       		.byte	0
- 812 0503 00       		.byte	0
- 813 0504 00       		.byte	0
- 814 0505 00       		.byte	0
- 815 0506 00       		.byte	0
- 816 0507 00       		.byte	0
- 817 0508 00       		.byte	0
- 818 0509 00       		.byte	0
- 819 050a 00       		.byte	0
- 820 050b 00       		.byte	0
- 821 050c 00       		.byte	0
- 822 050d 00       		.byte	0
- 823 050e 00       		.byte	0
- 824 050f 00       		.byte	0
- 825 0510 00       		.byte	0
- 826 0511 00       		.byte	0
- 827 0512 00       		.byte	0
- 828 0513 00       		.byte	0
- 829 0514 00       		.byte	0
- 830 0515 00       		.byte	0
- 831 0516 00       		.byte	0
- 832 0517 00       		.byte	0
- 833 0518 00       		.byte	0
- 834 0519 00       		.byte	0
- 835 051a 00       		.byte	0
- 836 051b 00       		.byte	0
- 837 051c 00       		.byte	0
- 838 051d 00       		.byte	0
- 839 051e 00       		.byte	0
- 840 051f 00       		.byte	0
- 841 0520 00       		.byte	0
- 842 0521 00       		.byte	0
- 843 0522 00       		.byte	0
- 844 0523 00       		.byte	0
- 845 0524 00       		.byte	0
- 846 0525 00       		.byte	0
- 847 0526 00       		.byte	0
- 848 0527 00       		.byte	0
- 849 0528 00       		.byte	0
- 850 0529 00       		.byte	0
- 851 052a 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 16
+ 799              		.align	2
+ 800              		.type	Filter_data_b, %object
+ 801              		.size	Filter_data_b, 512
+ 802              	Filter_data_b:
+ 803 0300 58       		.byte	88
+ 804 0301 C0       		.byte	-64
+ 805 0302 04       		.byte	4
+ 806 0303 00       		.byte	0
+ 807 0304 AF       		.byte	-81
+ 808 0305 80       		.byte	-128
+ 809 0306 09       		.byte	9
+ 810 0307 00       		.byte	0
+ 811 0308 58       		.byte	88
+ 812 0309 C0       		.byte	-64
+ 813 030a 04       		.byte	4
+ 814 030b 00       		.byte	0
+ 815 030c 00       		.byte	0
+ 816 030d 00       		.byte	0
+ 817 030e 00       		.byte	0
+ 818 030f 00       		.byte	0
+ 819 0310 0E       		.byte	14
+ 820 0311 B7       		.byte	-73
+ 821 0312 ED       		.byte	-19
+ 822 0313 00       		.byte	0
+ 823 0314 71       		.byte	113
+ 824 0315 E9       		.byte	-23
+ 825 0316 12       		.byte	18
+ 826 0317 00       		.byte	0
+ 827 0318 E2       		.byte	-30
+ 828 0319 D2       		.byte	-46
+ 829 031a 25       		.byte	37
+ 830 031b 00       		.byte	0
+ 831 031c 71       		.byte	113
+ 832 031d E9       		.byte	-23
+ 833 031e 12       		.byte	18
+ 834 031f 00       		.byte	0
+ 835 0320 00       		.byte	0
+ 836 0321 00       		.byte	0
+ 837 0322 00       		.byte	0
+ 838 0323 00       		.byte	0
+ 839 0324 5B       		.byte	91
+ 840 0325 1C       		.byte	28
+ 841 0326 FA       		.byte	-6
+ 842 0327 00       		.byte	0
+ 843 0328 BE       		.byte	-66
+ 844 0329 27       		.byte	39
+ 845 032a 10       		.byte	16
+ 846 032b 00       		.byte	0
+ 847 032c 7C       		.byte	124
+ 848 032d 4F       		.byte	79
+ 849 032e 20       		.byte	32
+ 850 032f 00       		.byte	0
+ 851 0330 BE       		.byte	-66
+ 852 0331 27       		.byte	39
+ 853 0332 10       		.byte	16
+ 854 0333 00       		.byte	0
+ 855 0334 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 16
 
 
- 852 052b 00       		.byte	0
- 853 052c 00       		.byte	0
- 854 052d 00       		.byte	0
- 855 052e 00       		.byte	0
- 856 052f 00       		.byte	0
- 857 0530 00       		.byte	0
- 858 0531 00       		.byte	0
- 859 0532 00       		.byte	0
- 860 0533 00       		.byte	0
- 861 0534 00       		.byte	0
- 862 0535 00       		.byte	0
- 863 0536 00       		.byte	0
- 864 0537 00       		.byte	0
- 865 0538 00       		.byte	0
- 866 0539 00       		.byte	0
- 867 053a 00       		.byte	0
- 868 053b 00       		.byte	0
- 869 053c 00       		.byte	0
- 870 053d 00       		.byte	0
- 871 053e 00       		.byte	0
- 872 053f 00       		.byte	0
- 873              		.global	Filter_cfsm
- 874              		.align	2
- 875              		.type	Filter_cfsm, %object
- 876              		.size	Filter_cfsm, 256
- 877              	Filter_cfsm:
- 878 0540 21       		.byte	33
- 879 0541 F8       		.byte	-8
- 880 0542 05       		.byte	5
- 881 0543 01       		.byte	1
- 882 0544 42       		.byte	66
- 883 0545 10       		.byte	16
- 884 0546 86       		.byte	-122
- 885 0547 40       		.byte	64
- 886 0548 64       		.byte	100
- 887 0549 F8       		.byte	-8
- 888 054a 15       		.byte	21
- 889 054b 01       		.byte	1
- 890 054c 81       		.byte	-127
- 891 054d F8       		.byte	-8
- 892 054e 05       		.byte	5
- 893 054f 01       		.byte	1
- 894 0550 43       		.byte	67
- 895 0551 51       		.byte	81
- 896 0552 8E       		.byte	-114
- 897 0553 21       		.byte	33
- 898 0554 00       		.byte	0
- 899 0555 00       		.byte	0
- 900 0556 00       		.byte	0
- 901 0557 00       		.byte	0
- 902 0558 00       		.byte	0
- 903 0559 00       		.byte	0
- 904 055a 00       		.byte	0
- 905 055b 00       		.byte	0
- 906 055c 00       		.byte	0
- 907 055d 00       		.byte	0
- 908 055e 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 17
+ 856 0335 00       		.byte	0
+ 857 0336 00       		.byte	0
+ 858 0337 00       		.byte	0
+ 859 0338 11       		.byte	17
+ 860 0339 61       		.byte	97
+ 861 033a FF       		.byte	-1
+ 862 033b 00       		.byte	0
+ 863 033c 82       		.byte	-126
+ 864 033d E9       		.byte	-23
+ 865 033e 25       		.byte	37
+ 866 033f 00       		.byte	0
+ 867 0340 04       		.byte	4
+ 868 0341 D3       		.byte	-45
+ 869 0342 4B       		.byte	75
+ 870 0343 00       		.byte	0
+ 871 0344 82       		.byte	-126
+ 872 0345 E9       		.byte	-23
+ 873 0346 25       		.byte	37
+ 874 0347 00       		.byte	0
+ 875 0348 00       		.byte	0
+ 876 0349 00       		.byte	0
+ 877 034a 00       		.byte	0
+ 878 034b 00       		.byte	0
+ 879 034c 26       		.byte	38
+ 880 034d E5       		.byte	-27
+ 881 034e D4       		.byte	-44
+ 882 034f 00       		.byte	0
+ 883 0350 00       		.byte	0
+ 884 0351 00       		.byte	0
+ 885 0352 00       		.byte	0
+ 886 0353 00       		.byte	0
+ 887 0354 00       		.byte	0
+ 888 0355 00       		.byte	0
+ 889 0356 00       		.byte	0
+ 890 0357 00       		.byte	0
+ 891 0358 00       		.byte	0
+ 892 0359 00       		.byte	0
+ 893 035a 00       		.byte	0
+ 894 035b 00       		.byte	0
+ 895 035c 00       		.byte	0
+ 896 035d 00       		.byte	0
+ 897 035e 00       		.byte	0
+ 898 035f 00       		.byte	0
+ 899 0360 00       		.byte	0
+ 900 0361 00       		.byte	0
+ 901 0362 00       		.byte	0
+ 902 0363 00       		.byte	0
+ 903 0364 00       		.byte	0
+ 904 0365 00       		.byte	0
+ 905 0366 00       		.byte	0
+ 906 0367 00       		.byte	0
+ 907 0368 00       		.byte	0
+ 908 0369 00       		.byte	0
+ 909 036a 00       		.byte	0
+ 910 036b 00       		.byte	0
+ 911 036c 00       		.byte	0
+ 912 036d 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 17
 
 
- 909 055f 00       		.byte	0
- 910 0560 00       		.byte	0
- 911 0561 00       		.byte	0
- 912 0562 00       		.byte	0
- 913 0563 00       		.byte	0
- 914 0564 00       		.byte	0
- 915 0565 00       		.byte	0
- 916 0566 00       		.byte	0
- 917 0567 00       		.byte	0
- 918 0568 00       		.byte	0
- 919 0569 00       		.byte	0
- 920 056a 00       		.byte	0
- 921 056b 00       		.byte	0
- 922 056c 00       		.byte	0
- 923 056d 00       		.byte	0
- 924 056e 00       		.byte	0
- 925 056f 00       		.byte	0
- 926 0570 00       		.byte	0
- 927 0571 00       		.byte	0
- 928 0572 00       		.byte	0
- 929 0573 00       		.byte	0
- 930 0574 00       		.byte	0
- 931 0575 00       		.byte	0
- 932 0576 00       		.byte	0
- 933 0577 00       		.byte	0
- 934 0578 00       		.byte	0
- 935 0579 00       		.byte	0
- 936 057a 00       		.byte	0
- 937 057b 00       		.byte	0
- 938 057c 00       		.byte	0
- 939 057d 00       		.byte	0
- 940 057e 00       		.byte	0
- 941 057f 00       		.byte	0
- 942 0580 00       		.byte	0
- 943 0581 00       		.byte	0
- 944 0582 00       		.byte	0
- 945 0583 00       		.byte	0
- 946 0584 00       		.byte	0
- 947 0585 00       		.byte	0
- 948 0586 00       		.byte	0
- 949 0587 00       		.byte	0
- 950 0588 00       		.byte	0
- 951 0589 00       		.byte	0
- 952 058a 00       		.byte	0
- 953 058b 00       		.byte	0
- 954 058c 00       		.byte	0
- 955 058d 00       		.byte	0
- 956 058e 00       		.byte	0
- 957 058f 00       		.byte	0
- 958 0590 00       		.byte	0
- 959 0591 00       		.byte	0
- 960 0592 00       		.byte	0
- 961 0593 00       		.byte	0
- 962 0594 00       		.byte	0
- 963 0595 00       		.byte	0
- 964 0596 00       		.byte	0
- 965 0597 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 18
+ 913 036e 00       		.byte	0
+ 914 036f 00       		.byte	0
+ 915 0370 00       		.byte	0
+ 916 0371 00       		.byte	0
+ 917 0372 00       		.byte	0
+ 918 0373 00       		.byte	0
+ 919 0374 00       		.byte	0
+ 920 0375 00       		.byte	0
+ 921 0376 00       		.byte	0
+ 922 0377 00       		.byte	0
+ 923 0378 00       		.byte	0
+ 924 0379 00       		.byte	0
+ 925 037a 00       		.byte	0
+ 926 037b 00       		.byte	0
+ 927 037c 00       		.byte	0
+ 928 037d 00       		.byte	0
+ 929 037e 00       		.byte	0
+ 930 037f 00       		.byte	0
+ 931 0380 00       		.byte	0
+ 932 0381 00       		.byte	0
+ 933 0382 00       		.byte	0
+ 934 0383 00       		.byte	0
+ 935 0384 00       		.byte	0
+ 936 0385 00       		.byte	0
+ 937 0386 00       		.byte	0
+ 938 0387 00       		.byte	0
+ 939 0388 00       		.byte	0
+ 940 0389 00       		.byte	0
+ 941 038a 00       		.byte	0
+ 942 038b 00       		.byte	0
+ 943 038c 00       		.byte	0
+ 944 038d 00       		.byte	0
+ 945 038e 00       		.byte	0
+ 946 038f 00       		.byte	0
+ 947 0390 00       		.byte	0
+ 948 0391 00       		.byte	0
+ 949 0392 00       		.byte	0
+ 950 0393 00       		.byte	0
+ 951 0394 00       		.byte	0
+ 952 0395 00       		.byte	0
+ 953 0396 00       		.byte	0
+ 954 0397 00       		.byte	0
+ 955 0398 00       		.byte	0
+ 956 0399 00       		.byte	0
+ 957 039a 00       		.byte	0
+ 958 039b 00       		.byte	0
+ 959 039c 00       		.byte	0
+ 960 039d 00       		.byte	0
+ 961 039e 00       		.byte	0
+ 962 039f 00       		.byte	0
+ 963 03a0 00       		.byte	0
+ 964 03a1 00       		.byte	0
+ 965 03a2 00       		.byte	0
+ 966 03a3 00       		.byte	0
+ 967 03a4 00       		.byte	0
+ 968 03a5 00       		.byte	0
+ 969 03a6 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 18
 
 
- 966 0598 00       		.byte	0
- 967 0599 00       		.byte	0
- 968 059a 00       		.byte	0
- 969 059b 00       		.byte	0
- 970 059c 00       		.byte	0
- 971 059d 00       		.byte	0
- 972 059e 00       		.byte	0
- 973 059f 00       		.byte	0
- 974 05a0 00       		.byte	0
- 975 05a1 00       		.byte	0
- 976 05a2 00       		.byte	0
- 977 05a3 00       		.byte	0
- 978 05a4 00       		.byte	0
- 979 05a5 00       		.byte	0
- 980 05a6 00       		.byte	0
- 981 05a7 00       		.byte	0
- 982 05a8 00       		.byte	0
- 983 05a9 00       		.byte	0
- 984 05aa 00       		.byte	0
- 985 05ab 00       		.byte	0
- 986 05ac 00       		.byte	0
- 987 05ad 00       		.byte	0
- 988 05ae 00       		.byte	0
- 989 05af 00       		.byte	0
- 990 05b0 00       		.byte	0
- 991 05b1 00       		.byte	0
- 992 05b2 00       		.byte	0
- 993 05b3 00       		.byte	0
- 994 05b4 00       		.byte	0
- 995 05b5 00       		.byte	0
- 996 05b6 00       		.byte	0
- 997 05b7 00       		.byte	0
- 998 05b8 00       		.byte	0
- 999 05b9 00       		.byte	0
- 1000 05ba 00       		.byte	0
- 1001 05bb 00       		.byte	0
- 1002 05bc 00       		.byte	0
- 1003 05bd 00       		.byte	0
- 1004 05be 00       		.byte	0
- 1005 05bf 00       		.byte	0
- 1006 05c0 00       		.byte	0
- 1007 05c1 00       		.byte	0
- 1008 05c2 00       		.byte	0
- 1009 05c3 00       		.byte	0
- 1010 05c4 00       		.byte	0
- 1011 05c5 00       		.byte	0
- 1012 05c6 00       		.byte	0
- 1013 05c7 00       		.byte	0
- 1014 05c8 00       		.byte	0
- 1015 05c9 00       		.byte	0
- 1016 05ca 00       		.byte	0
- 1017 05cb 00       		.byte	0
- 1018 05cc 00       		.byte	0
- 1019 05cd 00       		.byte	0
- 1020 05ce 00       		.byte	0
- 1021 05cf 00       		.byte	0
- 1022 05d0 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 19
+ 970 03a7 00       		.byte	0
+ 971 03a8 00       		.byte	0
+ 972 03a9 00       		.byte	0
+ 973 03aa 00       		.byte	0
+ 974 03ab 00       		.byte	0
+ 975 03ac 00       		.byte	0
+ 976 03ad 00       		.byte	0
+ 977 03ae 00       		.byte	0
+ 978 03af 00       		.byte	0
+ 979 03b0 00       		.byte	0
+ 980 03b1 00       		.byte	0
+ 981 03b2 00       		.byte	0
+ 982 03b3 00       		.byte	0
+ 983 03b4 00       		.byte	0
+ 984 03b5 00       		.byte	0
+ 985 03b6 00       		.byte	0
+ 986 03b7 00       		.byte	0
+ 987 03b8 00       		.byte	0
+ 988 03b9 00       		.byte	0
+ 989 03ba 00       		.byte	0
+ 990 03bb 00       		.byte	0
+ 991 03bc 00       		.byte	0
+ 992 03bd 00       		.byte	0
+ 993 03be 00       		.byte	0
+ 994 03bf 00       		.byte	0
+ 995 03c0 00       		.byte	0
+ 996 03c1 00       		.byte	0
+ 997 03c2 00       		.byte	0
+ 998 03c3 00       		.byte	0
+ 999 03c4 00       		.byte	0
+ 1000 03c5 00       		.byte	0
+ 1001 03c6 00       		.byte	0
+ 1002 03c7 00       		.byte	0
+ 1003 03c8 00       		.byte	0
+ 1004 03c9 00       		.byte	0
+ 1005 03ca 00       		.byte	0
+ 1006 03cb 00       		.byte	0
+ 1007 03cc 00       		.byte	0
+ 1008 03cd 00       		.byte	0
+ 1009 03ce 00       		.byte	0
+ 1010 03cf 00       		.byte	0
+ 1011 03d0 00       		.byte	0
+ 1012 03d1 00       		.byte	0
+ 1013 03d2 00       		.byte	0
+ 1014 03d3 00       		.byte	0
+ 1015 03d4 00       		.byte	0
+ 1016 03d5 00       		.byte	0
+ 1017 03d6 00       		.byte	0
+ 1018 03d7 00       		.byte	0
+ 1019 03d8 00       		.byte	0
+ 1020 03d9 00       		.byte	0
+ 1021 03da 00       		.byte	0
+ 1022 03db 00       		.byte	0
+ 1023 03dc 00       		.byte	0
+ 1024 03dd 00       		.byte	0
+ 1025 03de 00       		.byte	0
+ 1026 03df 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 19
 
 
- 1023 05d1 00       		.byte	0
- 1024 05d2 00       		.byte	0
- 1025 05d3 00       		.byte	0
- 1026 05d4 00       		.byte	0
- 1027 05d5 00       		.byte	0
- 1028 05d6 00       		.byte	0
- 1029 05d7 00       		.byte	0
- 1030 05d8 00       		.byte	0
- 1031 05d9 00       		.byte	0
- 1032 05da 00       		.byte	0
- 1033 05db 00       		.byte	0
- 1034 05dc 00       		.byte	0
- 1035 05dd 00       		.byte	0
- 1036 05de 00       		.byte	0
- 1037 05df 00       		.byte	0
- 1038 05e0 00       		.byte	0
- 1039 05e1 00       		.byte	0
- 1040 05e2 00       		.byte	0
- 1041 05e3 00       		.byte	0
- 1042 05e4 00       		.byte	0
- 1043 05e5 00       		.byte	0
- 1044 05e6 00       		.byte	0
- 1045 05e7 00       		.byte	0
- 1046 05e8 00       		.byte	0
- 1047 05e9 00       		.byte	0
- 1048 05ea 00       		.byte	0
- 1049 05eb 00       		.byte	0
- 1050 05ec 00       		.byte	0
- 1051 05ed 00       		.byte	0
- 1052 05ee 00       		.byte	0
- 1053 05ef 00       		.byte	0
- 1054 05f0 00       		.byte	0
- 1055 05f1 00       		.byte	0
- 1056 05f2 00       		.byte	0
- 1057 05f3 00       		.byte	0
- 1058 05f4 00       		.byte	0
- 1059 05f5 00       		.byte	0
- 1060 05f6 00       		.byte	0
- 1061 05f7 00       		.byte	0
- 1062 05f8 00       		.byte	0
- 1063 05f9 00       		.byte	0
- 1064 05fa 00       		.byte	0
- 1065 05fb 00       		.byte	0
- 1066 05fc 00       		.byte	0
- 1067 05fd 00       		.byte	0
- 1068 05fe 00       		.byte	0
- 1069 05ff 00       		.byte	0
- 1070 0600 00       		.byte	0
- 1071 0601 00       		.byte	0
- 1072 0602 00       		.byte	0
- 1073 0603 00       		.byte	0
- 1074 0604 00       		.byte	0
- 1075 0605 00       		.byte	0
- 1076 0606 00       		.byte	0
- 1077 0607 00       		.byte	0
- 1078 0608 00       		.byte	0
- 1079 0609 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 20
+ 1027 03e0 00       		.byte	0
+ 1028 03e1 00       		.byte	0
+ 1029 03e2 00       		.byte	0
+ 1030 03e3 00       		.byte	0
+ 1031 03e4 00       		.byte	0
+ 1032 03e5 00       		.byte	0
+ 1033 03e6 00       		.byte	0
+ 1034 03e7 00       		.byte	0
+ 1035 03e8 00       		.byte	0
+ 1036 03e9 00       		.byte	0
+ 1037 03ea 00       		.byte	0
+ 1038 03eb 00       		.byte	0
+ 1039 03ec 00       		.byte	0
+ 1040 03ed 00       		.byte	0
+ 1041 03ee 00       		.byte	0
+ 1042 03ef 00       		.byte	0
+ 1043 03f0 00       		.byte	0
+ 1044 03f1 00       		.byte	0
+ 1045 03f2 00       		.byte	0
+ 1046 03f3 00       		.byte	0
+ 1047 03f4 00       		.byte	0
+ 1048 03f5 00       		.byte	0
+ 1049 03f6 00       		.byte	0
+ 1050 03f7 00       		.byte	0
+ 1051 03f8 00       		.byte	0
+ 1052 03f9 00       		.byte	0
+ 1053 03fa 00       		.byte	0
+ 1054 03fb 00       		.byte	0
+ 1055 03fc 00       		.byte	0
+ 1056 03fd 00       		.byte	0
+ 1057 03fe 00       		.byte	0
+ 1058 03ff 00       		.byte	0
+ 1059 0400 00       		.byte	0
+ 1060 0401 00       		.byte	0
+ 1061 0402 00       		.byte	0
+ 1062 0403 00       		.byte	0
+ 1063 0404 00       		.byte	0
+ 1064 0405 00       		.byte	0
+ 1065 0406 00       		.byte	0
+ 1066 0407 00       		.byte	0
+ 1067 0408 00       		.byte	0
+ 1068 0409 00       		.byte	0
+ 1069 040a 00       		.byte	0
+ 1070 040b 00       		.byte	0
+ 1071 040c 00       		.byte	0
+ 1072 040d 00       		.byte	0
+ 1073 040e 00       		.byte	0
+ 1074 040f 00       		.byte	0
+ 1075 0410 00       		.byte	0
+ 1076 0411 00       		.byte	0
+ 1077 0412 00       		.byte	0
+ 1078 0413 00       		.byte	0
+ 1079 0414 00       		.byte	0
+ 1080 0415 00       		.byte	0
+ 1081 0416 00       		.byte	0
+ 1082 0417 00       		.byte	0
+ 1083 0418 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 20
 
 
- 1080 060a 00       		.byte	0
- 1081 060b 00       		.byte	0
- 1082 060c 00       		.byte	0
- 1083 060d 00       		.byte	0
- 1084 060e 00       		.byte	0
- 1085 060f 00       		.byte	0
- 1086 0610 00       		.byte	0
- 1087 0611 00       		.byte	0
- 1088 0612 00       		.byte	0
- 1089 0613 00       		.byte	0
- 1090 0614 00       		.byte	0
- 1091 0615 00       		.byte	0
- 1092 0616 00       		.byte	0
- 1093 0617 00       		.byte	0
- 1094 0618 00       		.byte	0
- 1095 0619 00       		.byte	0
- 1096 061a 00       		.byte	0
- 1097 061b 00       		.byte	0
- 1098 061c 00       		.byte	0
- 1099 061d 00       		.byte	0
- 1100 061e 00       		.byte	0
- 1101 061f 00       		.byte	0
- 1102 0620 00       		.byte	0
- 1103 0621 00       		.byte	0
- 1104 0622 00       		.byte	0
- 1105 0623 00       		.byte	0
- 1106 0624 00       		.byte	0
- 1107 0625 00       		.byte	0
- 1108 0626 00       		.byte	0
- 1109 0627 00       		.byte	0
- 1110 0628 00       		.byte	0
- 1111 0629 00       		.byte	0
- 1112 062a 00       		.byte	0
- 1113 062b 00       		.byte	0
- 1114 062c 00       		.byte	0
- 1115 062d 00       		.byte	0
- 1116 062e 00       		.byte	0
- 1117 062f 00       		.byte	0
- 1118 0630 00       		.byte	0
- 1119 0631 00       		.byte	0
- 1120 0632 00       		.byte	0
- 1121 0633 00       		.byte	0
- 1122 0634 00       		.byte	0
- 1123 0635 00       		.byte	0
- 1124 0636 00       		.byte	0
- 1125 0637 00       		.byte	0
- 1126 0638 00       		.byte	0
- 1127 0639 00       		.byte	0
- 1128 063a 00       		.byte	0
- 1129 063b 00       		.byte	0
- 1130 063c 00       		.byte	0
- 1131 063d 00       		.byte	0
- 1132 063e 00       		.byte	0
- 1133 063f 00       		.byte	0
- 1134              		.text
- 1135              	.Letext0:
- 1136              		.file 1 "Generated_Source\\PSoC5\\Filter_RAM_Data.c"
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 21
+ 1084 0419 00       		.byte	0
+ 1085 041a 00       		.byte	0
+ 1086 041b 00       		.byte	0
+ 1087 041c 00       		.byte	0
+ 1088 041d 00       		.byte	0
+ 1089 041e 00       		.byte	0
+ 1090 041f 00       		.byte	0
+ 1091 0420 00       		.byte	0
+ 1092 0421 00       		.byte	0
+ 1093 0422 00       		.byte	0
+ 1094 0423 00       		.byte	0
+ 1095 0424 00       		.byte	0
+ 1096 0425 00       		.byte	0
+ 1097 0426 00       		.byte	0
+ 1098 0427 00       		.byte	0
+ 1099 0428 00       		.byte	0
+ 1100 0429 00       		.byte	0
+ 1101 042a 00       		.byte	0
+ 1102 042b 00       		.byte	0
+ 1103 042c 00       		.byte	0
+ 1104 042d 00       		.byte	0
+ 1105 042e 00       		.byte	0
+ 1106 042f 00       		.byte	0
+ 1107 0430 00       		.byte	0
+ 1108 0431 00       		.byte	0
+ 1109 0432 00       		.byte	0
+ 1110 0433 00       		.byte	0
+ 1111 0434 00       		.byte	0
+ 1112 0435 00       		.byte	0
+ 1113 0436 00       		.byte	0
+ 1114 0437 00       		.byte	0
+ 1115 0438 00       		.byte	0
+ 1116 0439 00       		.byte	0
+ 1117 043a 00       		.byte	0
+ 1118 043b 00       		.byte	0
+ 1119 043c 00       		.byte	0
+ 1120 043d 00       		.byte	0
+ 1121 043e 00       		.byte	0
+ 1122 043f 00       		.byte	0
+ 1123 0440 00       		.byte	0
+ 1124 0441 00       		.byte	0
+ 1125 0442 00       		.byte	0
+ 1126 0443 00       		.byte	0
+ 1127 0444 00       		.byte	0
+ 1128 0445 00       		.byte	0
+ 1129 0446 00       		.byte	0
+ 1130 0447 00       		.byte	0
+ 1131 0448 00       		.byte	0
+ 1132 0449 00       		.byte	0
+ 1133 044a 00       		.byte	0
+ 1134 044b 00       		.byte	0
+ 1135 044c 00       		.byte	0
+ 1136 044d 00       		.byte	0
+ 1137 044e 00       		.byte	0
+ 1138 044f 00       		.byte	0
+ 1139 0450 00       		.byte	0
+ 1140 0451 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 21
 
 
- 1137              		.file 2 "Generated_Source\\PSoC5\\cytypes.h"
- 1138              		.section	.debug_info,"",%progbits
- 1139              	.Ldebug_info0:
- 1140 0000 33010000 		.4byte	0x133
- 1141 0004 0400     		.2byte	0x4
- 1142 0006 00000000 		.4byte	.Ldebug_abbrev0
- 1143 000a 04       		.byte	0x4
- 1144 000b 01       		.uleb128 0x1
- 1145 000c 92000000 		.4byte	.LASF19
- 1146 0010 0C       		.byte	0xc
- 1147 0011 20010000 		.4byte	.LASF20
- 1148 0015 5B000000 		.4byte	.LASF21
- 1149 0019 00000000 		.4byte	.Ldebug_line0
- 1150 001d 02       		.uleb128 0x2
- 1151 001e 04       		.byte	0x4
- 1152 001f 05       		.byte	0x5
- 1153 0020 696E7400 		.ascii	"int\000"
- 1154 0024 03       		.uleb128 0x3
- 1155 0025 04       		.byte	0x4
- 1156 0026 07       		.byte	0x7
- 1157 0027 0E000000 		.4byte	.LASF0
- 1158 002b 03       		.uleb128 0x3
- 1159 002c 08       		.byte	0x8
- 1160 002d 05       		.byte	0x5
- 1161 002e 00000000 		.4byte	.LASF1
- 1162 0032 03       		.uleb128 0x3
- 1163 0033 08       		.byte	0x8
- 1164 0034 04       		.byte	0x4
- 1165 0035 B6010000 		.4byte	.LASF2
- 1166 0039 03       		.uleb128 0x3
- 1167 003a 01       		.byte	0x1
- 1168 003b 06       		.byte	0x6
- 1169 003c 9B010000 		.4byte	.LASF3
- 1170 0040 03       		.uleb128 0x3
- 1171 0041 01       		.byte	0x1
- 1172 0042 08       		.byte	0x8
- 1173 0043 49010000 		.4byte	.LASF4
- 1174 0047 03       		.uleb128 0x3
- 1175 0048 02       		.byte	0x2
- 1176 0049 05       		.byte	0x5
- 1177 004a C2010000 		.4byte	.LASF5
- 1178 004e 03       		.uleb128 0x3
- 1179 004f 02       		.byte	0x2
- 1180 0050 07       		.byte	0x7
- 1181 0051 88010000 		.4byte	.LASF6
- 1182 0055 03       		.uleb128 0x3
- 1183 0056 04       		.byte	0x4
- 1184 0057 05       		.byte	0x5
- 1185 0058 5C010000 		.4byte	.LASF7
- 1186 005c 03       		.uleb128 0x3
- 1187 005d 04       		.byte	0x4
- 1188 005e 07       		.byte	0x7
- 1189 005f 2C000000 		.4byte	.LASF8
- 1190 0063 03       		.uleb128 0x3
- 1191 0064 08       		.byte	0x8
- 1192 0065 07       		.byte	0x7
- 1193 0066 3E000000 		.4byte	.LASF9
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 22
+ 1141 0452 00       		.byte	0
+ 1142 0453 00       		.byte	0
+ 1143 0454 00       		.byte	0
+ 1144 0455 00       		.byte	0
+ 1145 0456 00       		.byte	0
+ 1146 0457 00       		.byte	0
+ 1147 0458 00       		.byte	0
+ 1148 0459 00       		.byte	0
+ 1149 045a 00       		.byte	0
+ 1150 045b 00       		.byte	0
+ 1151 045c 00       		.byte	0
+ 1152 045d 00       		.byte	0
+ 1153 045e 00       		.byte	0
+ 1154 045f 00       		.byte	0
+ 1155 0460 00       		.byte	0
+ 1156 0461 00       		.byte	0
+ 1157 0462 00       		.byte	0
+ 1158 0463 00       		.byte	0
+ 1159 0464 00       		.byte	0
+ 1160 0465 00       		.byte	0
+ 1161 0466 00       		.byte	0
+ 1162 0467 00       		.byte	0
+ 1163 0468 00       		.byte	0
+ 1164 0469 00       		.byte	0
+ 1165 046a 00       		.byte	0
+ 1166 046b 00       		.byte	0
+ 1167 046c 00       		.byte	0
+ 1168 046d 00       		.byte	0
+ 1169 046e 00       		.byte	0
+ 1170 046f 00       		.byte	0
+ 1171 0470 00       		.byte	0
+ 1172 0471 00       		.byte	0
+ 1173 0472 00       		.byte	0
+ 1174 0473 00       		.byte	0
+ 1175 0474 00       		.byte	0
+ 1176 0475 00       		.byte	0
+ 1177 0476 00       		.byte	0
+ 1178 0477 00       		.byte	0
+ 1179 0478 00       		.byte	0
+ 1180 0479 00       		.byte	0
+ 1181 047a 00       		.byte	0
+ 1182 047b 00       		.byte	0
+ 1183 047c 00       		.byte	0
+ 1184 047d 00       		.byte	0
+ 1185 047e 00       		.byte	0
+ 1186 047f 00       		.byte	0
+ 1187 0480 00       		.byte	0
+ 1188 0481 00       		.byte	0
+ 1189 0482 00       		.byte	0
+ 1190 0483 00       		.byte	0
+ 1191 0484 00       		.byte	0
+ 1192 0485 00       		.byte	0
+ 1193 0486 00       		.byte	0
+ 1194 0487 00       		.byte	0
+ 1195 0488 00       		.byte	0
+ 1196 0489 00       		.byte	0
+ 1197 048a 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 22
 
 
- 1194 006a 03       		.uleb128 0x3
- 1195 006b 04       		.byte	0x4
- 1196 006c 07       		.byte	0x7
- 1197 006d D8010000 		.4byte	.LASF10
- 1198 0071 03       		.uleb128 0x3
- 1199 0072 01       		.byte	0x1
- 1200 0073 08       		.byte	0x8
- 1201 0074 57010000 		.4byte	.LASF11
- 1202 0078 04       		.uleb128 0x4
- 1203 0079 26000000 		.4byte	.LASF22
- 1204 007d 02       		.byte	0x2
- 1205 007e 9201     		.2byte	0x192
- 1206 0080 40000000 		.4byte	0x40
- 1207 0084 03       		.uleb128 0x3
- 1208 0085 04       		.byte	0x4
- 1209 0086 04       		.byte	0x4
- 1210 0087 55000000 		.4byte	.LASF12
- 1211 008b 03       		.uleb128 0x3
- 1212 008c 08       		.byte	0x8
- 1213 008d 04       		.byte	0x4
- 1214 008e 65010000 		.4byte	.LASF13
- 1215 0092 05       		.uleb128 0x5
- 1216 0093 A2000000 		.4byte	0xa2
- 1217 0097 A2000000 		.4byte	0xa2
- 1218 009b 06       		.uleb128 0x6
- 1219 009c 6A000000 		.4byte	0x6a
- 1220 00a0 FF       		.byte	0xff
- 1221 00a1 00       		.byte	0
- 1222 00a2 07       		.uleb128 0x7
- 1223 00a3 78000000 		.4byte	0x78
- 1224 00a7 08       		.uleb128 0x8
- 1225 00a8 A7010000 		.4byte	.LASF14
- 1226 00ac 01       		.byte	0x1
- 1227 00ad 04       		.byte	0x4
- 1228 00ae B8000000 		.4byte	0xb8
- 1229 00b2 05       		.uleb128 0x5
- 1230 00b3 03       		.byte	0x3
- 1231 00b4 00000000 		.4byte	Filter_control
- 1232 00b8 07       		.uleb128 0x7
- 1233 00b9 92000000 		.4byte	0x92
- 1234 00bd 05       		.uleb128 0x5
- 1235 00be A2000000 		.4byte	0xa2
- 1236 00c2 CE000000 		.4byte	0xce
- 1237 00c6 09       		.uleb128 0x9
- 1238 00c7 6A000000 		.4byte	0x6a
- 1239 00cb FF01     		.2byte	0x1ff
- 1240 00cd 00       		.byte	0
- 1241 00ce 08       		.uleb128 0x8
- 1242 00cf 6C010000 		.4byte	.LASF15
- 1243 00d3 01       		.byte	0x1
- 1244 00d4 28       		.byte	0x28
- 1245 00d5 DF000000 		.4byte	0xdf
- 1246 00d9 05       		.uleb128 0x5
- 1247 00da 03       		.byte	0x3
- 1248 00db 00000000 		.4byte	Filter_data_a
- 1249 00df 07       		.uleb128 0x7
- 1250 00e0 BD000000 		.4byte	0xbd
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 23
+ 1198 048b 00       		.byte	0
+ 1199 048c 00       		.byte	0
+ 1200 048d 00       		.byte	0
+ 1201 048e 00       		.byte	0
+ 1202 048f 00       		.byte	0
+ 1203 0490 00       		.byte	0
+ 1204 0491 00       		.byte	0
+ 1205 0492 00       		.byte	0
+ 1206 0493 00       		.byte	0
+ 1207 0494 00       		.byte	0
+ 1208 0495 00       		.byte	0
+ 1209 0496 00       		.byte	0
+ 1210 0497 00       		.byte	0
+ 1211 0498 00       		.byte	0
+ 1212 0499 00       		.byte	0
+ 1213 049a 00       		.byte	0
+ 1214 049b 00       		.byte	0
+ 1215 049c 00       		.byte	0
+ 1216 049d 00       		.byte	0
+ 1217 049e 00       		.byte	0
+ 1218 049f 00       		.byte	0
+ 1219 04a0 00       		.byte	0
+ 1220 04a1 00       		.byte	0
+ 1221 04a2 00       		.byte	0
+ 1222 04a3 00       		.byte	0
+ 1223 04a4 00       		.byte	0
+ 1224 04a5 00       		.byte	0
+ 1225 04a6 00       		.byte	0
+ 1226 04a7 00       		.byte	0
+ 1227 04a8 00       		.byte	0
+ 1228 04a9 00       		.byte	0
+ 1229 04aa 00       		.byte	0
+ 1230 04ab 00       		.byte	0
+ 1231 04ac 00       		.byte	0
+ 1232 04ad 00       		.byte	0
+ 1233 04ae 00       		.byte	0
+ 1234 04af 00       		.byte	0
+ 1235 04b0 00       		.byte	0
+ 1236 04b1 00       		.byte	0
+ 1237 04b2 00       		.byte	0
+ 1238 04b3 00       		.byte	0
+ 1239 04b4 00       		.byte	0
+ 1240 04b5 00       		.byte	0
+ 1241 04b6 00       		.byte	0
+ 1242 04b7 00       		.byte	0
+ 1243 04b8 00       		.byte	0
+ 1244 04b9 00       		.byte	0
+ 1245 04ba 00       		.byte	0
+ 1246 04bb 00       		.byte	0
+ 1247 04bc 00       		.byte	0
+ 1248 04bd 00       		.byte	0
+ 1249 04be 00       		.byte	0
+ 1250 04bf 00       		.byte	0
+ 1251 04c0 00       		.byte	0
+ 1252 04c1 00       		.byte	0
+ 1253 04c2 00       		.byte	0
+ 1254 04c3 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 23
 
 
- 1251 00e4 08       		.uleb128 0x8
- 1252 00e5 7A010000 		.4byte	.LASF16
- 1253 00e9 01       		.byte	0x1
- 1254 00ea 6C       		.byte	0x6c
- 1255 00eb F5000000 		.4byte	0xf5
- 1256 00ef 05       		.uleb128 0x5
- 1257 00f0 03       		.byte	0x3
- 1258 00f1 00000000 		.4byte	Filter_data_b
- 1259 00f5 07       		.uleb128 0x7
- 1260 00f6 BD000000 		.4byte	0xbd
- 1261 00fa 08       		.uleb128 0x8
- 1262 00fb CC010000 		.4byte	.LASF17
- 1263 00ff 01       		.byte	0x1
- 1264 0100 BC       		.byte	0xbc
- 1265 0101 0B010000 		.4byte	0x10b
- 1266 0105 05       		.uleb128 0x5
- 1267 0106 03       		.byte	0x3
- 1268 0107 00000000 		.4byte	Filter_cfsm
- 1269 010b 07       		.uleb128 0x7
- 1270 010c 92000000 		.4byte	0x92
- 1271 0110 05       		.uleb128 0x5
- 1272 0111 A2000000 		.4byte	0xa2
- 1273 0115 20010000 		.4byte	0x120
- 1274 0119 06       		.uleb128 0x6
- 1275 011a 6A000000 		.4byte	0x6a
- 1276 011e 3F       		.byte	0x3f
- 1277 011f 00       		.byte	0
- 1278 0120 08       		.uleb128 0x8
- 1279 0121 1B000000 		.4byte	.LASF18
- 1280 0125 01       		.byte	0x1
- 1281 0126 B0       		.byte	0xb0
- 1282 0127 31010000 		.4byte	0x131
- 1283 012b 05       		.uleb128 0x5
- 1284 012c 03       		.byte	0x3
- 1285 012d 00000000 		.4byte	Filter_acu
- 1286 0131 07       		.uleb128 0x7
- 1287 0132 10010000 		.4byte	0x110
- 1288 0136 00       		.byte	0
- 1289              		.section	.debug_abbrev,"",%progbits
- 1290              	.Ldebug_abbrev0:
- 1291 0000 01       		.uleb128 0x1
- 1292 0001 11       		.uleb128 0x11
- 1293 0002 01       		.byte	0x1
- 1294 0003 25       		.uleb128 0x25
- 1295 0004 0E       		.uleb128 0xe
- 1296 0005 13       		.uleb128 0x13
- 1297 0006 0B       		.uleb128 0xb
- 1298 0007 03       		.uleb128 0x3
- 1299 0008 0E       		.uleb128 0xe
- 1300 0009 1B       		.uleb128 0x1b
- 1301 000a 0E       		.uleb128 0xe
- 1302 000b 10       		.uleb128 0x10
- 1303 000c 17       		.uleb128 0x17
- 1304 000d 00       		.byte	0
- 1305 000e 00       		.byte	0
- 1306 000f 02       		.uleb128 0x2
- 1307 0010 24       		.uleb128 0x24
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 24
+ 1255 04c4 00       		.byte	0
+ 1256 04c5 00       		.byte	0
+ 1257 04c6 00       		.byte	0
+ 1258 04c7 00       		.byte	0
+ 1259 04c8 00       		.byte	0
+ 1260 04c9 00       		.byte	0
+ 1261 04ca 00       		.byte	0
+ 1262 04cb 00       		.byte	0
+ 1263 04cc 00       		.byte	0
+ 1264 04cd 00       		.byte	0
+ 1265 04ce 00       		.byte	0
+ 1266 04cf 00       		.byte	0
+ 1267 04d0 00       		.byte	0
+ 1268 04d1 00       		.byte	0
+ 1269 04d2 00       		.byte	0
+ 1270 04d3 00       		.byte	0
+ 1271 04d4 00       		.byte	0
+ 1272 04d5 00       		.byte	0
+ 1273 04d6 00       		.byte	0
+ 1274 04d7 00       		.byte	0
+ 1275 04d8 00       		.byte	0
+ 1276 04d9 00       		.byte	0
+ 1277 04da 00       		.byte	0
+ 1278 04db 00       		.byte	0
+ 1279 04dc 00       		.byte	0
+ 1280 04dd 00       		.byte	0
+ 1281 04de 00       		.byte	0
+ 1282 04df 00       		.byte	0
+ 1283 04e0 00       		.byte	0
+ 1284 04e1 00       		.byte	0
+ 1285 04e2 00       		.byte	0
+ 1286 04e3 00       		.byte	0
+ 1287 04e4 00       		.byte	0
+ 1288 04e5 00       		.byte	0
+ 1289 04e6 00       		.byte	0
+ 1290 04e7 00       		.byte	0
+ 1291 04e8 00       		.byte	0
+ 1292 04e9 00       		.byte	0
+ 1293 04ea 00       		.byte	0
+ 1294 04eb 00       		.byte	0
+ 1295 04ec 00       		.byte	0
+ 1296 04ed 00       		.byte	0
+ 1297 04ee 00       		.byte	0
+ 1298 04ef 00       		.byte	0
+ 1299 04f0 00       		.byte	0
+ 1300 04f1 00       		.byte	0
+ 1301 04f2 00       		.byte	0
+ 1302 04f3 00       		.byte	0
+ 1303 04f4 00       		.byte	0
+ 1304 04f5 00       		.byte	0
+ 1305 04f6 00       		.byte	0
+ 1306 04f7 00       		.byte	0
+ 1307 04f8 00       		.byte	0
+ 1308 04f9 00       		.byte	0
+ 1309 04fa 00       		.byte	0
+ 1310 04fb 00       		.byte	0
+ 1311 04fc 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 24
 
 
- 1308 0011 00       		.byte	0
- 1309 0012 0B       		.uleb128 0xb
- 1310 0013 0B       		.uleb128 0xb
- 1311 0014 3E       		.uleb128 0x3e
- 1312 0015 0B       		.uleb128 0xb
- 1313 0016 03       		.uleb128 0x3
- 1314 0017 08       		.uleb128 0x8
- 1315 0018 00       		.byte	0
- 1316 0019 00       		.byte	0
- 1317 001a 03       		.uleb128 0x3
- 1318 001b 24       		.uleb128 0x24
- 1319 001c 00       		.byte	0
- 1320 001d 0B       		.uleb128 0xb
- 1321 001e 0B       		.uleb128 0xb
- 1322 001f 3E       		.uleb128 0x3e
- 1323 0020 0B       		.uleb128 0xb
- 1324 0021 03       		.uleb128 0x3
- 1325 0022 0E       		.uleb128 0xe
- 1326 0023 00       		.byte	0
- 1327 0024 00       		.byte	0
- 1328 0025 04       		.uleb128 0x4
- 1329 0026 16       		.uleb128 0x16
- 1330 0027 00       		.byte	0
- 1331 0028 03       		.uleb128 0x3
- 1332 0029 0E       		.uleb128 0xe
- 1333 002a 3A       		.uleb128 0x3a
- 1334 002b 0B       		.uleb128 0xb
- 1335 002c 3B       		.uleb128 0x3b
- 1336 002d 05       		.uleb128 0x5
- 1337 002e 49       		.uleb128 0x49
- 1338 002f 13       		.uleb128 0x13
- 1339 0030 00       		.byte	0
- 1340 0031 00       		.byte	0
- 1341 0032 05       		.uleb128 0x5
- 1342 0033 01       		.uleb128 0x1
- 1343 0034 01       		.byte	0x1
- 1344 0035 49       		.uleb128 0x49
- 1345 0036 13       		.uleb128 0x13
- 1346 0037 01       		.uleb128 0x1
- 1347 0038 13       		.uleb128 0x13
- 1348 0039 00       		.byte	0
- 1349 003a 00       		.byte	0
- 1350 003b 06       		.uleb128 0x6
- 1351 003c 21       		.uleb128 0x21
- 1352 003d 00       		.byte	0
- 1353 003e 49       		.uleb128 0x49
- 1354 003f 13       		.uleb128 0x13
- 1355 0040 2F       		.uleb128 0x2f
- 1356 0041 0B       		.uleb128 0xb
- 1357 0042 00       		.byte	0
- 1358 0043 00       		.byte	0
- 1359 0044 07       		.uleb128 0x7
- 1360 0045 26       		.uleb128 0x26
- 1361 0046 00       		.byte	0
- 1362 0047 49       		.uleb128 0x49
- 1363 0048 13       		.uleb128 0x13
- 1364 0049 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 25
+ 1312 04fd 08       		.byte	8
+ 1313 04fe 00       		.byte	0
+ 1314 04ff 00       		.byte	0
+ 1315              		.global	Filter_acu
+ 1316              		.align	2
+ 1317              		.type	Filter_acu, %object
+ 1318              		.size	Filter_acu, 64
+ 1319              	Filter_acu:
+ 1320 0500 93       		.byte	-109
+ 1321 0501 09       		.byte	9
+ 1322 0502 00       		.byte	0
+ 1323 0503 00       		.byte	0
+ 1324 0504 00       		.byte	0
+ 1325 0505 00       		.byte	0
+ 1326 0506 00       		.byte	0
+ 1327 0507 00       		.byte	0
+ 1328 0508 02       		.byte	2
+ 1329 0509 01       		.byte	1
+ 1330 050a 00       		.byte	0
+ 1331 050b 00       		.byte	0
+ 1332 050c 7E       		.byte	126
+ 1333 050d 3F       		.byte	63
+ 1334 050e 00       		.byte	0
+ 1335 050f 00       		.byte	0
+ 1336 0510 FF       		.byte	-1
+ 1337 0511 3F       		.byte	63
+ 1338 0512 00       		.byte	0
+ 1339 0513 00       		.byte	0
+ 1340 0514 00       		.byte	0
+ 1341 0515 00       		.byte	0
+ 1342 0516 00       		.byte	0
+ 1343 0517 00       		.byte	0
+ 1344 0518 00       		.byte	0
+ 1345 0519 00       		.byte	0
+ 1346 051a 00       		.byte	0
+ 1347 051b 00       		.byte	0
+ 1348 051c 00       		.byte	0
+ 1349 051d 00       		.byte	0
+ 1350 051e 00       		.byte	0
+ 1351 051f 00       		.byte	0
+ 1352 0520 00       		.byte	0
+ 1353 0521 00       		.byte	0
+ 1354 0522 00       		.byte	0
+ 1355 0523 00       		.byte	0
+ 1356 0524 00       		.byte	0
+ 1357 0525 00       		.byte	0
+ 1358 0526 00       		.byte	0
+ 1359 0527 00       		.byte	0
+ 1360 0528 00       		.byte	0
+ 1361 0529 00       		.byte	0
+ 1362 052a 00       		.byte	0
+ 1363 052b 00       		.byte	0
+ 1364 052c 00       		.byte	0
+ 1365 052d 00       		.byte	0
+ 1366 052e 00       		.byte	0
+ 1367 052f 00       		.byte	0
+ 1368 0530 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 25
 
 
- 1365 004a 00       		.byte	0
- 1366 004b 08       		.uleb128 0x8
- 1367 004c 34       		.uleb128 0x34
- 1368 004d 00       		.byte	0
- 1369 004e 03       		.uleb128 0x3
- 1370 004f 0E       		.uleb128 0xe
- 1371 0050 3A       		.uleb128 0x3a
- 1372 0051 0B       		.uleb128 0xb
- 1373 0052 3B       		.uleb128 0x3b
- 1374 0053 0B       		.uleb128 0xb
- 1375 0054 49       		.uleb128 0x49
- 1376 0055 13       		.uleb128 0x13
- 1377 0056 3F       		.uleb128 0x3f
- 1378 0057 19       		.uleb128 0x19
- 1379 0058 02       		.uleb128 0x2
- 1380 0059 18       		.uleb128 0x18
- 1381 005a 00       		.byte	0
- 1382 005b 00       		.byte	0
- 1383 005c 09       		.uleb128 0x9
- 1384 005d 21       		.uleb128 0x21
- 1385 005e 00       		.byte	0
- 1386 005f 49       		.uleb128 0x49
- 1387 0060 13       		.uleb128 0x13
- 1388 0061 2F       		.uleb128 0x2f
- 1389 0062 05       		.uleb128 0x5
- 1390 0063 00       		.byte	0
- 1391 0064 00       		.byte	0
- 1392 0065 00       		.byte	0
- 1393              		.section	.debug_aranges,"",%progbits
- 1394 0000 14000000 		.4byte	0x14
- 1395 0004 0200     		.2byte	0x2
- 1396 0006 00000000 		.4byte	.Ldebug_info0
- 1397 000a 04       		.byte	0x4
- 1398 000b 00       		.byte	0
- 1399 000c 0000     		.2byte	0
- 1400 000e 0000     		.2byte	0
- 1401 0010 00000000 		.4byte	0
- 1402 0014 00000000 		.4byte	0
- 1403              		.section	.debug_line,"",%progbits
- 1404              	.Ldebug_line0:
- 1405 0000 52000000 		.section	.debug_str,"MS",%progbits,1
- 1405      02004C00 
- 1405      00000201 
- 1405      FB0E0D00 
- 1405      01010101 
- 1406              	.LASF1:
- 1407 0000 6C6F6E67 		.ascii	"long long int\000"
- 1407      206C6F6E 
- 1407      6720696E 
- 1407      7400
- 1408              	.LASF0:
- 1409 000e 756E7369 		.ascii	"unsigned int\000"
- 1409      676E6564 
- 1409      20696E74 
- 1409      00
- 1410              	.LASF18:
- 1411 001b 46696C74 		.ascii	"Filter_acu\000"
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 26
+ 1369 0531 00       		.byte	0
+ 1370 0532 00       		.byte	0
+ 1371 0533 00       		.byte	0
+ 1372 0534 00       		.byte	0
+ 1373 0535 00       		.byte	0
+ 1374 0536 00       		.byte	0
+ 1375 0537 00       		.byte	0
+ 1376 0538 00       		.byte	0
+ 1377 0539 00       		.byte	0
+ 1378 053a 00       		.byte	0
+ 1379 053b 00       		.byte	0
+ 1380 053c 00       		.byte	0
+ 1381 053d 00       		.byte	0
+ 1382 053e 00       		.byte	0
+ 1383 053f 00       		.byte	0
+ 1384              		.global	Filter_cfsm
+ 1385              		.align	2
+ 1386              		.type	Filter_cfsm, %object
+ 1387              		.size	Filter_cfsm, 256
+ 1388              	Filter_cfsm:
+ 1389 0540 21       		.byte	33
+ 1390 0541 F8       		.byte	-8
+ 1391 0542 05       		.byte	5
+ 1392 0543 01       		.byte	1
+ 1393 0544 42       		.byte	66
+ 1394 0545 10       		.byte	16
+ 1395 0546 86       		.byte	-122
+ 1396 0547 40       		.byte	64
+ 1397 0548 63       		.byte	99
+ 1398 0549 F8       		.byte	-8
+ 1399 054a 11       		.byte	17
+ 1400 054b 01       		.byte	1
+ 1401 054c 04       		.byte	4
+ 1402 054d 89       		.byte	-119
+ 1403 054e A4       		.byte	-92
+ 1404 054f 20       		.byte	32
+ 1405 0550 01       		.byte	1
+ 1406 0551 F8       		.byte	-8
+ 1407 0552 05       		.byte	5
+ 1408 0553 01       		.byte	1
+ 1409 0554 00       		.byte	0
+ 1410 0555 00       		.byte	0
+ 1411 0556 00       		.byte	0
+ 1412 0557 00       		.byte	0
+ 1413 0558 00       		.byte	0
+ 1414 0559 00       		.byte	0
+ 1415 055a 00       		.byte	0
+ 1416 055b 00       		.byte	0
+ 1417 055c 00       		.byte	0
+ 1418 055d 00       		.byte	0
+ 1419 055e 00       		.byte	0
+ 1420 055f 00       		.byte	0
+ 1421 0560 00       		.byte	0
+ 1422 0561 00       		.byte	0
+ 1423 0562 00       		.byte	0
+ 1424 0563 00       		.byte	0
+ 1425 0564 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 26
 
 
- 1411      65725F61 
- 1411      637500
- 1412              	.LASF22:
- 1413 0026 75696E74 		.ascii	"uint8\000"
- 1413      3800
- 1414              	.LASF8:
- 1415 002c 6C6F6E67 		.ascii	"long unsigned int\000"
- 1415      20756E73 
- 1415      69676E65 
- 1415      6420696E 
- 1415      7400
- 1416              	.LASF9:
- 1417 003e 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1417      206C6F6E 
- 1417      6720756E 
- 1417      7369676E 
- 1417      65642069 
- 1418              	.LASF12:
- 1419 0055 666C6F61 		.ascii	"float\000"
- 1419      7400
- 1420              	.LASF21:
- 1421 005b 433A5C55 		.ascii	"C:\\Users\\rcaravac\\Downloads\\Receptor\\TareaClas"
- 1421      73657273 
- 1421      5C726361 
- 1421      72617661 
- 1421      635C446F 
- 1422 0089 65342E63 		.ascii	"e4.cydsn\000"
- 1422      7964736E 
- 1422      00
- 1423              	.LASF19:
- 1424 0092 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 1424      43313120 
- 1424      352E342E 
- 1424      31203230 
- 1424      31363036 
- 1425 00c5 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 1425      20726576 
- 1425      6973696F 
- 1425      6E203233 
- 1425      37373135 
- 1426 00f8 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 1426      66756E63 
- 1426      74696F6E 
- 1426      2D736563 
- 1426      74696F6E 
- 1427              	.LASF20:
- 1428 0120 47656E65 		.ascii	"Generated_Source\\PSoC5\\Filter_RAM_Data.c\000"
- 1428      72617465 
- 1428      645F536F 
- 1428      75726365 
- 1428      5C50536F 
- 1429              	.LASF4:
- 1430 0149 756E7369 		.ascii	"unsigned char\000"
- 1430      676E6564 
- 1430      20636861 
- 1430      7200
- 1431              	.LASF11:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cca5bvLe.s 			page 27
+ 1426 0565 00       		.byte	0
+ 1427 0566 00       		.byte	0
+ 1428 0567 00       		.byte	0
+ 1429 0568 00       		.byte	0
+ 1430 0569 00       		.byte	0
+ 1431 056a 00       		.byte	0
+ 1432 056b 00       		.byte	0
+ 1433 056c 00       		.byte	0
+ 1434 056d 00       		.byte	0
+ 1435 056e 00       		.byte	0
+ 1436 056f 00       		.byte	0
+ 1437 0570 00       		.byte	0
+ 1438 0571 00       		.byte	0
+ 1439 0572 00       		.byte	0
+ 1440 0573 00       		.byte	0
+ 1441 0574 00       		.byte	0
+ 1442 0575 00       		.byte	0
+ 1443 0576 00       		.byte	0
+ 1444 0577 00       		.byte	0
+ 1445 0578 00       		.byte	0
+ 1446 0579 00       		.byte	0
+ 1447 057a 00       		.byte	0
+ 1448 057b 00       		.byte	0
+ 1449 057c 00       		.byte	0
+ 1450 057d 00       		.byte	0
+ 1451 057e 00       		.byte	0
+ 1452 057f 00       		.byte	0
+ 1453 0580 00       		.byte	0
+ 1454 0581 00       		.byte	0
+ 1455 0582 00       		.byte	0
+ 1456 0583 00       		.byte	0
+ 1457 0584 00       		.byte	0
+ 1458 0585 00       		.byte	0
+ 1459 0586 00       		.byte	0
+ 1460 0587 00       		.byte	0
+ 1461 0588 00       		.byte	0
+ 1462 0589 00       		.byte	0
+ 1463 058a 00       		.byte	0
+ 1464 058b 00       		.byte	0
+ 1465 058c 00       		.byte	0
+ 1466 058d 00       		.byte	0
+ 1467 058e 00       		.byte	0
+ 1468 058f 00       		.byte	0
+ 1469 0590 00       		.byte	0
+ 1470 0591 00       		.byte	0
+ 1471 0592 00       		.byte	0
+ 1472 0593 00       		.byte	0
+ 1473 0594 00       		.byte	0
+ 1474 0595 00       		.byte	0
+ 1475 0596 00       		.byte	0
+ 1476 0597 00       		.byte	0
+ 1477 0598 00       		.byte	0
+ 1478 0599 00       		.byte	0
+ 1479 059a 00       		.byte	0
+ 1480 059b 00       		.byte	0
+ 1481 059c 00       		.byte	0
+ 1482 059d 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 27
 
 
- 1432 0157 63686172 		.ascii	"char\000"
- 1432      00
- 1433              	.LASF7:
- 1434 015c 6C6F6E67 		.ascii	"long int\000"
- 1434      20696E74 
- 1434      00
- 1435              	.LASF13:
- 1436 0165 646F7562 		.ascii	"double\000"
- 1436      6C6500
- 1437              	.LASF15:
- 1438 016c 46696C74 		.ascii	"Filter_data_a\000"
- 1438      65725F64 
- 1438      6174615F 
- 1438      6100
- 1439              	.LASF16:
- 1440 017a 46696C74 		.ascii	"Filter_data_b\000"
- 1440      65725F64 
- 1440      6174615F 
- 1440      6200
- 1441              	.LASF6:
- 1442 0188 73686F72 		.ascii	"short unsigned int\000"
- 1442      7420756E 
- 1442      7369676E 
- 1442      65642069 
- 1442      6E7400
- 1443              	.LASF3:
- 1444 019b 7369676E 		.ascii	"signed char\000"
- 1444      65642063 
- 1444      68617200 
- 1445              	.LASF14:
- 1446 01a7 46696C74 		.ascii	"Filter_control\000"
- 1446      65725F63 
- 1446      6F6E7472 
- 1446      6F6C00
- 1447              	.LASF2:
- 1448 01b6 6C6F6E67 		.ascii	"long double\000"
- 1448      20646F75 
- 1448      626C6500 
- 1449              	.LASF5:
- 1450 01c2 73686F72 		.ascii	"short int\000"
- 1450      7420696E 
- 1450      7400
- 1451              	.LASF17:
- 1452 01cc 46696C74 		.ascii	"Filter_cfsm\000"
- 1452      65725F63 
- 1452      66736D00 
- 1453              	.LASF10:
- 1454 01d8 73697A65 		.ascii	"sizetype\000"
- 1454      74797065 
- 1454      00
- 1455              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 1483 059e 00       		.byte	0
+ 1484 059f 00       		.byte	0
+ 1485 05a0 00       		.byte	0
+ 1486 05a1 00       		.byte	0
+ 1487 05a2 00       		.byte	0
+ 1488 05a3 00       		.byte	0
+ 1489 05a4 00       		.byte	0
+ 1490 05a5 00       		.byte	0
+ 1491 05a6 00       		.byte	0
+ 1492 05a7 00       		.byte	0
+ 1493 05a8 00       		.byte	0
+ 1494 05a9 00       		.byte	0
+ 1495 05aa 00       		.byte	0
+ 1496 05ab 00       		.byte	0
+ 1497 05ac 00       		.byte	0
+ 1498 05ad 00       		.byte	0
+ 1499 05ae 00       		.byte	0
+ 1500 05af 00       		.byte	0
+ 1501 05b0 00       		.byte	0
+ 1502 05b1 00       		.byte	0
+ 1503 05b2 00       		.byte	0
+ 1504 05b3 00       		.byte	0
+ 1505 05b4 00       		.byte	0
+ 1506 05b5 00       		.byte	0
+ 1507 05b6 00       		.byte	0
+ 1508 05b7 00       		.byte	0
+ 1509 05b8 00       		.byte	0
+ 1510 05b9 00       		.byte	0
+ 1511 05ba 00       		.byte	0
+ 1512 05bb 00       		.byte	0
+ 1513 05bc 00       		.byte	0
+ 1514 05bd 00       		.byte	0
+ 1515 05be 00       		.byte	0
+ 1516 05bf 00       		.byte	0
+ 1517 05c0 00       		.byte	0
+ 1518 05c1 00       		.byte	0
+ 1519 05c2 00       		.byte	0
+ 1520 05c3 00       		.byte	0
+ 1521 05c4 00       		.byte	0
+ 1522 05c5 00       		.byte	0
+ 1523 05c6 00       		.byte	0
+ 1524 05c7 00       		.byte	0
+ 1525 05c8 00       		.byte	0
+ 1526 05c9 00       		.byte	0
+ 1527 05ca 00       		.byte	0
+ 1528 05cb 00       		.byte	0
+ 1529 05cc 00       		.byte	0
+ 1530 05cd 00       		.byte	0
+ 1531 05ce 00       		.byte	0
+ 1532 05cf 00       		.byte	0
+ 1533 05d0 00       		.byte	0
+ 1534 05d1 00       		.byte	0
+ 1535 05d2 00       		.byte	0
+ 1536 05d3 00       		.byte	0
+ 1537 05d4 00       		.byte	0
+ 1538 05d5 00       		.byte	0
+ 1539 05d6 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 28
+
+
+ 1540 05d7 00       		.byte	0
+ 1541 05d8 00       		.byte	0
+ 1542 05d9 00       		.byte	0
+ 1543 05da 00       		.byte	0
+ 1544 05db 00       		.byte	0
+ 1545 05dc 00       		.byte	0
+ 1546 05dd 00       		.byte	0
+ 1547 05de 00       		.byte	0
+ 1548 05df 00       		.byte	0
+ 1549 05e0 00       		.byte	0
+ 1550 05e1 00       		.byte	0
+ 1551 05e2 00       		.byte	0
+ 1552 05e3 00       		.byte	0
+ 1553 05e4 00       		.byte	0
+ 1554 05e5 00       		.byte	0
+ 1555 05e6 00       		.byte	0
+ 1556 05e7 00       		.byte	0
+ 1557 05e8 00       		.byte	0
+ 1558 05e9 00       		.byte	0
+ 1559 05ea 00       		.byte	0
+ 1560 05eb 00       		.byte	0
+ 1561 05ec 00       		.byte	0
+ 1562 05ed 00       		.byte	0
+ 1563 05ee 00       		.byte	0
+ 1564 05ef 00       		.byte	0
+ 1565 05f0 00       		.byte	0
+ 1566 05f1 00       		.byte	0
+ 1567 05f2 00       		.byte	0
+ 1568 05f3 00       		.byte	0
+ 1569 05f4 00       		.byte	0
+ 1570 05f5 00       		.byte	0
+ 1571 05f6 00       		.byte	0
+ 1572 05f7 00       		.byte	0
+ 1573 05f8 00       		.byte	0
+ 1574 05f9 00       		.byte	0
+ 1575 05fa 00       		.byte	0
+ 1576 05fb 00       		.byte	0
+ 1577 05fc 00       		.byte	0
+ 1578 05fd 00       		.byte	0
+ 1579 05fe 00       		.byte	0
+ 1580 05ff 00       		.byte	0
+ 1581 0600 00       		.byte	0
+ 1582 0601 00       		.byte	0
+ 1583 0602 00       		.byte	0
+ 1584 0603 00       		.byte	0
+ 1585 0604 00       		.byte	0
+ 1586 0605 00       		.byte	0
+ 1587 0606 00       		.byte	0
+ 1588 0607 00       		.byte	0
+ 1589 0608 00       		.byte	0
+ 1590 0609 00       		.byte	0
+ 1591 060a 00       		.byte	0
+ 1592 060b 00       		.byte	0
+ 1593 060c 00       		.byte	0
+ 1594 060d 00       		.byte	0
+ 1595 060e 00       		.byte	0
+ 1596 060f 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 29
+
+
+ 1597 0610 00       		.byte	0
+ 1598 0611 00       		.byte	0
+ 1599 0612 00       		.byte	0
+ 1600 0613 00       		.byte	0
+ 1601 0614 00       		.byte	0
+ 1602 0615 00       		.byte	0
+ 1603 0616 00       		.byte	0
+ 1604 0617 00       		.byte	0
+ 1605 0618 00       		.byte	0
+ 1606 0619 00       		.byte	0
+ 1607 061a 00       		.byte	0
+ 1608 061b 00       		.byte	0
+ 1609 061c 00       		.byte	0
+ 1610 061d 00       		.byte	0
+ 1611 061e 00       		.byte	0
+ 1612 061f 00       		.byte	0
+ 1613 0620 00       		.byte	0
+ 1614 0621 00       		.byte	0
+ 1615 0622 00       		.byte	0
+ 1616 0623 00       		.byte	0
+ 1617 0624 00       		.byte	0
+ 1618 0625 00       		.byte	0
+ 1619 0626 00       		.byte	0
+ 1620 0627 00       		.byte	0
+ 1621 0628 00       		.byte	0
+ 1622 0629 00       		.byte	0
+ 1623 062a 00       		.byte	0
+ 1624 062b 00       		.byte	0
+ 1625 062c 00       		.byte	0
+ 1626 062d 00       		.byte	0
+ 1627 062e 00       		.byte	0
+ 1628 062f 00       		.byte	0
+ 1629 0630 00       		.byte	0
+ 1630 0631 00       		.byte	0
+ 1631 0632 00       		.byte	0
+ 1632 0633 00       		.byte	0
+ 1633 0634 00       		.byte	0
+ 1634 0635 00       		.byte	0
+ 1635 0636 00       		.byte	0
+ 1636 0637 00       		.byte	0
+ 1637 0638 00       		.byte	0
+ 1638 0639 00       		.byte	0
+ 1639 063a 00       		.byte	0
+ 1640 063b 00       		.byte	0
+ 1641 063c 00       		.byte	0
+ 1642 063d 00       		.byte	0
+ 1643 063e 00       		.byte	0
+ 1644 063f 00       		.byte	0
+ 1645              		.text
+ 1646              	.Letext0:
+ 1647              		.file 1 "Generated_Source\\PSoC5\\Filter_RAM_Data.c"
+ 1648              		.file 2 "Generated_Source\\PSoC5\\cytypes.h"
+ 1649              		.section	.debug_info,"",%progbits
+ 1650              	.Ldebug_info0:
+ 1651 0000 33010000 		.4byte	0x133
+ 1652 0004 0400     		.2byte	0x4
+ 1653 0006 00000000 		.4byte	.Ldebug_abbrev0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 30
+
+
+ 1654 000a 04       		.byte	0x4
+ 1655 000b 01       		.uleb128 0x1
+ 1656 000c A6000000 		.4byte	.LASF19
+ 1657 0010 0C       		.byte	0xc
+ 1658 0011 34010000 		.4byte	.LASF20
+ 1659 0015 26000000 		.4byte	.LASF21
+ 1660 0019 00000000 		.4byte	.Ldebug_line0
+ 1661 001d 02       		.uleb128 0x2
+ 1662 001e 04       		.byte	0x4
+ 1663 001f 05       		.byte	0x5
+ 1664 0020 696E7400 		.ascii	"int\000"
+ 1665 0024 03       		.uleb128 0x3
+ 1666 0025 04       		.byte	0x4
+ 1667 0026 07       		.byte	0x7
+ 1668 0027 0E000000 		.4byte	.LASF0
+ 1669 002b 03       		.uleb128 0x3
+ 1670 002c 08       		.byte	0x8
+ 1671 002d 05       		.byte	0x5
+ 1672 002e 00000000 		.4byte	.LASF1
+ 1673 0032 03       		.uleb128 0x3
+ 1674 0033 08       		.byte	0x8
+ 1675 0034 04       		.byte	0x4
+ 1676 0035 CA010000 		.4byte	.LASF2
+ 1677 0039 03       		.uleb128 0x3
+ 1678 003a 01       		.byte	0x1
+ 1679 003b 06       		.byte	0x6
+ 1680 003c AF010000 		.4byte	.LASF3
+ 1681 0040 03       		.uleb128 0x3
+ 1682 0041 01       		.byte	0x1
+ 1683 0042 08       		.byte	0x8
+ 1684 0043 5D010000 		.4byte	.LASF4
+ 1685 0047 03       		.uleb128 0x3
+ 1686 0048 02       		.byte	0x2
+ 1687 0049 05       		.byte	0x5
+ 1688 004a D6010000 		.4byte	.LASF5
+ 1689 004e 03       		.uleb128 0x3
+ 1690 004f 02       		.byte	0x2
+ 1691 0050 07       		.byte	0x7
+ 1692 0051 9C010000 		.4byte	.LASF6
+ 1693 0055 03       		.uleb128 0x3
+ 1694 0056 04       		.byte	0x4
+ 1695 0057 05       		.byte	0x5
+ 1696 0058 70010000 		.4byte	.LASF7
+ 1697 005c 03       		.uleb128 0x3
+ 1698 005d 04       		.byte	0x4
+ 1699 005e 07       		.byte	0x7
+ 1700 005f 77000000 		.4byte	.LASF8
+ 1701 0063 03       		.uleb128 0x3
+ 1702 0064 08       		.byte	0x8
+ 1703 0065 07       		.byte	0x7
+ 1704 0066 89000000 		.4byte	.LASF9
+ 1705 006a 03       		.uleb128 0x3
+ 1706 006b 04       		.byte	0x4
+ 1707 006c 07       		.byte	0x7
+ 1708 006d EC010000 		.4byte	.LASF10
+ 1709 0071 03       		.uleb128 0x3
+ 1710 0072 01       		.byte	0x1
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 31
+
+
+ 1711 0073 08       		.byte	0x8
+ 1712 0074 6B010000 		.4byte	.LASF11
+ 1713 0078 04       		.uleb128 0x4
+ 1714 0079 71000000 		.4byte	.LASF22
+ 1715 007d 02       		.byte	0x2
+ 1716 007e 9201     		.2byte	0x192
+ 1717 0080 40000000 		.4byte	0x40
+ 1718 0084 03       		.uleb128 0x3
+ 1719 0085 04       		.byte	0x4
+ 1720 0086 04       		.byte	0x4
+ 1721 0087 A0000000 		.4byte	.LASF12
+ 1722 008b 03       		.uleb128 0x3
+ 1723 008c 08       		.byte	0x8
+ 1724 008d 04       		.byte	0x4
+ 1725 008e 79010000 		.4byte	.LASF13
+ 1726 0092 05       		.uleb128 0x5
+ 1727 0093 A2000000 		.4byte	0xa2
+ 1728 0097 A2000000 		.4byte	0xa2
+ 1729 009b 06       		.uleb128 0x6
+ 1730 009c 6A000000 		.4byte	0x6a
+ 1731 00a0 FF       		.byte	0xff
+ 1732 00a1 00       		.byte	0
+ 1733 00a2 07       		.uleb128 0x7
+ 1734 00a3 78000000 		.4byte	0x78
+ 1735 00a7 08       		.uleb128 0x8
+ 1736 00a8 BB010000 		.4byte	.LASF14
+ 1737 00ac 01       		.byte	0x1
+ 1738 00ad 04       		.byte	0x4
+ 1739 00ae B8000000 		.4byte	0xb8
+ 1740 00b2 05       		.uleb128 0x5
+ 1741 00b3 03       		.byte	0x3
+ 1742 00b4 00000000 		.4byte	Filter_control
+ 1743 00b8 07       		.uleb128 0x7
+ 1744 00b9 92000000 		.4byte	0x92
+ 1745 00bd 05       		.uleb128 0x5
+ 1746 00be A2000000 		.4byte	0xa2
+ 1747 00c2 CE000000 		.4byte	0xce
+ 1748 00c6 09       		.uleb128 0x9
+ 1749 00c7 6A000000 		.4byte	0x6a
+ 1750 00cb FF01     		.2byte	0x1ff
+ 1751 00cd 00       		.byte	0
+ 1752 00ce 08       		.uleb128 0x8
+ 1753 00cf 80010000 		.4byte	.LASF15
+ 1754 00d3 01       		.byte	0x1
+ 1755 00d4 28       		.byte	0x28
+ 1756 00d5 DF000000 		.4byte	0xdf
+ 1757 00d9 05       		.uleb128 0x5
+ 1758 00da 03       		.byte	0x3
+ 1759 00db 00000000 		.4byte	Filter_data_a
+ 1760 00df 07       		.uleb128 0x7
+ 1761 00e0 BD000000 		.4byte	0xbd
+ 1762 00e4 08       		.uleb128 0x8
+ 1763 00e5 8E010000 		.4byte	.LASF16
+ 1764 00e9 01       		.byte	0x1
+ 1765 00ea 6C       		.byte	0x6c
+ 1766 00eb F5000000 		.4byte	0xf5
+ 1767 00ef 05       		.uleb128 0x5
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 32
+
+
+ 1768 00f0 03       		.byte	0x3
+ 1769 00f1 00000000 		.4byte	Filter_data_b
+ 1770 00f5 07       		.uleb128 0x7
+ 1771 00f6 BD000000 		.4byte	0xbd
+ 1772 00fa 08       		.uleb128 0x8
+ 1773 00fb E0010000 		.4byte	.LASF17
+ 1774 00ff 01       		.byte	0x1
+ 1775 0100 BC       		.byte	0xbc
+ 1776 0101 0B010000 		.4byte	0x10b
+ 1777 0105 05       		.uleb128 0x5
+ 1778 0106 03       		.byte	0x3
+ 1779 0107 00000000 		.4byte	Filter_cfsm
+ 1780 010b 07       		.uleb128 0x7
+ 1781 010c 92000000 		.4byte	0x92
+ 1782 0110 05       		.uleb128 0x5
+ 1783 0111 A2000000 		.4byte	0xa2
+ 1784 0115 20010000 		.4byte	0x120
+ 1785 0119 06       		.uleb128 0x6
+ 1786 011a 6A000000 		.4byte	0x6a
+ 1787 011e 3F       		.byte	0x3f
+ 1788 011f 00       		.byte	0
+ 1789 0120 08       		.uleb128 0x8
+ 1790 0121 1B000000 		.4byte	.LASF18
+ 1791 0125 01       		.byte	0x1
+ 1792 0126 B0       		.byte	0xb0
+ 1793 0127 31010000 		.4byte	0x131
+ 1794 012b 05       		.uleb128 0x5
+ 1795 012c 03       		.byte	0x3
+ 1796 012d 00000000 		.4byte	Filter_acu
+ 1797 0131 07       		.uleb128 0x7
+ 1798 0132 10010000 		.4byte	0x110
+ 1799 0136 00       		.byte	0
+ 1800              		.section	.debug_abbrev,"",%progbits
+ 1801              	.Ldebug_abbrev0:
+ 1802 0000 01       		.uleb128 0x1
+ 1803 0001 11       		.uleb128 0x11
+ 1804 0002 01       		.byte	0x1
+ 1805 0003 25       		.uleb128 0x25
+ 1806 0004 0E       		.uleb128 0xe
+ 1807 0005 13       		.uleb128 0x13
+ 1808 0006 0B       		.uleb128 0xb
+ 1809 0007 03       		.uleb128 0x3
+ 1810 0008 0E       		.uleb128 0xe
+ 1811 0009 1B       		.uleb128 0x1b
+ 1812 000a 0E       		.uleb128 0xe
+ 1813 000b 10       		.uleb128 0x10
+ 1814 000c 17       		.uleb128 0x17
+ 1815 000d 00       		.byte	0
+ 1816 000e 00       		.byte	0
+ 1817 000f 02       		.uleb128 0x2
+ 1818 0010 24       		.uleb128 0x24
+ 1819 0011 00       		.byte	0
+ 1820 0012 0B       		.uleb128 0xb
+ 1821 0013 0B       		.uleb128 0xb
+ 1822 0014 3E       		.uleb128 0x3e
+ 1823 0015 0B       		.uleb128 0xb
+ 1824 0016 03       		.uleb128 0x3
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 33
+
+
+ 1825 0017 08       		.uleb128 0x8
+ 1826 0018 00       		.byte	0
+ 1827 0019 00       		.byte	0
+ 1828 001a 03       		.uleb128 0x3
+ 1829 001b 24       		.uleb128 0x24
+ 1830 001c 00       		.byte	0
+ 1831 001d 0B       		.uleb128 0xb
+ 1832 001e 0B       		.uleb128 0xb
+ 1833 001f 3E       		.uleb128 0x3e
+ 1834 0020 0B       		.uleb128 0xb
+ 1835 0021 03       		.uleb128 0x3
+ 1836 0022 0E       		.uleb128 0xe
+ 1837 0023 00       		.byte	0
+ 1838 0024 00       		.byte	0
+ 1839 0025 04       		.uleb128 0x4
+ 1840 0026 16       		.uleb128 0x16
+ 1841 0027 00       		.byte	0
+ 1842 0028 03       		.uleb128 0x3
+ 1843 0029 0E       		.uleb128 0xe
+ 1844 002a 3A       		.uleb128 0x3a
+ 1845 002b 0B       		.uleb128 0xb
+ 1846 002c 3B       		.uleb128 0x3b
+ 1847 002d 05       		.uleb128 0x5
+ 1848 002e 49       		.uleb128 0x49
+ 1849 002f 13       		.uleb128 0x13
+ 1850 0030 00       		.byte	0
+ 1851 0031 00       		.byte	0
+ 1852 0032 05       		.uleb128 0x5
+ 1853 0033 01       		.uleb128 0x1
+ 1854 0034 01       		.byte	0x1
+ 1855 0035 49       		.uleb128 0x49
+ 1856 0036 13       		.uleb128 0x13
+ 1857 0037 01       		.uleb128 0x1
+ 1858 0038 13       		.uleb128 0x13
+ 1859 0039 00       		.byte	0
+ 1860 003a 00       		.byte	0
+ 1861 003b 06       		.uleb128 0x6
+ 1862 003c 21       		.uleb128 0x21
+ 1863 003d 00       		.byte	0
+ 1864 003e 49       		.uleb128 0x49
+ 1865 003f 13       		.uleb128 0x13
+ 1866 0040 2F       		.uleb128 0x2f
+ 1867 0041 0B       		.uleb128 0xb
+ 1868 0042 00       		.byte	0
+ 1869 0043 00       		.byte	0
+ 1870 0044 07       		.uleb128 0x7
+ 1871 0045 26       		.uleb128 0x26
+ 1872 0046 00       		.byte	0
+ 1873 0047 49       		.uleb128 0x49
+ 1874 0048 13       		.uleb128 0x13
+ 1875 0049 00       		.byte	0
+ 1876 004a 00       		.byte	0
+ 1877 004b 08       		.uleb128 0x8
+ 1878 004c 34       		.uleb128 0x34
+ 1879 004d 00       		.byte	0
+ 1880 004e 03       		.uleb128 0x3
+ 1881 004f 0E       		.uleb128 0xe
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 34
+
+
+ 1882 0050 3A       		.uleb128 0x3a
+ 1883 0051 0B       		.uleb128 0xb
+ 1884 0052 3B       		.uleb128 0x3b
+ 1885 0053 0B       		.uleb128 0xb
+ 1886 0054 49       		.uleb128 0x49
+ 1887 0055 13       		.uleb128 0x13
+ 1888 0056 3F       		.uleb128 0x3f
+ 1889 0057 19       		.uleb128 0x19
+ 1890 0058 02       		.uleb128 0x2
+ 1891 0059 18       		.uleb128 0x18
+ 1892 005a 00       		.byte	0
+ 1893 005b 00       		.byte	0
+ 1894 005c 09       		.uleb128 0x9
+ 1895 005d 21       		.uleb128 0x21
+ 1896 005e 00       		.byte	0
+ 1897 005f 49       		.uleb128 0x49
+ 1898 0060 13       		.uleb128 0x13
+ 1899 0061 2F       		.uleb128 0x2f
+ 1900 0062 05       		.uleb128 0x5
+ 1901 0063 00       		.byte	0
+ 1902 0064 00       		.byte	0
+ 1903 0065 00       		.byte	0
+ 1904              		.section	.debug_aranges,"",%progbits
+ 1905 0000 14000000 		.4byte	0x14
+ 1906 0004 0200     		.2byte	0x2
+ 1907 0006 00000000 		.4byte	.Ldebug_info0
+ 1908 000a 04       		.byte	0x4
+ 1909 000b 00       		.byte	0
+ 1910 000c 0000     		.2byte	0
+ 1911 000e 0000     		.2byte	0
+ 1912 0010 00000000 		.4byte	0
+ 1913 0014 00000000 		.4byte	0
+ 1914              		.section	.debug_line,"",%progbits
+ 1915              	.Ldebug_line0:
+ 1916 0000 52000000 		.section	.debug_str,"MS",%progbits,1
+ 1916      02004C00 
+ 1916      00000201 
+ 1916      FB0E0D00 
+ 1916      01010101 
+ 1917              	.LASF1:
+ 1918 0000 6C6F6E67 		.ascii	"long long int\000"
+ 1918      206C6F6E 
+ 1918      6720696E 
+ 1918      7400
+ 1919              	.LASF0:
+ 1920 000e 756E7369 		.ascii	"unsigned int\000"
+ 1920      676E6564 
+ 1920      20696E74 
+ 1920      00
+ 1921              	.LASF18:
+ 1922 001b 46696C74 		.ascii	"Filter_acu\000"
+ 1922      65725F61 
+ 1922      637500
+ 1923              	.LASF21:
+ 1924 0026 433A5C55 		.ascii	"C:\\Users\\rcaravac\\Documents\\Personales\\Maestri"
+ 1924      73657273 
+ 1924      5C726361 
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 35
+
+
+ 1924      72617661 
+ 1924      635C446F 
+ 1925 0054 615C3635 		.ascii	"a\\65280069\\TareaClase4.cydsn\000"
+ 1925      32383030 
+ 1925      36395C54 
+ 1925      61726561 
+ 1925      436C6173 
+ 1926              	.LASF22:
+ 1927 0071 75696E74 		.ascii	"uint8\000"
+ 1927      3800
+ 1928              	.LASF8:
+ 1929 0077 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1929      20756E73 
+ 1929      69676E65 
+ 1929      6420696E 
+ 1929      7400
+ 1930              	.LASF9:
+ 1931 0089 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1931      206C6F6E 
+ 1931      6720756E 
+ 1931      7369676E 
+ 1931      65642069 
+ 1932              	.LASF12:
+ 1933 00a0 666C6F61 		.ascii	"float\000"
+ 1933      7400
+ 1934              	.LASF19:
+ 1935 00a6 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1935      43313120 
+ 1935      352E342E 
+ 1935      31203230 
+ 1935      31363036 
+ 1936 00d9 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1936      20726576 
+ 1936      6973696F 
+ 1936      6E203233 
+ 1936      37373135 
+ 1937 010c 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 1937      66756E63 
+ 1937      74696F6E 
+ 1937      2D736563 
+ 1937      74696F6E 
+ 1938              	.LASF20:
+ 1939 0134 47656E65 		.ascii	"Generated_Source\\PSoC5\\Filter_RAM_Data.c\000"
+ 1939      72617465 
+ 1939      645F536F 
+ 1939      75726365 
+ 1939      5C50536F 
+ 1940              	.LASF4:
+ 1941 015d 756E7369 		.ascii	"unsigned char\000"
+ 1941      676E6564 
+ 1941      20636861 
+ 1941      7200
+ 1942              	.LASF11:
+ 1943 016b 63686172 		.ascii	"char\000"
+ 1943      00
+ 1944              	.LASF7:
+ 1945 0170 6C6F6E67 		.ascii	"long int\000"
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccS5jlCz.s 			page 36
+
+
+ 1945      20696E74 
+ 1945      00
+ 1946              	.LASF13:
+ 1947 0179 646F7562 		.ascii	"double\000"
+ 1947      6C6500
+ 1948              	.LASF15:
+ 1949 0180 46696C74 		.ascii	"Filter_data_a\000"
+ 1949      65725F64 
+ 1949      6174615F 
+ 1949      6100
+ 1950              	.LASF16:
+ 1951 018e 46696C74 		.ascii	"Filter_data_b\000"
+ 1951      65725F64 
+ 1951      6174615F 
+ 1951      6200
+ 1952              	.LASF6:
+ 1953 019c 73686F72 		.ascii	"short unsigned int\000"
+ 1953      7420756E 
+ 1953      7369676E 
+ 1953      65642069 
+ 1953      6E7400
+ 1954              	.LASF3:
+ 1955 01af 7369676E 		.ascii	"signed char\000"
+ 1955      65642063 
+ 1955      68617200 
+ 1956              	.LASF14:
+ 1957 01bb 46696C74 		.ascii	"Filter_control\000"
+ 1957      65725F63 
+ 1957      6F6E7472 
+ 1957      6F6C00
+ 1958              	.LASF2:
+ 1959 01ca 6C6F6E67 		.ascii	"long double\000"
+ 1959      20646F75 
+ 1959      626C6500 
+ 1960              	.LASF5:
+ 1961 01d6 73686F72 		.ascii	"short int\000"
+ 1961      7420696E 
+ 1961      7400
+ 1962              	.LASF17:
+ 1963 01e0 46696C74 		.ascii	"Filter_cfsm\000"
+ 1963      65725F63 
+ 1963      66736D00 
+ 1964              	.LASF10:
+ 1965 01ec 73697A65 		.ascii	"sizetype\000"
+ 1965      74797065 
+ 1965      00
+ 1966              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

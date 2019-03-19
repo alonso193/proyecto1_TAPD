@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 1
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 1
 
 
    1              		.syntax unified
@@ -19,2277 +19,1572 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 1
   16              		.text
   17              	.Ltext0:
   18              		.cfi_sections	.debug_frame
-  19              		.comm	ContinuouslySendData,1,1
-  20              		.comm	SendSingleByte,1,1
-  21              		.comm	SendEmulatedData,1,1
-  22              		.comm	TransmitBuffer,16,4
-  23              		.comm	EmulatedData,1,1
-  24              		.comm	output,1,1
-  25              		.comm	Buffer_sample_to_transmit,2000,4
-  26              		.global	i
-  27              		.bss
-  28              		.align	2
-  29              		.type	i, %object
-  30              		.size	i, 4
-  31              	i:
-  32 0000 00000000 		.space	4
-  33              		.global	sample_counter
-  34              		.align	2
-  35              		.type	sample_counter, %object
-  36              		.size	sample_counter, 4
-  37              	sample_counter:
-  38 0004 00000000 		.space	4
-  39              		.comm	counter_char,10,4
-  40              		.comm	signal,8000,4
-  41              		.comm	MAG_ROW,4,4
-  42              		.comm	MAG_COL,4,4
-  43              		.comm	mg,4,4
-  44              		.comm	test,32,4
-  45              		.comm	sample,4,4
-  46              		.comm	sample_f,4,4
-  47              		.global	__aeabi_ui2f
-  48              		.global	__aeabi_f2iz
-  49              		.section	.rodata
-  50              		.align	2
-  51              	.LC0:
-  52 0000 25690D0A 		.ascii	"%i\015\012\000"
-  52      00
-  53 0005 000000   		.align	2
-  54              	.LC1:
-  55 0008 436F6C3A 		.ascii	"Col: %i\015\012\000"
-  55      2025690D 
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 2
+  19              		.global	keyCodes
+  20              		.data
+  21              		.align	2
+  22              		.type	keyCodes, %object
+  23              		.size	keyCodes, 17
+  24              	keyCodes:
+  25 0000 31323341 		.ascii	"123A456B789C*0#D\000"
+  25      34353642 
+  25      37383943 
+  25      2A302344 
+  25      00
+  26              		.global	rowDiv
+  27 0011 000000   		.align	2
+  28              		.type	rowDiv, %object
+  29              		.size	rowDiv, 4
+  30              	rowDiv:
+  31 0014 D6       		.byte	-42
+  32 0015 C2       		.byte	-62
+  33 0016 AF       		.byte	-81
+  34 0017 9E       		.byte	-98
+  35              		.global	colDiv
+  36              		.align	2
+  37              		.type	colDiv, %object
+  38              		.size	colDiv, 4
+  39              	colDiv:
+  40 0018 C6       		.byte	-58
+  41 0019 B3       		.byte	-77
+  42 001a A1       		.byte	-95
+  43 001b 92       		.byte	-110
+  44              		.comm	ContinuouslySendData,1,1
+  45              		.comm	SendSingleByte,1,1
+  46              		.comm	SendEmulatedData,1,1
+  47              		.comm	TransmitBuffer,16,4
+  48              		.comm	EmulatedData,1,1
+  49              		.comm	output,1,1
+  50              		.comm	Buffer_sample_to_transmit,2000,4
+  51              		.global	i
+  52              		.bss
+  53              		.align	2
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 2
 
 
-  55      0A00
-  56              		.section	.text.Transmit,"ax",%progbits
-  57              		.align	2
-  58              		.global	Transmit
-  59              		.thumb
-  60              		.thumb_func
-  61              		.type	Transmit, %function
-  62              	Transmit:
-  63              	.LFB64:
-  64              		.file 1 "main.c"
-   1:main.c        **** /*******************************************************************************
-   2:main.c        **** * File Name: main.c
-   3:main.c        **** *
-   4:main.c        **** * Version: 1.10
-   5:main.c        **** *
-   6:main.c        **** ********************************************************************************
-   7:main.c        **** * Copyright 2012, Cypress Semiconductor Corporation. All rights reserved.
-   8:main.c        **** * This software is owned by Cypress Semiconductor Corporation and is protected
-   9:main.c        **** * by and subject to worldwide patent and copyright laws and treaties.
-  10:main.c        **** * Therefore, you may use this software only as provided in the license agreement
-  11:main.c        **** * accompanying the software package from which you obtained this software.
-  12:main.c        **** * CYPRESS AND ITS SUPPLIERS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-  13:main.c        **** * WITH REGARD TO THIS SOFTWARE, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT,
-  14:main.c        **** * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-  15:main.c        **** *******************************************************************************/
-  16:main.c        **** 
-  17:main.c        **** #include <project.h>
-  18:main.c        **** #include <stdio.h>
-  19:main.c        **** #include <math.h>
-  20:main.c        **** #include <stdlib.h>
+  54              		.type	i, %object
+  55              		.size	i, 4
+  56              	i:
+  57 0000 00000000 		.space	4
+  58              		.global	sample_counter
+  59              		.align	2
+  60              		.type	sample_counter, %object
+  61              		.size	sample_counter, 4
+  62              	sample_counter:
+  63 0004 00000000 		.space	4
+  64              		.comm	counter_char,10,4
+  65              		.section	.rodata
+  66              		.align	2
+  67              	.LC0:
+  68 0000 44696769 		.ascii	"Digite el numero: \012\000"
+  68      74652065 
+  68      6C206E75 
+  68      6D65726F 
+  68      3A200A00 
+  69              		.section	.text.main,"ax",%progbits
+  70              		.align	2
+  71              		.global	main
+  72              		.thumb
+  73              		.thumb_func
+  74              		.type	main, %function
+  75              	main:
+  76              	.LFB64:
+  77              		.file 1 "main.c"
+   1:main.c        **** 
+   2:main.c        **** #include <project.h>
+   3:main.c        **** #include <stdio.h>
+   4:main.c        **** #include <device.h>
+   5:main.c        **** 
+   6:main.c        **** #define TONE_DURATION_MS 80 /* Duration of tone in mSec */
+   7:main.c        **** #define TONE_SPACE_MS 50 /* Duration of space between tones in mSec */
+   8:main.c        **** #define TONE_PAUSE_MS 100 /* Pause caused by invalid code */
+   9:main.c        **** /* Function prototypes */
+  10:main.c        **** void DialNumber( char * number );
+  11:main.c        **** void PlayTones( char key );
+  12:main.c        **** int8 KeyIndex(char * keyString, char key);
+  13:main.c        **** char keyCodes[] = "123A456B789C*0#D"; /* Valid character array */
+  14:main.c        **** /* The tables below store the dividers loaded into */
+  15:main.c        **** /* the counter period register to generate the row */
+  16:main.c        **** /* and column tones. */
+  17:main.c        **** /* Row Tones (Hz) 697 770 852 941 */
+  18:main.c        **** uint8 rowDiv[] = {214, 194, 175, 158};
+  19:main.c        **** /* Col Tones (Hz) 1209 1336 1477 1633 */
+  20:main.c        **** uint8 colDiv[] = { 198, 179, 161, 146};
   21:main.c        **** 
-  22:main.c        **** /* Project Defines */
+  22:main.c        **** /******************************************************************/
   23:main.c        **** #define FALSE  0
   24:main.c        **** #define TRUE   1
   25:main.c        **** #define TRANSMIT_BUFFER_SIZE  16
   26:main.c        **** #define COUNT_OF_SAMPLES  2000
   27:main.c        **** 
-  28:main.c        **** 
-  29:main.c        **** /* DMA Defines */
-  30:main.c        **** #define REQUEST_PER_BURST        (1u)
-  31:main.c        **** #define BYTES_PER_BURST          (1u)
-  32:main.c        **** #define UPPER_SRC_ADDRESS        CYDEV_PERIPH_BASE
-  33:main.c        **** #define UPPER_DEST_ADDRESS       CYDEV_PERIPH_BASE
-  34:main.c        **** 
-  35:main.c        ****     /* Flags used to store transmit data commands */
-  36:main.c        ****     uint8 ContinuouslySendData;
-  37:main.c        ****     uint8 SendSingleByte;
-  38:main.c        ****     uint8 SendEmulatedData;
-  39:main.c        ****     /* Transmit Buffer */
-  40:main.c        ****     char TransmitBuffer[TRANSMIT_BUFFER_SIZE];
-  41:main.c        ****     /* Variable used to send emulated data */
-  42:main.c        ****     uint8 EmulatedData;
-  43:main.c        ****     uint8 output;
-  44:main.c        **** 
-  45:main.c        ****     uint8 Buffer_sample_to_transmit[COUNT_OF_SAMPLES];
-  46:main.c        ****     int i = 0;
-  47:main.c        ****     unsigned int sample_counter = 0;
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 3
+  28:main.c        **** /* DMA Defines */
+  29:main.c        **** #define REQUEST_PER_BURST        (1u)
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 3
 
 
-  48:main.c        ****     
-  49:main.c        ****     char counter_char[10];
-  50:main.c        ****     
-  51:main.c        **** void DMA_Config(void);
-  52:main.c        **** 
-  53:main.c        **** float goertzel_mag(int numSamples,int TARGET_FREQUENCY,int SAMPLING_RATE, float data[]);
-  54:main.c        **** 
-  55:main.c        **** float signal[COUNT_OF_SAMPLES];
-  56:main.c        **** float MAG_ROW, MAG_COL;
-  57:main.c        **** int mg;
-  58:main.c        **** char test[32];
-  59:main.c        **** 
-  60:main.c        **** 
-  61:main.c        **** int sample;
-  62:main.c        **** float sample_f;
+  30:main.c        **** #define BYTES_PER_BURST          (1u)
+  31:main.c        **** #define UPPER_SRC_ADDRESS        CYDEV_PERIPH_BASE
+  32:main.c        **** #define UPPER_DEST_ADDRESS       CYDEV_PERIPH_BASE
+  33:main.c        **** 
+  34:main.c        ****     /* Flags used to store transmit data commands */
+  35:main.c        ****     uint8 ContinuouslySendData;
+  36:main.c        ****     uint8 SendSingleByte;
+  37:main.c        ****     uint8 SendEmulatedData;
+  38:main.c        ****     /* Transmit Buffer */
+  39:main.c        ****     char TransmitBuffer[TRANSMIT_BUFFER_SIZE];
+  40:main.c        ****     /* Variable used to send emulated data */
+  41:main.c        ****     uint8 EmulatedData;
+  42:main.c        ****     uint8 output;
+  43:main.c        ****     
+  44:main.c        ****     uint8 Buffer_sample_to_transmit[COUNT_OF_SAMPLES];
+  45:main.c        ****     int i = 0;
+  46:main.c        ****     unsigned int sample_counter = 0;
+  47:main.c        ****     
+  48:main.c        ****     char counter_char[10];
+  49:main.c        **** 
+  50:main.c        **** 
+  51:main.c        **** 
+  52:main.c        **** int main()
+  53:main.c        **** {
+  78              		.loc 1 53 0
+  79              		.cfi_startproc
+  80              		@ args = 0, pretend = 0, frame = 8
+  81              		@ frame_needed = 1, uses_anonymous_args = 0
+  82 0000 80B5     		push	{r7, lr}
+  83              		.cfi_def_cfa_offset 8
+  84              		.cfi_offset 7, -8
+  85              		.cfi_offset 14, -4
+  86 0002 82B0     		sub	sp, sp, #8
+  87              		.cfi_def_cfa_offset 16
+  88 0004 00AF     		add	r7, sp, #0
+  89              		.cfi_def_cfa_register 7
+  54:main.c        ****  /* Initialize all components */
+  55:main.c        ****  ToneClock_Stop();
+  90              		.loc 1 55 0
+  91 0006 FFF7FEFF 		bl	ToneClock_Stop
+  56:main.c        ****  Row_Divider_Start();
+  92              		.loc 1 56 0
+  93 000a FFF7FEFF 		bl	Row_Divider_Start
+  57:main.c        ****  Col_Divider_Start();
+  94              		.loc 1 57 0
+  95 000e FFF7FEFF 		bl	Col_Divider_Start
+  58:main.c        ****  Row_Tone_Start();
+  96              		.loc 1 58 0
+  97 0012 FFF7FEFF 		bl	Row_Tone_Start
+  59:main.c        ****  Col_Tone_Start();
+  98              		.loc 1 59 0
+  99 0016 FFF7FEFF 		bl	Col_Tone_Start
+  60:main.c        ****  DTMF_Buffer_Start();
+ 100              		.loc 1 60 0
+ 101 001a FFF7FEFF 		bl	DTMF_Buffer_Start
+  61:main.c        **** 
+  62:main.c        **** /* Start all components used on schematic */
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 4
+
+
   63:main.c        **** 
-  64:main.c        **** //UART transmit interrupt
-  65:main.c        **** CY_ISR_PROTO(Transmit);
-  66:main.c        **** 
-  67:main.c        **** CY_ISR(Transmit)
-  68:main.c        **** {   
-  65              		.loc 1 68 0
-  66              		.cfi_startproc
-  67              		@ args = 0, pretend = 0, frame = 8
-  68              		@ frame_needed = 1, uses_anonymous_args = 0
-  69 0000 80B5     		push	{r7, lr}
-  70              		.cfi_def_cfa_offset 8
-  71              		.cfi_offset 7, -8
-  72              		.cfi_offset 14, -4
-  73 0002 82B0     		sub	sp, sp, #8
-  74              		.cfi_def_cfa_offset 16
-  75 0004 00AF     		add	r7, sp, #0
-  76              		.cfi_def_cfa_register 7
-  69:main.c        ****     /* Send data based on last UART command */
-  70:main.c        ****     if(SendSingleByte || ContinuouslySendData)
-  77              		.loc 1 70 0
-  78 0006 204B     		ldr	r3, .L7
-  79 0008 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
-  80 000a 002B     		cmp	r3, #0
-  81 000c 03D1     		bne	.L2
-  82              		.loc 1 70 0 is_stmt 0 discriminator 1
-  83 000e 1F4B     		ldr	r3, .L7+4
-  84 0010 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
-  85 0012 002B     		cmp	r3, #0
-  86 0014 34D0     		beq	.L6
-  87              	.L2:
-  88              	.LBB2:
-  71:main.c        ****     {
-  72:main.c        ****      for( int j = 0; j < COUNT_OF_SAMPLES; j++ ){
-  89              		.loc 1 72 0 is_stmt 1
-  90 0016 0023     		movs	r3, #0
-  91 0018 7B60     		str	r3, [r7, #4]
-  92 001a 22E0     		b	.L4
-  93              	.L5:
-  73:main.c        ****             signal[j] = (float) Buffer_sample_to_transmit[j];
-  94              		.loc 1 73 0 discriminator 3
-  95 001c 1C4A     		ldr	r2, .L7+8
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 4
+  64:main.c        ****   UART_1_Start();
+ 102              		.loc 1 64 0
+ 103 001e FFF7FEFF 		bl	UART_1_Start
+  65:main.c        **** 
+  66:main.c        ****   char Ch;
+  67:main.c        **** 
+  68:main.c        ****   UART_1_PutString("Digite el numero: \n");
+ 104              		.loc 1 68 0
+ 105 0022 0848     		ldr	r0, .L3
+ 106 0024 FFF7FEFF 		bl	UART_1_PutString
+ 107              	.L2:
+ 108              	.LBB2:
+  69:main.c        **** 
+  70:main.c        **** /*******************************************************************************
+  71:main.c        **** * Function Name: DMA_Config
+  72:main.c        **** ********************************************************************************
+  73:main.c        **** *
+  74:main.c        **** * Summary:
+  75:main.c        **** *  Initializes and sets up DMA for use (generated by DMA Wizard)
+  76:main.c        **** *
+  77:main.c        **** * Parameters:
+  78:main.c        **** *  None.
+  79:main.c        **** *
+  80:main.c        **** * Return:
+  81:main.c        **** *  None.
+  82:main.c        **** *
+  83:main.c        **** *******************************************************************************/
+  84:main.c        **** 
+  85:main.c        **** 
+  86:main.c        **** for(;;)
+  87:main.c        ****     {
+  88:main.c        ****         /* Non-blocking call to get the latest data recieved  */
+  89:main.c        ****         Ch = (char)UART_1_GetChar();
+ 109              		.loc 1 89 0 discriminator 1
+ 110 0028 FFF7FEFF 		bl	UART_1_GetChar
+ 111 002c 0346     		mov	r3, r0
+ 112 002e FB70     		strb	r3, [r7, #3]
+  90:main.c        ****         
+  91:main.c        ****         char * ch_string = &Ch;
+ 113              		.loc 1 91 0 discriminator 1
+ 114 0030 FB1C     		adds	r3, r7, #3
+ 115 0032 7B60     		str	r3, [r7, #4]
+  92:main.c        ****         UART_1_PutString(ch_string);
+ 116              		.loc 1 92 0 discriminator 1
+ 117 0034 7868     		ldr	r0, [r7, #4]
+ 118 0036 FFF7FEFF 		bl	UART_1_PutString
+  93:main.c        ****         
+  94:main.c        ****         /* Set flags based on UART command */
+  95:main.c        ****        DialNumber(ch_string);
+ 119              		.loc 1 95 0 discriminator 1
+ 120 003a 7868     		ldr	r0, [r7, #4]
+ 121 003c FFF7FEFF 		bl	DialNumber
+ 122              	.LBE2:
+  96:main.c        ****         
+  97:main.c        ****     }
+ 123              		.loc 1 97 0 discriminator 1
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 5
 
 
-  96 001e 7B68     		ldr	r3, [r7, #4]
-  97 0020 1344     		add	r3, r3, r2
-  98 0022 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
-  99 0024 1846     		mov	r0, r3
- 100 0026 FFF7FEFF 		bl	__aeabi_ui2f
- 101 002a 0146     		mov	r1, r0
- 102 002c 194A     		ldr	r2, .L7+12
- 103 002e 7B68     		ldr	r3, [r7, #4]
- 104 0030 42F82310 		str	r1, [r2, r3, lsl #2]	@ float
-  74:main.c        ****             sample = (int) signal[j];
- 105              		.loc 1 74 0 discriminator 3
- 106 0034 174A     		ldr	r2, .L7+12
- 107 0036 7B68     		ldr	r3, [r7, #4]
- 108 0038 52F82330 		ldr	r3, [r2, r3, lsl #2]	@ float
- 109 003c 1846     		mov	r0, r3
- 110 003e FFF7FEFF 		bl	__aeabi_f2iz
- 111 0042 0246     		mov	r2, r0
- 112 0044 144B     		ldr	r3, .L7+16
- 113 0046 1A60     		str	r2, [r3]
-  75:main.c        ****             sprintf(TransmitBuffer,"%i\r\n", sample);
- 114              		.loc 1 75 0 discriminator 3
- 115 0048 134B     		ldr	r3, .L7+16
- 116 004a 1B68     		ldr	r3, [r3]
- 117 004c 1A46     		mov	r2, r3
- 118 004e 1349     		ldr	r1, .L7+20
- 119 0050 1348     		ldr	r0, .L7+24
- 120 0052 FFF7FEFF 		bl	sprintf
-  76:main.c        ****             UART_1_PutString(TransmitBuffer);
- 121              		.loc 1 76 0 discriminator 3
- 122 0056 1248     		ldr	r0, .L7+24
- 123 0058 FFF7FEFF 		bl	UART_1_PutString
-  72:main.c        ****             signal[j] = (float) Buffer_sample_to_transmit[j];
- 124              		.loc 1 72 0 discriminator 3
- 125 005c 7B68     		ldr	r3, [r7, #4]
- 126 005e 0133     		adds	r3, r3, #1
- 127 0060 7B60     		str	r3, [r7, #4]
- 128              	.L4:
-  72:main.c        ****             signal[j] = (float) Buffer_sample_to_transmit[j];
- 129              		.loc 1 72 0 is_stmt 0 discriminator 1
- 130 0062 7B68     		ldr	r3, [r7, #4]
- 131 0064 B3F5FA6F 		cmp	r3, #2000
- 132 0068 D8DB     		blt	.L5
- 133              	.LBE2:
-  77:main.c        **** 
-  78:main.c        ****         }
-  79:main.c        ****         
-  80:main.c        ****         //MAG_ROW = goertzel_mag(2000,690,8000,signal);               
-  81:main.c        ****        // MAG_COL = goertzel_mag(2000,1209,8000,signal);        
-  82:main.c        **** 
-  83:main.c        ****        // sprintf(TransmitBuffer,"Row: %i\r\n", (int)MAG_ROW);
-  84:main.c        ****        //     //UART_1_PutString(TransmitBuffer);
-  85:main.c        ****         sprintf(TransmitBuffer,"Col: %i\r\n", (int)MAG_COL);
- 134              		.loc 1 85 0 is_stmt 1
- 135 006a 0E4B     		ldr	r3, .L7+28
- 136 006c 1B68     		ldr	r3, [r3]	@ float
- 137 006e 1846     		mov	r0, r3
- 138 0070 FFF7FEFF 		bl	__aeabi_f2iz
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 5
-
-
- 139 0074 0346     		mov	r3, r0
- 140 0076 1A46     		mov	r2, r3
- 141 0078 0B49     		ldr	r1, .L7+32
- 142 007a 0948     		ldr	r0, .L7+24
- 143 007c FFF7FEFF 		bl	sprintf
- 144              	.L6:
-  86:main.c        ****             //UART_1_PutString(TransmitBuffer);
-  87:main.c        ****             
-  88:main.c        ****        // if (MAG_ROW >= 1 && MAG_COL >= 1) {
-  89:main.c        ****             //UART_1_PutString("Num: 1\r\n");
-  90:main.c        ****        // }
-  91:main.c        ****     }        
-  92:main.c        **** }
- 145              		.loc 1 92 0
- 146 0080 00BF     		nop
- 147 0082 0837     		adds	r7, r7, #8
- 148              		.cfi_def_cfa_offset 8
- 149 0084 BD46     		mov	sp, r7
- 150              		.cfi_def_cfa_register 13
- 151              		@ sp needed
- 152 0086 80BD     		pop	{r7, pc}
- 153              	.L8:
- 154              		.align	2
- 155              	.L7:
- 156 0088 00000000 		.word	SendSingleByte
- 157 008c 00000000 		.word	ContinuouslySendData
- 158 0090 00000000 		.word	Buffer_sample_to_transmit
- 159 0094 00000000 		.word	signal
- 160 0098 00000000 		.word	sample
- 161 009c 00000000 		.word	.LC0
- 162 00a0 00000000 		.word	TransmitBuffer
- 163 00a4 00000000 		.word	MAG_COL
- 164 00a8 08000000 		.word	.LC1
- 165              		.cfi_endproc
- 166              	.LFE64:
- 167              		.size	Transmit, .-Transmit
- 168              		.section	.text.filterVDAC,"ax",%progbits
- 169              		.align	2
- 170              		.global	filterVDAC
- 171              		.thumb
- 172              		.thumb_func
- 173              		.type	filterVDAC, %function
- 174              	filterVDAC:
- 175              	.LFB65:
-  93:main.c        **** 
-  94:main.c        **** 
-  95:main.c        **** /*******************************************************************************
-  96:main.c        **** * Interrupt
-  97:main.c        **** ********************************************************************************
-  98:main.c        **** * Interrupt generated on Filter sample-ready. Interrupt handle:filterVDAC
-  99:main.c        **** *
- 100:main.c        **** * Summary:
- 101:main.c        **** *  The interrupt performs following functions:
- 102:main.c        **** *   1: Reads the left-justified register for Filter Channel A
- 103:main.c        **** *   2: Converts it into an unsigned value
- 104:main.c        **** *   3: Writes this value to VDAC
+ 124 0040 F2E7     		b	.L2
+ 125              	.L4:
+ 126 0042 00BF     		.align	2
+ 127              	.L3:
+ 128 0044 00000000 		.word	.LC0
+ 129              		.cfi_endproc
+ 130              	.LFE64:
+ 131              		.size	main, .-main
+ 132              		.section	.text.DialNumber,"ax",%progbits
+ 133              		.align	2
+ 134              		.global	DialNumber
+ 135              		.thumb
+ 136              		.thumb_func
+ 137              		.type	DialNumber, %function
+ 138              	DialNumber:
+ 139              	.LFB65:
+  98:main.c        **** 
+  99:main.c        **** return 0;
+ 100:main.c        **** }
+ 101:main.c        **** 
+ 102:main.c        **** /*******************************************************************************
+ 103:main.c        **** * Function Name: DialNumber( char * number )
+ 104:main.c        **** ********************************************************************************
  105:main.c        **** *
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 6
+ 106:main.c        **** * Summary:
+ 107:main.c        **** * This function dials the number passed to it in a character string. After
+ 108:main.c        **** * the number has been dialed the funtions returns.
+ 109:main.c        **** *
+ 110:main.c        **** * Parameters:
+ 111:main.c        **** * char * number: Pointer to phone number string.
+ 112:main.c        **** *
+ 113:main.c        **** * Return:
+ 114:main.c        **** * void
+ 115:main.c        **** *
+ 116:main.c        **** *******************************************************************************/
+ 117:main.c        **** void DialNumber( char * number )
+ 118:main.c        **** {
+ 140              		.loc 1 118 0
+ 141              		.cfi_startproc
+ 142              		@ args = 0, pretend = 0, frame = 16
+ 143              		@ frame_needed = 1, uses_anonymous_args = 0
+ 144 0000 80B5     		push	{r7, lr}
+ 145              		.cfi_def_cfa_offset 8
+ 146              		.cfi_offset 7, -8
+ 147              		.cfi_offset 14, -4
+ 148 0002 84B0     		sub	sp, sp, #16
+ 149              		.cfi_def_cfa_offset 24
+ 150 0004 00AF     		add	r7, sp, #0
+ 151              		.cfi_def_cfa_register 7
+ 152 0006 7860     		str	r0, [r7, #4]
+ 119:main.c        ****  uint8 c = 0;
+ 153              		.loc 1 119 0
+ 154 0008 0023     		movs	r3, #0
+ 155 000a FB73     		strb	r3, [r7, #15]
+ 120:main.c        ****  while( number[c] != 0 ) /* Step through the dial string */
+ 156              		.loc 1 120 0
+ 157 000c 0CE0     		b	.L6
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 6
 
 
- 106:main.c        **** *******************************************************************************/
- 107:main.c        **** CY_ISR(filterVDAC)
- 108:main.c        **** {
- 176              		.loc 1 108 0
- 177              		.cfi_startproc
- 178              		@ args = 0, pretend = 0, frame = 0
- 179              		@ frame_needed = 1, uses_anonymous_args = 0
- 180 0000 80B5     		push	{r7, lr}
- 181              		.cfi_def_cfa_offset 8
- 182              		.cfi_offset 7, -8
- 183              		.cfi_offset 14, -4
- 184 0002 00AF     		add	r7, sp, #0
- 185              		.cfi_def_cfa_register 7
- 109:main.c        ****     /* Convert the 2's complement value to an unsigned 8-bit value
- 110:main.c        ****      * The VDAC expects an unsigned 8-bit value as input.
- 111:main.c        ****      */
- 112:main.c        ****     output = Filter_Read8(Filter_CHANNEL_A)+32u;
- 186              		.loc 1 112 0
- 187 0004 0020     		movs	r0, #0
- 188 0006 FFF7FEFF 		bl	Filter_Read8
- 189 000a 0346     		mov	r3, r0
- 190 000c 2033     		adds	r3, r3, #32
- 191 000e DAB2     		uxtb	r2, r3
- 192 0010 104B     		ldr	r3, .L12
- 193 0012 1A70     		strb	r2, [r3]
- 113:main.c        **** 	VDAC8_SetValue(output);
- 194              		.loc 1 113 0
- 195 0014 0F4B     		ldr	r3, .L12
- 196 0016 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 197 0018 1846     		mov	r0, r3
- 198 001a FFF7FEFF 		bl	VDAC8_SetValue
- 114:main.c        ****     
- 115:main.c        ****     if (i <= COUNT_OF_SAMPLES) {       
- 199              		.loc 1 115 0
- 200 001e 0E4B     		ldr	r3, .L12+4
- 201 0020 1B68     		ldr	r3, [r3]
- 202 0022 B3F5FA6F 		cmp	r3, #2000
- 203 0026 12DC     		bgt	.L11
- 116:main.c        ****         Buffer_sample_to_transmit[i]= output;
- 204              		.loc 1 116 0
- 205 0028 0B4B     		ldr	r3, .L12+4
- 206 002a 1B68     		ldr	r3, [r3]
- 207 002c 094A     		ldr	r2, .L12
- 208 002e 1178     		ldrb	r1, [r2]	@ zero_extendqisi2
- 209 0030 0A4A     		ldr	r2, .L12+8
- 210 0032 D154     		strb	r1, [r2, r3]
- 117:main.c        ****         i++;
- 211              		.loc 1 117 0
- 212 0034 084B     		ldr	r3, .L12+4
- 213 0036 1B68     		ldr	r3, [r3]
- 214 0038 0133     		adds	r3, r3, #1
- 215 003a 074A     		ldr	r2, .L12+4
- 216 003c 1360     		str	r3, [r2]
- 118:main.c        ****         if (i==COUNT_OF_SAMPLES) {
- 217              		.loc 1 118 0
- 218 003e 064B     		ldr	r3, .L12+4
- 219 0040 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 7
+ 158              	.L7:
+ 121:main.c        ****  {
+ 122:main.c        ****  PlayTones( number[c] ); /* Play tone for each digit */
+ 159              		.loc 1 122 0
+ 160 000e FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
+ 161 0010 7A68     		ldr	r2, [r7, #4]
+ 162 0012 1344     		add	r3, r3, r2
+ 163 0014 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 164 0016 1846     		mov	r0, r3
+ 165 0018 FFF7FEFF 		bl	PlayTones
+ 123:main.c        ****  CyDelay(TONE_SPACE_MS); /* Wait minimum space between tones */
+ 166              		.loc 1 123 0
+ 167 001c 3220     		movs	r0, #50
+ 168 001e FFF7FEFF 		bl	CyDelay
+ 124:main.c        **** c++;
+ 169              		.loc 1 124 0
+ 170 0022 FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
+ 171 0024 0133     		adds	r3, r3, #1
+ 172 0026 FB73     		strb	r3, [r7, #15]
+ 173              	.L6:
+ 120:main.c        ****  {
+ 174              		.loc 1 120 0
+ 175 0028 FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
+ 176 002a 7A68     		ldr	r2, [r7, #4]
+ 177 002c 1344     		add	r3, r3, r2
+ 178 002e 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 179 0030 002B     		cmp	r3, #0
+ 180 0032 ECD1     		bne	.L7
+ 125:main.c        ****  }
+ 126:main.c        **** }
+ 181              		.loc 1 126 0
+ 182 0034 00BF     		nop
+ 183 0036 1037     		adds	r7, r7, #16
+ 184              		.cfi_def_cfa_offset 8
+ 185 0038 BD46     		mov	sp, r7
+ 186              		.cfi_def_cfa_register 13
+ 187              		@ sp needed
+ 188 003a 80BD     		pop	{r7, pc}
+ 189              		.cfi_endproc
+ 190              	.LFE65:
+ 191              		.size	DialNumber, .-DialNumber
+ 192              		.section	.text.PlayTones,"ax",%progbits
+ 193              		.align	2
+ 194              		.global	PlayTones
+ 195              		.thumb
+ 196              		.thumb_func
+ 197              		.type	PlayTones, %function
+ 198              	PlayTones:
+ 199              	.LFB66:
+ 127:main.c        **** 
+ 128:main.c        **** /*******************************************************************************
+ 129:main.c        **** * Function Name: PlayTones( )
+ 130:main.c        **** ********************************************************************************
+ 131:main.c        **** *
+ 132:main.c        **** * Summary:
+ 133:main.c        **** * Generates the two tones required to dial the given key code. The valid
+ 134:main.c        **** * dial characters are "1 2 3 4 5 6 7 8 9 0 A B C D * #". Any invalid
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 7
 
 
- 220 0042 B3F5FA6F 		cmp	r3, #2000
- 221 0046 02D1     		bne	.L11
- 119:main.c        ****             i = 0;
- 222              		.loc 1 119 0
- 223 0048 034B     		ldr	r3, .L12+4
- 224 004a 0022     		movs	r2, #0
- 225 004c 1A60     		str	r2, [r3]
- 226              	.L11:
- 120:main.c        ****         }
- 121:main.c        ****     }
- 122:main.c        **** 
- 123:main.c        **** }
- 227              		.loc 1 123 0
- 228 004e 00BF     		nop
- 229 0050 80BD     		pop	{r7, pc}
- 230              	.L13:
- 231 0052 00BF     		.align	2
- 232              	.L12:
- 233 0054 00000000 		.word	output
- 234 0058 00000000 		.word	i
- 235 005c 00000000 		.word	Buffer_sample_to_transmit
- 236              		.cfi_endproc
- 237              	.LFE65:
- 238              		.size	filterVDAC, .-filterVDAC
- 239              		.section	.rodata
- 240 0012 0000     		.align	2
- 241              	.LC2:
- 242 0014 434F4D20 		.ascii	"COM Port Open\000"
- 242      506F7274 
- 242      204F7065 
- 242      6E00
- 243              		.section	.text.main,"ax",%progbits
- 244              		.align	2
- 245              		.global	main
- 246              		.thumb
- 247              		.thumb_func
- 248              		.type	main, %function
- 249              	main:
- 250              	.LFB66:
- 124:main.c        **** 
- 125:main.c        **** 
- 126:main.c        **** /*******************************************************************************
- 127:main.c        **** * Function Name: main
- 128:main.c        **** ********************************************************************************
- 129:main.c        **** *
- 130:main.c        **** * Summary:
- 131:main.c        **** *  Main function performs following functions:
- 132:main.c        **** *   1: Enables global interrupts
- 133:main.c        **** *   2: Start all components on the schematic
- 134:main.c        **** *   3: Calls a function to configure DMA
- 135:main.c        **** 
- 136:main.c        **** * Parameters:
- 137:main.c        **** *  None.
- 138:main.c        **** *
- 139:main.c        **** * Return:
- 140:main.c        **** *  None.
- 141:main.c        **** *
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 8
-
-
- 142:main.c        **** *******************************************************************************/
- 143:main.c        **** int main()
- 144:main.c        **** {
- 251              		.loc 1 144 0
- 252              		.cfi_startproc
- 253              		@ args = 0, pretend = 0, frame = 8
- 254              		@ frame_needed = 1, uses_anonymous_args = 0
- 255 0000 80B5     		push	{r7, lr}
- 256              		.cfi_def_cfa_offset 8
- 257              		.cfi_offset 7, -8
- 258              		.cfi_offset 14, -4
- 259 0002 82B0     		sub	sp, sp, #8
- 260              		.cfi_def_cfa_offset 16
- 261 0004 00AF     		add	r7, sp, #0
- 262              		.cfi_def_cfa_register 7
- 145:main.c        ****     
- 146:main.c        ****     /* Variable to store UART received character */
- 147:main.c        ****     uint8 Ch;
+ 135:main.c        **** * character will generate a pause.
+ 136:main.c        **** *
+ 137:main.c        **** * Parameters:
+ 138:main.c        **** * char key: Keypad character to be dialed.
+ 139:main.c        **** *
+ 140:main.c        **** * Return:
+ 141:main.c        **** * void
+ 142:main.c        **** *
+ 143:main.c        **** *******************************************************************************/
+ 144:main.c        **** void PlayTones( char key )
+ 145:main.c        **** {
+ 200              		.loc 1 145 0
+ 201              		.cfi_startproc
+ 202              		@ args = 0, pretend = 0, frame = 16
+ 203              		@ frame_needed = 1, uses_anonymous_args = 0
+ 204 0000 80B5     		push	{r7, lr}
+ 205              		.cfi_def_cfa_offset 8
+ 206              		.cfi_offset 7, -8
+ 207              		.cfi_offset 14, -4
+ 208 0002 84B0     		sub	sp, sp, #16
+ 209              		.cfi_def_cfa_offset 24
+ 210 0004 00AF     		add	r7, sp, #0
+ 211              		.cfi_def_cfa_register 7
+ 212 0006 0346     		mov	r3, r0
+ 213 0008 FB71     		strb	r3, [r7, #7]
+ 146:main.c        ****  int8 idx;
+ 147:main.c        ****  uint8 row_div, col_div;
  148:main.c        **** 
- 149:main.c        ****     /* Start all components used on schematic */
- 150:main.c        ****     ADC_DelSig_IRQ_Start();
- 263              		.loc 1 150 0
- 264 0006 FFF7FEFF 		bl	ADC_DelSig_IRQ_Start
- 151:main.c        ****     isr_StartEx(filterVDAC);
- 265              		.loc 1 151 0
- 266 000a 2348     		ldr	r0, .L23
- 267 000c FFF7FEFF 		bl	isr_StartEx
- 152:main.c        ****     isrTimer_StartEx(Transmit);
- 268              		.loc 1 152 0
- 269 0010 2248     		ldr	r0, .L23+4
- 270 0012 FFF7FEFF 		bl	isrTimer_StartEx
- 153:main.c        ****     ADC_DelSig_Start();
- 271              		.loc 1 153 0
- 272 0016 FFF7FEFF 		bl	ADC_DelSig_Start
- 154:main.c        ****     ADC_DelSig_StartConvert();
- 273              		.loc 1 154 0
- 274 001a FFF7FEFF 		bl	ADC_DelSig_StartConvert
- 155:main.c        ****     VDAC8_Start();
- 275              		.loc 1 155 0
- 276 001e FFF7FEFF 		bl	VDAC8_Start
- 156:main.c        ****     WaveDAC8_Start();
- 277              		.loc 1 156 0
- 278 0022 FFF7FEFF 		bl	WaveDAC8_Start
- 157:main.c        ****     Filter_Start();
- 279              		.loc 1 157 0
- 280 0026 FFF7FEFF 		bl	Filter_Start
- 158:main.c        ****     Timer_Start();
- 281              		.loc 1 158 0
- 282 002a FFF7FEFF 		bl	Timer_Start
- 159:main.c        ****     UART_1_Start();
- 283              		.loc 1 159 0
- 284 002e FFF7FEFF 		bl	UART_1_Start
- 160:main.c        **** 
- 161:main.c        ****     /* Initialize Variables */
- 162:main.c        ****     ContinuouslySendData = FALSE;
- 285              		.loc 1 162 0
- 286 0032 1B4B     		ldr	r3, .L23+8
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 9
+ 149:main.c        ****  idx = KeyIndex(keyCodes, key); /* Convert key to "keyCodes" array index */
+ 214              		.loc 1 149 0
+ 215 000a FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
+ 216 000c 1946     		mov	r1, r3
+ 217 000e 1848     		ldr	r0, .L12
+ 218 0010 FFF7FEFF 		bl	KeyIndex
+ 219 0014 0346     		mov	r3, r0
+ 220 0016 FB73     		strb	r3, [r7, #15]
+ 150:main.c        ****  if (idx >= 0 ) /* Is key valid */
+ 221              		.loc 1 150 0
+ 222 0018 97F90F30 		ldrsb	r3, [r7, #15]
+ 223 001c 002B     		cmp	r3, #0
+ 224 001e 1FDB     		blt	.L9
+ 151:main.c        ****  { /* Valid Key */
+ 152:main.c        ****  col_div = colDiv[(uint8)(idx & 0x03)]; /* Get divider for column tone */
+ 225              		.loc 1 152 0
+ 226 0020 FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
+ 227 0022 03F00303 		and	r3, r3, #3
+ 228 0026 134A     		ldr	r2, .L12+4
+ 229 0028 D35C     		ldrb	r3, [r2, r3]
+ 230 002a BB73     		strb	r3, [r7, #14]
+ 153:main.c        **** row_div = rowDiv[(uint8)((idx >> 2)& 0x03)];/* Get divider for row tone */
+ 231              		.loc 1 153 0
+ 232 002c 97F90F30 		ldrsb	r3, [r7, #15]
+ 233 0030 9B10     		asrs	r3, r3, #2
+ 234 0032 5BB2     		sxtb	r3, r3
+ 235 0034 DBB2     		uxtb	r3, r3
+ 236 0036 03F00303 		and	r3, r3, #3
+ 237 003a 0F4A     		ldr	r2, .L12+8
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 8
 
 
- 287 0034 0022     		movs	r2, #0
- 288 0036 1A70     		strb	r2, [r3]
- 163:main.c        ****     SendSingleByte = FALSE;
- 289              		.loc 1 163 0
- 290 0038 1A4B     		ldr	r3, .L23+12
- 291 003a 0022     		movs	r2, #0
- 292 003c 1A70     		strb	r2, [r3]
- 164:main.c        ****     SendEmulatedData = FALSE;
- 293              		.loc 1 164 0
- 294 003e 1A4B     		ldr	r3, .L23+16
- 295 0040 0022     		movs	r2, #0
- 296 0042 1A70     		strb	r2, [r3]
- 165:main.c        ****     EmulatedData = 0;
- 297              		.loc 1 165 0
- 298 0044 194B     		ldr	r3, .L23+20
- 299 0046 0022     		movs	r2, #0
- 300 0048 1A70     		strb	r2, [r3]
- 166:main.c        ****     
- 167:main.c        ****     /* Send message to verify COM port is connected properly */
- 168:main.c        ****     UART_1_PutString("COM Port Open");
- 301              		.loc 1 168 0
- 302 004a 1948     		ldr	r0, .L23+24
- 303 004c FFF7FEFF 		bl	UART_1_PutString
- 169:main.c        ****     
- 170:main.c        ****     /* User-implemented function to set-up DMA */
- 171:main.c        ****     DMA_Config();
- 304              		.loc 1 171 0
- 305 0050 FFF7FEFF 		bl	DMA_Config
- 172:main.c        **** 
- 173:main.c        ****     /* Enable Global Interrupts */
- 174:main.c        ****     CYGlobalIntEnable;
- 306              		.loc 1 174 0
- 307              		.syntax unified
- 308              	@ 174 "main.c" 1
- 309 0054 62B6     		CPSIE   i
- 310              	@ 0 "" 2
- 311              		.thumb
- 312              		.syntax unified
- 313              	.L21:
- 175:main.c        **** 
- 176:main.c        **** 
- 177:main.c        ****     for(;;)
- 178:main.c        ****     {
- 179:main.c        ****         /* Non-blocking call to get the latest data recieved  */
- 180:main.c        ****         Ch = UART_1_GetChar();
- 314              		.loc 1 180 0
- 315 0056 FFF7FEFF 		bl	UART_1_GetChar
- 316 005a 0346     		mov	r3, r0
- 317 005c FB71     		strb	r3, [r7, #7]
- 181:main.c        ****         
- 182:main.c        ****         /* Set flags based on UART command */
- 183:main.c        ****         switch(Ch)
- 318              		.loc 1 183 0
- 319 005e FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
- 320 0060 532B     		cmp	r3, #83
- 321 0062 0FD0     		beq	.L16
- 322 0064 532B     		cmp	r3, #83
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 10
+ 238 003c D35C     		ldrb	r3, [r2, r3]
+ 239 003e 7B73     		strb	r3, [r7, #13]
+ 154:main.c        **** Row_Divider_WritePeriod(row_div); /* Set both dividers */
+ 240              		.loc 1 154 0
+ 241 0040 7B7B     		ldrb	r3, [r7, #13]	@ zero_extendqisi2
+ 242 0042 1846     		mov	r0, r3
+ 243 0044 FFF7FEFF 		bl	Row_Divider_WritePeriod
+ 155:main.c        ****  Col_Divider_WritePeriod(col_div);
+ 244              		.loc 1 155 0
+ 245 0048 BB7B     		ldrb	r3, [r7, #14]	@ zero_extendqisi2
+ 246 004a 1846     		mov	r0, r3
+ 247 004c FFF7FEFF 		bl	Col_Divider_WritePeriod
+ 156:main.c        **** 
+ 157:main.c        ****  ToneClock_Start(); /* Turn on clock */
+ 248              		.loc 1 157 0
+ 249 0050 FFF7FEFF 		bl	ToneClock_Start
+ 158:main.c        ****  CyDelay(TONE_DURATION_MS); /* Wait for the tone duration */
+ 250              		.loc 1 158 0
+ 251 0054 5020     		movs	r0, #80
+ 252 0056 FFF7FEFF 		bl	CyDelay
+ 159:main.c        ****  ToneClock_Stop(); /* Turn off clock */
+ 253              		.loc 1 159 0
+ 254 005a FFF7FEFF 		bl	ToneClock_Stop
+ 160:main.c        ****  }
+ 161:main.c        ****  else /* Invalid key, just pause for set period of time. */
+ 162:main.c        ****  {
+ 163:main.c        ****  CyDelay(TONE_PAUSE_MS);
+ 164:main.c        ****  }
+ 165:main.c        **** }
+ 255              		.loc 1 165 0
+ 256 005e 02E0     		b	.L11
+ 257              	.L9:
+ 163:main.c        ****  }
+ 258              		.loc 1 163 0
+ 259 0060 6420     		movs	r0, #100
+ 260 0062 FFF7FEFF 		bl	CyDelay
+ 261              	.L11:
+ 262              		.loc 1 165 0
+ 263 0066 00BF     		nop
+ 264 0068 1037     		adds	r7, r7, #16
+ 265              		.cfi_def_cfa_offset 8
+ 266 006a BD46     		mov	sp, r7
+ 267              		.cfi_def_cfa_register 13
+ 268              		@ sp needed
+ 269 006c 80BD     		pop	{r7, pc}
+ 270              	.L13:
+ 271 006e 00BF     		.align	2
+ 272              	.L12:
+ 273 0070 00000000 		.word	keyCodes
+ 274 0074 00000000 		.word	colDiv
+ 275 0078 00000000 		.word	rowDiv
+ 276              		.cfi_endproc
+ 277              	.LFE66:
+ 278              		.size	PlayTones, .-PlayTones
+ 279              		.section	.text.KeyIndex,"ax",%progbits
+ 280              		.align	2
+ 281              		.global	KeyIndex
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 9
 
 
- 323 0066 04DC     		bgt	.L17
- 324 0068 002B     		cmp	r3, #0
- 325 006a 12D0     		beq	.L22
- 326 006c 432B     		cmp	r3, #67
- 327 006e 05D0     		beq	.L19
- 184:main.c        ****         {
- 185:main.c        ****             case 0:
- 186:main.c        ****                 /* No new data was recieved */
- 187:main.c        ****                 break;
- 188:main.c        ****             case 'C':
- 189:main.c        ****             case 'c':
- 190:main.c        ****                 sample_counter = 0;
- 191:main.c        ****                 
- 192:main.c        ****                 break;
- 193:main.c        ****             case 'S':
- 194:main.c        ****             case 's':
- 195:main.c        ****                 sample_counter = 0;
- 196:main.c        ****                 ContinuouslySendData = TRUE;                
- 197:main.c        ****                 break;
- 198:main.c        ****             
- 199:main.c        ****             default:
- 200:main.c        ****                 /* Place error handling code here */
- 201:main.c        ****                 break;    
- 328              		.loc 1 201 0
- 329 0070 10E0     		b	.L20
- 330              	.L17:
- 183:main.c        ****         {
- 331              		.loc 1 183 0
- 332 0072 632B     		cmp	r3, #99
- 333 0074 02D0     		beq	.L19
- 334 0076 732B     		cmp	r3, #115
- 335 0078 04D0     		beq	.L16
- 336              		.loc 1 201 0
- 337 007a 0BE0     		b	.L20
- 338              	.L19:
- 190:main.c        ****                 
- 339              		.loc 1 190 0
- 340 007c 0D4B     		ldr	r3, .L23+28
- 341 007e 0022     		movs	r2, #0
- 342 0080 1A60     		str	r2, [r3]
- 192:main.c        ****             case 'S':
- 343              		.loc 1 192 0
- 344 0082 07E0     		b	.L20
- 345              	.L16:
- 195:main.c        ****                 ContinuouslySendData = TRUE;                
- 346              		.loc 1 195 0
- 347 0084 0B4B     		ldr	r3, .L23+28
- 348 0086 0022     		movs	r2, #0
- 349 0088 1A60     		str	r2, [r3]
- 196:main.c        ****                 break;
- 350              		.loc 1 196 0
- 351 008a 054B     		ldr	r3, .L23+8
- 352 008c 0122     		movs	r2, #1
- 353 008e 1A70     		strb	r2, [r3]
- 197:main.c        ****             
- 354              		.loc 1 197 0
- 355 0090 00E0     		b	.L20
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 11
+ 282              		.thumb
+ 283              		.thumb_func
+ 284              		.type	KeyIndex, %function
+ 285              	KeyIndex:
+ 286              	.LFB67:
+ 166:main.c        **** /*******************************************************************************
+ 167:main.c        **** * Function Name: KeyIndex( )
+ 168:main.c        **** ********************************************************************************
+ 169:main.c        **** *
+ 170:main.c        **** * Summary:
+ 171:main.c        **** * This function finds the location of a character in a string and returns
+ 172:main.c        **** * the index. If the character is not found a -1 is returned.
+ 173:main.c        **** *
+ 174:main.c        **** * Parameters:
+ 175:main.c        **** * char * keyString: String to search through. This strings should be null
+ 176:main.c        **** * terminated and less than 255 characters in lenth.
+ 177:main.c        **** * char key: Character to find in "String".
+ 178:main.c        **** *
+ 179:main.c        **** * Return:
+ 180:main.c        **** * int8: Index of "key" in "keyString". If not found, return -1.
+ 181:main.c        **** *
+ 182:main.c        **** *******************************************************************************/
+ 183:main.c        **** int8 KeyIndex(char * keyString, char key)
+ 184:main.c        **** {
+ 287              		.loc 1 184 0
+ 288              		.cfi_startproc
+ 289              		@ args = 0, pretend = 0, frame = 16
+ 290              		@ frame_needed = 1, uses_anonymous_args = 0
+ 291              		@ link register save eliminated.
+ 292 0000 80B4     		push	{r7}
+ 293              		.cfi_def_cfa_offset 4
+ 294              		.cfi_offset 7, -4
+ 295 0002 85B0     		sub	sp, sp, #20
+ 296              		.cfi_def_cfa_offset 24
+ 297 0004 00AF     		add	r7, sp, #0
+ 298              		.cfi_def_cfa_register 7
+ 299 0006 7860     		str	r0, [r7, #4]
+ 300 0008 0B46     		mov	r3, r1
+ 301 000a FB70     		strb	r3, [r7, #3]
+ 185:main.c        ****  int8 i; /* String index */
+ 186:main.c        ****  int8 charLoc = -1; /* Location of character in string */
+ 302              		.loc 1 186 0
+ 303 000c FF23     		movs	r3, #255
+ 304 000e BB73     		strb	r3, [r7, #14]
+ 187:main.c        **** 
+ 188:main.c        ****  /* Search through string for character match */
+ 189:main.c        ****  for(i=0; (keyString[i] != 0); i++)
+ 305              		.loc 1 189 0
+ 306 0010 0023     		movs	r3, #0
+ 307 0012 FB73     		strb	r3, [r7, #15]
+ 308 0014 10E0     		b	.L15
+ 309              	.L18:
+ 190:main.c        ****  {
+ 191:main.c        ****  /* If character is found return index in string */
+ 192:main.c        ****  if (key == keyString[i])
+ 310              		.loc 1 192 0
+ 311 0016 97F90F30 		ldrsb	r3, [r7, #15]
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 10
 
 
- 356              	.L22:
- 187:main.c        ****             case 'C':
- 357              		.loc 1 187 0
- 358 0092 00BF     		nop
- 359              	.L20:
- 202:main.c        ****         }
- 203:main.c        ****         
- 204:main.c        ****     }
- 360              		.loc 1 204 0 discriminator 1
- 361 0094 DFE7     		b	.L21
- 362              	.L24:
- 363 0096 00BF     		.align	2
- 364              	.L23:
- 365 0098 00000000 		.word	filterVDAC
- 366 009c 00000000 		.word	Transmit
- 367 00a0 00000000 		.word	ContinuouslySendData
- 368 00a4 00000000 		.word	SendSingleByte
- 369 00a8 00000000 		.word	SendEmulatedData
- 370 00ac 00000000 		.word	EmulatedData
- 371 00b0 14000000 		.word	.LC2
- 372 00b4 00000000 		.word	sample_counter
- 373              		.cfi_endproc
- 374              	.LFE66:
- 375              		.size	main, .-main
- 376              		.section	.text.DMA_Config,"ax",%progbits
- 377              		.align	2
- 378              		.global	DMA_Config
- 379              		.thumb
- 380              		.thumb_func
- 381              		.type	DMA_Config, %function
- 382              	DMA_Config:
- 383              	.LFB67:
- 205:main.c        **** } /* End of main */
- 206:main.c        **** 
- 207:main.c        **** 
- 208:main.c        **** /*******************************************************************************
- 209:main.c        **** * Function Name: DMA_Config
- 210:main.c        **** ********************************************************************************
- 211:main.c        **** *
- 212:main.c        **** * Summary:
- 213:main.c        **** *  Initializes and sets up DMA for use (generated by DMA Wizard)
- 214:main.c        **** *
- 215:main.c        **** * Parameters:
- 216:main.c        **** *  None.
- 217:main.c        **** *
- 218:main.c        **** * Return:
- 219:main.c        **** *  None.
- 220:main.c        **** *
- 221:main.c        **** *******************************************************************************/
- 222:main.c        **** void DMA_Config(void)
- 223:main.c        **** {
- 384              		.loc 1 223 0
- 385              		.cfi_startproc
- 386              		@ args = 0, pretend = 0, frame = 8
- 387              		@ frame_needed = 1, uses_anonymous_args = 0
- 388 0000 80B5     		push	{r7, lr}
- 389              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 12
+ 312 001a 7A68     		ldr	r2, [r7, #4]
+ 313 001c 1344     		add	r3, r3, r2
+ 314 001e 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 315 0020 FA78     		ldrb	r2, [r7, #3]	@ zero_extendqisi2
+ 316 0022 9A42     		cmp	r2, r3
+ 317 0024 02D1     		bne	.L16
+ 193:main.c        **** {
+ 194:main.c        ****  charLoc = i;
+ 318              		.loc 1 194 0
+ 319 0026 FB7B     		ldrb	r3, [r7, #15]
+ 320 0028 BB73     		strb	r3, [r7, #14]
+ 195:main.c        **** break;
+ 321              		.loc 1 195 0
+ 322 002a 0CE0     		b	.L17
+ 323              	.L16:
+ 189:main.c        ****  {
+ 324              		.loc 1 189 0 discriminator 2
+ 325 002c 97F90F30 		ldrsb	r3, [r7, #15]
+ 326 0030 DBB2     		uxtb	r3, r3
+ 327 0032 0133     		adds	r3, r3, #1
+ 328 0034 DBB2     		uxtb	r3, r3
+ 329 0036 FB73     		strb	r3, [r7, #15]
+ 330              	.L15:
+ 189:main.c        ****  {
+ 331              		.loc 1 189 0 is_stmt 0 discriminator 1
+ 332 0038 97F90F30 		ldrsb	r3, [r7, #15]
+ 333 003c 7A68     		ldr	r2, [r7, #4]
+ 334 003e 1344     		add	r3, r3, r2
+ 335 0040 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 336 0042 002B     		cmp	r3, #0
+ 337 0044 E7D1     		bne	.L18
+ 338              	.L17:
+ 196:main.c        **** }
+ 197:main.c        ****  }
+ 198:main.c        ****  return charLoc;
+ 339              		.loc 1 198 0 is_stmt 1
+ 340 0046 97F90E30 		ldrsb	r3, [r7, #14]
+ 199:main.c        **** }
+ 341              		.loc 1 199 0
+ 342 004a 1846     		mov	r0, r3
+ 343 004c 1437     		adds	r7, r7, #20
+ 344              		.cfi_def_cfa_offset 4
+ 345 004e BD46     		mov	sp, r7
+ 346              		.cfi_def_cfa_register 13
+ 347              		@ sp needed
+ 348 0050 80BC     		pop	{r7}
+ 349              		.cfi_restore 7
+ 350              		.cfi_def_cfa_offset 0
+ 351 0052 7047     		bx	lr
+ 352              		.cfi_endproc
+ 353              	.LFE67:
+ 354              		.size	KeyIndex, .-KeyIndex
+ 355              		.text
+ 356              	.Letext0:
+ 357              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 358              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 359              		.file 4 "Generated_Source\\PSoC5/cytypes.h"
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 11
 
 
- 390              		.cfi_offset 7, -8
- 391              		.cfi_offset 14, -4
- 392 0002 82B0     		sub	sp, sp, #8
- 393              		.cfi_def_cfa_offset 16
- 394 0004 00AF     		add	r7, sp, #0
- 395              		.cfi_def_cfa_register 7
- 224:main.c        ****     /* Declare variable to hold the handle for DMA channel */
- 225:main.c        ****     uint8 channelHandle;
- 226:main.c        **** 
- 227:main.c        ****     /* Declare DMA Transaction Descriptor for memory transfer into
- 228:main.c        ****      * Filter Channel.
- 229:main.c        ****      */
- 230:main.c        ****     uint8 tdChanA;
- 231:main.c        **** 
- 232:main.c        ****     /* Configure the DMA to Transfer the data in 1 burst with individual trigger
- 233:main.c        ****      * for each burst.
- 234:main.c        ****      */
- 235:main.c        ****     channelHandle = DMA_DmaInitialize(BYTES_PER_BURST, REQUEST_PER_BURST,
- 396              		.loc 1 235 0
- 397 0006 4FF48043 		mov	r3, #16384
- 398 000a 4FF48042 		mov	r2, #16384
- 399 000e 0121     		movs	r1, #1
- 400 0010 0120     		movs	r0, #1
- 401 0012 FFF7FEFF 		bl	DMA_DmaInitialize
- 402 0016 0346     		mov	r3, r0
- 403 0018 FB71     		strb	r3, [r7, #7]
- 236:main.c        ****                                         HI16(UPPER_SRC_ADDRESS), HI16(UPPER_DEST_ADDRESS));
- 237:main.c        **** 
- 238:main.c        ****     /* This function allocates a TD for use with an initialized DMA channel */
- 239:main.c        ****     tdChanA = CyDmaTdAllocate();
- 404              		.loc 1 239 0
- 405 001a FFF7FEFF 		bl	CyDmaTdAllocate
- 406 001e 0346     		mov	r3, r0
- 407 0020 BB71     		strb	r3, [r7, #6]
- 240:main.c        **** 
- 241:main.c        ****     /* Configure the tdChanA to transfer 1 byte with no next TD */
- 242:main.c        ****     CyDmaTdSetConfiguration(tdChanA, 1u, DMA_INVALID_TD, 0u);
- 408              		.loc 1 242 0
- 409 0022 B879     		ldrb	r0, [r7, #6]	@ zero_extendqisi2
- 410 0024 0023     		movs	r3, #0
- 411 0026 FF22     		movs	r2, #255
- 412 0028 0121     		movs	r1, #1
- 413 002a FFF7FEFF 		bl	CyDmaTdSetConfiguration
- 243:main.c        **** 
- 244:main.c        ****     /* Set the source address as ADC_DelSig and the destination as
- 245:main.c        ****      * Filter Channel A.
- 246:main.c        ****      */
- 247:main.c        ****     CyDmaTdSetAddress(tdChanA, LO16((uint32)ADC_DelSig_DEC_SAMP_PTR), LO16((uint32)Filter_STAGEAH_P
- 414              		.loc 1 247 0
- 415 002e BB79     		ldrb	r3, [r7, #6]	@ zero_extendqisi2
- 416 0030 4CF2A272 		movw	r2, #51106
- 417 0034 44F61061 		movw	r1, #19984
- 418 0038 1846     		mov	r0, r3
- 419 003a FFF7FEFF 		bl	CyDmaTdSetAddress
- 248:main.c        **** 
- 249:main.c        ****     /* Set tdChanA to be the initial TD associated with channelHandle */
- 250:main.c        ****     CyDmaChSetInitialTd(channelHandle, tdChanA);
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 13
+ 360              		.file 5 "Generated_Source\\PSoC5/core_cm3.h"
+ 361              		.section	.debug_info,"",%progbits
+ 362              	.Ldebug_info0:
+ 363 0000 09030000 		.4byte	0x309
+ 364 0004 0400     		.2byte	0x4
+ 365 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 366 000a 04       		.byte	0x4
+ 367 000b 01       		.uleb128 0x1
+ 368 000c 75000000 		.4byte	.LASF40
+ 369 0010 0C       		.byte	0xc
+ 370 0011 65020000 		.4byte	.LASF41
+ 371 0015 00000000 		.4byte	.LASF42
+ 372 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 373 001d 00000000 		.4byte	0
+ 374 0021 00000000 		.4byte	.Ldebug_line0
+ 375 0025 02       		.uleb128 0x2
+ 376 0026 01       		.byte	0x1
+ 377 0027 06       		.byte	0x6
+ 378 0028 9D020000 		.4byte	.LASF0
+ 379 002c 02       		.uleb128 0x2
+ 380 002d 01       		.byte	0x1
+ 381 002e 08       		.byte	0x8
+ 382 002f 5E010000 		.4byte	.LASF1
+ 383 0033 02       		.uleb128 0x2
+ 384 0034 02       		.byte	0x2
+ 385 0035 05       		.byte	0x5
+ 386 0036 71020000 		.4byte	.LASF2
+ 387 003a 02       		.uleb128 0x2
+ 388 003b 02       		.byte	0x2
+ 389 003c 07       		.byte	0x7
+ 390 003d 28010000 		.4byte	.LASF3
+ 391 0041 03       		.uleb128 0x3
+ 392 0042 09010000 		.4byte	.LASF9
+ 393 0046 02       		.byte	0x2
+ 394 0047 3F       		.byte	0x3f
+ 395 0048 4C000000 		.4byte	0x4c
+ 396 004c 02       		.uleb128 0x2
+ 397 004d 04       		.byte	0x4
+ 398 004e 05       		.byte	0x5
+ 399 004f 88020000 		.4byte	.LASF4
+ 400 0053 02       		.uleb128 0x2
+ 401 0054 04       		.byte	0x4
+ 402 0055 07       		.byte	0x7
+ 403 0056 7B010000 		.4byte	.LASF5
+ 404 005a 02       		.uleb128 0x2
+ 405 005b 08       		.byte	0x8
+ 406 005c 05       		.byte	0x5
+ 407 005d 4D020000 		.4byte	.LASF6
+ 408 0061 02       		.uleb128 0x2
+ 409 0062 08       		.byte	0x8
+ 410 0063 07       		.byte	0x7
+ 411 0064 05020000 		.4byte	.LASF7
+ 412 0068 04       		.uleb128 0x4
+ 413 0069 04       		.byte	0x4
+ 414 006a 05       		.byte	0x5
+ 415 006b 696E7400 		.ascii	"int\000"
+ 416 006f 02       		.uleb128 0x2
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 12
 
 
- 420              		.loc 1 250 0
- 421 003e BA79     		ldrb	r2, [r7, #6]	@ zero_extendqisi2
- 422 0040 FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
- 423 0042 1146     		mov	r1, r2
- 424 0044 1846     		mov	r0, r3
- 425 0046 FFF7FEFF 		bl	CyDmaChSetInitialTd
- 251:main.c        **** 
- 252:main.c        ****     /* Enable the DMA channel represented by channelHandle and preserve the TD */
- 253:main.c        ****     CyDmaChEnable(channelHandle, 1u);
- 426              		.loc 1 253 0
- 427 004a FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
- 428 004c 0121     		movs	r1, #1
- 429 004e 1846     		mov	r0, r3
- 430 0050 FFF7FEFF 		bl	CyDmaChEnable
- 254:main.c        **** }
- 431              		.loc 1 254 0
- 432 0054 00BF     		nop
- 433 0056 0837     		adds	r7, r7, #8
- 434              		.cfi_def_cfa_offset 8
- 435 0058 BD46     		mov	sp, r7
- 436              		.cfi_def_cfa_register 13
- 437              		@ sp needed
- 438 005a 80BD     		pop	{r7, pc}
- 439              		.cfi_endproc
- 440              	.LFE67:
- 441              		.size	DMA_Config, .-DMA_Config
- 442              		.global	__aeabi_i2d
- 443              		.global	__aeabi_ddiv
- 444              		.global	__aeabi_d2f
- 445              		.global	__aeabi_i2f
- 446              		.global	__aeabi_fmul
- 447              		.global	__aeabi_fdiv
- 448              		.global	__aeabi_f2d
- 449              		.global	__aeabi_dadd
- 450              		.global	__aeabi_d2iz
- 451              		.global	__aeabi_dmul
- 452              		.global	__aeabi_fadd
- 453              		.global	__aeabi_fsub
- 454              		.section	.text.goertzel_mag,"ax",%progbits
- 455              		.align	2
- 456              		.global	goertzel_mag
- 457              		.thumb
- 458              		.thumb_func
- 459              		.type	goertzel_mag, %function
- 460              	goertzel_mag:
- 461              	.LFB68:
- 255:main.c        **** 
- 256:main.c        **** 
- 257:main.c        **** float goertzel_mag(int numSamples,int TARGET_FREQUENCY,int SAMPLING_RATE, float data[])
- 258:main.c        **** {
- 462              		.loc 1 258 0
- 463              		.cfi_startproc
- 464              		@ args = 0, pretend = 0, frame = 72
- 465              		@ frame_needed = 1, uses_anonymous_args = 0
- 466 0000 B0B5     		push	{r4, r5, r7, lr}
- 467              		.cfi_def_cfa_offset 16
- 468              		.cfi_offset 4, -16
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 14
+ 417 0070 04       		.byte	0x4
+ 418 0071 07       		.byte	0x7
+ 419 0072 EB010000 		.4byte	.LASF8
+ 420 0076 03       		.uleb128 0x3
+ 421 0077 2D020000 		.4byte	.LASF10
+ 422 007b 03       		.byte	0x3
+ 423 007c 2C       		.byte	0x2c
+ 424 007d 41000000 		.4byte	0x41
+ 425 0081 05       		.uleb128 0x5
+ 426 0082 82020000 		.4byte	.LASF11
+ 427 0086 04       		.byte	0x4
+ 428 0087 9201     		.2byte	0x192
+ 429 0089 2C000000 		.4byte	0x2c
+ 430 008d 05       		.uleb128 0x5
+ 431 008e E1010000 		.4byte	.LASF12
+ 432 0092 04       		.byte	0x4
+ 433 0093 9501     		.2byte	0x195
+ 434 0095 25000000 		.4byte	0x25
+ 435 0099 02       		.uleb128 0x2
+ 436 009a 04       		.byte	0x4
+ 437 009b 04       		.byte	0x4
+ 438 009c 03010000 		.4byte	.LASF13
+ 439 00a0 02       		.uleb128 0x2
+ 440 00a1 08       		.byte	0x8
+ 441 00a2 04       		.byte	0x4
+ 442 00a3 C1010000 		.4byte	.LASF14
+ 443 00a7 02       		.uleb128 0x2
+ 444 00a8 01       		.byte	0x1
+ 445 00a9 08       		.byte	0x8
+ 446 00aa 6C020000 		.4byte	.LASF15
+ 447 00ae 02       		.uleb128 0x2
+ 448 00af 08       		.byte	0x8
+ 449 00b0 04       		.byte	0x4
+ 450 00b1 91020000 		.4byte	.LASF16
+ 451 00b5 02       		.uleb128 0x2
+ 452 00b6 04       		.byte	0x4
+ 453 00b7 07       		.byte	0x7
+ 454 00b8 44020000 		.4byte	.LASF17
+ 455 00bc 06       		.uleb128 0x6
+ 456 00bd 04       		.byte	0x4
+ 457 00be A7000000 		.4byte	0xa7
+ 458 00c2 07       		.uleb128 0x7
+ 459 00c3 E6010000 		.4byte	.LASF19
+ 460 00c7 01       		.byte	0x1
+ 461 00c8 34       		.byte	0x34
+ 462 00c9 68000000 		.4byte	0x68
+ 463 00cd 00000000 		.4byte	.LFB64
+ 464 00d1 48000000 		.4byte	.LFE64-.LFB64
+ 465 00d5 01       		.uleb128 0x1
+ 466 00d6 9C       		.byte	0x9c
+ 467 00d7 01010000 		.4byte	0x101
+ 468 00db 08       		.uleb128 0x8
+ 469 00dc 436800   		.ascii	"Ch\000"
+ 470 00df 01       		.byte	0x1
+ 471 00e0 42       		.byte	0x42
+ 472 00e1 A7000000 		.4byte	0xa7
+ 473 00e5 02       		.uleb128 0x2
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 13
 
 
- 469              		.cfi_offset 5, -12
- 470              		.cfi_offset 7, -8
- 471              		.cfi_offset 14, -4
- 472 0002 92B0     		sub	sp, sp, #72
- 473              		.cfi_def_cfa_offset 88
- 474 0004 00AF     		add	r7, sp, #0
- 475              		.cfi_def_cfa_register 7
- 476 0006 F860     		str	r0, [r7, #12]
- 477 0008 B960     		str	r1, [r7, #8]
- 478 000a 7A60     		str	r2, [r7, #4]
- 479 000c 3B60     		str	r3, [r7]
- 259:main.c        ****     int     k,i;
- 260:main.c        ****     float   floatnumSamples;
- 261:main.c        ****     float   omega,sine,cosine,coeff,q0,q1,q2,magnitude,real,imag;
- 262:main.c        **** 
- 263:main.c        ****     float   scalingFactor = numSamples / 2.0;
- 480              		.loc 1 263 0
- 481 000e F868     		ldr	r0, [r7, #12]
- 482 0010 FFF7FEFF 		bl	__aeabi_i2d
- 483 0014 4FF00002 		mov	r2, #0
- 484 0018 4FF08043 		mov	r3, #1073741824
- 485 001c FFF7FEFF 		bl	__aeabi_ddiv
- 486 0020 0346     		mov	r3, r0
- 487 0022 0C46     		mov	r4, r1
- 488 0024 1846     		mov	r0, r3
- 489 0026 2146     		mov	r1, r4
- 490 0028 FFF7FEFF 		bl	__aeabi_d2f
- 491 002c 0346     		mov	r3, r0
- 492 002e BB63     		str	r3, [r7, #56]	@ float
- 264:main.c        **** 
- 265:main.c        ****     floatnumSamples = (float) numSamples;
- 493              		.loc 1 265 0
- 494 0030 F868     		ldr	r0, [r7, #12]
- 495 0032 FFF7FEFF 		bl	__aeabi_i2f
- 496 0036 0346     		mov	r3, r0
- 497 0038 7B63     		str	r3, [r7, #52]	@ float
- 266:main.c        ****     k = (int) (0.5 + ((floatnumSamples * TARGET_FREQUENCY) / SAMPLING_RATE));
- 498              		.loc 1 266 0
- 499 003a B868     		ldr	r0, [r7, #8]
- 500 003c FFF7FEFF 		bl	__aeabi_i2f
- 501 0040 0346     		mov	r3, r0
- 502 0042 796B     		ldr	r1, [r7, #52]	@ float
- 503 0044 1846     		mov	r0, r3
- 504 0046 FFF7FEFF 		bl	__aeabi_fmul
- 505 004a 0346     		mov	r3, r0
- 506 004c 1C46     		mov	r4, r3
- 507 004e 7868     		ldr	r0, [r7, #4]
- 508 0050 FFF7FEFF 		bl	__aeabi_i2f
- 509 0054 0346     		mov	r3, r0
- 510 0056 1946     		mov	r1, r3
- 511 0058 2046     		mov	r0, r4
- 512 005a FFF7FEFF 		bl	__aeabi_fdiv
- 513 005e 0346     		mov	r3, r0
- 514 0060 1846     		mov	r0, r3
- 515 0062 FFF7FEFF 		bl	__aeabi_f2d
- 516 0066 4FF00002 		mov	r2, #0
- 517 006a 5D4B     		ldr	r3, .L30+8
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 15
+ 474 00e6 91       		.byte	0x91
+ 475 00e7 73       		.sleb128 -13
+ 476 00e8 09       		.uleb128 0x9
+ 477 00e9 28000000 		.4byte	.LBB2
+ 478 00ed 18000000 		.4byte	.LBE2-.LBB2
+ 479 00f1 0A       		.uleb128 0xa
+ 480 00f2 B4020000 		.4byte	.LASF18
+ 481 00f6 01       		.byte	0x1
+ 482 00f7 5B       		.byte	0x5b
+ 483 00f8 BC000000 		.4byte	0xbc
+ 484 00fc 02       		.uleb128 0x2
+ 485 00fd 91       		.byte	0x91
+ 486 00fe 74       		.sleb128 -12
+ 487 00ff 00       		.byte	0
+ 488 0100 00       		.byte	0
+ 489 0101 0B       		.uleb128 0xb
+ 490 0102 A9020000 		.4byte	.LASF20
+ 491 0106 01       		.byte	0x1
+ 492 0107 75       		.byte	0x75
+ 493 0108 00000000 		.4byte	.LFB65
+ 494 010c 3C000000 		.4byte	.LFE65-.LFB65
+ 495 0110 01       		.uleb128 0x1
+ 496 0111 9C       		.byte	0x9c
+ 497 0112 31010000 		.4byte	0x131
+ 498 0116 0C       		.uleb128 0xc
+ 499 0117 26020000 		.4byte	.LASF22
+ 500 011b 01       		.byte	0x1
+ 501 011c 75       		.byte	0x75
+ 502 011d BC000000 		.4byte	0xbc
+ 503 0121 02       		.uleb128 0x2
+ 504 0122 91       		.byte	0x91
+ 505 0123 6C       		.sleb128 -20
+ 506 0124 08       		.uleb128 0x8
+ 507 0125 6300     		.ascii	"c\000"
+ 508 0127 01       		.byte	0x1
+ 509 0128 77       		.byte	0x77
+ 510 0129 81000000 		.4byte	0x81
+ 511 012d 02       		.uleb128 0x2
+ 512 012e 91       		.byte	0x91
+ 513 012f 77       		.sleb128 -9
+ 514 0130 00       		.byte	0
+ 515 0131 0B       		.uleb128 0xb
+ 516 0132 1C020000 		.4byte	.LASF21
+ 517 0136 01       		.byte	0x1
+ 518 0137 90       		.byte	0x90
+ 519 0138 00000000 		.4byte	.LFB66
+ 520 013c 7C000000 		.4byte	.LFE66-.LFB66
+ 521 0140 01       		.uleb128 0x1
+ 522 0141 9C       		.byte	0x9c
+ 523 0142 7F010000 		.4byte	0x17f
+ 524 0146 0D       		.uleb128 0xd
+ 525 0147 6B657900 		.ascii	"key\000"
+ 526 014b 01       		.byte	0x1
+ 527 014c 90       		.byte	0x90
+ 528 014d A7000000 		.4byte	0xa7
+ 529 0151 02       		.uleb128 0x2
+ 530 0152 91       		.byte	0x91
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 14
 
 
- 518 006c FFF7FEFF 		bl	__aeabi_dadd
- 519 0070 0346     		mov	r3, r0
- 520 0072 0C46     		mov	r4, r1
- 521 0074 1846     		mov	r0, r3
- 522 0076 2146     		mov	r1, r4
- 523 0078 FFF7FEFF 		bl	__aeabi_d2iz
- 524 007c 0346     		mov	r3, r0
- 525 007e 3B63     		str	r3, [r7, #48]
- 267:main.c        ****     omega = (2.0 * 3.1416 * k) / floatnumSamples;
- 526              		.loc 1 267 0
- 527 0080 386B     		ldr	r0, [r7, #48]
- 528 0082 FFF7FEFF 		bl	__aeabi_i2d
- 529 0086 54A3     		adr	r3, .L30
- 530 0088 D3E90023 		ldrd	r2, [r3]
- 531 008c FFF7FEFF 		bl	__aeabi_dmul
- 532 0090 0346     		mov	r3, r0
- 533 0092 0C46     		mov	r4, r1
- 534 0094 2546     		mov	r5, r4
- 535 0096 1C46     		mov	r4, r3
- 536 0098 786B     		ldr	r0, [r7, #52]	@ float
- 537 009a FFF7FEFF 		bl	__aeabi_f2d
- 538 009e 0246     		mov	r2, r0
- 539 00a0 0B46     		mov	r3, r1
- 540 00a2 2046     		mov	r0, r4
- 541 00a4 2946     		mov	r1, r5
- 542 00a6 FFF7FEFF 		bl	__aeabi_ddiv
- 543 00aa 0346     		mov	r3, r0
- 544 00ac 0C46     		mov	r4, r1
- 545 00ae 1846     		mov	r0, r3
- 546 00b0 2146     		mov	r1, r4
- 547 00b2 FFF7FEFF 		bl	__aeabi_d2f
- 548 00b6 0346     		mov	r3, r0
- 549 00b8 FB62     		str	r3, [r7, #44]	@ float
- 268:main.c        ****     
- 269:main.c        ****     sine = sin(omega);
- 550              		.loc 1 269 0
- 551 00ba F86A     		ldr	r0, [r7, #44]	@ float
- 552 00bc FFF7FEFF 		bl	__aeabi_f2d
- 553 00c0 0346     		mov	r3, r0
- 554 00c2 0C46     		mov	r4, r1
- 555 00c4 1846     		mov	r0, r3
- 556 00c6 2146     		mov	r1, r4
- 557 00c8 FFF7FEFF 		bl	sin
- 558 00cc 0346     		mov	r3, r0
- 559 00ce 0C46     		mov	r4, r1
- 560 00d0 1846     		mov	r0, r3
- 561 00d2 2146     		mov	r1, r4
- 562 00d4 FFF7FEFF 		bl	__aeabi_d2f
- 563 00d8 0346     		mov	r3, r0
- 564 00da BB62     		str	r3, [r7, #40]	@ float
- 270:main.c        ****     cosine = cos(omega);
- 565              		.loc 1 270 0
- 566 00dc F86A     		ldr	r0, [r7, #44]	@ float
- 567 00de FFF7FEFF 		bl	__aeabi_f2d
- 568 00e2 0346     		mov	r3, r0
- 569 00e4 0C46     		mov	r4, r1
- 570 00e6 1846     		mov	r0, r3
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 16
+ 531 0153 6F       		.sleb128 -17
+ 532 0154 08       		.uleb128 0x8
+ 533 0155 69647800 		.ascii	"idx\000"
+ 534 0159 01       		.byte	0x1
+ 535 015a 92       		.byte	0x92
+ 536 015b 8D000000 		.4byte	0x8d
+ 537 015f 02       		.uleb128 0x2
+ 538 0160 91       		.byte	0x91
+ 539 0161 77       		.sleb128 -9
+ 540 0162 0A       		.uleb128 0xa
+ 541 0163 C8010000 		.4byte	.LASF23
+ 542 0167 01       		.byte	0x1
+ 543 0168 93       		.byte	0x93
+ 544 0169 81000000 		.4byte	0x81
+ 545 016d 02       		.uleb128 0x2
+ 546 016e 91       		.byte	0x91
+ 547 016f 75       		.sleb128 -11
+ 548 0170 0A       		.uleb128 0xa
+ 549 0171 D9010000 		.4byte	.LASF24
+ 550 0175 01       		.byte	0x1
+ 551 0176 93       		.byte	0x93
+ 552 0177 81000000 		.4byte	0x81
+ 553 017b 02       		.uleb128 0x2
+ 554 017c 91       		.byte	0x91
+ 555 017d 76       		.sleb128 -10
+ 556 017e 00       		.byte	0
+ 557 017f 0E       		.uleb128 0xe
+ 558 0180 D0010000 		.4byte	.LASF43
+ 559 0184 01       		.byte	0x1
+ 560 0185 B7       		.byte	0xb7
+ 561 0186 8D000000 		.4byte	0x8d
+ 562 018a 00000000 		.4byte	.LFB67
+ 563 018e 54000000 		.4byte	.LFE67-.LFB67
+ 564 0192 01       		.uleb128 0x1
+ 565 0193 9C       		.byte	0x9c
+ 566 0194 CF010000 		.4byte	0x1cf
+ 567 0198 0C       		.uleb128 0xc
+ 568 0199 5B020000 		.4byte	.LASF25
+ 569 019d 01       		.byte	0x1
+ 570 019e B7       		.byte	0xb7
+ 571 019f BC000000 		.4byte	0xbc
+ 572 01a3 02       		.uleb128 0x2
+ 573 01a4 91       		.byte	0x91
+ 574 01a5 6C       		.sleb128 -20
+ 575 01a6 0D       		.uleb128 0xd
+ 576 01a7 6B657900 		.ascii	"key\000"
+ 577 01ab 01       		.byte	0x1
+ 578 01ac B7       		.byte	0xb7
+ 579 01ad A7000000 		.4byte	0xa7
+ 580 01b1 02       		.uleb128 0x2
+ 581 01b2 91       		.byte	0x91
+ 582 01b3 6B       		.sleb128 -21
+ 583 01b4 08       		.uleb128 0x8
+ 584 01b5 6900     		.ascii	"i\000"
+ 585 01b7 01       		.byte	0x1
+ 586 01b8 B9       		.byte	0xb9
+ 587 01b9 8D000000 		.4byte	0x8d
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 15
 
 
- 571 00e8 2146     		mov	r1, r4
- 572 00ea FFF7FEFF 		bl	cos
- 573 00ee 0346     		mov	r3, r0
- 574 00f0 0C46     		mov	r4, r1
- 575 00f2 1846     		mov	r0, r3
- 576 00f4 2146     		mov	r1, r4
- 577 00f6 FFF7FEFF 		bl	__aeabi_d2f
- 578 00fa 0346     		mov	r3, r0
- 579 00fc 7B62     		str	r3, [r7, #36]	@ float
- 271:main.c        ****     coeff = 2.0 * cosine;
- 580              		.loc 1 271 0
- 581 00fe 7B6A     		ldr	r3, [r7, #36]	@ float
- 582 0100 1946     		mov	r1, r3
- 583 0102 1846     		mov	r0, r3
- 584 0104 FFF7FEFF 		bl	__aeabi_fadd
- 585 0108 0346     		mov	r3, r0
- 586 010a 3B62     		str	r3, [r7, #32]	@ float
- 272:main.c        ****     q0=0;
- 587              		.loc 1 272 0
- 588 010c 4FF00003 		mov	r3, #0
- 589 0110 3B64     		str	r3, [r7, #64]	@ float
- 273:main.c        ****     q1=0;
- 590              		.loc 1 273 0
- 591 0112 4FF00003 		mov	r3, #0
- 592 0116 FB63     		str	r3, [r7, #60]	@ float
- 274:main.c        ****     q2=0;
- 593              		.loc 1 274 0
- 594 0118 4FF00003 		mov	r3, #0
- 595 011c FB61     		str	r3, [r7, #28]	@ float
- 275:main.c        **** 
- 276:main.c        ****     for(i=0; i<numSamples; i++)
- 596              		.loc 1 276 0
- 597 011e 0023     		movs	r3, #0
- 598 0120 7B64     		str	r3, [r7, #68]
- 599 0122 1BE0     		b	.L27
- 600              	.L28:
- 277:main.c        ****     {
- 278:main.c        ****         q2 = q1;
- 601              		.loc 1 278 0 discriminator 3
- 602 0124 FB6B     		ldr	r3, [r7, #60]	@ float
- 603 0126 FB61     		str	r3, [r7, #28]	@ float
- 279:main.c        ****         q1 = q0;
- 604              		.loc 1 279 0 discriminator 3
- 605 0128 3B6C     		ldr	r3, [r7, #64]	@ float
- 606 012a FB63     		str	r3, [r7, #60]	@ float
- 280:main.c        ****         q0 = coeff * q1 - q2 + data[i];
- 607              		.loc 1 280 0 discriminator 3
- 608 012c F96B     		ldr	r1, [r7, #60]	@ float
- 609 012e 386A     		ldr	r0, [r7, #32]	@ float
- 610 0130 FFF7FEFF 		bl	__aeabi_fmul
- 611 0134 0346     		mov	r3, r0
- 612 0136 F969     		ldr	r1, [r7, #28]	@ float
- 613 0138 1846     		mov	r0, r3
- 614 013a FFF7FEFF 		bl	__aeabi_fsub
- 615 013e 0346     		mov	r3, r0
- 616 0140 1846     		mov	r0, r3
- 617 0142 7B6C     		ldr	r3, [r7, #68]
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 17
+ 588 01bd 02       		.uleb128 0x2
+ 589 01be 91       		.byte	0x91
+ 590 01bf 77       		.sleb128 -9
+ 591 01c0 0A       		.uleb128 0xa
+ 592 01c1 6C010000 		.4byte	.LASF26
+ 593 01c5 01       		.byte	0x1
+ 594 01c6 BA       		.byte	0xba
+ 595 01c7 8D000000 		.4byte	0x8d
+ 596 01cb 02       		.uleb128 0x2
+ 597 01cc 91       		.byte	0x91
+ 598 01cd 76       		.sleb128 -10
+ 599 01ce 00       		.byte	0
+ 600 01cf 0F       		.uleb128 0xf
+ 601 01d0 94010000 		.4byte	.LASF27
+ 602 01d4 05       		.byte	0x5
+ 603 01d5 1207     		.2byte	0x712
+ 604 01d7 DB010000 		.4byte	0x1db
+ 605 01db 10       		.uleb128 0x10
+ 606 01dc 76000000 		.4byte	0x76
+ 607 01e0 11       		.uleb128 0x11
+ 608 01e1 A7000000 		.4byte	0xa7
+ 609 01e5 F0010000 		.4byte	0x1f0
+ 610 01e9 12       		.uleb128 0x12
+ 611 01ea B5000000 		.4byte	0xb5
+ 612 01ee 10       		.byte	0x10
+ 613 01ef 00       		.byte	0
+ 614 01f0 13       		.uleb128 0x13
+ 615 01f1 55010000 		.4byte	.LASF28
+ 616 01f5 01       		.byte	0x1
+ 617 01f6 0D       		.byte	0xd
+ 618 01f7 E0010000 		.4byte	0x1e0
+ 619 01fb 05       		.uleb128 0x5
+ 620 01fc 03       		.byte	0x3
+ 621 01fd 00000000 		.4byte	keyCodes
+ 622 0201 11       		.uleb128 0x11
+ 623 0202 81000000 		.4byte	0x81
+ 624 0206 11020000 		.4byte	0x211
+ 625 020a 12       		.uleb128 0x12
+ 626 020b B5000000 		.4byte	0xb5
+ 627 020f 03       		.byte	0x3
+ 628 0210 00       		.byte	0
+ 629 0211 13       		.uleb128 0x13
+ 630 0212 8D010000 		.4byte	.LASF29
+ 631 0216 01       		.byte	0x1
+ 632 0217 12       		.byte	0x12
+ 633 0218 01020000 		.4byte	0x201
+ 634 021c 05       		.uleb128 0x5
+ 635 021d 03       		.byte	0x3
+ 636 021e 00000000 		.4byte	rowDiv
+ 637 0222 13       		.uleb128 0x13
+ 638 0223 74010000 		.4byte	.LASF30
+ 639 0227 01       		.byte	0x1
+ 640 0228 14       		.byte	0x14
+ 641 0229 01020000 		.4byte	0x201
+ 642 022d 05       		.uleb128 0x5
+ 643 022e 03       		.byte	0x3
+ 644 022f 00000000 		.4byte	colDiv
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 16
 
 
- 618 0144 9B00     		lsls	r3, r3, #2
- 619 0146 3A68     		ldr	r2, [r7]
- 620 0148 1344     		add	r3, r3, r2
- 621 014a 1B68     		ldr	r3, [r3]	@ float
- 622 014c 1946     		mov	r1, r3
- 623 014e FFF7FEFF 		bl	__aeabi_fadd
- 624 0152 0346     		mov	r3, r0
- 625 0154 3B64     		str	r3, [r7, #64]	@ float
- 276:main.c        ****     {
- 626              		.loc 1 276 0 discriminator 3
- 627 0156 7B6C     		ldr	r3, [r7, #68]
- 628 0158 0133     		adds	r3, r3, #1
- 629 015a 7B64     		str	r3, [r7, #68]
- 630              	.L27:
- 276:main.c        ****     {
- 631              		.loc 1 276 0 is_stmt 0 discriminator 1
- 632 015c 7A6C     		ldr	r2, [r7, #68]
- 633 015e FB68     		ldr	r3, [r7, #12]
- 634 0160 9A42     		cmp	r2, r3
- 635 0162 DFDB     		blt	.L28
- 281:main.c        ****     }
- 282:main.c        **** 
- 283:main.c        ****     // calculate the real and imaginary results
- 284:main.c        ****     // scaling appropriately
- 285:main.c        ****     real = (q0 - q1 * cosine) / scalingFactor;
- 636              		.loc 1 285 0 is_stmt 1
- 637 0164 796A     		ldr	r1, [r7, #36]	@ float
- 638 0166 F86B     		ldr	r0, [r7, #60]	@ float
- 639 0168 FFF7FEFF 		bl	__aeabi_fmul
- 640 016c 0346     		mov	r3, r0
- 641 016e 1946     		mov	r1, r3
- 642 0170 386C     		ldr	r0, [r7, #64]	@ float
- 643 0172 FFF7FEFF 		bl	__aeabi_fsub
- 644 0176 0346     		mov	r3, r0
- 645 0178 B96B     		ldr	r1, [r7, #56]	@ float
- 646 017a 1846     		mov	r0, r3
- 647 017c FFF7FEFF 		bl	__aeabi_fdiv
- 648 0180 0346     		mov	r3, r0
- 649 0182 BB61     		str	r3, [r7, #24]	@ float
- 286:main.c        ****     imag = (-q1 * sine) / scalingFactor;
- 650              		.loc 1 286 0
- 651 0184 FB6B     		ldr	r3, [r7, #60]
- 652 0186 83F00043 		eor	r3, r3, #-2147483648
- 653 018a B96A     		ldr	r1, [r7, #40]	@ float
- 654 018c 1846     		mov	r0, r3
- 655 018e FFF7FEFF 		bl	__aeabi_fmul
- 656 0192 0346     		mov	r3, r0
- 657 0194 B96B     		ldr	r1, [r7, #56]	@ float
- 658 0196 1846     		mov	r0, r3
- 659 0198 FFF7FEFF 		bl	__aeabi_fdiv
- 660 019c 0346     		mov	r3, r0
- 661 019e 7B61     		str	r3, [r7, #20]	@ float
- 287:main.c        **** 
- 288:main.c        ****     magnitude = sqrtf(real*real + imag*imag);
- 662              		.loc 1 288 0
- 663 01a0 B969     		ldr	r1, [r7, #24]	@ float
- 664 01a2 B869     		ldr	r0, [r7, #24]	@ float
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 18
+ 645 0233 13       		.uleb128 0x13
+ 646 0234 13010000 		.4byte	.LASF31
+ 647 0238 01       		.byte	0x1
+ 648 0239 23       		.byte	0x23
+ 649 023a 81000000 		.4byte	0x81
+ 650 023e 05       		.uleb128 0x5
+ 651 023f 03       		.byte	0x3
+ 652 0240 00000000 		.4byte	ContinuouslySendData
+ 653 0244 13       		.uleb128 0x13
+ 654 0245 BE020000 		.4byte	.LASF32
+ 655 0249 01       		.byte	0x1
+ 656 024a 24       		.byte	0x24
+ 657 024b 81000000 		.4byte	0x81
+ 658 024f 05       		.uleb128 0x5
+ 659 0250 03       		.byte	0x3
+ 660 0251 00000000 		.4byte	SendSingleByte
+ 661 0255 13       		.uleb128 0x13
+ 662 0256 B0010000 		.4byte	.LASF33
+ 663 025a 01       		.byte	0x1
+ 664 025b 25       		.byte	0x25
+ 665 025c 81000000 		.4byte	0x81
+ 666 0260 05       		.uleb128 0x5
+ 667 0261 03       		.byte	0x3
+ 668 0262 00000000 		.4byte	SendEmulatedData
+ 669 0266 11       		.uleb128 0x11
+ 670 0267 A7000000 		.4byte	0xa7
+ 671 026b 76020000 		.4byte	0x276
+ 672 026f 12       		.uleb128 0x12
+ 673 0270 B5000000 		.4byte	0xb5
+ 674 0274 0F       		.byte	0xf
+ 675 0275 00       		.byte	0
+ 676 0276 13       		.uleb128 0x13
+ 677 0277 35020000 		.4byte	.LASF34
+ 678 027b 01       		.byte	0x1
+ 679 027c 27       		.byte	0x27
+ 680 027d 66020000 		.4byte	0x266
+ 681 0281 05       		.uleb128 0x5
+ 682 0282 03       		.byte	0x3
+ 683 0283 00000000 		.4byte	TransmitBuffer
+ 684 0287 13       		.uleb128 0x13
+ 685 0288 68000000 		.4byte	.LASF35
+ 686 028c 01       		.byte	0x1
+ 687 028d 29       		.byte	0x29
+ 688 028e 81000000 		.4byte	0x81
+ 689 0292 05       		.uleb128 0x5
+ 690 0293 03       		.byte	0x3
+ 691 0294 00000000 		.4byte	EmulatedData
+ 692 0298 13       		.uleb128 0x13
+ 693 0299 7B020000 		.4byte	.LASF36
+ 694 029d 01       		.byte	0x1
+ 695 029e 2A       		.byte	0x2a
+ 696 029f 81000000 		.4byte	0x81
+ 697 02a3 05       		.uleb128 0x5
+ 698 02a4 03       		.byte	0x3
+ 699 02a5 00000000 		.4byte	output
+ 700 02a9 11       		.uleb128 0x11
+ 701 02aa 81000000 		.4byte	0x81
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 17
 
 
- 665 01a4 FFF7FEFF 		bl	__aeabi_fmul
- 666 01a8 0346     		mov	r3, r0
- 667 01aa 1C46     		mov	r4, r3
- 668 01ac 7969     		ldr	r1, [r7, #20]	@ float
- 669 01ae 7869     		ldr	r0, [r7, #20]	@ float
- 670 01b0 FFF7FEFF 		bl	__aeabi_fmul
- 671 01b4 0346     		mov	r3, r0
- 672 01b6 1946     		mov	r1, r3
- 673 01b8 2046     		mov	r0, r4
- 674 01ba FFF7FEFF 		bl	__aeabi_fadd
- 675 01be 0346     		mov	r3, r0
- 676 01c0 1846     		mov	r0, r3
- 677 01c2 FFF7FEFF 		bl	sqrtf
- 678 01c6 3861     		str	r0, [r7, #16]	@ float
- 289:main.c        ****     
- 290:main.c        **** 
- 291:main.c        ****     return magnitude;
- 679              		.loc 1 291 0
- 680 01c8 3B69     		ldr	r3, [r7, #16]	@ float
- 292:main.c        **** }
- 681              		.loc 1 292 0
- 682 01ca 1846     		mov	r0, r3
- 683 01cc 4837     		adds	r7, r7, #72
- 684              		.cfi_def_cfa_offset 16
- 685 01ce BD46     		mov	sp, r7
- 686              		.cfi_def_cfa_register 13
- 687              		@ sp needed
- 688 01d0 B0BD     		pop	{r4, r5, r7, pc}
- 689              	.L31:
- 690 01d2 00BFAFF3 		.align	3
- 690      0080
- 691              	.L30:
- 692 01d8 A7E8482E 		.word	776530087
- 693 01dc FF211940 		.word	1075388927
- 694 01e0 0000E03F 		.word	1071644672
- 695              		.cfi_endproc
- 696              	.LFE68:
- 697              		.size	goertzel_mag, .-goertzel_mag
- 698              		.text
- 699              	.Letext0:
- 700              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
- 701              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
- 702              		.file 4 "Generated_Source\\PSoC5/cytypes.h"
- 703              		.file 5 "Generated_Source\\PSoC5/core_cm3.h"
- 704              		.section	.debug_info,"",%progbits
- 705              	.Ldebug_info0:
- 706 0000 1B040000 		.4byte	0x41b
- 707 0004 0400     		.2byte	0x4
- 708 0006 00000000 		.4byte	.Ldebug_abbrev0
- 709 000a 04       		.byte	0x4
- 710 000b 01       		.uleb128 0x1
- 711 000c 2C000000 		.4byte	.LASF54
- 712 0010 0C       		.byte	0xc
- 713 0011 98020000 		.4byte	.LASF55
- 714 0015 04020000 		.4byte	.LASF56
- 715 0019 00000000 		.4byte	.Ldebug_ranges0+0
- 716 001d 00000000 		.4byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 19
+ 702 02ae BA020000 		.4byte	0x2ba
+ 703 02b2 14       		.uleb128 0x14
+ 704 02b3 B5000000 		.4byte	0xb5
+ 705 02b7 CF07     		.2byte	0x7cf
+ 706 02b9 00       		.byte	0
+ 707 02ba 13       		.uleb128 0x13
+ 708 02bb 3B010000 		.4byte	.LASF37
+ 709 02bf 01       		.byte	0x1
+ 710 02c0 2C       		.byte	0x2c
+ 711 02c1 A9020000 		.4byte	0x2a9
+ 712 02c5 05       		.uleb128 0x5
+ 713 02c6 03       		.byte	0x3
+ 714 02c7 00000000 		.4byte	Buffer_sample_to_transmit
+ 715 02cb 15       		.uleb128 0x15
+ 716 02cc 6900     		.ascii	"i\000"
+ 717 02ce 01       		.byte	0x1
+ 718 02cf 2D       		.byte	0x2d
+ 719 02d0 68000000 		.4byte	0x68
+ 720 02d4 05       		.uleb128 0x5
+ 721 02d5 03       		.byte	0x3
+ 722 02d6 00000000 		.4byte	i
+ 723 02da 13       		.uleb128 0x13
+ 724 02db A1010000 		.4byte	.LASF38
+ 725 02df 01       		.byte	0x1
+ 726 02e0 2E       		.byte	0x2e
+ 727 02e1 6F000000 		.4byte	0x6f
+ 728 02e5 05       		.uleb128 0x5
+ 729 02e6 03       		.byte	0x3
+ 730 02e7 00000000 		.4byte	sample_counter
+ 731 02eb 11       		.uleb128 0x11
+ 732 02ec A7000000 		.4byte	0xa7
+ 733 02f0 FB020000 		.4byte	0x2fb
+ 734 02f4 12       		.uleb128 0x12
+ 735 02f5 B5000000 		.4byte	0xb5
+ 736 02f9 09       		.byte	0x9
+ 737 02fa 00       		.byte	0
+ 738 02fb 13       		.uleb128 0x13
+ 739 02fc F8010000 		.4byte	.LASF39
+ 740 0300 01       		.byte	0x1
+ 741 0301 30       		.byte	0x30
+ 742 0302 EB020000 		.4byte	0x2eb
+ 743 0306 05       		.uleb128 0x5
+ 744 0307 03       		.byte	0x3
+ 745 0308 00000000 		.4byte	counter_char
+ 746 030c 00       		.byte	0
+ 747              		.section	.debug_abbrev,"",%progbits
+ 748              	.Ldebug_abbrev0:
+ 749 0000 01       		.uleb128 0x1
+ 750 0001 11       		.uleb128 0x11
+ 751 0002 01       		.byte	0x1
+ 752 0003 25       		.uleb128 0x25
+ 753 0004 0E       		.uleb128 0xe
+ 754 0005 13       		.uleb128 0x13
+ 755 0006 0B       		.uleb128 0xb
+ 756 0007 03       		.uleb128 0x3
+ 757 0008 0E       		.uleb128 0xe
+ 758 0009 1B       		.uleb128 0x1b
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 18
 
 
- 717 0021 00000000 		.4byte	.Ldebug_line0
- 718 0025 02       		.uleb128 0x2
- 719 0026 01       		.byte	0x1
- 720 0027 06       		.byte	0x6
- 721 0028 8A010000 		.4byte	.LASF0
- 722 002c 02       		.uleb128 0x2
- 723 002d 01       		.byte	0x1
- 724 002e 08       		.byte	0x8
- 725 002f 65010000 		.4byte	.LASF1
- 726 0033 02       		.uleb128 0x2
- 727 0034 02       		.byte	0x2
- 728 0035 05       		.byte	0x5
- 729 0036 0C000000 		.4byte	.LASF2
- 730 003a 02       		.uleb128 0x2
- 731 003b 02       		.byte	0x2
- 732 003c 07       		.byte	0x7
- 733 003d 70020000 		.4byte	.LASF3
- 734 0041 03       		.uleb128 0x3
- 735 0042 D4020000 		.4byte	.LASF9
- 736 0046 02       		.byte	0x2
- 737 0047 3F       		.byte	0x3f
- 738 0048 4C000000 		.4byte	0x4c
- 739 004c 02       		.uleb128 0x2
- 740 004d 04       		.byte	0x4
- 741 004e 05       		.byte	0x5
- 742 004f EE010000 		.4byte	.LASF4
- 743 0053 02       		.uleb128 0x2
- 744 0054 04       		.byte	0x4
- 745 0055 07       		.byte	0x7
- 746 0056 A4020000 		.4byte	.LASF5
- 747 005a 02       		.uleb128 0x2
- 748 005b 08       		.byte	0x8
- 749 005c 05       		.byte	0x5
- 750 005d 00010000 		.4byte	.LASF6
- 751 0061 02       		.uleb128 0x2
- 752 0062 08       		.byte	0x8
- 753 0063 07       		.byte	0x7
- 754 0064 96010000 		.4byte	.LASF7
- 755 0068 04       		.uleb128 0x4
- 756 0069 04       		.byte	0x4
- 757 006a 05       		.byte	0x5
- 758 006b 696E7400 		.ascii	"int\000"
- 759 006f 02       		.uleb128 0x2
- 760 0070 04       		.byte	0x4
- 761 0071 07       		.byte	0x7
- 762 0072 AD010000 		.4byte	.LASF8
- 763 0076 03       		.uleb128 0x3
- 764 0077 FC010000 		.4byte	.LASF10
- 765 007b 03       		.byte	0x3
- 766 007c 2C       		.byte	0x2c
- 767 007d 41000000 		.4byte	0x41
- 768 0081 05       		.uleb128 0x5
- 769 0082 E7000000 		.4byte	.LASF11
- 770 0086 04       		.byte	0x4
- 771 0087 9201     		.2byte	0x192
- 772 0089 2C000000 		.4byte	0x2c
- 773 008d 05       		.uleb128 0x5
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 20
+ 759 000a 0E       		.uleb128 0xe
+ 760 000b 55       		.uleb128 0x55
+ 761 000c 17       		.uleb128 0x17
+ 762 000d 11       		.uleb128 0x11
+ 763 000e 01       		.uleb128 0x1
+ 764 000f 10       		.uleb128 0x10
+ 765 0010 17       		.uleb128 0x17
+ 766 0011 00       		.byte	0
+ 767 0012 00       		.byte	0
+ 768 0013 02       		.uleb128 0x2
+ 769 0014 24       		.uleb128 0x24
+ 770 0015 00       		.byte	0
+ 771 0016 0B       		.uleb128 0xb
+ 772 0017 0B       		.uleb128 0xb
+ 773 0018 3E       		.uleb128 0x3e
+ 774 0019 0B       		.uleb128 0xb
+ 775 001a 03       		.uleb128 0x3
+ 776 001b 0E       		.uleb128 0xe
+ 777 001c 00       		.byte	0
+ 778 001d 00       		.byte	0
+ 779 001e 03       		.uleb128 0x3
+ 780 001f 16       		.uleb128 0x16
+ 781 0020 00       		.byte	0
+ 782 0021 03       		.uleb128 0x3
+ 783 0022 0E       		.uleb128 0xe
+ 784 0023 3A       		.uleb128 0x3a
+ 785 0024 0B       		.uleb128 0xb
+ 786 0025 3B       		.uleb128 0x3b
+ 787 0026 0B       		.uleb128 0xb
+ 788 0027 49       		.uleb128 0x49
+ 789 0028 13       		.uleb128 0x13
+ 790 0029 00       		.byte	0
+ 791 002a 00       		.byte	0
+ 792 002b 04       		.uleb128 0x4
+ 793 002c 24       		.uleb128 0x24
+ 794 002d 00       		.byte	0
+ 795 002e 0B       		.uleb128 0xb
+ 796 002f 0B       		.uleb128 0xb
+ 797 0030 3E       		.uleb128 0x3e
+ 798 0031 0B       		.uleb128 0xb
+ 799 0032 03       		.uleb128 0x3
+ 800 0033 08       		.uleb128 0x8
+ 801 0034 00       		.byte	0
+ 802 0035 00       		.byte	0
+ 803 0036 05       		.uleb128 0x5
+ 804 0037 16       		.uleb128 0x16
+ 805 0038 00       		.byte	0
+ 806 0039 03       		.uleb128 0x3
+ 807 003a 0E       		.uleb128 0xe
+ 808 003b 3A       		.uleb128 0x3a
+ 809 003c 0B       		.uleb128 0xb
+ 810 003d 3B       		.uleb128 0x3b
+ 811 003e 05       		.uleb128 0x5
+ 812 003f 49       		.uleb128 0x49
+ 813 0040 13       		.uleb128 0x13
+ 814 0041 00       		.byte	0
+ 815 0042 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 19
 
 
- 774 008e E0000000 		.4byte	.LASF12
- 775 0092 04       		.byte	0x4
- 776 0093 9301     		.2byte	0x193
- 777 0095 3A000000 		.4byte	0x3a
- 778 0099 05       		.uleb128 0x5
- 779 009a 91020000 		.4byte	.LASF13
- 780 009e 04       		.byte	0x4
- 781 009f 9401     		.2byte	0x194
- 782 00a1 53000000 		.4byte	0x53
- 783 00a5 02       		.uleb128 0x2
- 784 00a6 04       		.byte	0x4
- 785 00a7 04       		.byte	0x4
- 786 00a8 FA000000 		.4byte	.LASF14
- 787 00ac 02       		.uleb128 0x2
- 788 00ad 08       		.byte	0x8
- 789 00ae 04       		.byte	0x4
- 790 00af B6020000 		.4byte	.LASF15
- 791 00b3 02       		.uleb128 0x2
- 792 00b4 01       		.byte	0x1
- 793 00b5 08       		.byte	0x8
- 794 00b6 E2010000 		.4byte	.LASF16
- 795 00ba 05       		.uleb128 0x5
- 796 00bb 9F020000 		.4byte	.LASF17
- 797 00bf 04       		.byte	0x4
- 798 00c0 3C02     		.2byte	0x23c
- 799 00c2 C6000000 		.4byte	0xc6
- 800 00c6 06       		.uleb128 0x6
- 801 00c7 81000000 		.4byte	0x81
- 802 00cb 02       		.uleb128 0x2
- 803 00cc 08       		.byte	0x8
- 804 00cd 04       		.byte	0x4
- 805 00ce BA000000 		.4byte	.LASF18
- 806 00d2 02       		.uleb128 0x2
- 807 00d3 04       		.byte	0x4
- 808 00d4 07       		.byte	0x7
- 809 00d5 E9020000 		.4byte	.LASF19
- 810 00d9 07       		.uleb128 0x7
- 811 00da 20030000 		.4byte	.LASF20
- 812 00de 01       		.byte	0x1
- 813 00df 43       		.byte	0x43
- 814 00e0 00000000 		.4byte	.LFB64
- 815 00e4 AC000000 		.4byte	.LFE64-.LFB64
- 816 00e8 01       		.uleb128 0x1
- 817 00e9 9C       		.byte	0x9c
- 818 00ea 05010000 		.4byte	0x105
- 819 00ee 08       		.uleb128 0x8
- 820 00ef 16000000 		.4byte	.LBB2
- 821 00f3 54000000 		.4byte	.LBE2-.LBB2
- 822 00f7 09       		.uleb128 0x9
- 823 00f8 6A00     		.ascii	"j\000"
- 824 00fa 01       		.byte	0x1
- 825 00fb 48       		.byte	0x48
- 826 00fc 68000000 		.4byte	0x68
- 827 0100 02       		.uleb128 0x2
- 828 0101 91       		.byte	0x91
- 829 0102 74       		.sleb128 -12
- 830 0103 00       		.byte	0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 21
+ 816 0043 06       		.uleb128 0x6
+ 817 0044 0F       		.uleb128 0xf
+ 818 0045 00       		.byte	0
+ 819 0046 0B       		.uleb128 0xb
+ 820 0047 0B       		.uleb128 0xb
+ 821 0048 49       		.uleb128 0x49
+ 822 0049 13       		.uleb128 0x13
+ 823 004a 00       		.byte	0
+ 824 004b 00       		.byte	0
+ 825 004c 07       		.uleb128 0x7
+ 826 004d 2E       		.uleb128 0x2e
+ 827 004e 01       		.byte	0x1
+ 828 004f 3F       		.uleb128 0x3f
+ 829 0050 19       		.uleb128 0x19
+ 830 0051 03       		.uleb128 0x3
+ 831 0052 0E       		.uleb128 0xe
+ 832 0053 3A       		.uleb128 0x3a
+ 833 0054 0B       		.uleb128 0xb
+ 834 0055 3B       		.uleb128 0x3b
+ 835 0056 0B       		.uleb128 0xb
+ 836 0057 49       		.uleb128 0x49
+ 837 0058 13       		.uleb128 0x13
+ 838 0059 11       		.uleb128 0x11
+ 839 005a 01       		.uleb128 0x1
+ 840 005b 12       		.uleb128 0x12
+ 841 005c 06       		.uleb128 0x6
+ 842 005d 40       		.uleb128 0x40
+ 843 005e 18       		.uleb128 0x18
+ 844 005f 9642     		.uleb128 0x2116
+ 845 0061 19       		.uleb128 0x19
+ 846 0062 01       		.uleb128 0x1
+ 847 0063 13       		.uleb128 0x13
+ 848 0064 00       		.byte	0
+ 849 0065 00       		.byte	0
+ 850 0066 08       		.uleb128 0x8
+ 851 0067 34       		.uleb128 0x34
+ 852 0068 00       		.byte	0
+ 853 0069 03       		.uleb128 0x3
+ 854 006a 08       		.uleb128 0x8
+ 855 006b 3A       		.uleb128 0x3a
+ 856 006c 0B       		.uleb128 0xb
+ 857 006d 3B       		.uleb128 0x3b
+ 858 006e 0B       		.uleb128 0xb
+ 859 006f 49       		.uleb128 0x49
+ 860 0070 13       		.uleb128 0x13
+ 861 0071 02       		.uleb128 0x2
+ 862 0072 18       		.uleb128 0x18
+ 863 0073 00       		.byte	0
+ 864 0074 00       		.byte	0
+ 865 0075 09       		.uleb128 0x9
+ 866 0076 0B       		.uleb128 0xb
+ 867 0077 01       		.byte	0x1
+ 868 0078 11       		.uleb128 0x11
+ 869 0079 01       		.uleb128 0x1
+ 870 007a 12       		.uleb128 0x12
+ 871 007b 06       		.uleb128 0x6
+ 872 007c 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 20
 
 
- 831 0104 00       		.byte	0
- 832 0105 0A       		.uleb128 0xa
- 833 0106 DE020000 		.4byte	.LASF57
- 834 010a 01       		.byte	0x1
- 835 010b 6B       		.byte	0x6b
- 836 010c 00000000 		.4byte	.LFB65
- 837 0110 60000000 		.4byte	.LFE65-.LFB65
- 838 0114 01       		.uleb128 0x1
- 839 0115 9C       		.byte	0x9c
- 840 0116 0B       		.uleb128 0xb
- 841 0117 F7010000 		.4byte	.LASF21
- 842 011b 01       		.byte	0x1
- 843 011c 8F       		.byte	0x8f
- 844 011d 68000000 		.4byte	0x68
- 845 0121 00000000 		.4byte	.LFB66
- 846 0125 B8000000 		.4byte	.LFE66-.LFB66
- 847 0129 01       		.uleb128 0x1
- 848 012a 9C       		.byte	0x9c
- 849 012b 3D010000 		.4byte	0x13d
- 850 012f 09       		.uleb128 0x9
- 851 0130 436800   		.ascii	"Ch\000"
- 852 0133 01       		.byte	0x1
- 853 0134 93       		.byte	0x93
- 854 0135 81000000 		.4byte	0x81
- 855 0139 02       		.uleb128 0x2
- 856 013a 91       		.byte	0x91
- 857 013b 77       		.sleb128 -9
- 858 013c 00       		.byte	0
- 859 013d 07       		.uleb128 0x7
- 860 013e D5000000 		.4byte	.LASF22
- 861 0142 01       		.byte	0x1
- 862 0143 DE       		.byte	0xde
- 863 0144 00000000 		.4byte	.LFB67
- 864 0148 5C000000 		.4byte	.LFE67-.LFB67
- 865 014c 01       		.uleb128 0x1
- 866 014d 9C       		.byte	0x9c
- 867 014e 6F010000 		.4byte	0x16f
- 868 0152 0C       		.uleb128 0xc
- 869 0153 13010000 		.4byte	.LASF23
- 870 0157 01       		.byte	0x1
- 871 0158 E1       		.byte	0xe1
- 872 0159 81000000 		.4byte	0x81
- 873 015d 02       		.uleb128 0x2
- 874 015e 91       		.byte	0x91
- 875 015f 77       		.sleb128 -9
- 876 0160 0C       		.uleb128 0xc
- 877 0161 16000000 		.4byte	.LASF24
- 878 0165 01       		.byte	0x1
- 879 0166 E6       		.byte	0xe6
- 880 0167 81000000 		.4byte	0x81
- 881 016b 02       		.uleb128 0x2
- 882 016c 91       		.byte	0x91
- 883 016d 76       		.sleb128 -10
- 884 016e 00       		.byte	0
- 885 016f 0D       		.uleb128 0xd
- 886 0170 ED000000 		.4byte	.LASF58
- 887 0174 01       		.byte	0x1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 22
+ 873 007d 00       		.byte	0
+ 874 007e 0A       		.uleb128 0xa
+ 875 007f 34       		.uleb128 0x34
+ 876 0080 00       		.byte	0
+ 877 0081 03       		.uleb128 0x3
+ 878 0082 0E       		.uleb128 0xe
+ 879 0083 3A       		.uleb128 0x3a
+ 880 0084 0B       		.uleb128 0xb
+ 881 0085 3B       		.uleb128 0x3b
+ 882 0086 0B       		.uleb128 0xb
+ 883 0087 49       		.uleb128 0x49
+ 884 0088 13       		.uleb128 0x13
+ 885 0089 02       		.uleb128 0x2
+ 886 008a 18       		.uleb128 0x18
+ 887 008b 00       		.byte	0
+ 888 008c 00       		.byte	0
+ 889 008d 0B       		.uleb128 0xb
+ 890 008e 2E       		.uleb128 0x2e
+ 891 008f 01       		.byte	0x1
+ 892 0090 3F       		.uleb128 0x3f
+ 893 0091 19       		.uleb128 0x19
+ 894 0092 03       		.uleb128 0x3
+ 895 0093 0E       		.uleb128 0xe
+ 896 0094 3A       		.uleb128 0x3a
+ 897 0095 0B       		.uleb128 0xb
+ 898 0096 3B       		.uleb128 0x3b
+ 899 0097 0B       		.uleb128 0xb
+ 900 0098 27       		.uleb128 0x27
+ 901 0099 19       		.uleb128 0x19
+ 902 009a 11       		.uleb128 0x11
+ 903 009b 01       		.uleb128 0x1
+ 904 009c 12       		.uleb128 0x12
+ 905 009d 06       		.uleb128 0x6
+ 906 009e 40       		.uleb128 0x40
+ 907 009f 18       		.uleb128 0x18
+ 908 00a0 9642     		.uleb128 0x2116
+ 909 00a2 19       		.uleb128 0x19
+ 910 00a3 01       		.uleb128 0x1
+ 911 00a4 13       		.uleb128 0x13
+ 912 00a5 00       		.byte	0
+ 913 00a6 00       		.byte	0
+ 914 00a7 0C       		.uleb128 0xc
+ 915 00a8 05       		.uleb128 0x5
+ 916 00a9 00       		.byte	0
+ 917 00aa 03       		.uleb128 0x3
+ 918 00ab 0E       		.uleb128 0xe
+ 919 00ac 3A       		.uleb128 0x3a
+ 920 00ad 0B       		.uleb128 0xb
+ 921 00ae 3B       		.uleb128 0x3b
+ 922 00af 0B       		.uleb128 0xb
+ 923 00b0 49       		.uleb128 0x49
+ 924 00b1 13       		.uleb128 0x13
+ 925 00b2 02       		.uleb128 0x2
+ 926 00b3 18       		.uleb128 0x18
+ 927 00b4 00       		.byte	0
+ 928 00b5 00       		.byte	0
+ 929 00b6 0D       		.uleb128 0xd
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 21
 
 
- 888 0175 0101     		.2byte	0x101
- 889 0177 A5000000 		.4byte	0xa5
- 890 017b 00000000 		.4byte	.LFB68
- 891 017f E4010000 		.4byte	.LFE68-.LFB68
- 892 0183 01       		.uleb128 0x1
- 893 0184 9C       		.byte	0x9c
- 894 0185 97020000 		.4byte	0x297
- 895 0189 0E       		.uleb128 0xe
- 896 018a 4B020000 		.4byte	.LASF25
- 897 018e 01       		.byte	0x1
- 898 018f 0101     		.2byte	0x101
- 899 0191 68000000 		.4byte	0x68
- 900 0195 03       		.uleb128 0x3
- 901 0196 91       		.byte	0x91
- 902 0197 B47F     		.sleb128 -76
- 903 0199 0E       		.uleb128 0xe
- 904 019a 4D010000 		.4byte	.LASF26
- 905 019e 01       		.byte	0x1
- 906 019f 0101     		.2byte	0x101
- 907 01a1 68000000 		.4byte	0x68
- 908 01a5 03       		.uleb128 0x3
- 909 01a6 91       		.byte	0x91
- 910 01a7 B07F     		.sleb128 -80
- 911 01a9 0E       		.uleb128 0xe
- 912 01aa 1E000000 		.4byte	.LASF27
- 913 01ae 01       		.byte	0x1
- 914 01af 0101     		.2byte	0x101
- 915 01b1 68000000 		.4byte	0x68
- 916 01b5 03       		.uleb128 0x3
- 917 01b6 91       		.byte	0x91
- 918 01b7 AC7F     		.sleb128 -84
- 919 01b9 0E       		.uleb128 0xe
- 920 01ba 6B020000 		.4byte	.LASF28
- 921 01be 01       		.byte	0x1
- 922 01bf 0101     		.2byte	0x101
- 923 01c1 97020000 		.4byte	0x297
- 924 01c5 03       		.uleb128 0x3
- 925 01c6 91       		.byte	0x91
- 926 01c7 A87F     		.sleb128 -88
- 927 01c9 0F       		.uleb128 0xf
- 928 01ca 6B00     		.ascii	"k\000"
- 929 01cc 01       		.byte	0x1
- 930 01cd 0301     		.2byte	0x103
- 931 01cf 68000000 		.4byte	0x68
- 932 01d3 02       		.uleb128 0x2
- 933 01d4 91       		.byte	0x91
- 934 01d5 58       		.sleb128 -40
- 935 01d6 0F       		.uleb128 0xf
- 936 01d7 6900     		.ascii	"i\000"
- 937 01d9 01       		.byte	0x1
- 938 01da 0301     		.2byte	0x103
- 939 01dc 68000000 		.4byte	0x68
- 940 01e0 02       		.uleb128 0x2
- 941 01e1 91       		.byte	0x91
- 942 01e2 6C       		.sleb128 -20
- 943 01e3 10       		.uleb128 0x10
- 944 01e4 3B020000 		.4byte	.LASF29
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 23
+ 930 00b7 05       		.uleb128 0x5
+ 931 00b8 00       		.byte	0
+ 932 00b9 03       		.uleb128 0x3
+ 933 00ba 08       		.uleb128 0x8
+ 934 00bb 3A       		.uleb128 0x3a
+ 935 00bc 0B       		.uleb128 0xb
+ 936 00bd 3B       		.uleb128 0x3b
+ 937 00be 0B       		.uleb128 0xb
+ 938 00bf 49       		.uleb128 0x49
+ 939 00c0 13       		.uleb128 0x13
+ 940 00c1 02       		.uleb128 0x2
+ 941 00c2 18       		.uleb128 0x18
+ 942 00c3 00       		.byte	0
+ 943 00c4 00       		.byte	0
+ 944 00c5 0E       		.uleb128 0xe
+ 945 00c6 2E       		.uleb128 0x2e
+ 946 00c7 01       		.byte	0x1
+ 947 00c8 3F       		.uleb128 0x3f
+ 948 00c9 19       		.uleb128 0x19
+ 949 00ca 03       		.uleb128 0x3
+ 950 00cb 0E       		.uleb128 0xe
+ 951 00cc 3A       		.uleb128 0x3a
+ 952 00cd 0B       		.uleb128 0xb
+ 953 00ce 3B       		.uleb128 0x3b
+ 954 00cf 0B       		.uleb128 0xb
+ 955 00d0 27       		.uleb128 0x27
+ 956 00d1 19       		.uleb128 0x19
+ 957 00d2 49       		.uleb128 0x49
+ 958 00d3 13       		.uleb128 0x13
+ 959 00d4 11       		.uleb128 0x11
+ 960 00d5 01       		.uleb128 0x1
+ 961 00d6 12       		.uleb128 0x12
+ 962 00d7 06       		.uleb128 0x6
+ 963 00d8 40       		.uleb128 0x40
+ 964 00d9 18       		.uleb128 0x18
+ 965 00da 9742     		.uleb128 0x2117
+ 966 00dc 19       		.uleb128 0x19
+ 967 00dd 01       		.uleb128 0x1
+ 968 00de 13       		.uleb128 0x13
+ 969 00df 00       		.byte	0
+ 970 00e0 00       		.byte	0
+ 971 00e1 0F       		.uleb128 0xf
+ 972 00e2 34       		.uleb128 0x34
+ 973 00e3 00       		.byte	0
+ 974 00e4 03       		.uleb128 0x3
+ 975 00e5 0E       		.uleb128 0xe
+ 976 00e6 3A       		.uleb128 0x3a
+ 977 00e7 0B       		.uleb128 0xb
+ 978 00e8 3B       		.uleb128 0x3b
+ 979 00e9 05       		.uleb128 0x5
+ 980 00ea 49       		.uleb128 0x49
+ 981 00eb 13       		.uleb128 0x13
+ 982 00ec 3F       		.uleb128 0x3f
+ 983 00ed 19       		.uleb128 0x19
+ 984 00ee 3C       		.uleb128 0x3c
+ 985 00ef 19       		.uleb128 0x19
+ 986 00f0 00       		.byte	0
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 22
 
 
- 945 01e8 01       		.byte	0x1
- 946 01e9 0401     		.2byte	0x104
- 947 01eb A5000000 		.4byte	0xa5
- 948 01ef 02       		.uleb128 0x2
- 949 01f0 91       		.byte	0x91
- 950 01f1 5C       		.sleb128 -36
- 951 01f2 10       		.uleb128 0x10
- 952 01f3 2E010000 		.4byte	.LASF30
- 953 01f7 01       		.byte	0x1
- 954 01f8 0501     		.2byte	0x105
- 955 01fa A5000000 		.4byte	0xa5
- 956 01fe 02       		.uleb128 0x2
- 957 01ff 91       		.byte	0x91
- 958 0200 54       		.sleb128 -44
- 959 0201 10       		.uleb128 0x10
- 960 0202 CC010000 		.4byte	.LASF31
- 961 0206 01       		.byte	0x1
- 962 0207 0501     		.2byte	0x105
- 963 0209 A5000000 		.4byte	0xa5
- 964 020d 02       		.uleb128 0x2
- 965 020e 91       		.byte	0x91
- 966 020f 50       		.sleb128 -48
- 967 0210 10       		.uleb128 0x10
- 968 0211 5E010000 		.4byte	.LASF32
- 969 0215 01       		.byte	0x1
- 970 0216 0501     		.2byte	0x105
- 971 0218 A5000000 		.4byte	0xa5
- 972 021c 02       		.uleb128 0x2
- 973 021d 91       		.byte	0x91
- 974 021e 4C       		.sleb128 -52
- 975 021f 10       		.uleb128 0x10
- 976 0220 47010000 		.4byte	.LASF33
- 977 0224 01       		.byte	0x1
- 978 0225 0501     		.2byte	0x105
- 979 0227 A5000000 		.4byte	0xa5
- 980 022b 02       		.uleb128 0x2
- 981 022c 91       		.byte	0x91
- 982 022d 48       		.sleb128 -56
- 983 022e 0F       		.uleb128 0xf
- 984 022f 713000   		.ascii	"q0\000"
- 985 0232 01       		.byte	0x1
- 986 0233 0501     		.2byte	0x105
- 987 0235 A5000000 		.4byte	0xa5
- 988 0239 02       		.uleb128 0x2
- 989 023a 91       		.byte	0x91
- 990 023b 68       		.sleb128 -24
- 991 023c 0F       		.uleb128 0xf
- 992 023d 713100   		.ascii	"q1\000"
- 993 0240 01       		.byte	0x1
- 994 0241 0501     		.2byte	0x105
- 995 0243 A5000000 		.4byte	0xa5
- 996 0247 02       		.uleb128 0x2
- 997 0248 91       		.byte	0x91
- 998 0249 64       		.sleb128 -28
- 999 024a 0F       		.uleb128 0xf
- 1000 024b 713200   		.ascii	"q2\000"
- 1001 024e 01       		.byte	0x1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 24
+ 987 00f1 00       		.byte	0
+ 988 00f2 10       		.uleb128 0x10
+ 989 00f3 35       		.uleb128 0x35
+ 990 00f4 00       		.byte	0
+ 991 00f5 49       		.uleb128 0x49
+ 992 00f6 13       		.uleb128 0x13
+ 993 00f7 00       		.byte	0
+ 994 00f8 00       		.byte	0
+ 995 00f9 11       		.uleb128 0x11
+ 996 00fa 01       		.uleb128 0x1
+ 997 00fb 01       		.byte	0x1
+ 998 00fc 49       		.uleb128 0x49
+ 999 00fd 13       		.uleb128 0x13
+ 1000 00fe 01       		.uleb128 0x1
+ 1001 00ff 13       		.uleb128 0x13
+ 1002 0100 00       		.byte	0
+ 1003 0101 00       		.byte	0
+ 1004 0102 12       		.uleb128 0x12
+ 1005 0103 21       		.uleb128 0x21
+ 1006 0104 00       		.byte	0
+ 1007 0105 49       		.uleb128 0x49
+ 1008 0106 13       		.uleb128 0x13
+ 1009 0107 2F       		.uleb128 0x2f
+ 1010 0108 0B       		.uleb128 0xb
+ 1011 0109 00       		.byte	0
+ 1012 010a 00       		.byte	0
+ 1013 010b 13       		.uleb128 0x13
+ 1014 010c 34       		.uleb128 0x34
+ 1015 010d 00       		.byte	0
+ 1016 010e 03       		.uleb128 0x3
+ 1017 010f 0E       		.uleb128 0xe
+ 1018 0110 3A       		.uleb128 0x3a
+ 1019 0111 0B       		.uleb128 0xb
+ 1020 0112 3B       		.uleb128 0x3b
+ 1021 0113 0B       		.uleb128 0xb
+ 1022 0114 49       		.uleb128 0x49
+ 1023 0115 13       		.uleb128 0x13
+ 1024 0116 3F       		.uleb128 0x3f
+ 1025 0117 19       		.uleb128 0x19
+ 1026 0118 02       		.uleb128 0x2
+ 1027 0119 18       		.uleb128 0x18
+ 1028 011a 00       		.byte	0
+ 1029 011b 00       		.byte	0
+ 1030 011c 14       		.uleb128 0x14
+ 1031 011d 21       		.uleb128 0x21
+ 1032 011e 00       		.byte	0
+ 1033 011f 49       		.uleb128 0x49
+ 1034 0120 13       		.uleb128 0x13
+ 1035 0121 2F       		.uleb128 0x2f
+ 1036 0122 05       		.uleb128 0x5
+ 1037 0123 00       		.byte	0
+ 1038 0124 00       		.byte	0
+ 1039 0125 15       		.uleb128 0x15
+ 1040 0126 34       		.uleb128 0x34
+ 1041 0127 00       		.byte	0
+ 1042 0128 03       		.uleb128 0x3
+ 1043 0129 08       		.uleb128 0x8
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 23
 
 
- 1002 024f 0501     		.2byte	0x105
- 1003 0251 A5000000 		.4byte	0xa5
- 1004 0255 02       		.uleb128 0x2
- 1005 0256 91       		.byte	0x91
- 1006 0257 44       		.sleb128 -60
- 1007 0258 10       		.uleb128 0x10
- 1008 0259 3D010000 		.4byte	.LASF34
- 1009 025d 01       		.byte	0x1
- 1010 025e 0501     		.2byte	0x105
- 1011 0260 A5000000 		.4byte	0xa5
- 1012 0264 03       		.uleb128 0x3
- 1013 0265 91       		.byte	0x91
- 1014 0266 B87F     		.sleb128 -72
- 1015 0268 10       		.uleb128 0x10
- 1016 0269 0E010000 		.4byte	.LASF35
- 1017 026d 01       		.byte	0x1
- 1018 026e 0501     		.2byte	0x105
- 1019 0270 A5000000 		.4byte	0xa5
- 1020 0274 02       		.uleb128 0x2
- 1021 0275 91       		.byte	0x91
- 1022 0276 40       		.sleb128 -64
- 1023 0277 10       		.uleb128 0x10
- 1024 0278 00000000 		.4byte	.LASF36
- 1025 027c 01       		.byte	0x1
- 1026 027d 0501     		.2byte	0x105
- 1027 027f A5000000 		.4byte	0xa5
- 1028 0283 03       		.uleb128 0x3
- 1029 0284 91       		.byte	0x91
- 1030 0285 BC7F     		.sleb128 -68
- 1031 0287 10       		.uleb128 0x10
- 1032 0288 83020000 		.4byte	.LASF37
- 1033 028c 01       		.byte	0x1
- 1034 028d 0701     		.2byte	0x107
- 1035 028f A5000000 		.4byte	0xa5
- 1036 0293 02       		.uleb128 0x2
- 1037 0294 91       		.byte	0x91
- 1038 0295 60       		.sleb128 -32
- 1039 0296 00       		.byte	0
- 1040 0297 11       		.uleb128 0x11
- 1041 0298 04       		.byte	0x4
- 1042 0299 A5000000 		.4byte	0xa5
- 1043 029d 12       		.uleb128 0x12
- 1044 029e 13030000 		.4byte	.LASF38
- 1045 02a2 05       		.byte	0x5
- 1046 02a3 1207     		.2byte	0x712
- 1047 02a5 A9020000 		.4byte	0x2a9
- 1048 02a9 06       		.uleb128 0x6
- 1049 02aa 76000000 		.4byte	0x76
- 1050 02ae 13       		.uleb128 0x13
- 1051 02af 56020000 		.4byte	.LASF39
- 1052 02b3 01       		.byte	0x1
- 1053 02b4 24       		.byte	0x24
- 1054 02b5 81000000 		.4byte	0x81
- 1055 02b9 05       		.uleb128 0x5
- 1056 02ba 03       		.byte	0x3
- 1057 02bb 00000000 		.4byte	ContinuouslySendData
- 1058 02bf 13       		.uleb128 0x13
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 25
+ 1044 012a 3A       		.uleb128 0x3a
+ 1045 012b 0B       		.uleb128 0xb
+ 1046 012c 3B       		.uleb128 0x3b
+ 1047 012d 0B       		.uleb128 0xb
+ 1048 012e 49       		.uleb128 0x49
+ 1049 012f 13       		.uleb128 0x13
+ 1050 0130 3F       		.uleb128 0x3f
+ 1051 0131 19       		.uleb128 0x19
+ 1052 0132 02       		.uleb128 0x2
+ 1053 0133 18       		.uleb128 0x18
+ 1054 0134 00       		.byte	0
+ 1055 0135 00       		.byte	0
+ 1056 0136 00       		.byte	0
+ 1057              		.section	.debug_aranges,"",%progbits
+ 1058 0000 34000000 		.4byte	0x34
+ 1059 0004 0200     		.2byte	0x2
+ 1060 0006 00000000 		.4byte	.Ldebug_info0
+ 1061 000a 04       		.byte	0x4
+ 1062 000b 00       		.byte	0
+ 1063 000c 0000     		.2byte	0
+ 1064 000e 0000     		.2byte	0
+ 1065 0010 00000000 		.4byte	.LFB64
+ 1066 0014 48000000 		.4byte	.LFE64-.LFB64
+ 1067 0018 00000000 		.4byte	.LFB65
+ 1068 001c 3C000000 		.4byte	.LFE65-.LFB65
+ 1069 0020 00000000 		.4byte	.LFB66
+ 1070 0024 7C000000 		.4byte	.LFE66-.LFB66
+ 1071 0028 00000000 		.4byte	.LFB67
+ 1072 002c 54000000 		.4byte	.LFE67-.LFB67
+ 1073 0030 00000000 		.4byte	0
+ 1074 0034 00000000 		.4byte	0
+ 1075              		.section	.debug_ranges,"",%progbits
+ 1076              	.Ldebug_ranges0:
+ 1077 0000 00000000 		.4byte	.LFB64
+ 1078 0004 48000000 		.4byte	.LFE64
+ 1079 0008 00000000 		.4byte	.LFB65
+ 1080 000c 3C000000 		.4byte	.LFE65
+ 1081 0010 00000000 		.4byte	.LFB66
+ 1082 0014 7C000000 		.4byte	.LFE66
+ 1083 0018 00000000 		.4byte	.LFB67
+ 1084 001c 54000000 		.4byte	.LFE67
+ 1085 0020 00000000 		.4byte	0
+ 1086 0024 00000000 		.4byte	0
+ 1087              		.section	.debug_line,"",%progbits
+ 1088              	.Ldebug_line0:
+ 1089 0000 DE010000 		.section	.debug_str,"MS",%progbits,1
+ 1089      02004C01 
+ 1089      00000201 
+ 1089      FB0E0D00 
+ 1089      01010101 
+ 1090              	.LASF42:
+ 1091 0000 433A5C55 		.ascii	"C:\\Users\\rcaravac\\Documents\\Personales\\Maestri"
+ 1091      73657273 
+ 1091      5C726361 
+ 1091      72617661 
+ 1091      635C446F 
+ 1092 002e 615C5465 		.ascii	"a\\Tecnicas de adquisicion\\Proyecto DTMF\\TareaCla"
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 24
 
 
- 1059 02c0 7B010000 		.4byte	.LASF40
- 1060 02c4 01       		.byte	0x1
- 1061 02c5 25       		.byte	0x25
- 1062 02c6 81000000 		.4byte	0x81
- 1063 02ca 05       		.uleb128 0x5
- 1064 02cb 03       		.byte	0x3
- 1065 02cc 00000000 		.4byte	SendSingleByte
- 1066 02d0 13       		.uleb128 0x13
- 1067 02d1 D1010000 		.4byte	.LASF41
- 1068 02d5 01       		.byte	0x1
- 1069 02d6 26       		.byte	0x26
- 1070 02d7 81000000 		.4byte	0x81
- 1071 02db 05       		.uleb128 0x5
- 1072 02dc 03       		.byte	0x3
- 1073 02dd 00000000 		.4byte	SendEmulatedData
- 1074 02e1 14       		.uleb128 0x14
- 1075 02e2 B3000000 		.4byte	0xb3
- 1076 02e6 F1020000 		.4byte	0x2f1
- 1077 02ea 15       		.uleb128 0x15
- 1078 02eb D2000000 		.4byte	0xd2
- 1079 02ef 0F       		.byte	0xf
- 1080 02f0 00       		.byte	0
- 1081 02f1 13       		.uleb128 0x13
- 1082 02f2 C6000000 		.4byte	.LASF42
- 1083 02f6 01       		.byte	0x1
- 1084 02f7 28       		.byte	0x28
- 1085 02f8 E1020000 		.4byte	0x2e1
- 1086 02fc 05       		.uleb128 0x5
- 1087 02fd 03       		.byte	0x3
- 1088 02fe 00000000 		.4byte	TransmitBuffer
- 1089 0302 13       		.uleb128 0x13
- 1090 0303 21010000 		.4byte	.LASF43
- 1091 0307 01       		.byte	0x1
- 1092 0308 2A       		.byte	0x2a
- 1093 0309 81000000 		.4byte	0x81
- 1094 030d 05       		.uleb128 0x5
- 1095 030e 03       		.byte	0x3
- 1096 030f 00000000 		.4byte	EmulatedData
- 1097 0313 13       		.uleb128 0x13
- 1098 0314 0C030000 		.4byte	.LASF44
- 1099 0318 01       		.byte	0x1
- 1100 0319 2B       		.byte	0x2b
- 1101 031a 81000000 		.4byte	0x81
- 1102 031e 05       		.uleb128 0x5
- 1103 031f 03       		.byte	0x3
- 1104 0320 00000000 		.4byte	output
- 1105 0324 14       		.uleb128 0x14
- 1106 0325 81000000 		.4byte	0x81
- 1107 0329 35030000 		.4byte	0x335
- 1108 032d 16       		.uleb128 0x16
- 1109 032e D2000000 		.4byte	0xd2
- 1110 0332 CF07     		.2byte	0x7cf
- 1111 0334 00       		.byte	0
- 1112 0335 13       		.uleb128 0x13
- 1113 0336 F2020000 		.4byte	.LASF45
- 1114 033a 01       		.byte	0x1
- 1115 033b 2D       		.byte	0x2d
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 26
+ 1092      636E6963 
+ 1092      61732064 
+ 1092      65206164 
+ 1092      71756973 
+ 1093 005e 7365342E 		.ascii	"se4.cydsn\000"
+ 1093      63796473 
+ 1093      6E00
+ 1094              	.LASF35:
+ 1095 0068 456D756C 		.ascii	"EmulatedData\000"
+ 1095      61746564 
+ 1095      44617461 
+ 1095      00
+ 1096              	.LASF40:
+ 1097 0075 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1097      43313120 
+ 1097      352E342E 
+ 1097      31203230 
+ 1097      31363036 
+ 1098 00a8 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1098      20726576 
+ 1098      6973696F 
+ 1098      6E203233 
+ 1098      37373135 
+ 1099 00db 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 1099      66756E63 
+ 1099      74696F6E 
+ 1099      2D736563 
+ 1099      74696F6E 
+ 1100              	.LASF13:
+ 1101 0103 666C6F61 		.ascii	"float\000"
+ 1101      7400
+ 1102              	.LASF9:
+ 1103 0109 5F5F696E 		.ascii	"__int32_t\000"
+ 1103      7433325F 
+ 1103      7400
+ 1104              	.LASF31:
+ 1105 0113 436F6E74 		.ascii	"ContinuouslySendData\000"
+ 1105      696E756F 
+ 1105      75736C79 
+ 1105      53656E64 
+ 1105      44617461 
+ 1106              	.LASF3:
+ 1107 0128 73686F72 		.ascii	"short unsigned int\000"
+ 1107      7420756E 
+ 1107      7369676E 
+ 1107      65642069 
+ 1107      6E7400
+ 1108              	.LASF37:
+ 1109 013b 42756666 		.ascii	"Buffer_sample_to_transmit\000"
+ 1109      65725F73 
+ 1109      616D706C 
+ 1109      655F746F 
+ 1109      5F747261 
+ 1110              	.LASF28:
+ 1111 0155 6B657943 		.ascii	"keyCodes\000"
+ 1111      6F646573 
+ 1111      00
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 25
 
 
- 1116 033c 24030000 		.4byte	0x324
- 1117 0340 05       		.uleb128 0x5
- 1118 0341 03       		.byte	0x3
- 1119 0342 00000000 		.4byte	Buffer_sample_to_transmit
- 1120 0346 17       		.uleb128 0x17
- 1121 0347 6900     		.ascii	"i\000"
- 1122 0349 01       		.byte	0x1
- 1123 034a 2E       		.byte	0x2e
- 1124 034b 68000000 		.4byte	0x68
- 1125 034f 05       		.uleb128 0x5
- 1126 0350 03       		.byte	0x3
- 1127 0351 00000000 		.4byte	i
- 1128 0355 13       		.uleb128 0x13
- 1129 0356 BD020000 		.4byte	.LASF46
- 1130 035a 01       		.byte	0x1
- 1131 035b 2F       		.byte	0x2f
- 1132 035c 6F000000 		.4byte	0x6f
- 1133 0360 05       		.uleb128 0x5
- 1134 0361 03       		.byte	0x3
- 1135 0362 00000000 		.4byte	sample_counter
- 1136 0366 14       		.uleb128 0x14
- 1137 0367 B3000000 		.4byte	0xb3
- 1138 036b 76030000 		.4byte	0x376
- 1139 036f 15       		.uleb128 0x15
- 1140 0370 D2000000 		.4byte	0xd2
- 1141 0374 09       		.byte	0x9
- 1142 0375 00       		.byte	0
- 1143 0376 13       		.uleb128 0x13
- 1144 0377 BA010000 		.4byte	.LASF47
- 1145 037b 01       		.byte	0x1
- 1146 037c 31       		.byte	0x31
- 1147 037d 66030000 		.4byte	0x366
- 1148 0381 05       		.uleb128 0x5
- 1149 0382 03       		.byte	0x3
- 1150 0383 00000000 		.4byte	counter_char
- 1151 0387 14       		.uleb128 0x14
- 1152 0388 A5000000 		.4byte	0xa5
- 1153 038c 98030000 		.4byte	0x398
- 1154 0390 16       		.uleb128 0x16
- 1155 0391 D2000000 		.4byte	0xd2
- 1156 0395 CF07     		.2byte	0x7cf
- 1157 0397 00       		.byte	0
- 1158 0398 13       		.uleb128 0x13
- 1159 0399 E7010000 		.4byte	.LASF48
- 1160 039d 01       		.byte	0x1
- 1161 039e 37       		.byte	0x37
- 1162 039f 87030000 		.4byte	0x387
- 1163 03a3 05       		.uleb128 0x5
- 1164 03a4 03       		.byte	0x3
- 1165 03a5 00000000 		.4byte	signal
- 1166 03a9 13       		.uleb128 0x13
- 1167 03aa CC020000 		.4byte	.LASF49
- 1168 03ae 01       		.byte	0x1
- 1169 03af 38       		.byte	0x38
- 1170 03b0 A5000000 		.4byte	0xa5
- 1171 03b4 05       		.uleb128 0x5
- 1172 03b5 03       		.byte	0x3
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 27
+ 1112              	.LASF1:
+ 1113 015e 756E7369 		.ascii	"unsigned char\000"
+ 1113      676E6564 
+ 1113      20636861 
+ 1113      7200
+ 1114              	.LASF26:
+ 1115 016c 63686172 		.ascii	"charLoc\000"
+ 1115      4C6F6300 
+ 1116              	.LASF30:
+ 1117 0174 636F6C44 		.ascii	"colDiv\000"
+ 1117      697600
+ 1118              	.LASF5:
+ 1119 017b 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1119      20756E73 
+ 1119      69676E65 
+ 1119      6420696E 
+ 1119      7400
+ 1120              	.LASF29:
+ 1121 018d 726F7744 		.ascii	"rowDiv\000"
+ 1121      697600
+ 1122              	.LASF27:
+ 1123 0194 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1123      52784275 
+ 1123      66666572 
+ 1123      00
+ 1124              	.LASF38:
+ 1125 01a1 73616D70 		.ascii	"sample_counter\000"
+ 1125      6C655F63 
+ 1125      6F756E74 
+ 1125      657200
+ 1126              	.LASF33:
+ 1127 01b0 53656E64 		.ascii	"SendEmulatedData\000"
+ 1127      456D756C 
+ 1127      61746564 
+ 1127      44617461 
+ 1127      00
+ 1128              	.LASF14:
+ 1129 01c1 646F7562 		.ascii	"double\000"
+ 1129      6C6500
+ 1130              	.LASF23:
+ 1131 01c8 726F775F 		.ascii	"row_div\000"
+ 1131      64697600 
+ 1132              	.LASF43:
+ 1133 01d0 4B657949 		.ascii	"KeyIndex\000"
+ 1133      6E646578 
+ 1133      00
+ 1134              	.LASF24:
+ 1135 01d9 636F6C5F 		.ascii	"col_div\000"
+ 1135      64697600 
+ 1136              	.LASF12:
+ 1137 01e1 696E7438 		.ascii	"int8\000"
+ 1137      00
+ 1138              	.LASF19:
+ 1139 01e6 6D61696E 		.ascii	"main\000"
+ 1139      00
+ 1140              	.LASF8:
+ 1141 01eb 756E7369 		.ascii	"unsigned int\000"
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 26
 
 
- 1173 03b6 00000000 		.4byte	MAG_ROW
- 1174 03ba 13       		.uleb128 0x13
- 1175 03bb 73010000 		.4byte	.LASF50
- 1176 03bf 01       		.byte	0x1
- 1177 03c0 38       		.byte	0x38
- 1178 03c1 A5000000 		.4byte	0xa5
- 1179 03c5 05       		.uleb128 0x5
- 1180 03c6 03       		.byte	0x3
- 1181 03c7 00000000 		.4byte	MAG_COL
- 1182 03cb 17       		.uleb128 0x17
- 1183 03cc 6D6700   		.ascii	"mg\000"
- 1184 03cf 01       		.byte	0x1
- 1185 03d0 39       		.byte	0x39
- 1186 03d1 68000000 		.4byte	0x68
- 1187 03d5 05       		.uleb128 0x5
- 1188 03d6 03       		.byte	0x3
- 1189 03d7 00000000 		.4byte	mg
- 1190 03db 14       		.uleb128 0x14
- 1191 03dc B3000000 		.4byte	0xb3
- 1192 03e0 EB030000 		.4byte	0x3eb
- 1193 03e4 15       		.uleb128 0x15
- 1194 03e5 D2000000 		.4byte	0xd2
- 1195 03e9 1F       		.byte	0x1f
- 1196 03ea 00       		.byte	0
- 1197 03eb 13       		.uleb128 0x13
- 1198 03ec C7010000 		.4byte	.LASF51
- 1199 03f0 01       		.byte	0x1
- 1200 03f1 3A       		.byte	0x3a
- 1201 03f2 DB030000 		.4byte	0x3db
- 1202 03f6 05       		.uleb128 0x5
- 1203 03f7 03       		.byte	0x3
- 1204 03f8 00000000 		.4byte	test
- 1205 03fc 13       		.uleb128 0x13
- 1206 03fd 05000000 		.4byte	.LASF52
- 1207 0401 01       		.byte	0x1
- 1208 0402 3D       		.byte	0x3d
- 1209 0403 68000000 		.4byte	0x68
- 1210 0407 05       		.uleb128 0x5
- 1211 0408 03       		.byte	0x3
- 1212 0409 00000000 		.4byte	sample
- 1213 040d 13       		.uleb128 0x13
- 1214 040e 34010000 		.4byte	.LASF53
- 1215 0412 01       		.byte	0x1
- 1216 0413 3E       		.byte	0x3e
- 1217 0414 A5000000 		.4byte	0xa5
- 1218 0418 05       		.uleb128 0x5
- 1219 0419 03       		.byte	0x3
- 1220 041a 00000000 		.4byte	sample_f
- 1221 041e 00       		.byte	0
- 1222              		.section	.debug_abbrev,"",%progbits
- 1223              	.Ldebug_abbrev0:
- 1224 0000 01       		.uleb128 0x1
- 1225 0001 11       		.uleb128 0x11
- 1226 0002 01       		.byte	0x1
- 1227 0003 25       		.uleb128 0x25
- 1228 0004 0E       		.uleb128 0xe
- 1229 0005 13       		.uleb128 0x13
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 28
+ 1141      676E6564 
+ 1141      20696E74 
+ 1141      00
+ 1142              	.LASF39:
+ 1143 01f8 636F756E 		.ascii	"counter_char\000"
+ 1143      7465725F 
+ 1143      63686172 
+ 1143      00
+ 1144              	.LASF7:
+ 1145 0205 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1145      206C6F6E 
+ 1145      6720756E 
+ 1145      7369676E 
+ 1145      65642069 
+ 1146              	.LASF21:
+ 1147 021c 506C6179 		.ascii	"PlayTones\000"
+ 1147      546F6E65 
+ 1147      7300
+ 1148              	.LASF22:
+ 1149 0226 6E756D62 		.ascii	"number\000"
+ 1149      657200
+ 1150              	.LASF10:
+ 1151 022d 696E7433 		.ascii	"int32_t\000"
+ 1151      325F7400 
+ 1152              	.LASF34:
+ 1153 0235 5472616E 		.ascii	"TransmitBuffer\000"
+ 1153      736D6974 
+ 1153      42756666 
+ 1153      657200
+ 1154              	.LASF17:
+ 1155 0244 73697A65 		.ascii	"sizetype\000"
+ 1155      74797065 
+ 1155      00
+ 1156              	.LASF6:
+ 1157 024d 6C6F6E67 		.ascii	"long long int\000"
+ 1157      206C6F6E 
+ 1157      6720696E 
+ 1157      7400
+ 1158              	.LASF25:
+ 1159 025b 6B657953 		.ascii	"keyString\000"
+ 1159      7472696E 
+ 1159      6700
+ 1160              	.LASF41:
+ 1161 0265 6D61696E 		.ascii	"main.c\000"
+ 1161      2E6300
+ 1162              	.LASF15:
+ 1163 026c 63686172 		.ascii	"char\000"
+ 1163      00
+ 1164              	.LASF2:
+ 1165 0271 73686F72 		.ascii	"short int\000"
+ 1165      7420696E 
+ 1165      7400
+ 1166              	.LASF36:
+ 1167 027b 6F757470 		.ascii	"output\000"
+ 1167      757400
+ 1168              	.LASF11:
+ 1169 0282 75696E74 		.ascii	"uint8\000"
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccyZRw1i.s 			page 27
 
 
- 1230 0006 0B       		.uleb128 0xb
- 1231 0007 03       		.uleb128 0x3
- 1232 0008 0E       		.uleb128 0xe
- 1233 0009 1B       		.uleb128 0x1b
- 1234 000a 0E       		.uleb128 0xe
- 1235 000b 55       		.uleb128 0x55
- 1236 000c 17       		.uleb128 0x17
- 1237 000d 11       		.uleb128 0x11
- 1238 000e 01       		.uleb128 0x1
- 1239 000f 10       		.uleb128 0x10
- 1240 0010 17       		.uleb128 0x17
- 1241 0011 00       		.byte	0
- 1242 0012 00       		.byte	0
- 1243 0013 02       		.uleb128 0x2
- 1244 0014 24       		.uleb128 0x24
- 1245 0015 00       		.byte	0
- 1246 0016 0B       		.uleb128 0xb
- 1247 0017 0B       		.uleb128 0xb
- 1248 0018 3E       		.uleb128 0x3e
- 1249 0019 0B       		.uleb128 0xb
- 1250 001a 03       		.uleb128 0x3
- 1251 001b 0E       		.uleb128 0xe
- 1252 001c 00       		.byte	0
- 1253 001d 00       		.byte	0
- 1254 001e 03       		.uleb128 0x3
- 1255 001f 16       		.uleb128 0x16
- 1256 0020 00       		.byte	0
- 1257 0021 03       		.uleb128 0x3
- 1258 0022 0E       		.uleb128 0xe
- 1259 0023 3A       		.uleb128 0x3a
- 1260 0024 0B       		.uleb128 0xb
- 1261 0025 3B       		.uleb128 0x3b
- 1262 0026 0B       		.uleb128 0xb
- 1263 0027 49       		.uleb128 0x49
- 1264 0028 13       		.uleb128 0x13
- 1265 0029 00       		.byte	0
- 1266 002a 00       		.byte	0
- 1267 002b 04       		.uleb128 0x4
- 1268 002c 24       		.uleb128 0x24
- 1269 002d 00       		.byte	0
- 1270 002e 0B       		.uleb128 0xb
- 1271 002f 0B       		.uleb128 0xb
- 1272 0030 3E       		.uleb128 0x3e
- 1273 0031 0B       		.uleb128 0xb
- 1274 0032 03       		.uleb128 0x3
- 1275 0033 08       		.uleb128 0x8
- 1276 0034 00       		.byte	0
- 1277 0035 00       		.byte	0
- 1278 0036 05       		.uleb128 0x5
- 1279 0037 16       		.uleb128 0x16
- 1280 0038 00       		.byte	0
- 1281 0039 03       		.uleb128 0x3
- 1282 003a 0E       		.uleb128 0xe
- 1283 003b 3A       		.uleb128 0x3a
- 1284 003c 0B       		.uleb128 0xb
- 1285 003d 3B       		.uleb128 0x3b
- 1286 003e 05       		.uleb128 0x5
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 29
-
-
- 1287 003f 49       		.uleb128 0x49
- 1288 0040 13       		.uleb128 0x13
- 1289 0041 00       		.byte	0
- 1290 0042 00       		.byte	0
- 1291 0043 06       		.uleb128 0x6
- 1292 0044 35       		.uleb128 0x35
- 1293 0045 00       		.byte	0
- 1294 0046 49       		.uleb128 0x49
- 1295 0047 13       		.uleb128 0x13
- 1296 0048 00       		.byte	0
- 1297 0049 00       		.byte	0
- 1298 004a 07       		.uleb128 0x7
- 1299 004b 2E       		.uleb128 0x2e
- 1300 004c 01       		.byte	0x1
- 1301 004d 3F       		.uleb128 0x3f
- 1302 004e 19       		.uleb128 0x19
- 1303 004f 03       		.uleb128 0x3
- 1304 0050 0E       		.uleb128 0xe
- 1305 0051 3A       		.uleb128 0x3a
- 1306 0052 0B       		.uleb128 0xb
- 1307 0053 3B       		.uleb128 0x3b
- 1308 0054 0B       		.uleb128 0xb
- 1309 0055 27       		.uleb128 0x27
- 1310 0056 19       		.uleb128 0x19
- 1311 0057 11       		.uleb128 0x11
- 1312 0058 01       		.uleb128 0x1
- 1313 0059 12       		.uleb128 0x12
- 1314 005a 06       		.uleb128 0x6
- 1315 005b 40       		.uleb128 0x40
- 1316 005c 18       		.uleb128 0x18
- 1317 005d 9642     		.uleb128 0x2116
- 1318 005f 19       		.uleb128 0x19
- 1319 0060 01       		.uleb128 0x1
- 1320 0061 13       		.uleb128 0x13
- 1321 0062 00       		.byte	0
- 1322 0063 00       		.byte	0
- 1323 0064 08       		.uleb128 0x8
- 1324 0065 0B       		.uleb128 0xb
- 1325 0066 01       		.byte	0x1
- 1326 0067 11       		.uleb128 0x11
- 1327 0068 01       		.uleb128 0x1
- 1328 0069 12       		.uleb128 0x12
- 1329 006a 06       		.uleb128 0x6
- 1330 006b 00       		.byte	0
- 1331 006c 00       		.byte	0
- 1332 006d 09       		.uleb128 0x9
- 1333 006e 34       		.uleb128 0x34
- 1334 006f 00       		.byte	0
- 1335 0070 03       		.uleb128 0x3
- 1336 0071 08       		.uleb128 0x8
- 1337 0072 3A       		.uleb128 0x3a
- 1338 0073 0B       		.uleb128 0xb
- 1339 0074 3B       		.uleb128 0x3b
- 1340 0075 0B       		.uleb128 0xb
- 1341 0076 49       		.uleb128 0x49
- 1342 0077 13       		.uleb128 0x13
- 1343 0078 02       		.uleb128 0x2
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 30
-
-
- 1344 0079 18       		.uleb128 0x18
- 1345 007a 00       		.byte	0
- 1346 007b 00       		.byte	0
- 1347 007c 0A       		.uleb128 0xa
- 1348 007d 2E       		.uleb128 0x2e
- 1349 007e 00       		.byte	0
- 1350 007f 3F       		.uleb128 0x3f
- 1351 0080 19       		.uleb128 0x19
- 1352 0081 03       		.uleb128 0x3
- 1353 0082 0E       		.uleb128 0xe
- 1354 0083 3A       		.uleb128 0x3a
- 1355 0084 0B       		.uleb128 0xb
- 1356 0085 3B       		.uleb128 0x3b
- 1357 0086 0B       		.uleb128 0xb
- 1358 0087 27       		.uleb128 0x27
- 1359 0088 19       		.uleb128 0x19
- 1360 0089 11       		.uleb128 0x11
- 1361 008a 01       		.uleb128 0x1
- 1362 008b 12       		.uleb128 0x12
- 1363 008c 06       		.uleb128 0x6
- 1364 008d 40       		.uleb128 0x40
- 1365 008e 18       		.uleb128 0x18
- 1366 008f 9642     		.uleb128 0x2116
- 1367 0091 19       		.uleb128 0x19
- 1368 0092 00       		.byte	0
- 1369 0093 00       		.byte	0
- 1370 0094 0B       		.uleb128 0xb
- 1371 0095 2E       		.uleb128 0x2e
- 1372 0096 01       		.byte	0x1
- 1373 0097 3F       		.uleb128 0x3f
- 1374 0098 19       		.uleb128 0x19
- 1375 0099 03       		.uleb128 0x3
- 1376 009a 0E       		.uleb128 0xe
- 1377 009b 3A       		.uleb128 0x3a
- 1378 009c 0B       		.uleb128 0xb
- 1379 009d 3B       		.uleb128 0x3b
- 1380 009e 0B       		.uleb128 0xb
- 1381 009f 49       		.uleb128 0x49
- 1382 00a0 13       		.uleb128 0x13
- 1383 00a1 11       		.uleb128 0x11
- 1384 00a2 01       		.uleb128 0x1
- 1385 00a3 12       		.uleb128 0x12
- 1386 00a4 06       		.uleb128 0x6
- 1387 00a5 40       		.uleb128 0x40
- 1388 00a6 18       		.uleb128 0x18
- 1389 00a7 9642     		.uleb128 0x2116
- 1390 00a9 19       		.uleb128 0x19
- 1391 00aa 01       		.uleb128 0x1
- 1392 00ab 13       		.uleb128 0x13
- 1393 00ac 00       		.byte	0
- 1394 00ad 00       		.byte	0
- 1395 00ae 0C       		.uleb128 0xc
- 1396 00af 34       		.uleb128 0x34
- 1397 00b0 00       		.byte	0
- 1398 00b1 03       		.uleb128 0x3
- 1399 00b2 0E       		.uleb128 0xe
- 1400 00b3 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 31
-
-
- 1401 00b4 0B       		.uleb128 0xb
- 1402 00b5 3B       		.uleb128 0x3b
- 1403 00b6 0B       		.uleb128 0xb
- 1404 00b7 49       		.uleb128 0x49
- 1405 00b8 13       		.uleb128 0x13
- 1406 00b9 02       		.uleb128 0x2
- 1407 00ba 18       		.uleb128 0x18
- 1408 00bb 00       		.byte	0
- 1409 00bc 00       		.byte	0
- 1410 00bd 0D       		.uleb128 0xd
- 1411 00be 2E       		.uleb128 0x2e
- 1412 00bf 01       		.byte	0x1
- 1413 00c0 3F       		.uleb128 0x3f
- 1414 00c1 19       		.uleb128 0x19
- 1415 00c2 03       		.uleb128 0x3
- 1416 00c3 0E       		.uleb128 0xe
- 1417 00c4 3A       		.uleb128 0x3a
- 1418 00c5 0B       		.uleb128 0xb
- 1419 00c6 3B       		.uleb128 0x3b
- 1420 00c7 05       		.uleb128 0x5
- 1421 00c8 27       		.uleb128 0x27
- 1422 00c9 19       		.uleb128 0x19
- 1423 00ca 49       		.uleb128 0x49
- 1424 00cb 13       		.uleb128 0x13
- 1425 00cc 11       		.uleb128 0x11
- 1426 00cd 01       		.uleb128 0x1
- 1427 00ce 12       		.uleb128 0x12
- 1428 00cf 06       		.uleb128 0x6
- 1429 00d0 40       		.uleb128 0x40
- 1430 00d1 18       		.uleb128 0x18
- 1431 00d2 9642     		.uleb128 0x2116
- 1432 00d4 19       		.uleb128 0x19
- 1433 00d5 01       		.uleb128 0x1
- 1434 00d6 13       		.uleb128 0x13
- 1435 00d7 00       		.byte	0
- 1436 00d8 00       		.byte	0
- 1437 00d9 0E       		.uleb128 0xe
- 1438 00da 05       		.uleb128 0x5
- 1439 00db 00       		.byte	0
- 1440 00dc 03       		.uleb128 0x3
- 1441 00dd 0E       		.uleb128 0xe
- 1442 00de 3A       		.uleb128 0x3a
- 1443 00df 0B       		.uleb128 0xb
- 1444 00e0 3B       		.uleb128 0x3b
- 1445 00e1 05       		.uleb128 0x5
- 1446 00e2 49       		.uleb128 0x49
- 1447 00e3 13       		.uleb128 0x13
- 1448 00e4 02       		.uleb128 0x2
- 1449 00e5 18       		.uleb128 0x18
- 1450 00e6 00       		.byte	0
- 1451 00e7 00       		.byte	0
- 1452 00e8 0F       		.uleb128 0xf
- 1453 00e9 34       		.uleb128 0x34
- 1454 00ea 00       		.byte	0
- 1455 00eb 03       		.uleb128 0x3
- 1456 00ec 08       		.uleb128 0x8
- 1457 00ed 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 32
-
-
- 1458 00ee 0B       		.uleb128 0xb
- 1459 00ef 3B       		.uleb128 0x3b
- 1460 00f0 05       		.uleb128 0x5
- 1461 00f1 49       		.uleb128 0x49
- 1462 00f2 13       		.uleb128 0x13
- 1463 00f3 02       		.uleb128 0x2
- 1464 00f4 18       		.uleb128 0x18
- 1465 00f5 00       		.byte	0
- 1466 00f6 00       		.byte	0
- 1467 00f7 10       		.uleb128 0x10
- 1468 00f8 34       		.uleb128 0x34
- 1469 00f9 00       		.byte	0
- 1470 00fa 03       		.uleb128 0x3
- 1471 00fb 0E       		.uleb128 0xe
- 1472 00fc 3A       		.uleb128 0x3a
- 1473 00fd 0B       		.uleb128 0xb
- 1474 00fe 3B       		.uleb128 0x3b
- 1475 00ff 05       		.uleb128 0x5
- 1476 0100 49       		.uleb128 0x49
- 1477 0101 13       		.uleb128 0x13
- 1478 0102 02       		.uleb128 0x2
- 1479 0103 18       		.uleb128 0x18
- 1480 0104 00       		.byte	0
- 1481 0105 00       		.byte	0
- 1482 0106 11       		.uleb128 0x11
- 1483 0107 0F       		.uleb128 0xf
- 1484 0108 00       		.byte	0
- 1485 0109 0B       		.uleb128 0xb
- 1486 010a 0B       		.uleb128 0xb
- 1487 010b 49       		.uleb128 0x49
- 1488 010c 13       		.uleb128 0x13
- 1489 010d 00       		.byte	0
- 1490 010e 00       		.byte	0
- 1491 010f 12       		.uleb128 0x12
- 1492 0110 34       		.uleb128 0x34
- 1493 0111 00       		.byte	0
- 1494 0112 03       		.uleb128 0x3
- 1495 0113 0E       		.uleb128 0xe
- 1496 0114 3A       		.uleb128 0x3a
- 1497 0115 0B       		.uleb128 0xb
- 1498 0116 3B       		.uleb128 0x3b
- 1499 0117 05       		.uleb128 0x5
- 1500 0118 49       		.uleb128 0x49
- 1501 0119 13       		.uleb128 0x13
- 1502 011a 3F       		.uleb128 0x3f
- 1503 011b 19       		.uleb128 0x19
- 1504 011c 3C       		.uleb128 0x3c
- 1505 011d 19       		.uleb128 0x19
- 1506 011e 00       		.byte	0
- 1507 011f 00       		.byte	0
- 1508 0120 13       		.uleb128 0x13
- 1509 0121 34       		.uleb128 0x34
- 1510 0122 00       		.byte	0
- 1511 0123 03       		.uleb128 0x3
- 1512 0124 0E       		.uleb128 0xe
- 1513 0125 3A       		.uleb128 0x3a
- 1514 0126 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 33
-
-
- 1515 0127 3B       		.uleb128 0x3b
- 1516 0128 0B       		.uleb128 0xb
- 1517 0129 49       		.uleb128 0x49
- 1518 012a 13       		.uleb128 0x13
- 1519 012b 3F       		.uleb128 0x3f
- 1520 012c 19       		.uleb128 0x19
- 1521 012d 02       		.uleb128 0x2
- 1522 012e 18       		.uleb128 0x18
- 1523 012f 00       		.byte	0
- 1524 0130 00       		.byte	0
- 1525 0131 14       		.uleb128 0x14
- 1526 0132 01       		.uleb128 0x1
- 1527 0133 01       		.byte	0x1
- 1528 0134 49       		.uleb128 0x49
- 1529 0135 13       		.uleb128 0x13
- 1530 0136 01       		.uleb128 0x1
- 1531 0137 13       		.uleb128 0x13
- 1532 0138 00       		.byte	0
- 1533 0139 00       		.byte	0
- 1534 013a 15       		.uleb128 0x15
- 1535 013b 21       		.uleb128 0x21
- 1536 013c 00       		.byte	0
- 1537 013d 49       		.uleb128 0x49
- 1538 013e 13       		.uleb128 0x13
- 1539 013f 2F       		.uleb128 0x2f
- 1540 0140 0B       		.uleb128 0xb
- 1541 0141 00       		.byte	0
- 1542 0142 00       		.byte	0
- 1543 0143 16       		.uleb128 0x16
- 1544 0144 21       		.uleb128 0x21
- 1545 0145 00       		.byte	0
- 1546 0146 49       		.uleb128 0x49
- 1547 0147 13       		.uleb128 0x13
- 1548 0148 2F       		.uleb128 0x2f
- 1549 0149 05       		.uleb128 0x5
- 1550 014a 00       		.byte	0
- 1551 014b 00       		.byte	0
- 1552 014c 17       		.uleb128 0x17
- 1553 014d 34       		.uleb128 0x34
- 1554 014e 00       		.byte	0
- 1555 014f 03       		.uleb128 0x3
- 1556 0150 08       		.uleb128 0x8
- 1557 0151 3A       		.uleb128 0x3a
- 1558 0152 0B       		.uleb128 0xb
- 1559 0153 3B       		.uleb128 0x3b
- 1560 0154 0B       		.uleb128 0xb
- 1561 0155 49       		.uleb128 0x49
- 1562 0156 13       		.uleb128 0x13
- 1563 0157 3F       		.uleb128 0x3f
- 1564 0158 19       		.uleb128 0x19
- 1565 0159 02       		.uleb128 0x2
- 1566 015a 18       		.uleb128 0x18
- 1567 015b 00       		.byte	0
- 1568 015c 00       		.byte	0
- 1569 015d 00       		.byte	0
- 1570              		.section	.debug_aranges,"",%progbits
- 1571 0000 3C000000 		.4byte	0x3c
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 34
-
-
- 1572 0004 0200     		.2byte	0x2
- 1573 0006 00000000 		.4byte	.Ldebug_info0
- 1574 000a 04       		.byte	0x4
- 1575 000b 00       		.byte	0
- 1576 000c 0000     		.2byte	0
- 1577 000e 0000     		.2byte	0
- 1578 0010 00000000 		.4byte	.LFB64
- 1579 0014 AC000000 		.4byte	.LFE64-.LFB64
- 1580 0018 00000000 		.4byte	.LFB65
- 1581 001c 60000000 		.4byte	.LFE65-.LFB65
- 1582 0020 00000000 		.4byte	.LFB66
- 1583 0024 B8000000 		.4byte	.LFE66-.LFB66
- 1584 0028 00000000 		.4byte	.LFB67
- 1585 002c 5C000000 		.4byte	.LFE67-.LFB67
- 1586 0030 00000000 		.4byte	.LFB68
- 1587 0034 E4010000 		.4byte	.LFE68-.LFB68
- 1588 0038 00000000 		.4byte	0
- 1589 003c 00000000 		.4byte	0
- 1590              		.section	.debug_ranges,"",%progbits
- 1591              	.Ldebug_ranges0:
- 1592 0000 00000000 		.4byte	.LFB64
- 1593 0004 AC000000 		.4byte	.LFE64
- 1594 0008 00000000 		.4byte	.LFB65
- 1595 000c 60000000 		.4byte	.LFE65
- 1596 0010 00000000 		.4byte	.LFB66
- 1597 0014 B8000000 		.4byte	.LFE66
- 1598 0018 00000000 		.4byte	.LFB67
- 1599 001c 5C000000 		.4byte	.LFE67
- 1600 0020 00000000 		.4byte	.LFB68
- 1601 0024 E4010000 		.4byte	.LFE68
- 1602 0028 00000000 		.4byte	0
- 1603 002c 00000000 		.4byte	0
- 1604              		.section	.debug_line,"",%progbits
- 1605              	.Ldebug_line0:
- 1606 0000 42020000 		.section	.debug_str,"MS",%progbits,1
- 1606      02004C01 
- 1606      00000201 
- 1606      FB0E0D00 
- 1606      01010101 
- 1607              	.LASF36:
- 1608 0000 696D6167 		.ascii	"imag\000"
- 1608      00
- 1609              	.LASF52:
- 1610 0005 73616D70 		.ascii	"sample\000"
- 1610      6C6500
- 1611              	.LASF2:
- 1612 000c 73686F72 		.ascii	"short int\000"
- 1612      7420696E 
- 1612      7400
- 1613              	.LASF24:
- 1614 0016 74644368 		.ascii	"tdChanA\000"
- 1614      616E4100 
- 1615              	.LASF27:
- 1616 001e 53414D50 		.ascii	"SAMPLING_RATE\000"
- 1616      4C494E47 
- 1616      5F524154 
- 1616      4500
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 35
-
-
- 1617              	.LASF54:
- 1618 002c 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 1618      43313120 
- 1618      352E342E 
- 1618      31203230 
- 1618      31363036 
- 1619 005f 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 1619      20726576 
- 1619      6973696F 
- 1619      6E203233 
- 1619      37373135 
- 1620 0092 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 1620      66756E63 
- 1620      74696F6E 
- 1620      2D736563 
- 1620      74696F6E 
- 1621              	.LASF18:
- 1622 00ba 6C6F6E67 		.ascii	"long double\000"
- 1622      20646F75 
- 1622      626C6500 
- 1623              	.LASF42:
- 1624 00c6 5472616E 		.ascii	"TransmitBuffer\000"
- 1624      736D6974 
- 1624      42756666 
- 1624      657200
- 1625              	.LASF22:
- 1626 00d5 444D415F 		.ascii	"DMA_Config\000"
- 1626      436F6E66 
- 1626      696700
- 1627              	.LASF12:
- 1628 00e0 75696E74 		.ascii	"uint16\000"
- 1628      313600
- 1629              	.LASF11:
- 1630 00e7 75696E74 		.ascii	"uint8\000"
- 1630      3800
- 1631              	.LASF58:
- 1632 00ed 676F6572 		.ascii	"goertzel_mag\000"
- 1632      747A656C 
- 1632      5F6D6167 
- 1632      00
- 1633              	.LASF14:
- 1634 00fa 666C6F61 		.ascii	"float\000"
- 1634      7400
- 1635              	.LASF6:
- 1636 0100 6C6F6E67 		.ascii	"long long int\000"
- 1636      206C6F6E 
- 1636      6720696E 
- 1636      7400
- 1637              	.LASF35:
- 1638 010e 7265616C 		.ascii	"real\000"
- 1638      00
- 1639              	.LASF23:
- 1640 0113 6368616E 		.ascii	"channelHandle\000"
- 1640      6E656C48 
- 1640      616E646C 
- 1640      6500
- 1641              	.LASF43:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 36
-
-
- 1642 0121 456D756C 		.ascii	"EmulatedData\000"
- 1642      61746564 
- 1642      44617461 
- 1642      00
- 1643              	.LASF30:
- 1644 012e 6F6D6567 		.ascii	"omega\000"
- 1644      6100
- 1645              	.LASF53:
- 1646 0134 73616D70 		.ascii	"sample_f\000"
- 1646      6C655F66 
- 1646      00
- 1647              	.LASF34:
- 1648 013d 6D61676E 		.ascii	"magnitude\000"
- 1648      69747564 
- 1648      6500
- 1649              	.LASF33:
- 1650 0147 636F6566 		.ascii	"coeff\000"
- 1650      6600
- 1651              	.LASF26:
- 1652 014d 54415247 		.ascii	"TARGET_FREQUENCY\000"
- 1652      45545F46 
- 1652      52455155 
- 1652      454E4359 
- 1652      00
- 1653              	.LASF32:
- 1654 015e 636F7369 		.ascii	"cosine\000"
- 1654      6E6500
- 1655              	.LASF1:
- 1656 0165 756E7369 		.ascii	"unsigned char\000"
- 1656      676E6564 
- 1656      20636861 
- 1656      7200
- 1657              	.LASF50:
- 1658 0173 4D41475F 		.ascii	"MAG_COL\000"
- 1658      434F4C00 
- 1659              	.LASF40:
- 1660 017b 53656E64 		.ascii	"SendSingleByte\000"
- 1660      53696E67 
- 1660      6C654279 
- 1660      746500
- 1661              	.LASF0:
- 1662 018a 7369676E 		.ascii	"signed char\000"
- 1662      65642063 
- 1662      68617200 
- 1663              	.LASF7:
- 1664 0196 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1664      206C6F6E 
- 1664      6720756E 
- 1664      7369676E 
- 1664      65642069 
- 1665              	.LASF8:
- 1666 01ad 756E7369 		.ascii	"unsigned int\000"
- 1666      676E6564 
- 1666      20696E74 
- 1666      00
- 1667              	.LASF47:
- 1668 01ba 636F756E 		.ascii	"counter_char\000"
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 37
-
-
- 1668      7465725F 
- 1668      63686172 
- 1668      00
- 1669              	.LASF51:
- 1670 01c7 74657374 		.ascii	"test\000"
- 1670      00
- 1671              	.LASF31:
- 1672 01cc 73696E65 		.ascii	"sine\000"
- 1672      00
- 1673              	.LASF41:
- 1674 01d1 53656E64 		.ascii	"SendEmulatedData\000"
- 1674      456D756C 
- 1674      61746564 
- 1674      44617461 
- 1674      00
- 1675              	.LASF16:
- 1676 01e2 63686172 		.ascii	"char\000"
- 1676      00
- 1677              	.LASF48:
- 1678 01e7 7369676E 		.ascii	"signal\000"
- 1678      616C00
- 1679              	.LASF4:
- 1680 01ee 6C6F6E67 		.ascii	"long int\000"
- 1680      20696E74 
- 1680      00
- 1681              	.LASF21:
- 1682 01f7 6D61696E 		.ascii	"main\000"
- 1682      00
- 1683              	.LASF10:
- 1684 01fc 696E7433 		.ascii	"int32_t\000"
- 1684      325F7400 
- 1685              	.LASF56:
- 1686 0204 433A5C55 		.ascii	"C:\\Users\\rcaravac\\Downloads\\Receptor\\TareaClas"
- 1686      73657273 
- 1686      5C726361 
- 1686      72617661 
- 1686      635C446F 
- 1687 0232 65342E63 		.ascii	"e4.cydsn\000"
- 1687      7964736E 
- 1687      00
- 1688              	.LASF29:
- 1689 023b 666C6F61 		.ascii	"floatnumSamples\000"
- 1689      746E756D 
- 1689      53616D70 
- 1689      6C657300 
- 1690              	.LASF25:
- 1691 024b 6E756D53 		.ascii	"numSamples\000"
- 1691      616D706C 
- 1691      657300
- 1692              	.LASF39:
- 1693 0256 436F6E74 		.ascii	"ContinuouslySendData\000"
- 1693      696E756F 
- 1693      75736C79 
- 1693      53656E64 
- 1693      44617461 
- 1694              	.LASF28:
- 1695 026b 64617461 		.ascii	"data\000"
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 38
-
-
- 1695      00
- 1696              	.LASF3:
- 1697 0270 73686F72 		.ascii	"short unsigned int\000"
- 1697      7420756E 
- 1697      7369676E 
- 1697      65642069 
- 1697      6E7400
- 1698              	.LASF37:
- 1699 0283 7363616C 		.ascii	"scalingFactor\000"
- 1699      696E6746 
- 1699      6163746F 
- 1699      7200
- 1700              	.LASF13:
- 1701 0291 75696E74 		.ascii	"uint32\000"
- 1701      333200
- 1702              	.LASF55:
- 1703 0298 6D61696E 		.ascii	"main.c\000"
- 1703      2E6300
- 1704              	.LASF17:
- 1705 029f 72656738 		.ascii	"reg8\000"
- 1705      00
- 1706              	.LASF5:
- 1707 02a4 6C6F6E67 		.ascii	"long unsigned int\000"
- 1707      20756E73 
- 1707      69676E65 
- 1707      6420696E 
- 1707      7400
- 1708              	.LASF15:
- 1709 02b6 646F7562 		.ascii	"double\000"
- 1709      6C6500
- 1710              	.LASF46:
- 1711 02bd 73616D70 		.ascii	"sample_counter\000"
- 1711      6C655F63 
- 1711      6F756E74 
- 1711      657200
- 1712              	.LASF49:
- 1713 02cc 4D41475F 		.ascii	"MAG_ROW\000"
- 1713      524F5700 
- 1714              	.LASF9:
- 1715 02d4 5F5F696E 		.ascii	"__int32_t\000"
- 1715      7433325F 
- 1715      7400
- 1716              	.LASF57:
- 1717 02de 66696C74 		.ascii	"filterVDAC\000"
- 1717      65725644 
- 1717      414300
- 1718              	.LASF19:
- 1719 02e9 73697A65 		.ascii	"sizetype\000"
- 1719      74797065 
- 1719      00
- 1720              	.LASF45:
- 1721 02f2 42756666 		.ascii	"Buffer_sample_to_transmit\000"
- 1721      65725F73 
- 1721      616D706C 
- 1721      655F746F 
- 1721      5F747261 
- 1722              	.LASF44:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccEllc3u.s 			page 39
-
-
- 1723 030c 6F757470 		.ascii	"output\000"
- 1723      757400
- 1724              	.LASF38:
- 1725 0313 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 1725      52784275 
- 1725      66666572 
- 1725      00
- 1726              	.LASF20:
- 1727 0320 5472616E 		.ascii	"Transmit\000"
- 1727      736D6974 
- 1727      00
- 1728              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 1169      3800
+ 1170              	.LASF4:
+ 1171 0288 6C6F6E67 		.ascii	"long int\000"
+ 1171      20696E74 
+ 1171      00
+ 1172              	.LASF16:
+ 1173 0291 6C6F6E67 		.ascii	"long double\000"
+ 1173      20646F75 
+ 1173      626C6500 
+ 1174              	.LASF0:
+ 1175 029d 7369676E 		.ascii	"signed char\000"
+ 1175      65642063 
+ 1175      68617200 
+ 1176              	.LASF20:
+ 1177 02a9 4469616C 		.ascii	"DialNumber\000"
+ 1177      4E756D62 
+ 1177      657200
+ 1178              	.LASF18:
+ 1179 02b4 63685F73 		.ascii	"ch_string\000"
+ 1179      7472696E 
+ 1179      6700
+ 1180              	.LASF32:
+ 1181 02be 53656E64 		.ascii	"SendSingleByte\000"
+ 1181      53696E67 
+ 1181      6C654279 
+ 1181      746500
+ 1182              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
   55              	ADC_DelSig_gcor:
   56 0008 00000000 		.space	4
   57              		.section	.text.ADC_DelSig_Init,"ax",%progbits
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 2
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 2
 
 
   58              		.align	2
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
   47:Generated_Source\PSoC5/ADC_DelSig.c **** volatile uint8 ADC_DelSig_started = 0u;
   48:Generated_Source\PSoC5/ADC_DelSig.c **** 
   49:Generated_Source\PSoC5/ADC_DelSig.c **** /* Flag to hold ADC config number. By default active config is 1. */
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 3
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 3
 
 
   50:Generated_Source\PSoC5/ADC_DelSig.c **** volatile uint8 ADC_DelSig_Config = 1u;
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
   77              		.cfi_def_cfa 7, 8
   93:Generated_Source\PSoC5/ADC_DelSig.c **** 
   94:Generated_Source\PSoC5/ADC_DelSig.c ****     ADC_DelSig_Config = 1u;
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 4
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 4
 
 
   78              		.loc 1 94 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  113 0040 43F01803 		orr	r3, r3, #24
  114 0044 DBB2     		uxtb	r3, r3
  115 0046 1370     		strb	r3, [r2]
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 5
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 5
 
 
  114:Generated_Source\PSoC5/ADC_DelSig.c ****     ADC_DelSig_DSM_REF1_REG    = ADC_DelSig_CFG1_DSM_REF1;
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  153 007e 234B     		ldr	r3, .L2+60
  154 0080 1422     		movs	r2, #20
  155 0082 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 6
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 6
 
 
  131:Generated_Source\PSoC5/ADC_DelSig.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  178 00b0 1B78     		ldrb	r3, [r3]
  179 00b2 DBB2     		uxtb	r3, r3
  180 00b4 013B     		subs	r3, r3, #1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 7
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 7
 
 
  181 00b6 1749     		ldr	r1, .L2+68
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  169:Generated_Source\PSoC5/ADC_DelSig.c **** /******************************************************************************
  170:Generated_Source\PSoC5/ADC_DelSig.c **** * Function Name: ADC_DelSig_Enable
  171:Generated_Source\PSoC5/ADC_DelSig.c **** *******************************************************************************
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 8
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 8
 
 
  172:Generated_Source\PSoC5/ADC_DelSig.c **** *
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  257              		.loc 1 197 0
  258 0024 454A     		ldr	r2, .L7+4
  259 0026 454B     		ldr	r3, .L7+4
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 9
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 9
 
 
  260 0028 1B78     		ldrb	r3, [r3]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  304 0082 1370     		strb	r3, [r2]
  208:Generated_Source\PSoC5/ADC_DelSig.c **** 
  209:Generated_Source\PSoC5/ADC_DelSig.c ****     /* Code to disable the REFBUF0 if reference chosen is External ref */
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 10
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 10
 
 
  210:Generated_Source\PSoC5/ADC_DelSig.c ****     #if (((ADC_DelSig_CFG1_REFERENCE == ADC_DelSig_EXT_REF_ON_P03) || \
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  260:Generated_Source\PSoC5/ADC_DelSig.c ****              ((ADC_DelSig_CFG4_REFERENCE != ADC_DelSig_EXT_REF_ON_P03) &&
  261:Generated_Source\PSoC5/ADC_DelSig.c ****              (ADC_DelSig_CFG4_REFERENCE != ADC_DelSig_EXT_REF_ON_P32))))
  262:Generated_Source\PSoC5/ADC_DelSig.c ****         {
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 11
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 11
 
 
  263:Generated_Source\PSoC5/ADC_DelSig.c ****             /* Enable the REFBUF1 */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  281:Generated_Source\PSoC5/ADC_DelSig.c **** 
  282:Generated_Source\PSoC5/ADC_DelSig.c ****     /* Enable Modulator Chopping if required */
  283:Generated_Source\PSoC5/ADC_DelSig.c ****     ADC_DelSig_DSM_CR2_REG = ADC_DelSig_CFG1_DSM_CR2;
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 12
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 12
 
 
  345              		.loc 1 283 0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  298:Generated_Source\PSoC5/ADC_DelSig.c ****         /* Enable interrupt */
  299:Generated_Source\PSoC5/ADC_DelSig.c ****         CyIntEnable(ADC_DelSig_INTC_NUMBER);
  385              		.loc 1 299 0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 13
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 13
 
 
  386 011e 144B     		ldr	r3, .L7+56
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  310:Generated_Source\PSoC5/ADC_DelSig.c **** *
  311:Generated_Source\PSoC5/ADC_DelSig.c **** * Summary:
  312:Generated_Source\PSoC5/ADC_DelSig.c **** *  Performs all required initialization for this component and enables
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 14
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 14
 
 
  313:Generated_Source\PSoC5/ADC_DelSig.c **** *  the power. It configure all the register the first time it is called.
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  454              		.loc 1 342 0
  455 001a 034B     		ldr	r3, .L12
  456 001c 0122     		movs	r2, #1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 15
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 15
 
 
  457 001e 1A70     		strb	r2, [r3]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  485              		.cfi_def_cfa_offset 8
  486              		.cfi_offset 7, -8
  487              		.cfi_offset 14, -4
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 16
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 16
 
 
  488 0002 82B0     		sub	sp, sp, #8
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  529 004e 414A     		ldr	r2, .L15+16
  530 0050 404B     		ldr	r3, .L15+16
  531 0052 1B78     		ldrb	r3, [r3]
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 17
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 17
 
 
  532 0054 DBB2     		uxtb	r3, r3
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  572 00a4 2D4A     		ldr	r2, .L15+24
  573 00a6 2D4B     		ldr	r3, .L15+24
  574 00a8 1B78     		ldrb	r3, [r3]
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 18
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 18
 
 
  575 00aa DBB2     		uxtb	r3, r3
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  617 0100 DBB2     		uxtb	r3, r3
  618 0102 1370     		strb	r3, [r2]
  408:Generated_Source\PSoC5/ADC_DelSig.c ****     #endif /* ADC_DelSig_DEFAULT_INTERNAL_CLK */
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 19
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 19
 
 
  409:Generated_Source\PSoC5/ADC_DelSig.c **** 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  664 015c AA430040 		.word	1073759146
  665 0160 BA430040 		.word	1073759162
  666 0164 77580040 		.word	1073764471
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 20
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 20
 
 
  667 0168 A1430040 		.word	1073759137
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  701 0010 23F00C03 		bic	r3, r3, #12
  702 0014 FB73     		strb	r3, [r7, #15]
  438:Generated_Source\PSoC5/ADC_DelSig.c ****     tmpReg |= (uint8)(gain << ADC_DelSig_DSM_GAIN_SHIFT) & ADC_DelSig_DSM_GAIN_MASK;
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 21
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 21
 
 
  703              		.loc 1 438 0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  454:Generated_Source\PSoC5/ADC_DelSig.c **** *  If DMA or if a custom API requires different byte to be read the last,
  455:Generated_Source\PSoC5/ADC_DelSig.c **** *  this API should be used to set the last byte of the ADC result that is read. 
  456:Generated_Source\PSoC5/ADC_DelSig.c **** *  If a multibyte read is performed either by DMA or the ARM processor, the
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 22
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 22
 
 
  457:Generated_Source\PSoC5/ADC_DelSig.c **** *  coherency can be set to any byte in the last word read.
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  775 002c 1437     		adds	r7, r7, #20
  776              		.cfi_def_cfa_offset 4
  777 002e BD46     		mov	sp, r7
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 23
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 23
 
 
  778              		.cfi_def_cfa_register 13
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  505:Generated_Source\PSoC5/ADC_DelSig.c **** *                of the GCOR registers will be valid. If for example GVAL is
  506:Generated_Source\PSoC5/ADC_DelSig.c **** *                11 (0x0B) only 12 bits will be valid. The least 4 bits will
  507:Generated_Source\PSoC5/ADC_DelSig.c **** *                be lost when the GCOR value is shifted 4 places to the right.
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 24
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 24
 
 
  508:Generated_Source\PSoC5/ADC_DelSig.c **** *
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  846 0044 D3E90023 		ldrd	r2, [r3]
  847 0048 FFF7FEFF 		bl	__aeabi_dcmpgt
  848 004c 0346     		mov	r3, r0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 25
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 25
 
 
  849 004e 002B     		cmp	r3, #0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  887 008e 1037     		adds	r7, r7, #16
  888              		.cfi_def_cfa_offset 8
  889 0090 BD46     		mov	sp, r7
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 26
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 26
 
 
  890              		.cfi_def_cfa_register 13
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  922 0004 00AF     		add	r7, sp, #0
  923              		.cfi_def_cfa_register 7
  559:Generated_Source\PSoC5/ADC_DelSig.c ****     uint8 gValue;
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 27
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 27
 
 
  560:Generated_Source\PSoC5/ADC_DelSig.c ****     uint16 gcorValue;
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  966              		.global	ADC_DelSig_StartConvert
  967              		.thumb
  968              		.thumb_func
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 28
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 28
 
 
  969              		.type	ADC_DelSig_StartConvert, %function
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  999              	.L39:
  1000              		.align	2
  1001              	.L38:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 29
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 29
 
 
  1002 001c 004E0040 		.word	1073761792
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1033 0014 00BF     		nop
  1034 0016 BD46     		mov	sp, r7
  1035              		.cfi_def_cfa_register 13
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 30
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 30
 
 
  1036              		@ sp needed
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1058              		@ args = 0, pretend = 0, frame = 16
  1059              		@ frame_needed = 1, uses_anonymous_args = 0
  1060              		@ link register save eliminated.
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 31
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 31
 
 
  1061 0000 80B4     		push	{r7}
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  667:Generated_Source\PSoC5/ADC_DelSig.c **** 
  668:Generated_Source\PSoC5/ADC_DelSig.c ****     return(status);
  1099              		.loc 1 668 0 is_stmt 1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 32
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 32
 
 
  1100 0034 FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  694:Generated_Source\PSoC5/ADC_DelSig.c **** *
  695:Generated_Source\PSoC5/ADC_DelSig.c **** *******************************************************************************/
  696:Generated_Source\PSoC5/ADC_DelSig.c **** int8 ADC_DelSig_GetResult8( void ) 
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 33
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 33
 
 
  697:Generated_Source\PSoC5/ADC_DelSig.c **** {
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1167 002e 1B78     		ldrb	r3, [r3]
  1168              	.L53:
  713:Generated_Source\PSoC5/ADC_DelSig.c ****     }
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 34
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 34
 
 
  714:Generated_Source\PSoC5/ADC_DelSig.c ****     else /*No action required for other coherency */
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  724:Generated_Source\PSoC5/ADC_DelSig.c **** 
  725:Generated_Source\PSoC5/ADC_DelSig.c **** 
  726:Generated_Source\PSoC5/ADC_DelSig.c **** /*******************************************************************************
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 35
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 35
 
 
  727:Generated_Source\PSoC5/ADC_DelSig.c **** * Function Name: ADC_DelSig_GetResult16
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  759:Generated_Source\PSoC5/ADC_DelSig.c ****     {   /*  Use default method to read result registers i.e. LSB byte read at the end*/
  760:Generated_Source\PSoC5/ADC_DelSig.c ****         #if (CY_PSOC3)
  761:Generated_Source\PSoC5/ADC_DelSig.c ****             result = ADC_DelSig_DEC_SAMPM_REG;
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 36
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 36
 
 
  762:Generated_Source\PSoC5/ADC_DelSig.c ****             result = (result << 8u) | ADC_DelSig_DEC_SAMP_REG;
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1269 004c 02D0     		beq	.L61
  782:Generated_Source\PSoC5/ADC_DelSig.c ****     {
  783:Generated_Source\PSoC5/ADC_DelSig.c ****         ADC_DelSig_convDone = 0u;
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 37
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 37
 
 
  1270              		.loc 1 783 0
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  800:Generated_Source\PSoC5/ADC_DelSig.c **** *  None
  801:Generated_Source\PSoC5/ADC_DelSig.c **** *
  802:Generated_Source\PSoC5/ADC_DelSig.c **** * Return:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 38
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 38
 
 
  803:Generated_Source\PSoC5/ADC_DelSig.c **** *  int32: Result of the last ADC conversion.
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1332 001a 1B88     		ldrh	r3, [r3]	@ movhi
  1333 001c 9BB2     		uxth	r3, r3
  1334 001e 7B60     		str	r3, [r7, #4]
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 39
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 39
 
 
  833:Generated_Source\PSoC5/ADC_DelSig.c ****             result = (result << 16u) | (CY_GET_REG16(ADC_DelSig_DEC_SAMP_16B_PTR));
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  850:Generated_Source\PSoC5/ADC_DelSig.c ****     }
  851:Generated_Source\PSoC5/ADC_DelSig.c ****     else /*ADC_DelSig_DEC_SAMP_KEY_HIGH */
  852:Generated_Source\PSoC5/ADC_DelSig.c ****     {
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 40
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 40
 
 
  853:Generated_Source\PSoC5/ADC_DelSig.c ****         /* Read MSB byte at the end */
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1404              		.cfi_def_cfa_register 13
  1405              		@ sp needed
  1406 008a 80BC     		pop	{r7}
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 41
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 41
 
 
  1407              		.cfi_restore 7
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1431              		.cfi_startproc
  1432              		@ args = 0, pretend = 0, frame = 8
  1433              		@ frame_needed = 1, uses_anonymous_args = 0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 42
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 42
 
 
  1434              		@ link register save eliminated.
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  920:Generated_Source\PSoC5/ADC_DelSig.c **** *  just the ADC.
  921:Generated_Source\PSoC5/ADC_DelSig.c **** *
  922:Generated_Source\PSoC5/ADC_DelSig.c **** * Parameters:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 43
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 43
 
 
  923:Generated_Source\PSoC5/ADC_DelSig.c **** *  int32: ADC gain in counts per volt.
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1508              		.section	.text.ADC_DelSig_CountsTo_mVolts,"ax",%progbits
  1509              		.align	2
  1510              		.global	ADC_DelSig_CountsTo_mVolts
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 44
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 44
 
 
  1511              		.thumb
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  978:Generated_Source\PSoC5/ADC_DelSig.c ****         if(ADC_DelSig_Config == ADC_DelSig_CFG2)
  979:Generated_Source\PSoC5/ADC_DelSig.c ****         {
  980:Generated_Source\PSoC5/ADC_DelSig.c ****             adcCounts /= ADC_DelSig_CFG2_DEC_DIV;
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 45
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 45
 
 
  981:Generated_Source\PSoC5/ADC_DelSig.c ****         }
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1561              		.cfi_endproc
  1562              	.LFE16:
  1563              		.size	ADC_DelSig_CountsTo_mVolts, .-ADC_DelSig_CountsTo_mVolts
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 46
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 46
 
 
  1564              		.global	__aeabi_i2f
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
 1034:Generated_Source\PSoC5/ADC_DelSig.c ****         {
 1035:Generated_Source\PSoC5/ADC_DelSig.c ****             adcCounts /= ADC_DelSig_CFG1_DEC_DIV;
 1036:Generated_Source\PSoC5/ADC_DelSig.c ****         }
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 47
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 47
 
 
 1037:Generated_Source\PSoC5/ADC_DelSig.c ****     #endif /* ADC_DelSig_CFG1_DEC_DIV */
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1614              		.cfi_def_cfa_register 13
  1615              		@ sp needed
  1616 003a 90BD     		pop	{r4, r7, pc}
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 48
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 48
 
 
  1617              	.L86:
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1641 0002 87B0     		sub	sp, sp, #28
  1642              		.cfi_def_cfa_offset 32
  1643 0004 00AF     		add	r7, sp, #0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 49
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 49
 
 
  1644              		.cfi_def_cfa_register 7
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
 1118:Generated_Source\PSoC5/ADC_DelSig.c ****         resolution = ADC_DelSig_CFG3_RESOLUTION;
  1674              		.loc 1 1118 0
  1675 0032 1023     		movs	r3, #16
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 50
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 50
 
 
  1676 0034 FB73     		strb	r3, [r7, #15]
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
 1162:Generated_Source\PSoC5/ADC_DelSig.c ****              (ADC_DelSig_CFG3_RESOLUTION == ADC_DelSig__BITS_15) || \
 1163:Generated_Source\PSoC5/ADC_DelSig.c ****              (ADC_DelSig_CFG4_RESOLUTION == ADC_DelSig__BITS_15) )
 1164:Generated_Source\PSoC5/ADC_DelSig.c ****             case (uint8)ADC_DelSig__BITS_15:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 51
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 51
 
 
 1165:Generated_Source\PSoC5/ADC_DelSig.c ****                 coefA = ADC_DelSig_1UV_COUNTS / ADC_DelSig_DIVISOR_16;
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
 1210:Generated_Source\PSoC5/ADC_DelSig.c ****                 coefA = ADC_DelSig_1UV_COUNTS / ADC_DelSig_DIVISOR_500;
 1211:Generated_Source\PSoC5/ADC_DelSig.c ****                 coefB = ADC_DelSig_DIVISOR_500;
 1212:Generated_Source\PSoC5/ADC_DelSig.c ****                 break;
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 52
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 52
 
 
 1213:Generated_Source\PSoC5/ADC_DelSig.c ****         #endif /* ADC_DelSig__BITS_20 */    
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1738              	.L98:
  1739 0092 00BF     		.align	2
  1740              	.L97:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 53
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 53
 
 
  1741 0094 00000000 		.word	ADC_DelSig_Config
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1770 000a 384B     		ldr	r3, .L102
  1771 000c 0022     		movs	r2, #0
  1772 000e 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 54
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 54
 
 
 1250:Generated_Source\PSoC5/ADC_DelSig.c **** 
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1813              		.loc 1 1263 0
  1814 004c 314B     		ldr	r3, .L102+40
  1815 004e 0122     		movs	r2, #1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 55
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 55
 
 
  1816 0050 1A70     		strb	r2, [r3]
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1858 008e 2C4B     		ldr	r3, .L102+84
  1859 0090 4322     		movs	r2, #67
  1860 0092 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 56
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 56
 
 
 1276:Generated_Source\PSoC5/ADC_DelSig.c ****         /* Set DSM_REF0_REG by disabling and enabling the PRESS circuit */
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
 1300:Generated_Source\PSoC5/ADC_DelSig.c ****         #if(ADC_DelSig_CFG1_RESOLUTION > 16 && \
 1301:Generated_Source\PSoC5/ADC_DelSig.c ****             ADC_DelSig_CFG1_CONV_MODE == ADC_DelSig_MODE_SINGLE_SAMPLE)
 1302:Generated_Source\PSoC5/ADC_DelSig.c ****             ADC_DelSig_stopConversion = 1u;
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 57
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 57
 
 
 1303:Generated_Source\PSoC5/ADC_DelSig.c ****         #endif /* Single sample with resolution above 16 bits. */
@@ -3380,7 +3380,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
 1311:Generated_Source\PSoC5/ADC_DelSig.c ****             ADC_DelSig_theACLK_SetDividerRegister(ADC_DelSig_CFG1_ADC_CLK_DIVIDER, 1u);
  1899              		.loc 1 1311 0
  1900 00d2 0121     		movs	r1, #1
- 1901 00d4 9520     		movs	r0, #149
+ 1901 00d4 BA20     		movs	r0, #186
  1902 00d6 FFF7FEFF 		bl	ADC_DelSig_theACLK_SetDividerRegister
 1312:Generated_Source\PSoC5/ADC_DelSig.c ****         #endif /* ADC_DelSig_DEFAULT_INTERNAL_CLK */
 1313:Generated_Source\PSoC5/ADC_DelSig.c **** 
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
 1340:Generated_Source\PSoC5/ADC_DelSig.c ****             ADC_DelSig_DSM_CR11_REG    = ADC_DelSig_CFG2_DSM_CR11;
 1341:Generated_Source\PSoC5/ADC_DelSig.c ****             ADC_DelSig_DSM_CR12_REG    = ADC_DelSig_CFG2_DSM_CR12;
 1342:Generated_Source\PSoC5/ADC_DelSig.c ****             ADC_DelSig_DSM_CR14_REG    = ADC_DelSig_CFG2_DSM_CR14;
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 58
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 58
 
 
 1343:Generated_Source\PSoC5/ADC_DelSig.c ****             ADC_DelSig_DSM_CR15_REG    = ADC_DelSig_CFG2_DSM_CR15;
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
 1397:Generated_Source\PSoC5/ADC_DelSig.c ****             ADC_DelSig_DEC_SHIFT1_REG  = ADC_DelSig_CFG3_DEC_SHIFT1;
 1398:Generated_Source\PSoC5/ADC_DelSig.c ****             ADC_DelSig_DEC_SHIFT2_REG  = ADC_DelSig_CFG3_DEC_SHIFT2;
 1399:Generated_Source\PSoC5/ADC_DelSig.c ****             ADC_DelSig_DEC_DR2_REG     = ADC_DelSig_CFG3_DEC_DR2;
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 59
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 59
 
 
 1400:Generated_Source\PSoC5/ADC_DelSig.c ****             ADC_DelSig_DEC_DR2H_REG    = ADC_DelSig_CFG3_DEC_DR2H;
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
 1454:Generated_Source\PSoC5/ADC_DelSig.c **** 
 1455:Generated_Source\PSoC5/ADC_DelSig.c ****             #if(ADC_DelSig_IRQ_REMOVE == 0u)
 1456:Generated_Source\PSoC5/ADC_DelSig.c ****                 /* Set interrupt vector */
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 60
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 60
 
 
 1457:Generated_Source\PSoC5/ADC_DelSig.c ****                 (void)CyIntSetVector(ADC_DelSig_INTC_NUMBER, &ADC_DelSig_ISR3);
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
 1511:Generated_Source\PSoC5/ADC_DelSig.c ****             #if(ADC_DelSig_CFG4_RESOLUTION > 16 && \
 1512:Generated_Source\PSoC5/ADC_DelSig.c ****                 ADC_DelSig_CFG4_CONV_MODE == ADC_DelSig_MODE_SINGLE_SAMPLE)
 1513:Generated_Source\PSoC5/ADC_DelSig.c ****                 ADC_DelSig_stopConversion = 1u;
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 61
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 61
 
 
 1514:Generated_Source\PSoC5/ADC_DelSig.c ****             #endif /* Single sample with resolution above 16 bits */
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1944 0150 9B580040 		.word	1073764507
  1945 0154 9C580040 		.word	1073764508
  1946 0158 9D580040 		.word	1073764509
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 62
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 62
 
 
  1947 015c 00000000 		.word	ADC_DelSig_CountsPerVolt
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  1970 0004 00AF     		add	r7, sp, #0
  1971              		.cfi_def_cfa_register 7
  1972 0006 0346     		mov	r3, r0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 63
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 63
 
 
  1973 0008 0A46     		mov	r2, r1
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2005              		.loc 1 1584 0
  2006 003c 114A     		ldr	r2, .L109+12
  2007 003e FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 64
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 64
 
 
  2008 0040 013B     		subs	r3, r3, #1
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2044              	.L110:
  2045              		.align	2
  2046              	.L109:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 65
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 65
 
 
  2047 0078 00000000 		.word	ADC_DelSig_initVar
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2075              		.cfi_def_cfa_register 7
  2076 0006 0446     		mov	r4, r0
  2077 0008 0846     		mov	r0, r1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 66
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 66
 
 
  2078 000a 1146     		mov	r1, r2
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2119 006a 0F2B     		cmp	r3, #15
  2120 006c 04D9     		bls	.L119
 1641:Generated_Source\PSoC5/ADC_DelSig.c ****                 {
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 67
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 67
 
 
 1642:Generated_Source\PSoC5/ADC_DelSig.c ****                     flash = ADC_DelSig_DEC_TRIM_VREF_DIFF_16_20;
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2154              		.loc 1 1660 0
  2155 009a 1CE0     		b	.L121
  2156              	.L117:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 68
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 68
 
 
 1661:Generated_Source\PSoC5/ADC_DelSig.c **** 
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2186              		.loc 1 1684 0
  2187 00c4 07E0     		b	.L121
  2188              	.L126:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 69
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 69
 
 
 1682:Generated_Source\PSoC5/ADC_DelSig.c ****                 }
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
 1699:Generated_Source\PSoC5/ADC_DelSig.c ****             ADC_DelSig_gcor[config - 1u].gval = (resolution + 1u);
  2228              		.loc 1 1699 0
  2229 0106 97F82830 		ldrb	r3, [r7, #40]	@ zero_extendqisi2
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 70
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 70
 
 
  2230 010a 013B     		subs	r3, r3, #1
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2268              		@ sp needed
  2269 014a 90BD     		pop	{r4, r7, pc}
  2270              	.L132:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 71
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 71
 
 
  2271              		.align	2
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
 1735:Generated_Source\PSoC5/ADC_DelSig.c ****     enableInterrupts = CyEnterCriticalSection();
  2306              		.loc 1 1735 0
  2307 000a FFF7FEFF 		bl	CyEnterCriticalSection
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 72
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 72
 
 
  2308 000e 0346     		mov	r3, r0
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2349              		.loc 1 1748 0
  2350 005e FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
  2351 0060 1846     		mov	r0, r3
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 73
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 73
 
 
  2352 0062 FFF7FEFF 		bl	CyExitCriticalSection
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2383              		.cfi_def_cfa_offset 8
  2384              		.cfi_offset 7, -8
  2385              		.cfi_offset 14, -4
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 74
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 74
 
 
  2386 0002 82B0     		sub	sp, sp, #8
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2429              		.thumb
  2430              		.thumb_func
  2431              		.type	ADC_DelSig_Read16, %function
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 75
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 75
 
 
  2432              	ADC_DelSig_Read16:
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2458 001c FFF7FEFF 		bl	ADC_DelSig_IsEndConversion
 1811:Generated_Source\PSoC5/ADC_DelSig.c ****      result = ADC_DelSig_GetResult16();
  2459              		.loc 1 1811 0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 76
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 76
 
 
  2460 0020 FFF7FEFF 		bl	ADC_DelSig_GetResult16
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
 1836:Generated_Source\PSoC5/ADC_DelSig.c **** int32 ADC_DelSig_Read32(void) 
 1837:Generated_Source\PSoC5/ADC_DelSig.c **** {
  2490              		.loc 1 1837 0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 77
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 77
 
 
  2491              		.cfi_startproc
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2534              		.cfi_endproc
  2535              	.LFE25:
  2536              		.size	ADC_DelSig_Read32, .-ADC_DelSig_Read32
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 78
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 78
 
 
  2537              		.text
@@ -4634,8 +4634,8 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2547 000b 01       		.uleb128 0x1
  2548 000c 8D000000 		.4byte	.LASF90
  2549 0010 0C       		.byte	0xc
- 2550 0011 25020000 		.4byte	.LASF91
- 2551 0015 C3030000 		.4byte	.LASF92
+ 2550 0011 2C020000 		.4byte	.LASF91
+ 2551 0015 33050000 		.4byte	.LASF92
  2552 0019 00000000 		.4byte	.Ldebug_ranges0+0
  2553 001d 00000000 		.4byte	0
  2554 0021 00000000 		.4byte	.Ldebug_line0
@@ -4646,23 +4646,23 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2559 002c 02       		.uleb128 0x2
  2560 002d 01       		.byte	0x1
  2561 002e 08       		.byte	0x8
- 2562 002f 6C040000 		.4byte	.LASF1
+ 2562 002f 3C040000 		.4byte	.LASF1
  2563 0033 02       		.uleb128 0x2
  2564 0034 02       		.byte	0x2
  2565 0035 05       		.byte	0x5
- 2566 0036 7A040000 		.4byte	.LASF2
+ 2566 0036 4A040000 		.4byte	.LASF2
  2567 003a 02       		.uleb128 0x2
  2568 003b 02       		.byte	0x2
  2569 003c 07       		.byte	0x7
- 2570 003d FB020000 		.4byte	.LASF3
+ 2570 003d 02030000 		.4byte	.LASF3
  2571 0041 02       		.uleb128 0x2
  2572 0042 04       		.byte	0x4
  2573 0043 05       		.byte	0x5
- 2574 0044 10020000 		.4byte	.LASF4
+ 2574 0044 17020000 		.4byte	.LASF4
  2575 0048 02       		.uleb128 0x2
  2576 0049 04       		.byte	0x4
  2577 004a 07       		.byte	0x7
- 2578 004b D1020000 		.4byte	.LASF5
+ 2578 004b D8020000 		.4byte	.LASF5
  2579 004f 02       		.uleb128 0x2
  2580 0050 08       		.byte	0x8
  2581 0051 05       		.byte	0x5
@@ -4678,12 +4678,12 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2591 0064 02       		.uleb128 0x2
  2592 0065 04       		.byte	0x4
  2593 0066 07       		.byte	0x7
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 79
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 79
 
 
- 2594 0067 BD020000 		.4byte	.LASF8
+ 2594 0067 C4020000 		.4byte	.LASF8
  2595 006b 04       		.uleb128 0x4
- 2596 006c 1F020000 		.4byte	.LASF9
+ 2596 006c 26020000 		.4byte	.LASF9
  2597 0070 02       		.byte	0x2
  2598 0071 9201     		.2byte	0x192
  2599 0073 2C000000 		.4byte	0x2c
@@ -4693,52 +4693,52 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2603 007d 9301     		.2byte	0x193
  2604 007f 3A000000 		.4byte	0x3a
  2605 0083 04       		.uleb128 0x4
- 2606 0084 56020000 		.4byte	.LASF11
+ 2606 0084 5D020000 		.4byte	.LASF11
  2607 0088 02       		.byte	0x2
  2608 0089 9401     		.2byte	0x194
  2609 008b 48000000 		.4byte	0x48
  2610 008f 04       		.uleb128 0x4
- 2611 0090 39030000 		.4byte	.LASF12
+ 2611 0090 40030000 		.4byte	.LASF12
  2612 0094 02       		.byte	0x2
  2613 0095 9501     		.2byte	0x195
  2614 0097 25000000 		.4byte	0x25
  2615 009b 04       		.uleb128 0x4
- 2616 009c 8F050000 		.4byte	.LASF13
+ 2616 009c C0050000 		.4byte	.LASF13
  2617 00a0 02       		.byte	0x2
  2618 00a1 9601     		.2byte	0x196
  2619 00a3 33000000 		.4byte	0x33
  2620 00a7 04       		.uleb128 0x4
- 2621 00a8 0A020000 		.4byte	.LASF14
+ 2621 00a8 11020000 		.4byte	.LASF14
  2622 00ac 02       		.byte	0x2
  2623 00ad 9701     		.2byte	0x197
  2624 00af 41000000 		.4byte	0x41
  2625 00b3 04       		.uleb128 0x4
- 2626 00b4 FA030000 		.4byte	.LASF15
+ 2626 00b4 CA030000 		.4byte	.LASF15
  2627 00b8 02       		.byte	0x2
  2628 00b9 9801     		.2byte	0x198
  2629 00bb BF000000 		.4byte	0xbf
  2630 00bf 02       		.uleb128 0x2
  2631 00c0 04       		.byte	0x4
  2632 00c1 04       		.byte	0x4
- 2633 00c2 39040000 		.4byte	.LASF16
+ 2633 00c2 09040000 		.4byte	.LASF16
  2634 00c6 02       		.uleb128 0x2
  2635 00c7 08       		.byte	0x8
  2636 00c8 04       		.byte	0x4
- 2637 00c9 49020000 		.4byte	.LASF17
+ 2637 00c9 50020000 		.4byte	.LASF17
  2638 00cd 02       		.uleb128 0x2
  2639 00ce 01       		.byte	0x1
  2640 00cf 08       		.byte	0x8
- 2641 00d0 C5040000 		.4byte	.LASF18
+ 2641 00d0 95040000 		.4byte	.LASF18
  2642 00d4 04       		.uleb128 0x4
- 2643 00d5 4F040000 		.4byte	.LASF19
+ 2643 00d5 1F040000 		.4byte	.LASF19
  2644 00d9 02       		.byte	0x2
  2645 00da 3C02     		.2byte	0x23c
  2646 00dc E0000000 		.4byte	0xe0
  2647 00e0 05       		.uleb128 0x5
  2648 00e1 6B000000 		.4byte	0x6b
  2649 00e5 04       		.uleb128 0x4
- 2650 00e6 19020000 		.4byte	.LASF20
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 80
+ 2650 00e6 20020000 		.4byte	.LASF20
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 80
 
 
  2651 00ea 02       		.byte	0x2
@@ -4747,7 +4747,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2654 00f1 05       		.uleb128 0x5
  2655 00f2 77000000 		.4byte	0x77
  2656 00f6 04       		.uleb128 0x4
- 2657 00f7 A2030000 		.4byte	.LASF21
+ 2657 00f7 A9030000 		.4byte	.LASF21
  2658 00fb 02       		.byte	0x2
  2659 00fc 3E02     		.2byte	0x23e
  2660 00fe 02010000 		.4byte	0x102
@@ -4756,11 +4756,11 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2663 0107 02       		.uleb128 0x2
  2664 0108 08       		.byte	0x8
  2665 0109 04       		.byte	0x4
- 2666 010a 0B040000 		.4byte	.LASF22
+ 2666 010a DB030000 		.4byte	.LASF22
  2667 010e 02       		.uleb128 0x2
  2668 010f 04       		.byte	0x4
  2669 0110 07       		.byte	0x7
- 2670 0111 02040000 		.4byte	.LASF23
+ 2670 0111 D2030000 		.4byte	.LASF23
  2671 0115 06       		.uleb128 0x6
  2672 0116 04       		.byte	0x4
  2673 0117 03       		.byte	0x3
@@ -4773,7 +4773,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2680 0124 77000000 		.4byte	0x77
  2681 0128 00       		.byte	0
  2682 0129 07       		.uleb128 0x7
- 2683 012a D8040000 		.4byte	.LASF25
+ 2683 012a A8040000 		.4byte	.LASF25
  2684 012e 03       		.byte	0x3
  2685 012f 32       		.byte	0x32
  2686 0130 6B000000 		.4byte	0x6b
@@ -4798,14 +4798,14 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2705 0158 BA       		.byte	0xba
  2706 0159 00000000 		.4byte	.LFB1
  2707 015d 74010000 		.4byte	.LFE1-.LFB1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 81
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 81
 
 
  2708 0161 01       		.uleb128 0x1
  2709 0162 9C       		.byte	0x9c
  2710 0163 84010000 		.4byte	0x184
  2711 0167 0B       		.uleb128 0xb
- 2712 0168 D1040000 		.4byte	.LASF27
+ 2712 0168 A1040000 		.4byte	.LASF27
  2713 016c 01       		.byte	0x1
  2714 016d BC       		.byte	0xbc
  2715 016e 6B000000 		.4byte	0x6b
@@ -4813,7 +4813,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2717 0173 91       		.byte	0x91
  2718 0174 76       		.sleb128 -10
  2719 0175 0B       		.uleb128 0xb
- 2720 0176 52050000 		.4byte	.LASF28
+ 2720 0176 22050000 		.4byte	.LASF28
  2721 017a 01       		.byte	0x1
  2722 017b BD       		.byte	0xbd
  2723 017c 6B000000 		.4byte	0x6b
@@ -4822,7 +4822,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2726 0182 77       		.sleb128 -9
  2727 0183 00       		.byte	0
  2728 0184 0C       		.uleb128 0xc
- 2729 0185 0E030000 		.4byte	.LASF30
+ 2729 0185 15030000 		.4byte	.LASF30
  2730 0189 01       		.byte	0x1
  2731 018a 4E01     		.2byte	0x14e
  2732 018c 00000000 		.4byte	.LFB2
@@ -4830,7 +4830,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2734 0194 01       		.uleb128 0x1
  2735 0195 9C       		.byte	0x9c
  2736 0196 0D       		.uleb128 0xd
- 2737 0197 A9040000 		.4byte	.LASF32
+ 2737 0197 79040000 		.4byte	.LASF32
  2738 019b 01       		.byte	0x1
  2739 019c 6F01     		.2byte	0x16f
  2740 019e 00000000 		.4byte	.LFB3
@@ -4839,7 +4839,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2743 01a7 9C       		.byte	0x9c
  2744 01a8 BC010000 		.4byte	0x1bc
  2745 01ac 0E       		.uleb128 0xe
- 2746 01ad 52050000 		.4byte	.LASF28
+ 2746 01ad 22050000 		.4byte	.LASF28
  2747 01b1 01       		.byte	0x1
  2748 01b2 7101     		.2byte	0x171
  2749 01b4 6B000000 		.4byte	0x6b
@@ -4857,8 +4857,8 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2761 01cd 9C       		.byte	0x9c
  2762 01ce F1010000 		.4byte	0x1f1
  2763 01d2 10       		.uleb128 0x10
- 2764 01d3 34040000 		.4byte	.LASF36
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 82
+ 2764 01d3 04040000 		.4byte	.LASF36
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 82
 
 
  2765 01d7 01       		.byte	0x1
@@ -4868,7 +4868,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2769 01df 91       		.byte	0x91
  2770 01e0 6F       		.sleb128 -17
  2771 01e1 0E       		.uleb128 0xe
- 2772 01e2 C2050000 		.4byte	.LASF34
+ 2772 01e2 F3050000 		.4byte	.LASF34
  2773 01e6 01       		.byte	0x1
  2774 01e7 B401     		.2byte	0x1b4
  2775 01e9 6B000000 		.4byte	0x6b
@@ -4877,7 +4877,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2778 01ef 77       		.sleb128 -9
  2779 01f0 00       		.byte	0
  2780 01f1 0F       		.uleb128 0xf
- 2781 01f2 48030000 		.4byte	.LASF35
+ 2781 01f2 4F030000 		.4byte	.LASF35
  2782 01f6 01       		.byte	0x1
  2783 01f7 D601     		.2byte	0x1d6
  2784 01f9 00000000 		.4byte	.LFB5
@@ -4886,7 +4886,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2787 0202 9C       		.byte	0x9c
  2788 0203 26020000 		.4byte	0x226
  2789 0207 10       		.uleb128 0x10
- 2790 0208 2A040000 		.4byte	.LASF37
+ 2790 0208 FA030000 		.4byte	.LASF37
  2791 020c 01       		.byte	0x1
  2792 020d D601     		.2byte	0x1d6
  2793 020f 6B000000 		.4byte	0x6b
@@ -4894,7 +4894,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2795 0214 91       		.byte	0x91
  2796 0215 6F       		.sleb128 -17
  2797 0216 0E       		.uleb128 0xe
- 2798 0217 C2050000 		.4byte	.LASF34
+ 2798 0217 F3050000 		.4byte	.LASF34
  2799 021b 01       		.byte	0x1
  2800 021c D801     		.2byte	0x1d8
  2801 021e 6B000000 		.4byte	0x6b
@@ -4903,7 +4903,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2804 0224 77       		.sleb128 -9
  2805 0225 00       		.byte	0
  2806 0226 11       		.uleb128 0x11
- 2807 0227 F1040000 		.4byte	.LASF41
+ 2807 0227 C1040000 		.4byte	.LASF41
  2808 022b 01       		.byte	0x1
  2809 022c FE01     		.2byte	0x1fe
  2810 022e 6B000000 		.4byte	0x6b
@@ -4913,18 +4913,18 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2814 023b 9C       		.byte	0x9c
  2815 023c 7D020000 		.4byte	0x27d
  2816 0240 10       		.uleb128 0x10
- 2817 0241 6A050000 		.4byte	.LASF38
+ 2817 0241 9B050000 		.4byte	.LASF38
  2818 0245 01       		.byte	0x1
  2819 0246 FE01     		.2byte	0x1fe
  2820 0248 B3000000 		.4byte	0xb3
  2821 024c 02       		.uleb128 0x2
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 83
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 83
 
 
  2822 024d 91       		.byte	0x91
  2823 024e 6C       		.sleb128 -20
  2824 024f 0E       		.uleb128 0xe
- 2825 0250 C2050000 		.4byte	.LASF34
+ 2825 0250 F3050000 		.4byte	.LASF34
  2826 0254 01       		.byte	0x1
  2827 0255 0002     		.2byte	0x200
  2828 0257 77000000 		.4byte	0x77
@@ -4932,7 +4932,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2830 025c 91       		.byte	0x91
  2831 025d 74       		.sleb128 -12
  2832 025e 0E       		.uleb128 0xe
- 2833 025f 63050000 		.4byte	.LASF39
+ 2833 025f 0A020000 		.4byte	.LASF39
  2834 0263 01       		.byte	0x1
  2835 0264 0102     		.2byte	0x201
  2836 0266 6B000000 		.4byte	0x6b
@@ -4940,7 +4940,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2838 026b 91       		.byte	0x91
  2839 026c 77       		.sleb128 -9
  2840 026d 0E       		.uleb128 0xe
- 2841 026e 0C050000 		.4byte	.LASF40
+ 2841 026e DC040000 		.4byte	.LASF40
  2842 0272 01       		.byte	0x1
  2843 0273 0202     		.2byte	0x202
  2844 0275 B3000000 		.4byte	0xb3
@@ -4949,7 +4949,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2847 027b 70       		.sleb128 -16
  2848 027c 00       		.byte	0
  2849 027d 12       		.uleb128 0x12
- 2850 027e DD040000 		.4byte	.LASF42
+ 2850 027e AD040000 		.4byte	.LASF42
  2851 0282 01       		.byte	0x1
  2852 0283 2D02     		.2byte	0x22d
  2853 0285 77000000 		.4byte	0x77
@@ -4959,7 +4959,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2857 0292 9C       		.byte	0x9c
  2858 0293 B6020000 		.4byte	0x2b6
  2859 0297 0E       		.uleb128 0xe
- 2860 0298 CA040000 		.4byte	.LASF43
+ 2860 0298 9A040000 		.4byte	.LASF43
  2861 029c 01       		.byte	0x1
  2862 029d 2F02     		.2byte	0x22f
  2863 029f 6B000000 		.4byte	0x6b
@@ -4967,7 +4967,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2865 02a4 91       		.byte	0x91
  2866 02a5 75       		.sleb128 -11
  2867 02a6 0E       		.uleb128 0xe
- 2868 02a7 3E030000 		.4byte	.LASF44
+ 2868 02a7 45030000 		.4byte	.LASF44
  2869 02ab 01       		.byte	0x1
  2870 02ac 3002     		.2byte	0x230
  2871 02ae 77000000 		.4byte	0x77
@@ -4976,9 +4976,9 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2874 02b4 76       		.sleb128 -10
  2875 02b5 00       		.byte	0
  2876 02b6 13       		.uleb128 0x13
- 2877 02b7 E3020000 		.4byte	.LASF45
+ 2877 02b7 EA020000 		.4byte	.LASF45
  2878 02bb 01       		.byte	0x1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 84
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 84
 
 
  2879 02bc 4F02     		.2byte	0x24f
@@ -4995,7 +4995,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2890 02d8 01       		.uleb128 0x1
  2891 02d9 9C       		.byte	0x9c
  2892 02da 12       		.uleb128 0x12
- 2893 02db A7050000 		.4byte	.LASF47
+ 2893 02db D8050000 		.4byte	.LASF47
  2894 02df 01       		.byte	0x1
  2895 02e0 8902     		.2byte	0x289
  2896 02e2 6B000000 		.4byte	0x6b
@@ -5005,7 +5005,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2900 02ef 9C       		.byte	0x9c
  2901 02f0 13030000 		.4byte	0x313
  2902 02f4 10       		.uleb128 0x10
- 2903 02f5 B5020000 		.4byte	.LASF48
+ 2903 02f5 BC020000 		.4byte	.LASF48
  2904 02f9 01       		.byte	0x1
  2905 02fa 8902     		.2byte	0x289
  2906 02fc 6B000000 		.4byte	0x6b
@@ -5013,7 +5013,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2908 0301 91       		.byte	0x91
  2909 0302 6F       		.sleb128 -17
  2910 0303 0E       		.uleb128 0xe
- 2911 0304 63050000 		.4byte	.LASF39
+ 2911 0304 0A020000 		.4byte	.LASF39
  2912 0308 01       		.byte	0x1
  2913 0309 8B02     		.2byte	0x28b
  2914 030b 6B000000 		.4byte	0x6b
@@ -5032,18 +5032,18 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2927 0328 9C       		.byte	0x9c
  2928 0329 4C030000 		.4byte	0x34c
  2929 032d 0E       		.uleb128 0xe
- 2930 032e C9050000 		.4byte	.LASF50
+ 2930 032e FA050000 		.4byte	.LASF50
  2931 0332 01       		.byte	0x1
  2932 0333 BA02     		.2byte	0x2ba
  2933 0335 8F000000 		.4byte	0x8f
  2934 0339 02       		.uleb128 0x2
  2935 033a 91       		.byte	0x91
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 85
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 85
 
 
  2936 033b 76       		.sleb128 -10
  2937 033c 0E       		.uleb128 0xe
- 2938 033d 2A040000 		.4byte	.LASF37
+ 2938 033d FA030000 		.4byte	.LASF37
  2939 0341 01       		.byte	0x1
  2940 0342 BB02     		.2byte	0x2bb
  2941 0344 6B000000 		.4byte	0x6b
@@ -5062,7 +5062,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2954 0361 9C       		.byte	0x9c
  2955 0362 85030000 		.4byte	0x385
  2956 0366 0E       		.uleb128 0xe
- 2957 0367 C9050000 		.4byte	.LASF50
+ 2957 0367 FA050000 		.4byte	.LASF50
  2958 036b 01       		.byte	0x1
  2959 036c F002     		.2byte	0x2f0
  2960 036e 77000000 		.4byte	0x77
@@ -5070,7 +5070,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2962 0373 91       		.byte	0x91
  2963 0374 76       		.sleb128 -10
  2964 0375 0E       		.uleb128 0xe
- 2965 0376 2A040000 		.4byte	.LASF37
+ 2965 0376 FA030000 		.4byte	.LASF37
  2966 037a 01       		.byte	0x1
  2967 037b F102     		.2byte	0x2f1
  2968 037d 6B000000 		.4byte	0x6b
@@ -5079,7 +5079,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2971 0383 75       		.sleb128 -11
  2972 0384 00       		.byte	0
  2973 0385 12       		.uleb128 0x12
- 2974 0386 6F020000 		.4byte	.LASF52
+ 2974 0386 76020000 		.4byte	.LASF52
  2975 038a 01       		.byte	0x1
  2976 038b 2A03     		.2byte	0x32a
  2977 038d A7000000 		.4byte	0xa7
@@ -5089,7 +5089,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2981 039a 9C       		.byte	0x9c
  2982 039b BE030000 		.4byte	0x3be
  2983 039f 0E       		.uleb128 0xe
- 2984 03a0 C9050000 		.4byte	.LASF50
+ 2984 03a0 FA050000 		.4byte	.LASF50
  2985 03a4 01       		.byte	0x1
  2986 03a5 2C03     		.2byte	0x32c
  2987 03a7 83000000 		.4byte	0x83
@@ -5097,8 +5097,8 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2989 03ac 91       		.byte	0x91
  2990 03ad 74       		.sleb128 -12
  2991 03ae 0E       		.uleb128 0xe
- 2992 03af 2A040000 		.4byte	.LASF37
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 86
+ 2992 03af FA030000 		.4byte	.LASF37
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 86
 
 
  2993 03b3 01       		.byte	0x1
@@ -5109,7 +5109,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  2998 03bc 73       		.sleb128 -13
  2999 03bd 00       		.byte	0
  3000 03be 0F       		.uleb128 0xf
- 3001 03bf 86020000 		.4byte	.LASF53
+ 3001 03bf 8D020000 		.4byte	.LASF53
  3002 03c3 01       		.byte	0x1
  3003 03c4 8703     		.2byte	0x387
  3004 03c6 00000000 		.4byte	.LFB14
@@ -5118,7 +5118,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3007 03cf 9C       		.byte	0x9c
  3008 03d0 E4030000 		.4byte	0x3e4
  3009 03d4 10       		.uleb128 0x10
- 3010 03d5 2E050000 		.4byte	.LASF54
+ 3010 03d5 FE040000 		.4byte	.LASF54
  3011 03d9 01       		.byte	0x1
  3012 03da 8703     		.2byte	0x387
  3013 03dc A7000000 		.4byte	0xa7
@@ -5127,7 +5127,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3016 03e2 74       		.sleb128 -12
  3017 03e3 00       		.byte	0
  3018 03e4 0F       		.uleb128 0xf
- 3019 03e5 3F050000 		.4byte	.LASF55
+ 3019 03e5 0F050000 		.4byte	.LASF55
  3020 03e9 01       		.byte	0x1
  3021 03ea AA03     		.2byte	0x3aa
  3022 03ec 00000000 		.4byte	.LFB15
@@ -5145,7 +5145,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3034 0408 74       		.sleb128 -12
  3035 0409 00       		.byte	0
  3036 040a 12       		.uleb128 0x12
- 3037 040b A8030000 		.4byte	.LASF57
+ 3037 040b AF030000 		.4byte	.LASF57
  3038 040f 01       		.byte	0x1
  3039 0410 C503     		.2byte	0x3c5
  3040 0412 9B000000 		.4byte	0x9b
@@ -5155,10 +5155,10 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3044 041f 9C       		.byte	0x9c
  3045 0420 43040000 		.4byte	0x443
  3046 0424 10       		.uleb128 0x10
- 3047 0425 35050000 		.4byte	.LASF58
+ 3047 0425 05050000 		.4byte	.LASF58
  3048 0429 01       		.byte	0x1
  3049 042a C503     		.2byte	0x3c5
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 87
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 87
 
 
  3050 042c A7000000 		.4byte	0xa7
@@ -5166,7 +5166,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3052 0431 91       		.byte	0x91
  3053 0432 6C       		.sleb128 -20
  3054 0433 0E       		.uleb128 0xe
- 3055 0434 95030000 		.4byte	.LASF59
+ 3055 0434 9C030000 		.4byte	.LASF59
  3056 0438 01       		.byte	0x1
  3057 0439 C803     		.2byte	0x3c8
  3058 043b 9B000000 		.4byte	0x9b
@@ -5175,7 +5175,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3061 0441 76       		.sleb128 -10
  3062 0442 00       		.byte	0
  3063 0443 11       		.uleb128 0x11
- 3064 0444 1F030000 		.4byte	.LASF60
+ 3064 0444 26030000 		.4byte	.LASF60
  3065 0448 01       		.byte	0x1
  3066 0449 0204     		.2byte	0x402
  3067 044b B3000000 		.4byte	0xb3
@@ -5185,7 +5185,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3071 0458 9C       		.byte	0x9c
  3072 0459 7C040000 		.4byte	0x47c
  3073 045d 10       		.uleb128 0x10
- 3074 045e 35050000 		.4byte	.LASF58
+ 3074 045e 05050000 		.4byte	.LASF58
  3075 0462 01       		.byte	0x1
  3076 0463 0204     		.2byte	0x402
  3077 0465 A7000000 		.4byte	0xa7
@@ -5193,7 +5193,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3079 046a 91       		.byte	0x91
  3080 046b 64       		.sleb128 -28
  3081 046c 0E       		.uleb128 0xe
- 3082 046d 50020000 		.4byte	.LASF61
+ 3082 046d 57020000 		.4byte	.LASF61
  3083 0471 01       		.byte	0x1
  3084 0472 0504     		.2byte	0x405
  3085 0474 B3000000 		.4byte	0xb3
@@ -5212,18 +5212,18 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3098 0491 9C       		.byte	0x9c
  3099 0492 E2040000 		.4byte	0x4e2
  3100 0496 10       		.uleb128 0x10
- 3101 0497 35050000 		.4byte	.LASF58
+ 3101 0497 05050000 		.4byte	.LASF58
  3102 049b 01       		.byte	0x1
  3103 049c 4404     		.2byte	0x444
  3104 049e A7000000 		.4byte	0xa7
  3105 04a2 02       		.uleb128 0x2
  3106 04a3 91       		.byte	0x91
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 88
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 88
 
 
  3107 04a4 64       		.sleb128 -28
  3108 04a5 0E       		.uleb128 0xe
- 3109 04a6 CA020000 		.4byte	.LASF63
+ 3109 04a6 D1020000 		.4byte	.LASF63
  3110 04aa 01       		.byte	0x1
  3111 04ab 4704     		.2byte	0x447
  3112 04ad A7000000 		.4byte	0xa7
@@ -5231,7 +5231,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3114 04b2 91       		.byte	0x91
  3115 04b3 68       		.sleb128 -24
  3116 04b4 0E       		.uleb128 0xe
- 3117 04b5 B9040000 		.4byte	.LASF64
+ 3117 04b5 89040000 		.4byte	.LASF64
  3118 04b9 01       		.byte	0x1
  3119 04ba 4804     		.2byte	0x448
  3120 04bc A7000000 		.4byte	0xa7
@@ -5239,7 +5239,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3122 04c1 91       		.byte	0x91
  3123 04c2 74       		.sleb128 -12
  3124 04c3 0E       		.uleb128 0xe
- 3125 04c4 BF040000 		.4byte	.LASF65
+ 3125 04c4 8F040000 		.4byte	.LASF65
  3126 04c8 01       		.byte	0x1
  3127 04c9 4904     		.2byte	0x449
  3128 04cb A7000000 		.4byte	0xa7
@@ -5247,7 +5247,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3130 04d0 91       		.byte	0x91
  3131 04d1 70       		.sleb128 -16
  3132 04d2 0E       		.uleb128 0xe
- 3133 04d3 9E040000 		.4byte	.LASF66
+ 3133 04d3 6E040000 		.4byte	.LASF66
  3134 04d7 01       		.byte	0x1
  3135 04d8 4A04     		.2byte	0x44a
  3136 04da 6B000000 		.4byte	0x6b
@@ -5265,7 +5265,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3148 04f3 9C       		.byte	0x9c
  3149 04f4 08050000 		.4byte	0x508
  3150 04f8 10       		.uleb128 0x10
- 3151 04f9 D1040000 		.4byte	.LASF27
+ 3151 04f9 A1040000 		.4byte	.LASF27
  3152 04fd 01       		.byte	0x1
  3153 04fe DF04     		.2byte	0x4df
  3154 0500 6B000000 		.4byte	0x6b
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3161 050d 01       		.byte	0x1
  3162 050e 1806     		.2byte	0x618
  3163 0510 00000000 		.4byte	.LFB20
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 89
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 89
 
 
  3164 0514 90000000 		.4byte	.LFE20-.LFB20
@@ -5286,7 +5286,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3166 0519 9C       		.byte	0x9c
  3167 051a 3D050000 		.4byte	0x53d
  3168 051e 10       		.uleb128 0x10
- 3169 051f D1040000 		.4byte	.LASF27
+ 3169 051f A1040000 		.4byte	.LASF27
  3170 0523 01       		.byte	0x1
  3171 0524 1806     		.2byte	0x618
  3172 0526 6B000000 		.4byte	0x6b
@@ -5294,7 +5294,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3174 052b 91       		.byte	0x91
  3175 052c 77       		.sleb128 -9
  3176 052d 10       		.uleb128 0x10
- 3177 052e 04050000 		.4byte	.LASF68
+ 3177 052e D4040000 		.4byte	.LASF68
  3178 0532 01       		.byte	0x1
  3179 0533 1806     		.2byte	0x618
  3180 0535 6B000000 		.4byte	0x6b
@@ -5303,7 +5303,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3183 053b 76       		.sleb128 -10
  3184 053c 00       		.byte	0
  3185 053d 14       		.uleb128 0x14
- 3186 053e 79030000 		.4byte	.LASF70
+ 3186 053e 80030000 		.4byte	.LASF70
  3187 0542 01       		.byte	0x1
  3188 0543 5906     		.2byte	0x659
  3189 0545 00000000 		.4byte	.LFB21
@@ -5320,7 +5320,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3200 0560 91       		.byte	0x91
  3201 0561 5F       		.sleb128 -33
  3202 0562 10       		.uleb128 0x10
- 3203 0563 54040000 		.4byte	.LASF72
+ 3203 0563 24040000 		.4byte	.LASF72
  3204 0567 01       		.byte	0x1
  3205 0568 5906     		.2byte	0x659
  3206 056a 77000000 		.4byte	0x77
@@ -5336,9 +5336,9 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3216 057e 91       		.byte	0x91
  3217 057f 5A       		.sleb128 -38
  3218 0580 10       		.uleb128 0x10
- 3219 0581 9E040000 		.4byte	.LASF66
+ 3219 0581 6E040000 		.4byte	.LASF66
  3220 0585 01       		.byte	0x1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 90
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 90
 
 
  3221 0586 5A06     		.2byte	0x65a
@@ -5347,7 +5347,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3224 058d 91       		.byte	0x91
  3225 058e 5E       		.sleb128 -34
  3226 058f 10       		.uleb128 0x10
- 3227 0590 D1040000 		.4byte	.LASF27
+ 3227 0590 A1040000 		.4byte	.LASF27
  3228 0594 01       		.byte	0x1
  3229 0595 5A06     		.2byte	0x65a
  3230 0597 6B000000 		.4byte	0x6b
@@ -5355,7 +5355,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3232 059c 91       		.byte	0x91
  3233 059d 00       		.sleb128 0
  3234 059e 0E       		.uleb128 0xe
- 3235 059f 9C030000 		.4byte	.LASF74
+ 3235 059f A3030000 		.4byte	.LASF74
  3236 05a3 01       		.byte	0x1
  3237 05a4 5C06     		.2byte	0x65c
  3238 05a6 8F000000 		.4byte	0x8f
@@ -5363,7 +5363,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3240 05ab 91       		.byte	0x91
  3241 05ac 6F       		.sleb128 -17
  3242 05ad 0E       		.uleb128 0xe
- 3243 05ae 61040000 		.4byte	.LASF75
+ 3243 05ae 31040000 		.4byte	.LASF75
  3244 05b2 01       		.byte	0x1
  3245 05b3 5D06     		.2byte	0x65d
  3246 05b5 A7000000 		.4byte	0xa7
@@ -5371,7 +5371,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3248 05ba 91       		.byte	0x91
  3249 05bb 68       		.sleb128 -24
  3250 05bc 0E       		.uleb128 0xe
- 3251 05bd 3E030000 		.4byte	.LASF44
+ 3251 05bd 45030000 		.4byte	.LASF44
  3252 05c1 01       		.byte	0x1
  3253 05c2 5E06     		.2byte	0x65e
  3254 05c4 77000000 		.4byte	0x77
@@ -5379,7 +5379,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3256 05c9 91       		.byte	0x91
  3257 05ca 6C       		.sleb128 -20
  3258 05cb 0E       		.uleb128 0xe
- 3259 05cc 84040000 		.4byte	.LASF76
+ 3259 05cc 54040000 		.4byte	.LASF76
  3260 05d0 01       		.byte	0x1
  3261 05d1 5F06     		.2byte	0x65f
  3262 05d3 83000000 		.4byte	0x83
@@ -5388,7 +5388,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3265 05d9 64       		.sleb128 -28
  3266 05da 00       		.byte	0
  3267 05db 14       		.uleb128 0x14
- 3268 05dc 60030000 		.4byte	.LASF77
+ 3268 05dc 67030000 		.4byte	.LASF77
  3269 05e0 01       		.byte	0x1
  3270 05e1 C406     		.2byte	0x6c4
  3271 05e3 00000000 		.4byte	.LFB22
@@ -5397,8 +5397,8 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3274 05ec 9C       		.byte	0x9c
  3275 05ed 10060000 		.4byte	0x610
  3276 05f1 10       		.uleb128 0x10
- 3277 05f2 AF020000 		.4byte	.LASF78
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 91
+ 3277 05f2 B6020000 		.4byte	.LASF78
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 91
 
 
  3278 05f6 01       		.byte	0x1
@@ -5408,7 +5408,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3282 05fe 91       		.byte	0x91
  3283 05ff 6F       		.sleb128 -17
  3284 0600 0E       		.uleb128 0xe
- 3285 0601 52050000 		.4byte	.LASF28
+ 3285 0601 22050000 		.4byte	.LASF28
  3286 0605 01       		.byte	0x1
  3287 0606 C606     		.2byte	0x6c6
  3288 0608 6B000000 		.4byte	0x6b
@@ -5427,7 +5427,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3301 0625 9C       		.byte	0x9c
  3302 0626 3A060000 		.4byte	0x63a
  3303 062a 0E       		.uleb128 0xe
- 3304 062b C9050000 		.4byte	.LASF50
+ 3304 062b FA050000 		.4byte	.LASF50
  3305 062f 01       		.byte	0x1
  3306 0630 EC06     		.2byte	0x6ec
  3307 0632 8F000000 		.4byte	0x8f
@@ -5446,7 +5446,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3320 064f 9C       		.byte	0x9c
  3321 0650 64060000 		.4byte	0x664
  3322 0654 0E       		.uleb128 0xe
- 3323 0655 C9050000 		.4byte	.LASF50
+ 3323 0655 FA050000 		.4byte	.LASF50
  3324 0659 01       		.byte	0x1
  3325 065a 0D07     		.2byte	0x70d
  3326 065c 9B000000 		.4byte	0x9b
@@ -5455,10 +5455,10 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3329 0662 76       		.sleb128 -10
  3330 0663 00       		.byte	0
  3331 0664 11       		.uleb128 0x11
- 3332 0665 5D020000 		.4byte	.LASF81
+ 3332 0665 64020000 		.4byte	.LASF81
  3333 0669 01       		.byte	0x1
  3334 066a 2C07     		.2byte	0x72c
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 92
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 92
 
 
  3335 066c A7000000 		.4byte	0xa7
@@ -5468,7 +5468,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3339 0679 9C       		.byte	0x9c
  3340 067a 8E060000 		.4byte	0x68e
  3341 067e 0E       		.uleb128 0xe
- 3342 067f C9050000 		.4byte	.LASF50
+ 3342 067f FA050000 		.4byte	.LASF50
  3343 0683 01       		.byte	0x1
  3344 0684 2E07     		.2byte	0x72e
  3345 0686 A7000000 		.4byte	0xa7
@@ -5484,7 +5484,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3355 069c 00       		.byte	0
  3356 069d 00       		.byte	0
  3357 069e 0B       		.uleb128 0xb
- 3358 069f 3F040000 		.4byte	.LASF82
+ 3358 069f 0F040000 		.4byte	.LASF82
  3359 06a3 01       		.byte	0x1
  3360 06a4 3D       		.byte	0x3d
  3361 06a5 8E060000 		.4byte	0x68e
@@ -5492,7 +5492,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3363 06aa 03       		.byte	0x3
  3364 06ab 08000000 		.4byte	ADC_DelSig_gcor
  3365 06af 17       		.uleb128 0x17
- 3366 06b0 17040000 		.4byte	.LASF83
+ 3366 06b0 E7030000 		.4byte	.LASF83
  3367 06b4 01       		.byte	0x1
  3368 06b5 2C       		.byte	0x2c
  3369 06b6 6B000000 		.4byte	0x6b
@@ -5500,7 +5500,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3371 06bb 03       		.byte	0x3
  3372 06bc 00000000 		.4byte	ADC_DelSig_initVar
  3373 06c0 17       		.uleb128 0x17
- 3374 06c1 9B020000 		.4byte	.LASF84
+ 3374 06c1 A2020000 		.4byte	.LASF84
  3375 06c5 01       		.byte	0x1
  3376 06c6 24       		.byte	0x24
  3377 06c7 E0000000 		.4byte	0xe0
@@ -5508,7 +5508,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3379 06cc 03       		.byte	0x3
  3380 06cd 00000000 		.4byte	ADC_DelSig_convDone
  3381 06d1 17       		.uleb128 0x17
- 3382 06d2 75050000 		.4byte	.LASF85
+ 3382 06d2 A6050000 		.4byte	.LASF85
  3383 06d6 01       		.byte	0x1
  3384 06d7 29       		.byte	0x29
  3385 06d8 E0000000 		.4byte	0xe0
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3389 06e2 17       		.uleb128 0x17
  3390 06e3 47010000 		.4byte	.LASF86
  3391 06e7 01       		.byte	0x1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 93
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 93
 
 
  3392 06e8 2F       		.byte	0x2f
@@ -5527,7 +5527,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3395 06ee 03       		.byte	0x3
  3396 06ef 00000000 		.4byte	ADC_DelSig_started
  3397 06f3 17       		.uleb128 0x17
- 3398 06f4 95050000 		.4byte	.LASF87
+ 3398 06f4 C6050000 		.4byte	.LASF87
  3399 06f8 01       		.byte	0x1
  3400 06f9 32       		.byte	0x32
  3401 06fa E0000000 		.4byte	0xe0
@@ -5535,7 +5535,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3403 06ff 03       		.byte	0x3
  3404 0700 00000000 		.4byte	ADC_DelSig_Config
  3405 0704 17       		.uleb128 0x17
- 3406 0705 8C040000 		.4byte	.LASF88
+ 3406 0705 5C040000 		.4byte	.LASF88
  3407 0709 01       		.byte	0x1
  3408 070a 34       		.byte	0x34
  3409 070b 15070000 		.4byte	0x715
@@ -5545,7 +5545,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3413 0715 05       		.uleb128 0x5
  3414 0716 A7000000 		.4byte	0xa7
  3415 071a 17       		.uleb128 0x17
- 3416 071b 15050000 		.4byte	.LASF89
+ 3416 071b E5040000 		.4byte	.LASF89
  3417 071f 01       		.byte	0x1
  3418 0720 35       		.byte	0x35
  3419 0721 15070000 		.4byte	0x715
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3446 0014 24       		.uleb128 0x24
  3447 0015 00       		.byte	0
  3448 0016 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 94
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 94
 
 
  3449 0017 0B       		.uleb128 0xb
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3503 004d 03       		.uleb128 0x3
  3504 004e 0E       		.uleb128 0xe
  3505 004f 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 95
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 95
 
 
  3506 0050 0B       		.uleb128 0xb
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3560 0087 3B       		.uleb128 0x3b
  3561 0088 0B       		.uleb128 0xb
  3562 0089 27       		.uleb128 0x27
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 96
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 96
 
 
  3563 008a 19       		.uleb128 0x19
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3617 00c2 3F       		.uleb128 0x3f
  3618 00c3 19       		.uleb128 0x19
  3619 00c4 03       		.uleb128 0x3
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 97
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 97
 
 
  3620 00c5 0E       		.uleb128 0xe
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3674 00fd 19       		.uleb128 0x19
  3675 00fe 01       		.uleb128 0x1
  3676 00ff 13       		.uleb128 0x13
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 98
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 98
 
 
  3677 0100 00       		.byte	0
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3731 0137 05       		.uleb128 0x5
  3732 0138 27       		.uleb128 0x27
  3733 0139 19       		.uleb128 0x19
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 99
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 99
 
 
  3734 013a 49       		.uleb128 0x49
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3788 0172 9642     		.uleb128 0x2116
  3789 0174 19       		.uleb128 0x19
  3790 0175 01       		.uleb128 0x1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 100
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 100
 
 
  3791 0176 13       		.uleb128 0x13
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3845 002c 7C010000 		.4byte	.LFE3-.LFB3
  3846 0030 00000000 		.4byte	.LFB4
  3847 0034 3C000000 		.4byte	.LFE4-.LFB4
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 101
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 101
 
 
  3848 0038 00000000 		.4byte	.LFB5
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3902 0020 00000000 		.4byte	.LFB4
  3903 0024 3C000000 		.4byte	.LFE4
  3904 0028 00000000 		.4byte	.LFB5
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 102
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 102
 
 
  3905 002c 38000000 		.4byte	.LFE5
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3952      65744275 
  3952      66666572 
  3953              	.LASF79:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 103
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 103
 
 
  3954 0019 4144435F 		.ascii	"ADC_DelSig_Read8\000"
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3974      44656C53 
  3974      69675F49 
  3974      6E697443 
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 104
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 104
 
 
  3974      6F6E6669 
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3994 01f0 6C6F6E67 		.ascii	"long long int\000"
  3994      206C6F6E 
  3994      6720696E 
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 105
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 105
 
 
  3994      7400
@@ -6246,331 +6246,336 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 1
  3996 01fe 7369676E 		.ascii	"signed char\000"
  3996      65642063 
  3996      68617200 
- 3997              	.LASF14:
- 3998 020a 696E7433 		.ascii	"int32\000"
- 3998      3200
- 3999              	.LASF4:
- 4000 0210 6C6F6E67 		.ascii	"long int\000"
- 4000      20696E74 
- 4000      00
- 4001              	.LASF20:
- 4002 0219 72656731 		.ascii	"reg16\000"
- 4002      3600
- 4003              	.LASF9:
- 4004 021f 75696E74 		.ascii	"uint8\000"
- 4004      3800
- 4005              	.LASF91:
- 4006 0225 47656E65 		.ascii	"Generated_Source\\PSoC5\\ADC_DelSig.c\000"
- 4006      72617465 
- 4006      645F536F 
- 4006      75726365 
- 4006      5C50536F 
- 4007              	.LASF17:
- 4008 0249 646F7562 		.ascii	"double\000"
- 4008      6C6500
- 4009              	.LASF61:
- 4010 0250 566F6C74 		.ascii	"Volts\000"
- 4010      7300
- 4011              	.LASF11:
- 4012 0256 75696E74 		.ascii	"uint32\000"
- 4012      333200
- 4013              	.LASF81:
- 4014 025d 4144435F 		.ascii	"ADC_DelSig_Read32\000"
- 4014      44656C53 
- 4014      69675F52 
- 4014      65616433 
- 4014      3200
- 4015              	.LASF52:
- 4016 026f 4144435F 		.ascii	"ADC_DelSig_GetResult32\000"
+ 3997              	.LASF39:
+ 3998 020a 73746174 		.ascii	"status\000"
+ 3998      757300
+ 3999              	.LASF14:
+ 4000 0211 696E7433 		.ascii	"int32\000"
+ 4000      3200
+ 4001              	.LASF4:
+ 4002 0217 6C6F6E67 		.ascii	"long int\000"
+ 4002      20696E74 
+ 4002      00
+ 4003              	.LASF20:
+ 4004 0220 72656731 		.ascii	"reg16\000"
+ 4004      3600
+ 4005              	.LASF9:
+ 4006 0226 75696E74 		.ascii	"uint8\000"
+ 4006      3800
+ 4007              	.LASF91:
+ 4008 022c 47656E65 		.ascii	"Generated_Source\\PSoC5\\ADC_DelSig.c\000"
+ 4008      72617465 
+ 4008      645F536F 
+ 4008      75726365 
+ 4008      5C50536F 
+ 4009              	.LASF17:
+ 4010 0250 646F7562 		.ascii	"double\000"
+ 4010      6C6500
+ 4011              	.LASF61:
+ 4012 0257 566F6C74 		.ascii	"Volts\000"
+ 4012      7300
+ 4013              	.LASF11:
+ 4014 025d 75696E74 		.ascii	"uint32\000"
+ 4014      333200
+ 4015              	.LASF81:
+ 4016 0264 4144435F 		.ascii	"ADC_DelSig_Read32\000"
  4016      44656C53 
- 4016      69675F47 
- 4016      65745265 
- 4016      73756C74 
- 4017              	.LASF53:
- 4018 0286 4144435F 		.ascii	"ADC_DelSig_SetOffset\000"
+ 4016      69675F52 
+ 4016      65616433 
+ 4016      3200
+ 4017              	.LASF52:
+ 4018 0276 4144435F 		.ascii	"ADC_DelSig_GetResult32\000"
  4018      44656C53 
- 4018      69675F53 
- 4018      65744F66 
- 4018      66736574 
- 4019              	.LASF84:
- 4020 029b 4144435F 		.ascii	"ADC_DelSig_convDone\000"
+ 4018      69675F47 
+ 4018      65745265 
+ 4018      73756C74 
+ 4019              	.LASF53:
+ 4020 028d 4144435F 		.ascii	"ADC_DelSig_SetOffset\000"
  4020      44656C53 
- 4020      69675F63 
- 4020      6F6E7644 
- 4020      6F6E6500 
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 106
+ 4020      69675F53 
+ 4020      65744F66 
+ 4020      66736574 
+ 4021              	.LASF84:
+ 4022 02a2 4144435F 		.ascii	"ADC_DelSig_convDone\000"
+ 4022      44656C53 
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 106
 
 
- 4021              	.LASF78:
- 4022 02af 76616C75 		.ascii	"value\000"
- 4022      6500
- 4023              	.LASF48:
- 4024 02b5 7265744D 		.ascii	"retMode\000"
- 4024      6F646500 
- 4025              	.LASF8:
- 4026 02bd 756E7369 		.ascii	"unsigned int\000"
- 4026      676E6564 
- 4026      20696E74 
- 4026      00
- 4027              	.LASF63:
- 4028 02ca 75566F6C 		.ascii	"uVolts\000"
- 4028      747300
- 4029              	.LASF5:
- 4030 02d1 6C6F6E67 		.ascii	"long unsigned int\000"
- 4030      20756E73 
- 4030      69676E65 
- 4030      6420696E 
- 4030      7400
- 4031              	.LASF45:
- 4032 02e3 4144435F 		.ascii	"ADC_DelSig_StartConvert\000"
- 4032      44656C53 
- 4032      69675F53 
- 4032      74617274 
- 4032      436F6E76 
- 4033              	.LASF3:
- 4034 02fb 73686F72 		.ascii	"short unsigned int\000"
- 4034      7420756E 
- 4034      7369676E 
- 4034      65642069 
- 4034      6E7400
- 4035              	.LASF30:
- 4036 030e 4144435F 		.ascii	"ADC_DelSig_Start\000"
- 4036      44656C53 
- 4036      69675F53 
- 4036      74617274 
- 4036      00
- 4037              	.LASF60:
- 4038 031f 4144435F 		.ascii	"ADC_DelSig_CountsTo_Volts\000"
+ 4022      69675F63 
+ 4022      6F6E7644 
+ 4022      6F6E6500 
+ 4023              	.LASF78:
+ 4024 02b6 76616C75 		.ascii	"value\000"
+ 4024      6500
+ 4025              	.LASF48:
+ 4026 02bc 7265744D 		.ascii	"retMode\000"
+ 4026      6F646500 
+ 4027              	.LASF8:
+ 4028 02c4 756E7369 		.ascii	"unsigned int\000"
+ 4028      676E6564 
+ 4028      20696E74 
+ 4028      00
+ 4029              	.LASF63:
+ 4030 02d1 75566F6C 		.ascii	"uVolts\000"
+ 4030      747300
+ 4031              	.LASF5:
+ 4032 02d8 6C6F6E67 		.ascii	"long unsigned int\000"
+ 4032      20756E73 
+ 4032      69676E65 
+ 4032      6420696E 
+ 4032      7400
+ 4033              	.LASF45:
+ 4034 02ea 4144435F 		.ascii	"ADC_DelSig_StartConvert\000"
+ 4034      44656C53 
+ 4034      69675F53 
+ 4034      74617274 
+ 4034      436F6E76 
+ 4035              	.LASF3:
+ 4036 0302 73686F72 		.ascii	"short unsigned int\000"
+ 4036      7420756E 
+ 4036      7369676E 
+ 4036      65642069 
+ 4036      6E7400
+ 4037              	.LASF30:
+ 4038 0315 4144435F 		.ascii	"ADC_DelSig_Start\000"
  4038      44656C53 
- 4038      69675F43 
- 4038      6F756E74 
- 4038      73546F5F 
- 4039              	.LASF12:
- 4040 0339 696E7438 		.ascii	"int8\000"
- 4040      00
- 4041              	.LASF44:
- 4042 033e 67636F72 		.ascii	"gcorValue\000"
- 4042      56616C75 
- 4042      6500
- 4043              	.LASF35:
- 4044 0348 4144435F 		.ascii	"ADC_DelSig_SetCoherency\000"
- 4044      44656C53 
- 4044      69675F53 
- 4044      6574436F 
- 4044      68657265 
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 107
-
-
- 4045              	.LASF77:
- 4046 0360 4144435F 		.ascii	"ADC_DelSig_SetDSMRef0Reg\000"
+ 4038      69675F53 
+ 4038      74617274 
+ 4038      00
+ 4039              	.LASF60:
+ 4040 0326 4144435F 		.ascii	"ADC_DelSig_CountsTo_Volts\000"
+ 4040      44656C53 
+ 4040      69675F43 
+ 4040      6F756E74 
+ 4040      73546F5F 
+ 4041              	.LASF12:
+ 4042 0340 696E7438 		.ascii	"int8\000"
+ 4042      00
+ 4043              	.LASF44:
+ 4044 0345 67636F72 		.ascii	"gcorValue\000"
+ 4044      56616C75 
+ 4044      6500
+ 4045              	.LASF35:
+ 4046 034f 4144435F 		.ascii	"ADC_DelSig_SetCoherency\000"
  4046      44656C53 
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 107
+
+
  4046      69675F53 
- 4046      65744453 
- 4046      4D526566 
- 4047              	.LASF70:
- 4048 0379 4144435F 		.ascii	"ADC_DelSig_GainCompensation\000"
+ 4046      6574436F 
+ 4046      68657265 
+ 4047              	.LASF77:
+ 4048 0367 4144435F 		.ascii	"ADC_DelSig_SetDSMRef0Reg\000"
  4048      44656C53 
- 4048      69675F47 
- 4048      61696E43 
- 4048      6F6D7065 
- 4049              	.LASF59:
- 4050 0395 6D566F6C 		.ascii	"mVolts\000"
- 4050      747300
- 4051              	.LASF74:
- 4052 039c 666C6173 		.ascii	"flash\000"
- 4052      6800
- 4053              	.LASF21:
- 4054 03a2 72656733 		.ascii	"reg32\000"
- 4054      3200
- 4055              	.LASF57:
- 4056 03a8 4144435F 		.ascii	"ADC_DelSig_CountsTo_mVolts\000"
- 4056      44656C53 
- 4056      69675F43 
- 4056      6F756E74 
- 4056      73546F5F 
- 4057              	.LASF92:
- 4058 03c3 433A5C55 		.ascii	"C:\\Users\\rcaravac\\Downloads\\Receptor\\TareaClas"
- 4058      73657273 
- 4058      5C726361 
- 4058      72617661 
- 4058      635C446F 
- 4059 03f1 65342E63 		.ascii	"e4.cydsn\000"
- 4059      7964736E 
- 4059      00
- 4060              	.LASF15:
- 4061 03fa 666C6F61 		.ascii	"float32\000"
- 4061      74333200 
- 4062              	.LASF23:
- 4063 0402 73697A65 		.ascii	"sizetype\000"
- 4063      74797065 
- 4063      00
- 4064              	.LASF22:
- 4065 040b 6C6F6E67 		.ascii	"long double\000"
- 4065      20646F75 
- 4065      626C6500 
- 4066              	.LASF83:
- 4067 0417 4144435F 		.ascii	"ADC_DelSig_initVar\000"
- 4067      44656C53 
- 4067      69675F69 
- 4067      6E697456 
- 4067      617200
- 4068              	.LASF37:
- 4069 042a 636F6865 		.ascii	"coherency\000"
- 4069      72656E63 
- 4069      7900
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 108
+ 4048      69675F53 
+ 4048      65744453 
+ 4048      4D526566 
+ 4049              	.LASF70:
+ 4050 0380 4144435F 		.ascii	"ADC_DelSig_GainCompensation\000"
+ 4050      44656C53 
+ 4050      69675F47 
+ 4050      61696E43 
+ 4050      6F6D7065 
+ 4051              	.LASF59:
+ 4052 039c 6D566F6C 		.ascii	"mVolts\000"
+ 4052      747300
+ 4053              	.LASF74:
+ 4054 03a3 666C6173 		.ascii	"flash\000"
+ 4054      6800
+ 4055              	.LASF21:
+ 4056 03a9 72656733 		.ascii	"reg32\000"
+ 4056      3200
+ 4057              	.LASF57:
+ 4058 03af 4144435F 		.ascii	"ADC_DelSig_CountsTo_mVolts\000"
+ 4058      44656C53 
+ 4058      69675F43 
+ 4058      6F756E74 
+ 4058      73546F5F 
+ 4059              	.LASF15:
+ 4060 03ca 666C6F61 		.ascii	"float32\000"
+ 4060      74333200 
+ 4061              	.LASF23:
+ 4062 03d2 73697A65 		.ascii	"sizetype\000"
+ 4062      74797065 
+ 4062      00
+ 4063              	.LASF22:
+ 4064 03db 6C6F6E67 		.ascii	"long double\000"
+ 4064      20646F75 
+ 4064      626C6500 
+ 4065              	.LASF83:
+ 4066 03e7 4144435F 		.ascii	"ADC_DelSig_initVar\000"
+ 4066      44656C53 
+ 4066      69675F69 
+ 4066      6E697456 
+ 4066      617200
+ 4067              	.LASF37:
+ 4068 03fa 636F6865 		.ascii	"coherency\000"
+ 4068      72656E63 
+ 4068      7900
+ 4069              	.LASF36:
+ 4070 0404 6761696E 		.ascii	"gain\000"
+ 4070      00
+ 4071              	.LASF16:
+ 4072 0409 666C6F61 		.ascii	"float\000"
+ 4072      7400
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 108
 
 
- 4070              	.LASF36:
- 4071 0434 6761696E 		.ascii	"gain\000"
- 4071      00
- 4072              	.LASF16:
- 4073 0439 666C6F61 		.ascii	"float\000"
- 4073      7400
- 4074              	.LASF82:
- 4075 043f 4144435F 		.ascii	"ADC_DelSig_gcor\000"
- 4075      44656C53 
- 4075      69675F67 
- 4075      636F7200 
- 4076              	.LASF19:
- 4077 044f 72656738 		.ascii	"reg8\000"
- 4077      00
- 4078              	.LASF72:
- 4079 0454 69646561 		.ascii	"idealDecGain\000"
- 4079      6C446563 
- 4079      4761696E 
- 4079      00
- 4080              	.LASF75:
- 4081 0461 6E6F726D 		.ascii	"normalised\000"
- 4081      616C6973 
- 4081      656400
- 4082              	.LASF1:
- 4083 046c 756E7369 		.ascii	"unsigned char\000"
- 4083      676E6564 
- 4083      20636861 
- 4083      7200
- 4084              	.LASF2:
- 4085 047a 73686F72 		.ascii	"short int\000"
- 4085      7420696E 
- 4085      7400
- 4086              	.LASF76:
- 4087 0484 67636F72 		.ascii	"gcorTmp\000"
- 4087      546D7000 
- 4088              	.LASF88:
- 4089 048c 4144435F 		.ascii	"ADC_DelSig_Offset\000"
- 4089      44656C53 
- 4089      69675F4F 
- 4089      66667365 
- 4089      7400
- 4090              	.LASF66:
- 4091 049e 7265736F 		.ascii	"resolution\000"
- 4091      6C757469 
- 4091      6F6E00
- 4092              	.LASF32:
- 4093 04a9 4144435F 		.ascii	"ADC_DelSig_Stop\000"
- 4093      44656C53 
- 4093      69675F53 
- 4093      746F7000 
- 4094              	.LASF64:
- 4095 04b9 636F6566 		.ascii	"coefA\000"
- 4095      4100
- 4096              	.LASF65:
- 4097 04bf 636F6566 		.ascii	"coefB\000"
- 4097      4200
- 4098              	.LASF18:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 109
+ 4073              	.LASF82:
+ 4074 040f 4144435F 		.ascii	"ADC_DelSig_gcor\000"
+ 4074      44656C53 
+ 4074      69675F67 
+ 4074      636F7200 
+ 4075              	.LASF19:
+ 4076 041f 72656738 		.ascii	"reg8\000"
+ 4076      00
+ 4077              	.LASF72:
+ 4078 0424 69646561 		.ascii	"idealDecGain\000"
+ 4078      6C446563 
+ 4078      4761696E 
+ 4078      00
+ 4079              	.LASF75:
+ 4080 0431 6E6F726D 		.ascii	"normalised\000"
+ 4080      616C6973 
+ 4080      656400
+ 4081              	.LASF1:
+ 4082 043c 756E7369 		.ascii	"unsigned char\000"
+ 4082      676E6564 
+ 4082      20636861 
+ 4082      7200
+ 4083              	.LASF2:
+ 4084 044a 73686F72 		.ascii	"short int\000"
+ 4084      7420696E 
+ 4084      7400
+ 4085              	.LASF76:
+ 4086 0454 67636F72 		.ascii	"gcorTmp\000"
+ 4086      546D7000 
+ 4087              	.LASF88:
+ 4088 045c 4144435F 		.ascii	"ADC_DelSig_Offset\000"
+ 4088      44656C53 
+ 4088      69675F4F 
+ 4088      66667365 
+ 4088      7400
+ 4089              	.LASF66:
+ 4090 046e 7265736F 		.ascii	"resolution\000"
+ 4090      6C757469 
+ 4090      6F6E00
+ 4091              	.LASF32:
+ 4092 0479 4144435F 		.ascii	"ADC_DelSig_Stop\000"
+ 4092      44656C53 
+ 4092      69675F53 
+ 4092      746F7000 
+ 4093              	.LASF64:
+ 4094 0489 636F6566 		.ascii	"coefA\000"
+ 4094      4100
+ 4095              	.LASF65:
+ 4096 048f 636F6566 		.ascii	"coefB\000"
+ 4096      4200
+ 4097              	.LASF18:
+ 4098 0495 63686172 		.ascii	"char\000"
+ 4098      00
+ 4099              	.LASF43:
+ 4100 049a 6756616C 		.ascii	"gValue\000"
+ 4100      756500
+ 4101              	.LASF27:
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 109
 
 
- 4099 04c5 63686172 		.ascii	"char\000"
- 4099      00
- 4100              	.LASF43:
- 4101 04ca 6756616C 		.ascii	"gValue\000"
- 4101      756500
- 4102              	.LASF27:
- 4103 04d1 636F6E66 		.ascii	"config\000"
- 4103      696700
- 4104              	.LASF25:
- 4105 04d8 6776616C 		.ascii	"gval\000"
- 4105      00
- 4106              	.LASF42:
- 4107 04dd 4144435F 		.ascii	"ADC_DelSig_ReadGCOR\000"
- 4107      44656C53 
- 4107      69675F52 
- 4107      65616447 
- 4107      434F5200 
- 4108              	.LASF41:
- 4109 04f1 4144435F 		.ascii	"ADC_DelSig_SetGCOR\000"
- 4109      44656C53 
- 4109      69675F53 
- 4109      65744743 
- 4109      4F5200
- 4110              	.LASF68:
- 4111 0504 72657374 		.ascii	"restart\000"
- 4111      61727400 
- 4112              	.LASF40:
- 4113 050c 746D7056 		.ascii	"tmpValue\000"
- 4113      616C7565 
- 4113      00
- 4114              	.LASF89:
- 4115 0515 4144435F 		.ascii	"ADC_DelSig_CountsPerVolt\000"
- 4115      44656C53 
- 4115      69675F43 
- 4115      6F756E74 
- 4115      73506572 
- 4116              	.LASF54:
- 4117 052e 6F666673 		.ascii	"offset\000"
- 4117      657400
- 4118              	.LASF58:
- 4119 0535 61646343 		.ascii	"adcCounts\000"
- 4119      6F756E74 
- 4119      7300
- 4120              	.LASF55:
- 4121 053f 4144435F 		.ascii	"ADC_DelSig_SetGain\000"
- 4121      44656C53 
- 4121      69675F53 
- 4121      65744761 
- 4121      696E00
- 4122              	.LASF28:
- 4123 0552 656E6162 		.ascii	"enableInterrupts\000"
- 4123      6C65496E 
- 4123      74657272 
- 4123      75707473 
- 4123      00
- 4124              	.LASF39:
- 4125 0563 73746174 		.ascii	"status\000"
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccauAhrg.s 			page 110
+ 4102 04a1 636F6E66 		.ascii	"config\000"
+ 4102      696700
+ 4103              	.LASF25:
+ 4104 04a8 6776616C 		.ascii	"gval\000"
+ 4104      00
+ 4105              	.LASF42:
+ 4106 04ad 4144435F 		.ascii	"ADC_DelSig_ReadGCOR\000"
+ 4106      44656C53 
+ 4106      69675F52 
+ 4106      65616447 
+ 4106      434F5200 
+ 4107              	.LASF41:
+ 4108 04c1 4144435F 		.ascii	"ADC_DelSig_SetGCOR\000"
+ 4108      44656C53 
+ 4108      69675F53 
+ 4108      65744743 
+ 4108      4F5200
+ 4109              	.LASF68:
+ 4110 04d4 72657374 		.ascii	"restart\000"
+ 4110      61727400 
+ 4111              	.LASF40:
+ 4112 04dc 746D7056 		.ascii	"tmpValue\000"
+ 4112      616C7565 
+ 4112      00
+ 4113              	.LASF89:
+ 4114 04e5 4144435F 		.ascii	"ADC_DelSig_CountsPerVolt\000"
+ 4114      44656C53 
+ 4114      69675F43 
+ 4114      6F756E74 
+ 4114      73506572 
+ 4115              	.LASF54:
+ 4116 04fe 6F666673 		.ascii	"offset\000"
+ 4116      657400
+ 4117              	.LASF58:
+ 4118 0505 61646343 		.ascii	"adcCounts\000"
+ 4118      6F756E74 
+ 4118      7300
+ 4119              	.LASF55:
+ 4120 050f 4144435F 		.ascii	"ADC_DelSig_SetGain\000"
+ 4120      44656C53 
+ 4120      69675F53 
+ 4120      65744761 
+ 4120      696E00
+ 4121              	.LASF28:
+ 4122 0522 656E6162 		.ascii	"enableInterrupts\000"
+ 4122      6C65496E 
+ 4122      74657272 
+ 4122      75707473 
+ 4122      00
+ 4123              	.LASF92:
+ 4124 0533 433A5C55 		.ascii	"C:\\Users\\rcaravac\\Documents\\Personales\\Maestri"
+ 4124      73657273 
+ 4124      5C726361 
+ 4124      72617661 
+ 4124      635C446F 
+ 4125 0561 615C5465 		.ascii	"a\\Tecnicas de adquisicion\\Proyecto DTMF\\TareaCla"
+ 4125      636E6963 
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccTBgR9n.s 			page 110
 
 
- 4125      757300
- 4126              	.LASF38:
- 4127 056a 6761696E 		.ascii	"gainAdjust\000"
- 4127      41646A75 
- 4127      737400
- 4128              	.LASF85:
- 4129 0575 4144435F 		.ascii	"ADC_DelSig_stopConversion\000"
- 4129      44656C53 
- 4129      69675F73 
- 4129      746F7043 
- 4129      6F6E7665 
- 4130              	.LASF13:
- 4131 058f 696E7431 		.ascii	"int16\000"
- 4131      3600
- 4132              	.LASF87:
- 4133 0595 4144435F 		.ascii	"ADC_DelSig_Config\000"
- 4133      44656C53 
- 4133      69675F43 
- 4133      6F6E6669 
- 4133      6700
- 4134              	.LASF47:
- 4135 05a7 4144435F 		.ascii	"ADC_DelSig_IsEndConversion\000"
- 4135      44656C53 
- 4135      69675F49 
- 4135      73456E64 
- 4135      436F6E76 
- 4136              	.LASF34:
- 4137 05c2 746D7052 		.ascii	"tmpReg\000"
- 4137      656700
- 4138              	.LASF50:
- 4139 05c9 72657375 		.ascii	"result\000"
- 4139      6C7400
- 4140              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 4125      61732064 
+ 4125      65206164 
+ 4125      71756973 
+ 4126 0591 7365342E 		.ascii	"se4.cydsn\000"
+ 4126      63796473 
+ 4126      6E00
+ 4127              	.LASF38:
+ 4128 059b 6761696E 		.ascii	"gainAdjust\000"
+ 4128      41646A75 
+ 4128      737400
+ 4129              	.LASF85:
+ 4130 05a6 4144435F 		.ascii	"ADC_DelSig_stopConversion\000"
+ 4130      44656C53 
+ 4130      69675F73 
+ 4130      746F7043 
+ 4130      6F6E7665 
+ 4131              	.LASF13:
+ 4132 05c0 696E7431 		.ascii	"int16\000"
+ 4132      3600
+ 4133              	.LASF87:
+ 4134 05c6 4144435F 		.ascii	"ADC_DelSig_Config\000"
+ 4134      44656C53 
+ 4134      69675F43 
+ 4134      6F6E6669 
+ 4134      6700
+ 4135              	.LASF47:
+ 4136 05d8 4144435F 		.ascii	"ADC_DelSig_IsEndConversion\000"
+ 4136      44656C53 
+ 4136      69675F49 
+ 4136      73456E64 
+ 4136      436F6E76 
+ 4137              	.LASF34:
+ 4138 05f3 746D7052 		.ascii	"tmpReg\000"
+ 4138      656700
+ 4139              	.LASF50:
+ 4140 05fa 72657375 		.ascii	"result\000"
+ 4140      6C7400
+ 4141              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
