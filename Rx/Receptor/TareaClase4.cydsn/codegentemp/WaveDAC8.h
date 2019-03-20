@@ -27,7 +27,7 @@
 *  Initial Parameter Constants
 ***************************************/
 
-#define WaveDAC8_WAVE1_TYPE     (3u)     /* Waveform for wave1 */
+#define WaveDAC8_WAVE1_TYPE     (0u)     /* Waveform for wave1 */
 #define WaveDAC8_WAVE2_TYPE     (0u)     /* Waveform for wave2 */
 #define WaveDAC8_SINE_WAVE      (0u)
 #define WaveDAC8_SQUARE_WAVE    (1u)
@@ -66,7 +66,7 @@
 
 #define WaveDAC8_CLOCK_INT      (1u)
 #define WaveDAC8_CLOCK_EXT      (0u)
-#define WaveDAC8_CLOCK_SRC      (1u)
+#define WaveDAC8_CLOCK_SRC      (0u)
 
 #if(WaveDAC8_CLOCK_SRC == WaveDAC8_CLOCK_INT)  
 	#include <WaveDAC8_DacClk.h>

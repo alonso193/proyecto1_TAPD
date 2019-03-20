@@ -1,165 +1,313 @@
+/*******************************************************************************
+* File Name: main.c
+*
+* Version: 1.10
+*
+********************************************************************************
+* Copyright 2012, Cypress Semiconductor Corporation. All rights reserved.
+* This software is owned by Cypress Semiconductor Corporation and is protected
+* by and subject to worldwide patent and copyright laws and treaties.
+* Therefore, you may use this software only as provided in the license agreement
+* accompanying the software package from which you obtained this software.
+* CYPRESS AND ITS SUPPLIERS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+* WITH REGARD TO THIS SOFTWARE, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT,
+* IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+*******************************************************************************/
 
 #include <project.h>
 #include <stdio.h>
-#include <device.h>
+#include <math.h>
+#include <stdlib.h>
 
-#define TONE_DURATION_MS 80 /* Duration of tone in mSec */
-#define TONE_SPACE_MS 50 /* Duration of space between tones in mSec */
-#define TONE_PAUSE_MS 100 /* Pause caused by invalid code */
-/* Function prototypes */
-void DialNumber( char * number );
-void PlayTones( char key );
-int8 KeyIndex(char * keyString, char key);
-char keyCodes[] = "123A456B789C*0#D"; /* Valid character array */
-/* The tables below store the dividers loaded into */
-/* the counter period register to generate the row */
-/* and column tones. */
-/* Row Tones (Hz) 697 770 852 941 */
-uint8 rowDiv[] = {214, 194, 175, 158};
-/* Col Tones (Hz) 1209 1336 1477 1633 */
-uint8 colDiv[] = { 198, 179, 161, 146};
+/* Project Defines */
+#define FALSE  0
+#define TRUE   1
+#define TRANSMIT_BUFFER_SIZE  16
+#define COUNT_OF_SAMPLES  2000
 
+/* DMA Defines */
+#define REQUEST_PER_BURST        (1u)
+#define BYTES_PER_BURST          (1u)
+#define UPPER_SRC_ADDRESS        CYDEV_PERIPH_BASE
+#define UPPER_DEST_ADDRESS       CYDEV_PERIPH_BASE
 
     /* Flags used to store transmit data commands */
-    uint8 ContinuouslySendData;
-    uint8 SendSingleByte;
-    uint8 SendEmulatedData;
+    uint8 Continuously;
 
-
+    /* Transmit Buffer */
+    char TransmitBuffer[TRANSMIT_BUFFER_SIZE];
+    /* Variable used to send emulated data */
+    uint8 EmulatedData;
+    uint8 output;
+    uint16 ADC_out;
+    
+    uint8 Buffer_sample_to_transmit[COUNT_OF_SAMPLES];
+    int i = 0;
+    unsigned int sample_counter = 0;
+    
     char counter_char[10];
 
+    void DMA_Config(void);
+    float goertzel_mag(int numSamples,int TARGET_FREQUENCY,int SAMPLING_RATE, float data[]);
+
+    float signal[COUNT_OF_SAMPLES];
+    float MAG_ROW, MAG_COL;
+    int mg;
+    char test[32];
+
+
+int sample;
+float sample_f;
+//UART transmit interrupt
+CY_ISR_PROTO(Transmit);
+CY_ISR(Transmit)
+{   
+    /* Send data based on last UART command */
+    if(Continuously)
+    {
+        
+        for( int j = 0; j < COUNT_OF_SAMPLES; j++ ){
+            signal[j] = (float) Buffer_sample_to_transmit[j];
+            sample = (int) signal[j];
+            sprintf(TransmitBuffer,"%i\r\n", sample);
+            //UART_1_PutString(TransmitBuffer);
+
+        }
+        
+        MAG_ROW = goertzel_mag(2000,697,8000,signal);               
+        MAG_COL = goertzel_mag(2000,1209,8000,signal);        
+
+        sprintf(TransmitBuffer,"Row: %i\r\n", (int)MAG_ROW);
+            UART_1_PutString(TransmitBuffer);
+        sprintf(TransmitBuffer,"Col: %i\r\n", (int)MAG_COL);
+            UART_1_PutString(TransmitBuffer);
+            
+        if (MAG_ROW >= 1 && MAG_COL >= 1) {
+            UART_1_PutString("Num: 1\r\n");
+        }
+    }
+        
+}
+
+
+/*******************************************************************************
+* Interrupt
+********************************************************************************
+* Interrupt generated on Filter sample-ready. Interrupt handle:filterVDAC
+*
+* Summary:
+*  The interrupt performs following functions:
+*   1: Reads the left-justified register for Filter Channel A
+*   2: Converts it into an unsigned value
+*   3: Writes this value to VDAC
+*
+*******************************************************************************/
+CY_ISR(filterVDAC)
+{
+    /* Convert the 2's complement value to an unsigned 8-bit value
+     * The VDAC expects an unsigned 8-bit value as input.
+     */
+    output = Filter_Read8(Filter_CHANNEL_A)+32u;
+	VDAC8_SetValue(output);
+    
+    if (i <= COUNT_OF_SAMPLES) {       
+        Buffer_sample_to_transmit[i]= output;
+        i++;
+        if (i==COUNT_OF_SAMPLES) {
+            i = 0;
+        }
+    }
+
+}
+
+
+
+CY_ISR(get_from_ADC)
+{
+    /* Convert the 2's complement value to an unsigned 8-bit value
+     * The VDAC expects an unsigned 8-bit value as input.
+     */
+
+    if (i <= COUNT_OF_SAMPLES) {       
+        Buffer_sample_to_transmit[i]= ADC_DelSig_GetResult16();
+        i++;
+        if (i==COUNT_OF_SAMPLES) {
+            i = 0;
+        }
+    }
+
+}
+/*******************************************************************************
+
+* Function Name: main
+********************************************************************************
+*
+* Summary:
+*  Main function performs following functions:
+*   1: Enables global interrupts
+*   2: Start all components on the schematic
+*   3: Calls a function to configure DMA
+
+* Parameters:
+*  None.
+*
+* Return:
+*  None.
+*
+*******************************************************************************/
 
 
 int main()
 {
- /* Initialize all components */
- ToneClock_Stop();
- Row_Divider_Start();
- Col_Divider_Start();
- Row_Tone_Start();
- Col_Tone_Start();
- DTMF_Buffer_Start();
+  
+    /* Variable to store UART received character */
+    uint8 Ch;
 
+    /* Start all components used on schematic */
+    ADC_DelSig_IRQ_Start();
+    isr_StartEx(filterVDAC);
+    isrTimer_StartEx(Transmit);
+    
+    isrTimer_1_StartEx(get_from_ADC);
+    
+    ADC_DelSig_Start();
+    ADC_DelSig_StartConvert();
+    VDAC8_Start();
+    WaveDAC8_Start();
+    Filter_Start();
+    Timer_Start();
+    Timer_1_Start();
+    UART_1_Start();
 
-  UART_1_Start();
+    /* Initialize Variables */
+    Continuously = FALSE;
+    EmulatedData = 0;
+    
+    
+    /* Send message to verify COM port is connected properly */
+    UART_1_PutString("COM Port Open");
+    
+    /* User-implemented function to set-up DMA */
+    DMA_Config();
 
-  char Ch;
+    /* Enable Global Interrupts */
+    CYGlobalIntEnable;
 
-  UART_1_PutString("Digite el numero: \n");
-
-
-
-for(;;)
+    for(;;)
     {
-        /* data recieved  */
-        Ch = (char)UART_1_GetChar();
+        /* Non-blocking call to get the latest data recieved  */
+        Ch = UART_1_GetChar();
         
-        char * ch_string = &Ch;
-        UART_1_PutString(ch_string);
-        
-        /* Send tone */
-       DialNumber(ch_string);
+        /* Set flags based on UART command */
+        switch(Ch)
+        {
+            case 0:
+                /* No new data was recieved */
+                break;
+            case 'C':
+            case 'c':
+                sample_counter = 0;
+                
+                break;
+            case 'S':
+            case 's':
+                sample_counter = 0;
+                Continuously = TRUE;                
+                break;
+            
+            default:
+                /* Place error handling code here */
+                break;    
+        }
         
     }
+} /* End of main */
 
-return 0;
-}
 
 /*******************************************************************************
-* Function Name: DialNumber( char * number )
+* Function Name: DMA_Config
 ********************************************************************************
 *
 * Summary:
-* This function dials the number passed to it in a character string. After
-* the number has been dialed the funtions returns.
+*  Initializes and sets up DMA for use (generated by DMA Wizard)
 *
 * Parameters:
-* char * number: Pointer to phone number string.
+*  None.
 *
 * Return:
-* void
+*  None.
 *
 *******************************************************************************/
-void DialNumber( char * number )
+void DMA_Config(void)
 {
- uint8 c = 0;
- while( number[c] != 0 ) /* Step through the dial string */
-     {
-        PlayTones( number[c] ); /* Play tone for each digit */
-        CyDelay(TONE_SPACE_MS); /* Wait minimum space between tones */
-        c++;
-     }
+    /* Declare variable to hold the handle for DMA channel */
+    uint8 channelHandle;
+
+    /* Declare DMA Transaction Descriptor for memory transfer into
+     * Filter Channel.
+     */
+    uint8 tdChanA;
+
+    /* Configure the DMA to Transfer the data in 1 burst with individual trigger
+     * for each burst.
+     */
+    channelHandle = DMA_DmaInitialize(BYTES_PER_BURST, REQUEST_PER_BURST,
+                                        HI16(UPPER_SRC_ADDRESS), HI16(UPPER_DEST_ADDRESS));
+
+    /* This function allocates a TD for use with an initialized DMA channel */
+    tdChanA = CyDmaTdAllocate();
+
+    /* Configure the tdChanA to transfer 1 byte with no next TD */
+    CyDmaTdSetConfiguration(tdChanA, 1u, DMA_INVALID_TD, 0u);
+
+    /* Set the source address as ADC_DelSig and the destination as
+     * Filter Channel A.
+     */
+    CyDmaTdSetAddress(tdChanA, LO16((uint32)ADC_DelSig_DEC_SAMP_PTR), LO16((uint32)Filter_STAGEAH_PTR));
+
+    /* Set tdChanA to be the initial TD associated with channelHandle */
+    CyDmaChSetInitialTd(channelHandle, tdChanA);
+
+    /* Enable the DMA channel represented by channelHandle and preserve the TD */
+    CyDmaChEnable(channelHandle, 1u);
 }
 
-/*******************************************************************************
-* Function Name: PlayTones( )
-********************************************************************************
-*
-* Summary:
-* Generates the two tones required to dial the given key code. The valid
-* dial characters are "1 2 3 4 5 6 7 8 9 0 A B C D * #". Any invalid
-* character will generate a pause.
-*
-* Parameters:
-* char key: Keypad character to be dialed.
-*
-* Return:
-* void
-*
-*******************************************************************************/
-void PlayTones( char key )
+float goertzel_mag(int numSamples,int TARGET_FREQUENCY,int SAMPLING_RATE, float data[])
 {
- int8 idx;
- uint8 row_div, col_div;
+    int     k,i;
+    float   floatnumSamples;
+    float   omega,sine,cosine,coeff,q0,q1,q2,magnitude,real,imag;
 
- idx = KeyIndex(keyCodes, key); /* Convert key to "keyCodes" array index */
- if (idx >= 0 ) /* Is key valid */
-     { /* Valid Key */
-        col_div = colDiv[(uint8)(idx & 0x03)]; /* Get divider for column tone */
-        row_div = rowDiv[(uint8)((idx >> 2)& 0x03)];/* Get divider for row tone */
-        Row_Divider_WritePeriod(row_div); /* Set both dividers */
-         Col_Divider_WritePeriod(col_div);
+    float   scalingFactor = numSamples / 2.0;
 
-        ToneClock_Start(); /* Turn on clock */
-        CyDelay(TONE_DURATION_MS); /* Wait for the tone duration */
-        ToneClock_Stop(); /* Turn off clock */
- } else /* Invalid key, just pause for set period of time. */
-     {
-        CyDelay(TONE_PAUSE_MS);
-     }
-}
-/*******************************************************************************
-* Function Name: KeyIndex( )
-********************************************************************************
-*
-* Summary:
-* This function finds the location of a character in a string and returns
-* the index. If the character is not found a -1 is returned.
-*
-* Parameters:
-* char * keyString: String to search through. This strings should be null
-* terminated and less than 255 characters in lenth.
-* char key: Character to find in "String".
-*
-* Return:
-* int8: Index of "key" in "keyString". If not found, return -1.
-*
-*******************************************************************************/
-int8 KeyIndex(char * keyString, char key)
-{
- int8 i; /* String index */
- int8 charLoc = -1; /* Location of character in string */
+    floatnumSamples = (float) numSamples;
+    k = (int) (0.5 + ((floatnumSamples * TARGET_FREQUENCY) / SAMPLING_RATE));
+    omega = (2.0 * 3.1416 * k) / floatnumSamples;
+    
+    sine = sin(omega);
+    cosine = cos(omega);
+    coeff = 2.0 * cosine;
+    q0=0;
+    q1=0;
+    q2=0;
 
- /* Search through string for character match */
- for(i=0; (keyString[i] != 0); i++)
- {
- /* If character is found return index in string */
-     if (key == keyString[i])
+    for(i=0; i<numSamples; i++)
     {
-         charLoc = i;
-        break;
+        q2 = q1;
+        q1 = q0;
+        q0 = coeff * q1 - q2 + data[i];
     }
- }
- return charLoc;
+
+    // calculate the real and imaginary results
+    // scaling appropriately
+    real = (q0 - q1 * cosine) / scalingFactor;
+    imag = (-q1 * sine) / scalingFactor;
+
+    magnitude = sqrtf(real*real + imag*imag);
+    
+
+    return magnitude;
 }
+
+
 /* [] END OF FILE */

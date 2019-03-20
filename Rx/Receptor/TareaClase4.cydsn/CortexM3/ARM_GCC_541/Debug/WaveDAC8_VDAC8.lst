@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
   22:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** 
   23:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** #if (CY_PSOC5A)
   24:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** #include <CyLib.h>
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 2
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 2
 
 
   25:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** #endif /* CY_PSOC5A */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
   49 000a 0A4B     		ldr	r3, .L2+4
   50 000c 0022     		movs	r2, #0
   51 000e 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 3
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 3
 
 
   64:Generated_Source\PSoC5/WaveDAC8_VDAC8.c ****     #endif /* (WaveDAC8_VDAC8_DEFAULT_DATA_SRC != 0 ) */
@@ -154,9 +154,9 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
   69              	.L3:
   70              		.align	2
   71              	.L2:
-  72 0030 20580040 		.word	1073764384
-  73 0034 21580040 		.word	1073764385
-  74 0038 875A0040 		.word	1073764999
+  72 0030 24580040 		.word	1073764388
+  73 0034 25580040 		.word	1073764389
+  74 0038 8F5A0040 		.word	1073765007
   75              		.cfi_endproc
   76              	.LFE0:
   77              		.size	WaveDAC8_VDAC8_Init, .-WaveDAC8_VDAC8_Init
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
   84:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** * 
   85:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** * Parameters:
   86:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** *  void
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 4
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 4
 
 
   87:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** *
@@ -208,7 +208,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
   98 0006 094B     		ldr	r3, .L5
   99 0008 1B78     		ldrb	r3, [r3]
  100 000a DBB2     		uxtb	r3, r3
- 101 000c 43F00103 		orr	r3, r3, #1
+ 101 000c 43F00203 		orr	r3, r3, #2
  102 0010 DBB2     		uxtb	r3, r3
  103 0012 1370     		strb	r3, [r2]
   99:Generated_Source\PSoC5/WaveDAC8_VDAC8.c ****     WaveDAC8_VDAC8_STBY_PWRMGR |= WaveDAC8_VDAC8_STBY_PWR_EN;
@@ -217,7 +217,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  106 0016 064B     		ldr	r3, .L5+4
  107 0018 1B78     		ldrb	r3, [r3]
  108 001a DBB2     		uxtb	r3, r3
- 109 001c 43F00103 		orr	r3, r3, #1
+ 109 001c 43F00203 		orr	r3, r3, #2
  110 0020 DBB2     		uxtb	r3, r3
  111 0022 1370     		strb	r3, [r2]
  100:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  116              		@ sp needed
  117 0028 80BC     		pop	{r7}
  118              		.cfi_restore 7
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 5
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 5
 
 
  119              		.cfi_def_cfa_offset 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  147              		.loc 1 136 0
  148 0004 074B     		ldr	r3, .L9
  149 0006 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 6
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 6
 
 
  150 0008 002B     		cmp	r3, #0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  159:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** *
  160:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** * Return:
  161:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** *  void
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 7
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 7
 
 
  162:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** *
@@ -386,7 +386,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  194 0006 094B     		ldr	r3, .L12
  195 0008 1B78     		ldrb	r3, [r3]
  196 000a DBB2     		uxtb	r3, r3
- 197 000c 23F00103 		bic	r3, r3, #1
+ 197 000c 23F00203 		bic	r3, r3, #2
  198 0010 DBB2     		uxtb	r3, r3
  199 0012 1370     		strb	r3, [r2]
  172:Generated_Source\PSoC5/WaveDAC8_VDAC8.c ****     WaveDAC8_VDAC8_STBY_PWRMGR &= (uint8)(~WaveDAC8_VDAC8_STBY_PWR_EN);
@@ -395,7 +395,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  202 0016 064B     		ldr	r3, .L12+4
  203 0018 1B78     		ldrb	r3, [r3]
  204 001a DBB2     		uxtb	r3, r3
- 205 001c 23F00103 		bic	r3, r3, #1
+ 205 001c 23F00203 		bic	r3, r3, #2
  206 0020 DBB2     		uxtb	r3, r3
  207 0022 1370     		strb	r3, [r2]
  173:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  216 002a 7047     		bx	lr
  217              	.L13:
  218              		.align	2
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 8
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 8
 
 
  219              	.L12:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  249 000c 0B4B     		ldr	r3, .L15
  250 000e 1B78     		ldrb	r3, [r3]
  251 0010 DBB2     		uxtb	r3, r3
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 9
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 9
 
 
  252 0012 23F00203 		bic	r3, r3, #2
@@ -511,7 +511,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  277              	.L16:
  278 003a 00BF     		.align	2
  279              	.L15:
- 280 003c 20580040 		.word	1073764384
+ 280 003c 24580040 		.word	1073764388
  281              		.cfi_endproc
  282              	.LFE4:
  283              		.size	WaveDAC8_VDAC8_SetSpeed, .-WaveDAC8_VDAC8_SetSpeed
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  220:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** * Return:
  221:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** *  void 
  222:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** *
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 10
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 10
 
 
  223:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** * Theory:
@@ -598,10 +598,10 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  335              	.L19:
  336              		.align	2
  337              	.L18:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 11
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 11
 
 
- 338 003c 20580040 		.word	1073764384
+ 338 003c 24580040 		.word	1073764388
  339              		.cfi_endproc
  340              	.LFE5:
  341              		.size	WaveDAC8_VDAC8_SetRange, .-WaveDAC8_VDAC8_SetRange
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  365 000a 044A     		ldr	r2, .L21
  366 000c FB79     		ldrb	r3, [r7, #7]
  367 000e 1370     		strb	r3, [r2]
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 12
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 12
 
 
  261:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** 
@@ -683,7 +683,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  379              	.L22:
  380 001a 00BF     		.align	2
  381              	.L21:
- 382 001c 805B0040 		.word	1073765248
+ 382 001c 815B0040 		.word	1073765249
  383              		.cfi_endproc
  384              	.LFE6:
  385              		.size	WaveDAC8_VDAC8_SetValue, .-WaveDAC8_VDAC8_SetValue
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  289:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** void WaveDAC8_VDAC8_DacTrim(void) 
  290:Generated_Source\PSoC5/WaveDAC8_VDAC8.c **** {
  394              		.loc 1 290 0
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 13
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 13
 
 
  395              		.cfi_startproc
@@ -749,7 +749,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  416 0018 074A     		ldr	r2, .L24+4
  417 001a FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
  418 001c 03F19243 		add	r3, r3, #1224736768
- 419 0020 03F59073 		add	r3, r3, #288
+ 419 0020 03F59873 		add	r3, r3, #304
  420 0024 1B78     		ldrb	r3, [r3]
  421 0026 DBB2     		uxtb	r3, r3
  422 0028 1370     		strb	r3, [r2]
@@ -768,8 +768,8 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  434              	.L25:
  435              		.align	2
  436              	.L24:
- 437 0034 20580040 		.word	1073764384
- 438 0038 08460040 		.word	1073759752
+ 437 0034 24580040 		.word	1073764388
+ 438 0038 09460040 		.word	1073759753
  439              		.cfi_endproc
  440              	.LFE7:
  441              		.size	WaveDAC8_VDAC8_DacTrim, .-WaveDAC8_VDAC8_DacTrim
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  444              		.file 2 "Generated_Source\\PSoC5\\cytypes.h"
  445              		.section	.debug_info,"",%progbits
  446              	.Ldebug_info0:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 14
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 14
 
 
  447 0000 81010000 		.4byte	0x181
@@ -786,45 +786,45 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  449 0006 00000000 		.4byte	.Ldebug_abbrev0
  450 000a 04       		.byte	0x4
  451 000b 01       		.uleb128 0x1
- 452 000c 14000000 		.4byte	.LASF25
+ 452 000c 1A000000 		.4byte	.LASF25
  453 0010 0C       		.byte	0xc
- 454 0011 34010000 		.4byte	.LASF26
- 455 0015 80010000 		.4byte	.LASF27
+ 454 0011 3A010000 		.4byte	.LASF26
+ 455 0015 8B010000 		.4byte	.LASF27
  456 0019 00000000 		.4byte	.Ldebug_ranges0+0
  457 001d 00000000 		.4byte	0
  458 0021 00000000 		.4byte	.Ldebug_line0
  459 0025 02       		.uleb128 0x2
  460 0026 01       		.byte	0x1
  461 0027 06       		.byte	0x6
- 462 0028 5F020000 		.4byte	.LASF0
+ 462 0028 75020000 		.4byte	.LASF0
  463 002c 02       		.uleb128 0x2
  464 002d 01       		.byte	0x1
  465 002e 08       		.byte	0x8
- 466 002f C6000000 		.4byte	.LASF1
+ 466 002f CC000000 		.4byte	.LASF1
  467 0033 02       		.uleb128 0x2
  468 0034 02       		.byte	0x2
  469 0035 05       		.byte	0x5
- 470 0036 FF010000 		.4byte	.LASF2
+ 470 0036 15020000 		.4byte	.LASF2
  471 003a 02       		.uleb128 0x2
  472 003b 02       		.byte	0x2
  473 003c 07       		.byte	0x7
- 474 003d FF000000 		.4byte	.LASF3
+ 474 003d 05010000 		.4byte	.LASF3
  475 0041 02       		.uleb128 0x2
  476 0042 04       		.byte	0x4
  477 0043 05       		.byte	0x5
- 478 0044 3F020000 		.4byte	.LASF4
+ 478 0044 55020000 		.4byte	.LASF4
  479 0048 02       		.uleb128 0x2
  480 0049 04       		.byte	0x4
  481 004a 07       		.byte	0x7
- 482 004b ED000000 		.4byte	.LASF5
+ 482 004b F3000000 		.4byte	.LASF5
  483 004f 02       		.uleb128 0x2
  484 0050 08       		.byte	0x8
  485 0051 05       		.byte	0x5
- 486 0052 D6010000 		.4byte	.LASF6
+ 486 0052 EC010000 		.4byte	.LASF6
  487 0056 02       		.uleb128 0x2
  488 0057 08       		.byte	0x8
  489 0058 07       		.byte	0x7
- 490 0059 69010000 		.4byte	.LASF7
+ 490 0059 6F010000 		.4byte	.LASF7
  491 005d 03       		.uleb128 0x3
  492 005e 04       		.byte	0x4
  493 005f 05       		.byte	0x5
@@ -832,29 +832,29 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  495 0064 02       		.uleb128 0x2
  496 0065 04       		.byte	0x4
  497 0066 07       		.byte	0x7
- 498 0067 5C010000 		.4byte	.LASF8
+ 498 0067 62010000 		.4byte	.LASF8
  499 006b 04       		.uleb128 0x4
- 500 006c 09020000 		.4byte	.LASF12
+ 500 006c 1F020000 		.4byte	.LASF12
  501 0070 02       		.byte	0x2
  502 0071 9201     		.2byte	0x192
  503 0073 2C000000 		.4byte	0x2c
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 15
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 15
 
 
  504 0077 02       		.uleb128 0x2
  505 0078 04       		.byte	0x4
  506 0079 04       		.byte	0x4
- 507 007a C0000000 		.4byte	.LASF9
+ 507 007a C6000000 		.4byte	.LASF9
  508 007e 02       		.uleb128 0x2
  509 007f 08       		.byte	0x8
  510 0080 04       		.byte	0x4
- 511 0081 2D010000 		.4byte	.LASF10
+ 511 0081 33010000 		.4byte	.LASF10
  512 0085 02       		.uleb128 0x2
  513 0086 01       		.byte	0x1
  514 0087 08       		.byte	0x8
- 515 0088 E4010000 		.4byte	.LASF11
+ 515 0088 FA010000 		.4byte	.LASF11
  516 008c 04       		.uleb128 0x4
- 517 008d D4000000 		.4byte	.LASF13
+ 517 008d DA000000 		.4byte	.LASF13
  518 0091 02       		.byte	0x2
  519 0092 3C02     		.2byte	0x23c
  520 0094 98000000 		.4byte	0x98
@@ -869,7 +869,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  529 00ac 01       		.uleb128 0x1
  530 00ad 9C       		.byte	0x9c
  531 00ae 07       		.uleb128 0x7
- 532 00af E9010000 		.4byte	.LASF15
+ 532 00af FF010000 		.4byte	.LASF15
  533 00b3 01       		.byte	0x1
  534 00b4 60       		.byte	0x60
  535 00b5 00000000 		.4byte	.LFB1
@@ -877,7 +877,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  537 00bd 01       		.uleb128 0x1
  538 00be 9C       		.byte	0x9c
  539 00bf 06       		.uleb128 0x6
- 540 00c0 12010000 		.4byte	.LASF16
+ 540 00c0 18010000 		.4byte	.LASF16
  541 00c4 01       		.byte	0x1
  542 00c5 85       		.byte	0x85
  543 00c6 00000000 		.4byte	.LFB2
@@ -885,7 +885,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  545 00ce 01       		.uleb128 0x1
  546 00cf 9C       		.byte	0x9c
  547 00d0 07       		.uleb128 0x7
- 548 00d1 D9000000 		.4byte	.LASF17
+ 548 00d1 DF000000 		.4byte	.LASF17
  549 00d5 01       		.byte	0x1
  550 00d6 A8       		.byte	0xa8
  551 00d7 00000000 		.4byte	.LFB3
@@ -893,19 +893,19 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  553 00df 01       		.uleb128 0x1
  554 00e0 9C       		.byte	0x9c
  555 00e1 08       		.uleb128 0x8
- 556 00e2 0F020000 		.4byte	.LASF18
+ 556 00e2 25020000 		.4byte	.LASF18
  557 00e6 01       		.byte	0x1
  558 00e7 CA       		.byte	0xca
  559 00e8 00000000 		.4byte	.LFB4
  560 00ec 40000000 		.4byte	.LFE4-.LFB4
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 16
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 16
 
 
  561 00f0 01       		.uleb128 0x1
  562 00f1 9C       		.byte	0x9c
  563 00f2 05010000 		.4byte	0x105
  564 00f6 09       		.uleb128 0x9
- 565 00f7 CB010000 		.4byte	.LASF20
+ 565 00f7 14000000 		.4byte	.LASF20
  566 00fb 01       		.byte	0x1
  567 00fc CA       		.byte	0xca
  568 00fd 6B000000 		.4byte	0x6b
@@ -914,7 +914,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  571 0103 77       		.sleb128 -9
  572 0104 00       		.byte	0
  573 0105 0A       		.uleb128 0xa
- 574 0106 27020000 		.4byte	.LASF19
+ 574 0106 3D020000 		.4byte	.LASF19
  575 010a 01       		.byte	0x1
  576 010b E4       		.byte	0xe4
  577 010c 00000000 		.4byte	.LFB5
@@ -923,7 +923,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  580 0115 9C       		.byte	0x9c
  581 0116 29010000 		.4byte	0x129
  582 011a 09       		.uleb128 0x9
- 583 011b 27010000 		.4byte	.LASF21
+ 583 011b 2D010000 		.4byte	.LASF21
  584 011f 01       		.byte	0x1
  585 0120 E4       		.byte	0xe4
  586 0121 6B000000 		.4byte	0x6b
@@ -932,7 +932,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  589 0127 77       		.sleb128 -9
  590 0128 00       		.byte	0
  591 0129 08       		.uleb128 0x8
- 592 012a A2000000 		.4byte	.LASF22
+ 592 012a A8000000 		.4byte	.LASF22
  593 012e 01       		.byte	0x1
  594 012f FE       		.byte	0xfe
  595 0130 00000000 		.4byte	.LFB6
@@ -941,7 +941,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  598 0139 9C       		.byte	0x9c
  599 013a 4D010000 		.4byte	0x14d
  600 013e 09       		.uleb128 0x9
- 601 013f BA000000 		.4byte	.LASF23
+ 601 013f C0000000 		.4byte	.LASF23
  602 0143 01       		.byte	0x1
  603 0144 FE       		.byte	0xfe
  604 0145 6B000000 		.4byte	0x6b
@@ -950,7 +950,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  607 014b 77       		.sleb128 -9
  608 014c 00       		.byte	0
  609 014d 0B       		.uleb128 0xb
- 610 014e 48020000 		.4byte	.LASF24
+ 610 014e 5E020000 		.4byte	.LASF24
  611 0152 01       		.byte	0x1
  612 0153 2101     		.2byte	0x121
  613 0155 00000000 		.4byte	.LFB7
@@ -958,11 +958,11 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  615 015d 01       		.uleb128 0x1
  616 015e 9C       		.byte	0x9c
  617 015f 73010000 		.4byte	0x173
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 17
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 17
 
 
  618 0163 0C       		.uleb128 0xc
- 619 0164 D1010000 		.4byte	.LASF28
+ 619 0164 86010000 		.4byte	.LASF28
  620 0168 01       		.byte	0x1
  621 0169 2301     		.2byte	0x123
  622 016b 6B000000 		.4byte	0x6b
@@ -971,7 +971,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  625 0171 77       		.sleb128 -9
  626 0172 00       		.byte	0
  627 0173 0D       		.uleb128 0xd
- 628 0174 6B020000 		.4byte	.LASF29
+ 628 0174 81020000 		.4byte	.LASF29
  629 0178 01       		.byte	0x1
  630 0179 1B       		.byte	0x1b
  631 017a 6B000000 		.4byte	0x6b
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  672 0022 0B       		.uleb128 0xb
  673 0023 3E       		.uleb128 0x3e
  674 0024 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 18
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 18
 
 
  675 0025 03       		.uleb128 0x3
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  729 005c 3A       		.uleb128 0x3a
  730 005d 0B       		.uleb128 0xb
  731 005e 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 19
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 19
 
 
  732 005f 0B       		.uleb128 0xb
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  786 0097 2E       		.uleb128 0x2e
  787 0098 01       		.byte	0x1
  788 0099 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 20
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 20
 
 
  789 009a 19       		.uleb128 0x19
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  843 00d2 05       		.uleb128 0x5
  844 00d3 49       		.uleb128 0x49
  845 00d4 13       		.uleb128 0x13
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 21
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 21
 
 
  846 00d5 02       		.uleb128 0x2
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  900 0010 00000000 		.4byte	.LFB2
  901 0014 28000000 		.4byte	.LFE2
  902 0018 00000000 		.4byte	.LFB3
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 22
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 22
 
 
  903 001c 34000000 		.4byte	.LFE3
@@ -1285,166 +1285,167 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 1
  918      5F564441 
  918      43385F49 
  918      6E697400 
- 919              	.LASF25:
- 920 0014 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 920      43313120 
- 920      352E342E 
- 920      31203230 
- 920      31363036 
- 921 0047 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 921      20726576 
- 921      6973696F 
- 921      6E203233 
- 921      37373135 
- 922 007a 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 922      66756E63 
- 922      74696F6E 
- 922      2D736563 
- 922      74696F6E 
- 923              	.LASF22:
- 924 00a2 57617665 		.ascii	"WaveDAC8_VDAC8_SetValue\000"
- 924      44414338 
- 924      5F564441 
- 924      43385F53 
- 924      65745661 
- 925              	.LASF23:
- 926 00ba 76616C75 		.ascii	"value\000"
- 926      6500
- 927              	.LASF9:
- 928 00c0 666C6F61 		.ascii	"float\000"
- 928      7400
- 929              	.LASF1:
- 930 00c6 756E7369 		.ascii	"unsigned char\000"
- 930      676E6564 
- 930      20636861 
- 930      7200
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 23
+ 919              	.LASF20:
+ 920 0014 73706565 		.ascii	"speed\000"
+ 920      6400
+ 921              	.LASF25:
+ 922 001a 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 922      43313120 
+ 922      352E342E 
+ 922      31203230 
+ 922      31363036 
+ 923 004d 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 923      20726576 
+ 923      6973696F 
+ 923      6E203233 
+ 923      37373135 
+ 924 0080 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 924      66756E63 
+ 924      74696F6E 
+ 924      2D736563 
+ 924      74696F6E 
+ 925              	.LASF22:
+ 926 00a8 57617665 		.ascii	"WaveDAC8_VDAC8_SetValue\000"
+ 926      44414338 
+ 926      5F564441 
+ 926      43385F53 
+ 926      65745661 
+ 927              	.LASF23:
+ 928 00c0 76616C75 		.ascii	"value\000"
+ 928      6500
+ 929              	.LASF9:
+ 930 00c6 666C6F61 		.ascii	"float\000"
+ 930      7400
+ 931              	.LASF1:
+ 932 00cc 756E7369 		.ascii	"unsigned char\000"
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 23
 
 
- 931              	.LASF13:
- 932 00d4 72656738 		.ascii	"reg8\000"
- 932      00
- 933              	.LASF17:
- 934 00d9 57617665 		.ascii	"WaveDAC8_VDAC8_Stop\000"
- 934      44414338 
- 934      5F564441 
- 934      43385F53 
- 934      746F7000 
- 935              	.LASF5:
- 936 00ed 6C6F6E67 		.ascii	"long unsigned int\000"
- 936      20756E73 
- 936      69676E65 
- 936      6420696E 
- 936      7400
- 937              	.LASF3:
- 938 00ff 73686F72 		.ascii	"short unsigned int\000"
- 938      7420756E 
- 938      7369676E 
- 938      65642069 
- 938      6E7400
- 939              	.LASF16:
- 940 0112 57617665 		.ascii	"WaveDAC8_VDAC8_Start\000"
- 940      44414338 
- 940      5F564441 
- 940      43385F53 
- 940      74617274 
- 941              	.LASF21:
- 942 0127 72616E67 		.ascii	"range\000"
- 942      6500
- 943              	.LASF10:
- 944 012d 646F7562 		.ascii	"double\000"
- 944      6C6500
- 945              	.LASF26:
- 946 0134 47656E65 		.ascii	"Generated_Source\\PSoC5\\WaveDAC8_VDAC8.c\000"
- 946      72617465 
- 946      645F536F 
- 946      75726365 
- 946      5C50536F 
- 947              	.LASF8:
- 948 015c 756E7369 		.ascii	"unsigned int\000"
- 948      676E6564 
- 948      20696E74 
- 948      00
- 949              	.LASF7:
- 950 0169 6C6F6E67 		.ascii	"long long unsigned int\000"
- 950      206C6F6E 
- 950      6720756E 
- 950      7369676E 
- 950      65642069 
- 951              	.LASF27:
- 952 0180 433A5C55 		.ascii	"C:\\Users\\rcaravac\\Documents\\Personales\\Maestri"
- 952      73657273 
- 952      5C726361 
- 952      72617661 
- 952      635C446F 
- 953 01ae 615C3635 		.ascii	"a\\65280069\\TareaClase4.cydsn\000"
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 24
+ 932      676E6564 
+ 932      20636861 
+ 932      7200
+ 933              	.LASF13:
+ 934 00da 72656738 		.ascii	"reg8\000"
+ 934      00
+ 935              	.LASF17:
+ 936 00df 57617665 		.ascii	"WaveDAC8_VDAC8_Stop\000"
+ 936      44414338 
+ 936      5F564441 
+ 936      43385F53 
+ 936      746F7000 
+ 937              	.LASF5:
+ 938 00f3 6C6F6E67 		.ascii	"long unsigned int\000"
+ 938      20756E73 
+ 938      69676E65 
+ 938      6420696E 
+ 938      7400
+ 939              	.LASF3:
+ 940 0105 73686F72 		.ascii	"short unsigned int\000"
+ 940      7420756E 
+ 940      7369676E 
+ 940      65642069 
+ 940      6E7400
+ 941              	.LASF16:
+ 942 0118 57617665 		.ascii	"WaveDAC8_VDAC8_Start\000"
+ 942      44414338 
+ 942      5F564441 
+ 942      43385F53 
+ 942      74617274 
+ 943              	.LASF21:
+ 944 012d 72616E67 		.ascii	"range\000"
+ 944      6500
+ 945              	.LASF10:
+ 946 0133 646F7562 		.ascii	"double\000"
+ 946      6C6500
+ 947              	.LASF26:
+ 948 013a 47656E65 		.ascii	"Generated_Source\\PSoC5\\WaveDAC8_VDAC8.c\000"
+ 948      72617465 
+ 948      645F536F 
+ 948      75726365 
+ 948      5C50536F 
+ 949              	.LASF8:
+ 950 0162 756E7369 		.ascii	"unsigned int\000"
+ 950      676E6564 
+ 950      20696E74 
+ 950      00
+ 951              	.LASF7:
+ 952 016f 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 952      206C6F6E 
+ 952      6720756E 
+ 952      7369676E 
+ 952      65642069 
+ 953              	.LASF28:
+ 954 0186 6D6F6465 		.ascii	"mode\000"
+ 954      00
+ 955              	.LASF27:
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 24
 
 
- 953      32383030 
- 953      36395C54 
- 953      61726561 
- 953      436C6173 
- 954              	.LASF20:
- 955 01cb 73706565 		.ascii	"speed\000"
- 955      6400
- 956              	.LASF28:
- 957 01d1 6D6F6465 		.ascii	"mode\000"
- 957      00
- 958              	.LASF6:
- 959 01d6 6C6F6E67 		.ascii	"long long int\000"
- 959      206C6F6E 
- 959      6720696E 
- 959      7400
- 960              	.LASF11:
- 961 01e4 63686172 		.ascii	"char\000"
- 961      00
- 962              	.LASF15:
- 963 01e9 57617665 		.ascii	"WaveDAC8_VDAC8_Enable\000"
- 963      44414338 
- 963      5F564441 
- 963      43385F45 
- 963      6E61626C 
- 964              	.LASF2:
- 965 01ff 73686F72 		.ascii	"short int\000"
- 965      7420696E 
- 965      7400
- 966              	.LASF12:
- 967 0209 75696E74 		.ascii	"uint8\000"
- 967      3800
- 968              	.LASF18:
- 969 020f 57617665 		.ascii	"WaveDAC8_VDAC8_SetSpeed\000"
- 969      44414338 
- 969      5F564441 
- 969      43385F53 
- 969      65745370 
- 970              	.LASF19:
- 971 0227 57617665 		.ascii	"WaveDAC8_VDAC8_SetRange\000"
- 971      44414338 
- 971      5F564441 
- 971      43385F53 
- 971      65745261 
- 972              	.LASF4:
- 973 023f 6C6F6E67 		.ascii	"long int\000"
- 973      20696E74 
- 973      00
- 974              	.LASF24:
- 975 0248 57617665 		.ascii	"WaveDAC8_VDAC8_DacTrim\000"
- 975      44414338 
- 975      5F564441 
- 975      43385F44 
- 975      61635472 
- 976              	.LASF0:
- 977 025f 7369676E 		.ascii	"signed char\000"
- 977      65642063 
- 977      68617200 
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccprCCJ6.s 			page 25
+ 956 018b 433A5C55 		.ascii	"C:\\Users\\rcaravac\\Documents\\Personales\\Maestri"
+ 956      73657273 
+ 956      5C726361 
+ 956      72617661 
+ 956      635C446F 
+ 957 01b9 615C5465 		.ascii	"a\\Tecnicas de adquisicion\\Tarea4\\TareaClase4.cyd"
+ 957      636E6963 
+ 957      61732064 
+ 957      65206164 
+ 957      71756973 
+ 958 01e9 736E00   		.ascii	"sn\000"
+ 959              	.LASF6:
+ 960 01ec 6C6F6E67 		.ascii	"long long int\000"
+ 960      206C6F6E 
+ 960      6720696E 
+ 960      7400
+ 961              	.LASF11:
+ 962 01fa 63686172 		.ascii	"char\000"
+ 962      00
+ 963              	.LASF15:
+ 964 01ff 57617665 		.ascii	"WaveDAC8_VDAC8_Enable\000"
+ 964      44414338 
+ 964      5F564441 
+ 964      43385F45 
+ 964      6E61626C 
+ 965              	.LASF2:
+ 966 0215 73686F72 		.ascii	"short int\000"
+ 966      7420696E 
+ 966      7400
+ 967              	.LASF12:
+ 968 021f 75696E74 		.ascii	"uint8\000"
+ 968      3800
+ 969              	.LASF18:
+ 970 0225 57617665 		.ascii	"WaveDAC8_VDAC8_SetSpeed\000"
+ 970      44414338 
+ 970      5F564441 
+ 970      43385F53 
+ 970      65745370 
+ 971              	.LASF19:
+ 972 023d 57617665 		.ascii	"WaveDAC8_VDAC8_SetRange\000"
+ 972      44414338 
+ 972      5F564441 
+ 972      43385F53 
+ 972      65745261 
+ 973              	.LASF4:
+ 974 0255 6C6F6E67 		.ascii	"long int\000"
+ 974      20696E74 
+ 974      00
+ 975              	.LASF24:
+ 976 025e 57617665 		.ascii	"WaveDAC8_VDAC8_DacTrim\000"
+ 976      44414338 
+ 976      5F564441 
+ 976      43385F44 
+ 976      61635472 
+ 977              	.LASF0:
+ 978 0275 7369676E 		.ascii	"signed char\000"
+ 978      65642063 
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cc3LyQmN.s 			page 25
 
 
- 978              	.LASF29:
- 979 026b 57617665 		.ascii	"WaveDAC8_VDAC8_initVar\000"
- 979      44414338 
- 979      5F564441 
- 979      43385F69 
- 979      6E697456 
- 980              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 978      68617200 
+ 979              	.LASF29:
+ 980 0281 57617665 		.ascii	"WaveDAC8_VDAC8_initVar\000"
+ 980      44414338 
+ 980      5F564441 
+ 980      43385F69 
+ 980      6E697456 
+ 981              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
   24:Generated_Source\PSoC5/VDAC8_PM.c **** /*******************************************************************************
   25:Generated_Source\PSoC5/VDAC8_PM.c **** * Function Name: VDAC8_SaveConfig
   26:Generated_Source\PSoC5/VDAC8_PM.c **** ********************************************************************************
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 2
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 2
 
 
   27:Generated_Source\PSoC5/VDAC8_PM.c **** * Summary:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
   69 0028 825B0040 		.word	1073765250
   70 002c 00000000 		.word	VDAC8_backup
   71              		.cfi_endproc
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 3
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 3
 
 
   72              	.LFE0:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  105 001e 14D0     		beq	.L8
   65:Generated_Source\PSoC5/VDAC8_PM.c ****         {
   66:Generated_Source\PSoC5/VDAC8_PM.c ****             VDAC8_Strobe &= (uint8)(~VDAC8_STRB_MASK);
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 4
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 4
 
 
  106              		.loc 1 66 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  150 0064 825B0040 		.word	1073765250
  151 0068 00000000 		.word	VDAC8_backup
  152              		.cfi_endproc
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 5
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 5
 
 
  153              	.LFE1:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  181 0012 074B     		ldr	r3, .L15+4
  182 0014 0122     		movs	r2, #1
  183 0016 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 6
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 6
 
 
  184 0018 02E0     		b	.L14
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  126:Generated_Source\PSoC5/VDAC8_PM.c **** *
  127:Generated_Source\PSoC5/VDAC8_PM.c **** * Global variables:
  128:Generated_Source\PSoC5/VDAC8_PM.c **** *  VDAC8_backup.enableState:  Is used to restore the enable state of 
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 7
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 7
 
 
  129:Generated_Source\PSoC5/VDAC8_PM.c **** *  block on wakeup from sleep mode.
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  252              	.Letext0:
  253              		.file 2 "Generated_Source\\PSoC5\\cytypes.h"
  254              		.file 3 "Generated_Source\\PSoC5\\VDAC8.h"
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 8
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 8
 
 
  255              		.section	.debug_info,"",%progbits
@@ -430,7 +430,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  261 000b 01       		.uleb128 0x1
  262 000c 14000000 		.4byte	.LASF21
  263 0010 0C       		.byte	0xc
- 264 0011 BB010000 		.4byte	.LASF22
+ 264 0011 D1010000 		.4byte	.LASF22
  265 0015 4D010000 		.4byte	.LASF23
  266 0019 00000000 		.4byte	.Ldebug_ranges0+0
  267 001d 00000000 		.4byte	0
@@ -438,7 +438,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  269 0025 02       		.uleb128 0x2
  270 0026 01       		.byte	0x1
  271 0027 06       		.byte	0x6
- 272 0028 F2010000 		.4byte	.LASF0
+ 272 0028 08020000 		.4byte	.LASF0
  273 002c 02       		.uleb128 0x2
  274 002d 01       		.byte	0x1
  275 002e 08       		.byte	0x8
@@ -446,7 +446,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  277 0033 02       		.uleb128 0x2
  278 0034 02       		.byte	0x2
  279 0035 05       		.byte	0x5
- 280 0036 AB010000 		.4byte	.LASF2
+ 280 0036 C1010000 		.4byte	.LASF2
  281 003a 02       		.uleb128 0x2
  282 003b 02       		.byte	0x2
  283 003c 07       		.byte	0x7
@@ -454,7 +454,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  285 0041 02       		.uleb128 0x2
  286 0042 04       		.byte	0x4
  287 0043 05       		.byte	0x5
- 288 0044 DD010000 		.4byte	.LASF4
+ 288 0044 F3010000 		.4byte	.LASF4
  289 0048 02       		.uleb128 0x2
  290 0049 04       		.byte	0x4
  291 004a 07       		.byte	0x7
@@ -462,7 +462,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  293 004f 02       		.uleb128 0x2
  294 0050 08       		.byte	0x8
  295 0051 05       		.byte	0x5
- 296 0052 98010000 		.4byte	.LASF6
+ 296 0052 AE010000 		.4byte	.LASF6
  297 0056 02       		.uleb128 0x2
  298 0057 08       		.byte	0x8
  299 0058 07       		.byte	0x7
@@ -476,9 +476,9 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  307 0066 07       		.byte	0x7
  308 0067 1C010000 		.4byte	.LASF8
  309 006b 04       		.uleb128 0x4
- 310 006c B5010000 		.4byte	.LASF12
+ 310 006c CB010000 		.4byte	.LASF12
  311 0070 02       		.byte	0x2
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 9
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 9
 
 
  312 0071 9201     		.2byte	0x192
@@ -494,7 +494,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  322 0085 02       		.uleb128 0x2
  323 0086 01       		.byte	0x1
  324 0087 08       		.byte	0x8
- 325 0088 A6010000 		.4byte	.LASF11
+ 325 0088 BC010000 		.4byte	.LASF11
  326 008c 04       		.uleb128 0x4
  327 008d DE000000 		.4byte	.LASF13
  328 0091 02       		.byte	0x2
@@ -508,7 +508,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  336 00a0 25       		.byte	0x25
  337 00a1 BE000000 		.4byte	0xbe
  338 00a5 07       		.uleb128 0x7
- 339 00a6 E6010000 		.4byte	.LASF14
+ 339 00a6 FC010000 		.4byte	.LASF14
  340 00aa 03       		.byte	0x3
  341 00ab 27       		.byte	0x27
  342 00ac 6B000000 		.4byte	0x6b
@@ -521,7 +521,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  349 00bc 01       		.byte	0x1
  350 00bd 00       		.byte	0
  351 00be 08       		.uleb128 0x8
- 352 00bf FE010000 		.4byte	.LASF16
+ 352 00bf 14020000 		.4byte	.LASF16
  353 00c3 03       		.byte	0x3
  354 00c4 29       		.byte	0x29
  355 00c5 9D000000 		.4byte	0x9d
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  366 00df 01       		.byte	0x1
  367 00e0 3C       		.byte	0x3c
  368 00e1 00000000 		.4byte	.LFB1
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 10
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 10
 
 
  369 00e5 6C000000 		.4byte	.LFE1-.LFB1
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  423 0018 3E       		.uleb128 0x3e
  424 0019 0B       		.uleb128 0xb
  425 001a 03       		.uleb128 0x3
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 11
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 11
 
 
  426 001b 0E       		.uleb128 0xe
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  480 0051 3B       		.uleb128 0x3b
  481 0052 0B       		.uleb128 0xb
  482 0053 49       		.uleb128 0x49
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 12
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 12
 
 
  483 0054 13       		.uleb128 0x13
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  537 008b 11       		.uleb128 0x11
  538 008c 01       		.uleb128 0x1
  539 008d 12       		.uleb128 0x12
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 13
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 13
 
 
  540 008e 06       		.uleb128 0x6
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  594              	.Ldebug_line0:
  595 0000 AA000000 		.section	.debug_str,"MS",%progbits,1
  595      02005000 
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 14
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 14
 
 
  595      00000201 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  615      6420696E 
  615      7400
  616              	.LASF3:
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 15
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 15
 
 
  617 00f5 73686F72 		.ascii	"short unsigned int\000"
@@ -876,51 +876,52 @@ ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 1
  629      5C726361 
  629      72617661 
  629      635C446F 
- 630 017b 615C3635 		.ascii	"a\\65280069\\TareaClase4.cydsn\000"
- 630      32383030 
- 630      36395C54 
- 630      61726561 
- 630      436C6173 
- 631              	.LASF6:
- 632 0198 6C6F6E67 		.ascii	"long long int\000"
- 632      206C6F6E 
- 632      6720696E 
- 632      7400
- 633              	.LASF11:
- 634 01a6 63686172 		.ascii	"char\000"
- 634      00
- 635              	.LASF2:
- 636 01ab 73686F72 		.ascii	"short int\000"
- 636      7420696E 
- 636      7400
- 637              	.LASF12:
- 638 01b5 75696E74 		.ascii	"uint8\000"
- 638      3800
- 639              	.LASF22:
- 640 01bb 47656E65 		.ascii	"Generated_Source\\PSoC5\\VDAC8_PM.c\000"
-ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\cclBx9Bc.s 			page 16
+ 630 017b 615C5465 		.ascii	"a\\Tecnicas de adquisicion\\Tarea4\\TareaClase4.cyd"
+ 630      636E6963 
+ 630      61732064 
+ 630      65206164 
+ 630      71756973 
+ 631 01ab 736E00   		.ascii	"sn\000"
+ 632              	.LASF6:
+ 633 01ae 6C6F6E67 		.ascii	"long long int\000"
+ 633      206C6F6E 
+ 633      6720696E 
+ 633      7400
+ 634              	.LASF11:
+ 635 01bc 63686172 		.ascii	"char\000"
+ 635      00
+ 636              	.LASF2:
+ 637 01c1 73686F72 		.ascii	"short int\000"
+ 637      7420696E 
+ 637      7400
+ 638              	.LASF12:
+ 639 01cb 75696E74 		.ascii	"uint8\000"
+ 639      3800
+ 640              	.LASF22:
+ARM GAS  C:\Users\rcaravac\AppData\Local\Temp\ccFOSkMl.s 			page 16
 
 
- 640      72617465 
- 640      645F536F 
- 640      75726365 
- 640      5C50536F 
- 641              	.LASF4:
- 642 01dd 6C6F6E67 		.ascii	"long int\000"
- 642      20696E74 
- 642      00
- 643              	.LASF14:
- 644 01e6 656E6162 		.ascii	"enableState\000"
- 644      6C655374 
- 644      61746500 
- 645              	.LASF0:
- 646 01f2 7369676E 		.ascii	"signed char\000"
- 646      65642063 
- 646      68617200 
- 647              	.LASF16:
- 648 01fe 56444143 		.ascii	"VDAC8_backupStruct\000"
- 648      385F6261 
- 648      636B7570 
- 648      53747275 
- 648      637400
- 649              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 641 01d1 47656E65 		.ascii	"Generated_Source\\PSoC5\\VDAC8_PM.c\000"
+ 641      72617465 
+ 641      645F536F 
+ 641      75726365 
+ 641      5C50536F 
+ 642              	.LASF4:
+ 643 01f3 6C6F6E67 		.ascii	"long int\000"
+ 643      20696E74 
+ 643      00
+ 644              	.LASF14:
+ 645 01fc 656E6162 		.ascii	"enableState\000"
+ 645      6C655374 
+ 645      61746500 
+ 646              	.LASF0:
+ 647 0208 7369676E 		.ascii	"signed char\000"
+ 647      65642063 
+ 647      68617200 
+ 648              	.LASF16:
+ 649 0214 56444143 		.ascii	"VDAC8_backupStruct\000"
+ 649      385F6261 
+ 649      636B7570 
+ 649      53747275 
+ 649      637400
+ 650              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -30,7 +30,7 @@ acu(subf, incr) dmux(srm, srm) alu(add) mac(hold) jmpl(acubeq, ChA_finish)
 
 ChA_finish:
 
-acu(hold, hold) dmux(sa, sa) alu(hold) mac(hold) shift(L, 1)
+acu(hold, hold) dmux(sa, sa) alu(hold) mac(hold) shift(L, 2)
 acu(incr, hold) addr(1) dmux(sra, sa) alu(seta) mac(hold)write(bus)
 acu(hold, hold) dmux(sra, sra) alu(seta) mac(hold)write(da)
 acu(incr, hold) dmux(sa, sa) alu(hold) mac(hold) write(da) jmp(eob, ChA_EXIT)
@@ -44,26 +44,26 @@ ChA_FREG: dw 0x0202
 
 
 area data_b
-ChA_FIRST: dw   311384
-dw   622767
-dw   311384
-dw        0
-dw 15578894
-dw  1239409
-dw  2478818
-dw  1239409
-dw        0
-dw 16391259
-dw  1058750
-dw  2117500
-dw  1058750
-dw        0
-dw 16736529
-dw  2484610
-dw  4969220
-dw  2484610
-dw        0
-ChA_LAST: dw 13952294
+ChA_FIRST: dw   593667
+dw  1187333
+dw   593667
+dw 12518572
+dw 14948888
+dw  2440290
+dw  4880581
+dw  2440290
+dw 13041779
+dw 15688814
+dw  2113978
+dw  4227956
+dw  2113978
+dw 13274663
+dw 16018163
+dw  2227242
+dw  4454484
+dw  2227242
+dw 11564646
+ChA_LAST: dw 13599834
 
 
 area acu
